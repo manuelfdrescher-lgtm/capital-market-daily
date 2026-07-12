@@ -1,0 +1,30 @@
+---
+// Zeigt das lokal gespeicherte Logo (public/logos/) oder einen
+// typografischen Marken-Chip als Fallback.
+import { getLogos } from "../lib/editions.mjs";
+
+interface Props {
+  logoKey?: string;
+  name: string;
+}
+
+const { logoKey, name } = Astro.props;
+const logos = getLogos();
+const entry = logoKey ? logos[logoKey] : undefined;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Fallback-Chip: Initialen auf Markenfarbe (falls bekannt), sonst Tinte
+const initials = name
+  .split(/\s+/)
+  .slice(0, 2)
+  .map((w) => w[0])
+  .join("")
+  .toUpperCase();
+const brandColor = entry?.brandColor;
+---
+
+{entry?.file ? (
+  <span class="logo-chip"><img src={`${base}/logos/${entry.file}`} alt="" loading="lazy" /></span>
+) : (
+  <span class="logo-chip logo-chip--text" style={brandColor ? `background:${brandColor}` : undefined} aria-hidden="true">{initials}</span>
+)}

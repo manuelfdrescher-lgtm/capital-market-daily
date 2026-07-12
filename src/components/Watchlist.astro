@@ -1,0 +1,31 @@
+---
+interface Props {
+  items: any[];
+}
+const { items } = Astro.props;
+---
+
+{items.length > 0 && (
+  <div class="tabelle-scroll">
+  <table class="watchlist">
+    <thead>
+      <tr>
+        <th scope="col">Worauf achten</th>
+        <th scope="col">Wann</th>
+        <th scope="col">Konstruktiv, wenn …</th>
+        <th scope="col">Belastend, wenn …</th>
+      </tr>
+    </thead>
+    <tbody>
+      {items.map((w) => (
+        <tr>
+          <td><strong>{w.what}</strong></td>
+          <td>{w.when}</td>
+          <td>{w.bullishIf}</td>
+          <td>{w.bearishIf}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  </div>
+)}

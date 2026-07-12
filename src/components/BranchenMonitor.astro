@@ -1,0 +1,20 @@
+---
+interface Props {
+  monitor: any[];
+}
+const { monitor } = Astro.props;
+const pfeil = { up: "▲", down: "▼", neutral: "◆" };
+---
+
+<ul class="monitor">
+  {monitor.map((s) => (
+    <li class="monitor__zeile">
+      <span class={`monitor__pfeil monitor__pfeil--${s.richtung}`} aria-label={s.richtung === "up" ? "aufwärts" : s.richtung === "down" ? "abwärts" : "seitwärts"}>{pfeil[s.richtung]}</span>
+      <span class="monitor__sektor">{s.sektor}
+        <span class="monitor__def">{s.wasIstDas}</span>
+      </span>
+      <span class="monitor__lage">{s.lage}</span>
+      <span class="monitor__wert">{s.tagesWert}</span>
+    </li>
+  ))}
+</ul>

@@ -1,0 +1,22 @@
+---
+import Base from "../layouts/Base.astro";
+import StockPicks from "../components/StockPicks.astro";
+import Watchlist from "../components/Watchlist.astro";
+import RessortKopf from "../components/RessortKopf.astro";
+import { getLatestEdition } from "../lib/editions.mjs";
+
+const { data } = getLatestEdition();
+---
+
+<Base title="Drei Aktien" active="drei-aktien" edition={data.edition}>
+  <RessortKopf level="h1" titel="Drei Aktien des Tages" untertitel="Globales Universum, Börsenwert unter 10 Milliarden Euro, frischer Newsflow. Analyse-Fallstudien mit These, Gegenargumenten und Confidence-Einstufung." />
+  <hr class="ressort-linie" />
+  <StockPicks picks={data.stockPicks} />
+
+  {data.watchlist.length > 0 && (
+    <>
+      <RessortKopf titel="Watchlist" untertitel="Was in den kommenden Tagen ansteht und woran sich die Thesen messen lassen." />
+      <Watchlist items={data.watchlist} />
+    </>
+  )}
+</Base>

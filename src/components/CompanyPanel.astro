@@ -1,0 +1,50 @@
+---
+// Unternehmens-Panel: "Kurz erklärt"-Box, Kennzahlen und interaktiver
+// Kurschart aus echten Daten.
+import LogoChip from "./LogoChip.astro";
+import LineChart from "./LineChart.astro";
+
+interface Props {
+  company: any;
+  articleId: string;
+}
+const { company, articleId } = Astro.props;
+---
+
+<div class="unternehmen-grid">
+  <div>
+    <div class="kurz-erklaert">
+      <span class="kurz-erklaert__titel">Kurz erklärt: {company.name}</span>
+      <p style="margin:0 0 8px">{company.whatTheyDo}</p>
+      <p style="margin:0"><strong>Warum das wichtig ist:</strong> {company.whyItMatters}</p>
+    </div>
+    {company.priceSeries && company.priceSeries.length > 1 && (
+      <LineChart
+        id={`kurs-${articleId}`}
+        chart={{
+          title: `${company.name} (${company.ticker}${company.exchange ? `, ${company.exchange}` : ""}), Kursverlauf`,
+          unit: "",
+          source: company.priceSeriesSource ?? "Kursdaten siehe Quellen & Check",
+          series: company.priceSeries,
+        }}
+      />
+    )}
+  </div>
+  <aside class="karte">
+    <div class="firmenkopf">
+      <LogoChip logoKey={company.logoKey} name={company.name} />
+      <div>
+        <span class="firmenkopf__name">{company.name}</span><br />
+        <span class="firmenkopf__ticker">{company.ticker}{company.exchange ? ` · ${company.exchange}` : ""}</span>
+      </div>
+    </div>
+    <table class="kennzahlen">
+      <caption class="sr-only" style="position:absolute;left:-9999px">Kennzahlen zu {company.name}</caption>
+      <tbody>
+        {company.keyMetrics.map(([k, v]) => (
+          <tr><td>{k}</td><td>{v}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </aside>
+</div>

@@ -1,0 +1,33 @@
+---
+interface Props {
+  sources: any[];
+  compact?: boolean;
+}
+const { sources, compact = false } = Astro.props;
+const tierLabel = { 1: "Tier 1 · Primärquelle", 2: "Tier 2 · Qualitätsmedium", 3: "Tier 3 · nur Hypothese" };
+---
+
+{compact ? (
+  <details class="aufklapp">
+    <summary>Quellen ({sources.length})</summary>
+    <div class="aufklapp__inhalt">
+      <ul class="quellenliste">
+        {sources.map((s) => (
+          <li>
+            <span class={`tier-badge tier-badge--${s.tier}`}>{tierLabel[s.tier]}</span>
+            {s.url ? <a href={s.url} rel="noopener">{s.title}</a> : <span>{s.title}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </details>
+) : (
+  <ul class="quellenliste">
+    {sources.map((s) => (
+      <li>
+        <span class={`tier-badge tier-badge--${s.tier}`}>{tierLabel[s.tier]}</span>
+        {s.url ? <a href={s.url} rel="noopener">{s.title}</a> : <span>{s.title}</span>}
+      </li>
+    ))}
+  </ul>
+)}

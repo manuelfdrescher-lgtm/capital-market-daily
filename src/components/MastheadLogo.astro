@@ -1,0 +1,91 @@
+---
+// Marken-Emblem von The Capital Compass, dem Moodboard nachempfunden:
+// ein gravierter Taschenkompass (Scheibe mit Krone, doppelter Gradring,
+// Windrose, Himmelsrichtungen) vor einer Bergsilhouette. Reine Ink-Linien
+// über currentColor. Falls unter public/images/masthead-logo.(svg|png) eine
+// eigene Logodatei liegt, wird diese stattdessen genutzt.
+import { existsSync } from "node:fs";
+import { join } from "node:path";
+
+interface Props {
+  width?: number;
+}
+const { width = 210 } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Eigene Logodatei hat Vorrang, sobald sie vorhanden ist.
+const custom = ["masthead-logo.svg", "masthead-logo.png"].find((f) =>
+  existsSync(join(process.cwd(), "public", "images", f))
+);
+
+const ticks = Array.from({ length: 36 }, (_, i) => i * 10);
+---
+
+{custom ? (
+  <img class="masthead__logo-img" src={`${base}/images/${custom}`} alt="The Capital Compass" style={`width:${width}px`} />
+) : (
+  <svg
+    class="masthead__logo"
+    width={width}
+    viewBox="0 0 240 150"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    role="presentation"
+  >
+    <!-- Bergkette hinter dem Kompass -->
+    <g stroke="currentColor" fill="none" stroke-linejoin="round">
+      <path d="M8 120 L54 74 L86 104 L120 58 L150 92 L182 66 L232 120" stroke-width="1.4" />
+      <path d="M8 120 L40 96 L70 112 L104 82 L134 108 L170 88 L232 120" stroke-width="1" opacity="0.7" />
+      <!-- Schraffur an den Hängen -->
+      <g stroke-width="0.6" opacity="0.5">
+        <path d="M120 58 L112 74 M120 58 L128 74 M120 66 L110 84 M120 66 L130 84" />
+        <path d="M54 74 L48 86 M54 74 L60 86 M182 66 L176 80 M182 66 L188 80" />
+      </g>
+    </g>
+    <!-- Horizontlinien -->
+    <line x1="6" y1="120" x2="234" y2="120" stroke="currentColor" stroke-width="1.4" />
+    <line x1="20" y1="126" x2="220" y2="126" stroke="currentColor" stroke-width="0.6" opacity="0.6" />
+
+    <!-- Krone des Taschenkompasses -->
+    <g stroke="currentColor" fill="var(--papier)" stroke-width="1.4">
+      <rect x="114" y="6" width="12" height="9" rx="2" />
+      <circle cx="120" cy="6" r="4.5" fill="none" />
+    </g>
+    <line x1="120" y1="15" x2="120" y2="24" stroke="currentColor" stroke-width="1.4" />
+
+    <!-- Kompassscheibe (deckt die Berge teilweise, wie ein Objekt davor) -->
+    <circle cx="120" cy="74" r="50" fill="var(--papier)" stroke="currentColor" stroke-width="1.6" />
+    <circle cx="120" cy="74" r="44" fill="none" stroke="currentColor" stroke-width="0.8" />
+    <!-- Gradring -->
+    {ticks.map((deg) => (
+      <line
+        x1="120" y1="26" x2="120" y2={deg % 90 === 0 ? 34 : deg % 30 === 0 ? 31 : 29}
+        stroke="currentColor"
+        stroke-width={deg % 90 === 0 ? 1 : 0.5}
+        transform={`rotate(${deg} 120 74)`}
+      />
+    ))}
+    <!-- Himmelsrichtungen -->
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="8" fill="currentColor" text-anchor="middle">
+      <text x="120" y="45">N</text>
+      <text x="149" y="77">O</text>
+      <text x="120" y="108">S</text>
+      <text x="91" y="77">W</text>
+    </g>
+    <!-- Windrose -->
+    {[45, 135, 225, 315].map((deg) => (
+      <g transform={`rotate(${deg} 120 74)`}>
+        <path d="M120 50 L123 74 L120 74 Z" fill="currentColor" />
+        <path d="M120 50 L117 74 L120 74 Z" fill="none" stroke="currentColor" stroke-width="0.7" />
+      </g>
+    ))}
+    {[0, 90, 180, 270].map((deg) => (
+      <g transform={`rotate(${deg} 120 74)`}>
+        <path d="M120 38 L124 74 L120 74 Z" fill="currentColor" />
+        <path d="M120 38 L116 74 L120 74 Z" fill="none" stroke="currentColor" stroke-width="0.9" />
+      </g>
+    ))}
+    <circle cx="120" cy="74" r="3.4" fill="currentColor" />
+    <circle cx="120" cy="74" r="7" fill="none" stroke="currentColor" stroke-width="0.7" />
+  </svg>
+)}

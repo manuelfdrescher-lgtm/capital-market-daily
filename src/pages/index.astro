@@ -1,0 +1,79 @@
+---
+// Titelseite = aktuellste Ausgabe: Leitartikel als Aufmacher, daneben
+// "Kurz notiert" und die Top-Themen, darunter zwei weitere volle Artikel
+// und der Branchen-Monitor.
+import Base from "../layouts/Base.astro";
+import MarketTiles from "../components/MarketTiles.astro";
+import Article from "../components/Article.astro";
+import BranchenMonitor from "../components/BranchenMonitor.astro";
+import RessortKopf from "../components/RessortKopf.astro";
+import { getLatestEdition } from "../lib/editions.mjs";
+import { formatDateShort } from "../lib/format.mjs";
+
+const { data, slug } = getLatestEdition();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const leitartikel = data.articles.filter((a) => a.ressort === "titelseite");
+const weitere = data.articles.filter((a) => a.ressort !== "titelseite");
+const ressortLink = { news: "news", makro: "news", politik: "politik", unternehmen: "unternehmen", aktien: "drei-aktien", lernecke: "lernecke" };
+
+// Zwei weitere Artikel als volle Aufmacher auf der Titelseite:
+// die wichtigste Unternehmens- und die wichtigste News-/Politik-Meldung.
+const aufmacher2 = [
+  weitere.find((a) => a.ressort === "unternehmen"),
+  weitere.find((a) => a.ressort === "news" || a.ressort === "politik"),
+].filter(Boolean);
+const aufmacherIds = new Set(aufmacher2.map((a) => a.id));
+const restThemen = weitere.filter((a) => !aufmacherIds.has(a.id));
+
+const kurzNotiert = weitere.slice(0, 5).map((a) => ({
+  subject: a.subject ?? a.kicker,
+  text: a.dek.split(". ")[0].replace(/\.?$/, "."),
+}));
+const stand = `Kurse: US-Schluss ${formatDateShort(data.edition.date)}`;
+---
+
+<Base title="Titelseite" active="titelseite" edition={data.edition}>
+  <MarketTiles tiles={data.market.tiles} stand={stand} />
+
+  <div class="titel-raster">
+    <div>
+      {leitartikel.map((a) => <Article article={a} lead={true} />)}
+    </div>
+    <aside aria-label="Kurzüberblick">
+      <div class="brief-kasten">
+        <h2 class="brief-kasten__titel">Kurz notiert</h2>
+        <ul class="brief-liste">
+          {kurzNotiert.map((s) => <li><strong>{s.subject}:</strong> {s.text}</li>)}
+        </ul>
+        <h2 class="brief-kasten__titel">Top-Themen</h2>
+        <ol class="topstories">
+          {restThemen.map((a) => (
+            <li>
+              <span>
+                <span class="ts-kicker">{a.kicker}</span>
+                <a href={`${base}/${ressortLink[a.ressort] ?? "news"}/#${a.id}`}>{a.headline}</a>
+              </span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </aside>
+  </div>
+
+  {aufmacher2.length > 0 && (
+    <>
+      <RessortKopf titel="Im Fokus" untertitel="Die wichtigsten Einzelgeschichten dieser Ausgabe." />
+      <div class="fokus-raster">
+        {aufmacher2.map((a) => <Article article={a} />)}
+      </div>
+    </>
+  )}
+
+  <RessortKopf titel="Branchen-Monitor" untertitel="Alle 11 GICS-Sektoren im Überblick." />
+  <BranchenMonitor monitor={data.branchenMonitor} />
+
+  <p style="text-align:center; margin-top:34px; font-family:var(--sans); font-size:15px; letter-spacing:0.04em">
+    <a href={`${base}/ausgabe/${slug}/`}>Diese Ausgabe als eine Seite lesen</a> · <a href={`${base}/archiv/`}>Frühere Ausgaben im Archiv</a>
+  </p>
+</Base>

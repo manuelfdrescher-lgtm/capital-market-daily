@@ -1,0 +1,66 @@
+---
+// Gravierter Marken-Kompass von The Capital Compass, dem Moodboard nachempfunden:
+// doppelter Ring mit Graduierung, acht Windrose-Strahlen (vier lange Kardinal-,
+// vier kurze Diagonalspitzen, halb gefüllt/halb konturiert für die Stich-Anmutung),
+// Himmelsrichtungen N/O/S/W. Erbt die Farbe über currentColor.
+interface Props {
+  size?: number;
+  detailed?: boolean; // true = mit Gradring, Ticks und Richtungsbuchstaben (Masthead)
+  class?: string;
+}
+const { size = 44, detailed = false, class: cls = "" } = Astro.props;
+
+// 60 Gradstriche für den detaillierten Ring
+const ticks = Array.from({ length: 60 }, (_, i) => i * 6);
+---
+
+<svg
+  class={cls}
+  width={size}
+  height={size}
+  viewBox="0 0 120 120"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  role="presentation"
+>
+  <circle cx="60" cy="60" r="58" fill="none" stroke="currentColor" stroke-width="1.4" />
+  <circle cx="60" cy="60" r="53" fill="none" stroke="currentColor" stroke-width="0.7" />
+
+  {detailed && (
+    <>
+      {/* Gradstriche zwischen den Ringen */}
+      {ticks.map((deg) => (
+        <line
+          x1="60" y1="2.5" x2="60" y2={deg % 30 === 0 ? 9 : deg % 6 === 0 ? 6 : 5}
+          stroke="currentColor"
+          stroke-width={deg % 90 === 0 ? 1 : 0.5}
+          transform={`rotate(${deg} 60 60)`}
+        />
+      ))}
+      {/* Himmelsrichtungen */}
+      <g font-family="Georgia, 'Times New Roman', serif" font-size="8.5" fill="currentColor" text-anchor="middle">
+        <text x="60" y="21">N</text>
+        <text x="101" y="63">O</text>
+        <text x="60" y="105">S</text>
+        <text x="19" y="63">W</text>
+      </g>
+    </>
+  )}
+
+  {/* Diagonalspitzen (kurz) */}
+  {[45, 135, 225, 315].map((deg) => (
+    <g transform={`rotate(${deg} 60 60)`}>
+      <path d="M60 30 L63.5 60 L60 60 Z" fill="currentColor" />
+      <path d="M60 30 L56.5 60 L60 60 Z" fill="none" stroke="currentColor" stroke-width="0.8" />
+    </g>
+  ))}
+  {/* Kardinalspitzen (lang) */}
+  {[0, 90, 180, 270].map((deg) => (
+    <g transform={`rotate(${deg} 60 60)`}>
+      <path d="M60 14 L65 60 L60 60 Z" fill="currentColor" />
+      <path d="M60 14 L55 60 L60 60 Z" fill="none" stroke="currentColor" stroke-width="1" />
+    </g>
+  ))}
+  <circle cx="60" cy="60" r="4" fill="currentColor" />
+  <circle cx="60" cy="60" r="8" fill="none" stroke="currentColor" stroke-width="0.8" />
+</svg>

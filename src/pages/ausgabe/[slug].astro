@@ -1,0 +1,85 @@
+---
+// Vollständige Ausgabe unter stabiler URL /ausgabe/JJJJ-MM-TT-{slot}/
+import Base from "../../layouts/Base.astro";
+import MarketTiles from "../../components/MarketTiles.astro";
+import Article from "../../components/Article.astro";
+import BranchenMonitor from "../../components/BranchenMonitor.astro";
+import StockPicks from "../../components/StockPicks.astro";
+import Watchlist from "../../components/Watchlist.astro";
+import RessortKopf from "../../components/RessortKopf.astro";
+import { getAllEditions } from "../../lib/editions.mjs";
+import { slotLabel } from "../../lib/format.mjs";
+
+export function getStaticPaths() {
+  return getAllEditions().map(({ slug, data }) => ({ params: { slug }, props: { data } }));
+}
+
+const { data } = Astro.props;
+const leitartikel = data.articles.filter((a) => a.ressort === "titelseite");
+const news = data.articles.filter((a) => a.ressort === "news" || a.ressort === "makro");
+const politik = data.articles.filter((a) => a.ressort === "politik");
+const unternehmen = data.articles.filter((a) => a.ressort === "unternehmen");
+---
+
+<Base title={`Ausgabe ${data.edition.date} (${slotLabel(data.edition.slot)})`} edition={data.edition}>
+  <MarketTiles tiles={data.market.tiles} stand={data.edition.dataAsOf} />
+
+  {leitartikel.map((a) => <Article article={a} lead={true} />)}
+
+  {news.length > 0 && (
+    <>
+      <RessortKopf titel="News" />
+      {news.map((a) => <Article article={a} />)}
+    </>
+  )}
+
+  {politik.length > 0 && (
+    <>
+      <RessortKopf titel="Politik" />
+      {politik.map((a) => <Article article={a} />)}
+    </>
+  )}
+
+  <RessortKopf titel="Branchen-Monitor" />
+  <BranchenMonitor monitor={data.branchenMonitor} />
+
+  {unternehmen.length > 0 && (
+    <>
+      <RessortKopf titel="Unternehmen" />
+      {unternehmen.map((a) => <Article article={a} />)}
+    </>
+  )}
+
+  <RessortKopf titel="Drei Aktien des Tages" />
+  <StockPicks picks={data.stockPicks} />
+
+  {data.watchlist.length > 0 && (
+    <>
+      <RessortKopf titel="Watchlist" />
+      <Watchlist items={data.watchlist} />
+    </>
+  )}
+
+  <RessortKopf titel="Lernecke" />
+  <ol class="lernpunkte">
+    {data.learningNotes.map((note) => <li>{note}</li>)}
+  </ol>
+  {data.financeLink && (
+    <article class="karte" style="max-width:820px; margin:26px auto 0">
+      <h3 style="margin-top:0; font-family:var(--display)">{data.financeLink.titel}</h3>
+      {data.financeLink.absaetze.map((p) => <p>{p}</p>)}
+      <aside class="mechanik-box" style="margin-bottom:0">
+        <span class="mechanik-box__titel">Typischer Anfängerfehler</span>
+        {data.financeLink.anfaengerfehler.replace(/^Der typische Anfängerfehler:\s*/i, "")}
+      </aside>
+    </article>
+  )}
+  <dl class="glossar" style="margin-top:26px">
+    {data.glossar.map((g) => (
+      <>
+        <dt>{g.begriff}</dt>
+        <dd>{g.erklaerung}</dd>
+      </>
+    ))}
+  </dl>
+</Base>

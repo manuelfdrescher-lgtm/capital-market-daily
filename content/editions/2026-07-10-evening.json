@@ -1,0 +1,461 @@
+{
+  "edition": {
+    "number": 1,
+    "date": "2026-07-10",
+    "slot": "evening",
+    "dataAsOf": "Kurse: US-Handelsschluss Freitag, 10. Juli 2026. Nachrichten bis Redaktionsschluss in der Nacht zum 11. Juli (Berlin).",
+    "generatedAt": "2026-07-11T00:20:00Z",
+    "isExample": false
+  },
+  "market": {
+    "tiles": [
+      { "label": "S&P 500", "value": "7.575,39", "delta": "+0,42 %", "direction": "up", "approx": false, "note": "Schluss 10.7." },
+      { "label": "Nasdaq Composite", "value": "26.281,61", "delta": "+0,29 %", "direction": "up", "approx": false, "note": "Schluss 10.7." },
+      { "label": "Dow Jones", "value": "52.637,01", "delta": "+0,29 %", "direction": "up", "approx": false, "note": "Schluss 10.7." },
+      { "label": "Russell 2000", "value": "2.977,81", "delta": "-0,49 %", "direction": "down", "approx": false, "note": "einziger Leitindex im Minus" },
+      { "label": "DAX", "value": "25.067,09", "delta": "-0,20 %", "direction": "down", "approx": false, "note": "Wochenverlust -2,76 %" },
+      { "label": "MSCI World", "value": "4.860 Pkt.", "direction": "up", "approx": true, "note": "ca.; +10,2 % seit Jahresbeginn (Anfang Juli)" },
+      { "label": "VIX (Volatilitätsindex, das Angstbarometer der Wall Street)", "value": "15,03", "delta": "-5,11 %", "direction": "down", "approx": false, "note": "sinkende Nervosität" },
+      { "label": "US-Rendite 10 Jahre", "value": "4,56 %", "delta": "+2 Bp.", "direction": "up", "approx": false, "note": "Stand 10.7." },
+      { "label": "Öl (WTI)", "value": "71,50 USD", "direction": "flat", "approx": true, "note": "ca.-Angabe, Wochenplus knapp 5 %" },
+      { "label": "US-Leitzins", "value": "3,50–3,75 %", "delta": "unverändert", "direction": "flat", "approx": false, "note": "seit 17.6., erste Sitzung unter Fed-Chef Warsh" },
+      { "label": "EZB-Leitzins", "value": "2,40 %", "direction": "flat", "approx": false, "note": "Hauptrefinanzierung; Einlagensatz 2,25 %; seit 17.6." },
+      { "label": "Bauzinsen (10 J., DE)", "value": "3,8 %", "direction": "flat", "approx": true, "note": "ca.; Immobilienkredit, 10 Jahre Zinsbindung; Anfang Juli" },
+      { "label": "US-Hypothek (30 J.)", "value": "6,6 %", "direction": "flat", "approx": true, "note": "ca.; 30 Jahre fest, Freddie Mac; Anfang Juli" },
+      { "label": "Bitcoin", "value": "64.000 USD", "delta": "+1,5 %", "direction": "up", "approx": true, "note": "ca.-Angabe, Tagesspanne 63.200–64.400" }
+    ]
+  },
+  "articles": [
+    {
+      "id": "sk-hynix-rekord-boersengang",
+      "ressort": "titelseite",
+      "kicker": "Halbleiter · Börsengang",
+      "headline": "SK Hynix sammelt 26,5 Milliarden Dollar ein und krönt den Speicher-Boom",
+      "subject": "SK Hynix",
+      "dek": "Der Börsengang des koreanischen Speicherchip-Herstellers ist der größte eines ausländischen Unternehmens in der US-Geschichte. Die Nachfrage übertraf das Angebot um das Siebenfache, und das sagt mehr über den Markt aus als über die Firma.",
+      "image": { "file": "sk-hynix-ipo.jpg", "alt": "Stapel von Hochleistungs-Speicherchips neben einem Silizium-Wafer vor Börsenmonitoren", "caption": "Hochleistungsspeicher und Silizium-Wafer: Genau diese Bauteile machen SK Hynix zum Liebling der Börse.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Der südkoreanische Speicherchip-Hersteller SK Hynix hat beim Börsengang an der US-Technologiebörse Nasdaq 26,5 Milliarden US-Dollar eingesammelt. Das Unternehmen platzierte 177,9 Millionen sogenannter American Depositary Shares (ADS, in den USA handelbare Hinterlegungsscheine auf ausländische Aktien) zu je 149 US-Dollar. Es ist der größte Börsengang eines ausländischen Unternehmens in der Geschichte der US-Börsen, größer noch als der Rekord von Alibaba aus dem Jahr 2014. Die Nachfrage lag beim Siebenfachen des Angebots.",
+        "Am ersten Handelstag, dem 10. Juli, eröffnete die Aktie bei rund 170 Dollar und schloss bei 168,01 Dollar, ein Plus von knapp 13 Prozent gegenüber dem Ausgabepreis. Der Sog erfasste die ganze Branche: Nvidia legte 4,0 Prozent zu, auch die Aktie des US-Konkurrenten Micron zog an, nachdem das Unternehmen tags zuvor angekündigt hatte, seine Investitionen in die US-Chipfertigung bis 2035 auf über 250 Milliarden Dollar aufzustocken.",
+        "Interpretation: Ein Börsengang ist nie nur Kapitalbeschaffung für eine einzelne Firma, er ist ein Preisschild, das der Markt dem gesamten Geschäftsmodell anheftet. Dass Anleger bereit sind, für SK Hynix das Siebenfache des Angebots zu zeichnen, ist die kollektive Wette, dass die Knappheit bei Hochleistungsspeicher (HBM, High Bandwidth Memory, gestapelter Hochleistungsspeicher direkt neben dem KI-Prozessor) noch Jahre anhält. SK-Hynix-Chef Kwak Noh-Jung bestätigte diese Lesart und sprach von einer Knappheit über 2030 hinaus.",
+        "Restrisiko: Genau diese kollektive Überzeugung ist die Gefahr. Ein IPO auf dem Höhepunkt der Euphorie markiert historisch oft nicht den Anfang, sondern das reife Stadium eines Zyklus. Bricht die Investitionslaune der großen Cloud-Konzerne ein, trifft es die Speicherhersteller zuerst und am härtesten. Die Bewertung von rund 1,27 Billionen Dollar lässt für Enttäuschungen wenig Raum."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Beim Börsengang verkauft ein Unternehmen erstmals Aktien an das breite Publikum. Der Ausgabepreis entsteht im Bookbuilding, bei dem Investoren vorab Kaufwünsche abgeben. Ist die Nachfrage ein Vielfaches des Angebots, signalisiert das hohe Erwartungen, und die Aktie springt am ersten Tag. Für die ganze Branche wirkt ein erfolgreicher Börsengang wie eine frische Preisschätzung: Er hebt die Messlatte, an der Wettbewerber wie Micron gemessen werden.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Was ein Börsengang über den Markt verrät",
+        "absaetze": [
+          "Der Zeitpunkt eines Börsengangs ist selten Zufall. Unternehmen und ihre Eigentümer verkaufen dann, wenn sie die Bewertung für attraktiv halten, also eher am oberen Rand eines Zyklus als am unteren. Deshalb gilt eine Welle großer, heiß gezeichneter Börsengänge unter erfahrenen Anlegern als Warnsignal, nicht als Startschuss.",
+          "Zugleich ist die Überzeichnung eine harte Information. Sie zeigt, wie viel Kapital bereitsteht, das in ein Thema drängt. Solange dieses Kapital fließt, trägt es die Kurse der gesamten Lieferkette, von den Speicherherstellern über die Chipausrüster bis zu den Silizium-Wafer-Produzenten. Versiegt es, dreht sich der Mechanismus um."
+        ]
+      },
+      "sektorCheck": [
+        { "sektor": "Energie", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "KI-Rechenzentren, die diese Chips verbauen, treiben den Strombedarf und stützen langfristige Gas- und Stromlieferverträge.", "teilbranchen": "Gasproduzenten, Kraftwerksbetreiber" },
+        { "sektor": "Grundstoffe", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Chipfertigung braucht Spezialchemie, Industriegase und Kupfer für die Stromversorgung der Fabriken.", "teilbranchen": "Industriegase, Elektronikchemie, Kupfer" },
+        { "sektor": "Industrie", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Der Ausbau von Fabriken und Rechenzentren füllt die Auftragsbücher von Reinraum-, Kühl- und Elektrotechnik.", "teilbranchen": "Reinraumtechnik, Kühlsysteme, Elektroausrüstung" },
+        { "sektor": "Zyklischer Konsum", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Speicherpreise sind für Autos und Konsumelektronik nur ein kleiner Kostenanteil, spürbar erst bei extremen Preissprüngen.", "teilbranchen": "Konsumelektronik-Händler" },
+        { "sektor": "Basiskonsum", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Hersteller von Alltagsgütern haben praktisch keine Berührung mit dem Speichermarkt.", "teilbranchen": "keine nennenswerten" },
+        { "sektor": "Gesundheit", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Medizintechnik verbaut Chips, doch Speicher ist selten der Kostentreiber; mehr Rechenleistung hilft der KI-Diagnostik langfristig.", "teilbranchen": "bildgebende Diagnostik (leicht positiv)" },
+        { "sektor": "Finanzen", "betroffenheit": "indirekt", "richtung": "gemischt", "mechanismus": "Banken verdienen an Börsengang und Rechenzentrums-Finanzierung, tragen aber Klumpenrisiken, wenn viele Kredite am selben KI-Zyklus hängen.", "teilbranchen": "Investmentbanken, Projektfinanzierer" },
+        { "sektor": "Informationstechnologie", "betroffenheit": "direkt", "richtung": "positiv", "mechanismus": "Speicherhersteller, Chipausrüster und Wafer-Produzenten profitieren direkt über Preis und Volumen; der Börsengang hebt die Bewertung der ganzen Gruppe.", "teilbranchen": "Gewinner: Speicher (Micron), Chipausrüster, Wafer. Vorsicht: Server- und PC-Hersteller mit höheren Einkaufspreisen" },
+        { "sektor": "Kommunikation", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Plattformkonzerne treiben die KI-Nachfrage selbst; die Bestätigung des Booms stützt ihre KI-Erzählung. Meta gewann auf Wochensicht rund 15 Prozent.", "teilbranchen": "Hyperscaler-nahe Plattformen (Meta, Alphabet)" },
+        { "sektor": "Versorger", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Rechenzentren schließen langfristige Stromlieferverträge, das macht Erzeuger planbarer.", "teilbranchen": "Stromerzeuger nahe Rechenzentrums-Clustern" },
+        { "sektor": "Immobilien", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Rechenzentrums-REITs (börsennotierte Immobiliengesellschaften) vermieten die Flächen, deren Nachfrage der Boom antreibt.", "teilbranchen": "Rechenzentrums-REITs" }
+      ],
+      "gewinnerVerlierer": [
+        { "firma": "SK Hynix", "logoKey": "sk-hynix", "bewegung": "+12,8 %", "warum": "Debüt über Ausgabepreis, Nachfrage siebenfach überzeichnet." },
+        { "firma": "Micron", "logoKey": "micron", "bewegung": "+4,5 %", "warum": "US-Wettbewerber, hebt Investitionen auf über 250 Mrd. Dollar." },
+        { "firma": "Nvidia", "logoKey": "nvidia", "bewegung": "+4,0 %", "warum": "Größter Abnehmer von HBM-Speicher, profitiert vom bestätigten Boom." },
+        { "firma": "Meta Platforms", "logoKey": "meta", "bewegung": "+6,0 %", "warum": "KI-Erzählung gestärkt, auf Wochensicht rund +15 %." }
+      ],
+      "lehre": "Die Lehre: Ein Börsengang ist ein Preisschild für einen ganzen Sektor. Die Überzeichnung misst nicht die Qualität der Firma, sondern die Menge an Kapital, die in ein Thema drängt.",
+      "charts": [
+        {
+          "type": "bar",
+          "title": "KI- und Halbleiterwerte rund um das SK-Hynix-Debüt",
+          "subtitle": "Kursbewegung am 9./10. Juli 2026, gerundet",
+          "unit": " %",
+          "source": "CNBC, Yahoo Finance, Motley Fool (10.7.2026)",
+          "allPositive": true,
+          "data": [
+            ["SK Hynix (Debüt)", 12.8],
+            ["Meta (Tag)", 6.0],
+            ["Micron", 4.5],
+            ["Nvidia", 4.0]
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "26,5 Mrd. Dollar Emissionsvolumen, größter Auslands-Börsengang der US-Geschichte",
+        "verdict": "bestätigt",
+        "evidence": "Übereinstimmend belegt durch TechCrunch und CNBC (10.7.2026); Volumen und Ausgabepreis (149 USD, 177,9 Mio. ADS) doppelt bestätigt, ebenso der Vergleich zum bisherigen Rekordhalter Alibaba (2014)."
+      },
+      "sources": [
+        { "title": "CNBC: SK Hynix (SKHY) stock Nasdaq debut", "url": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html", "tier": 2 },
+        { "title": "TechCrunch: SK Hynix raises 26.5B in biggest foreign IPO in US history", "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/", "tier": 2 },
+        { "title": "Bloomberg: Micron boosts US spending to 250 billion", "url": "https://www.bloomberg.com/news/articles/2026-07-09/micron-boosts-us-spending-to-250-billion-amid-memory-demand", "tier": 2 }
+      ]
+    },
+    {
+      "id": "shein-hongkong-boersengang",
+      "ressort": "news",
+      "kicker": "Handel · Regulierung",
+      "headline": "China genehmigt Sheins Börsengang in Hongkong",
+      "subject": "Shein",
+      "dek": "Nach gescheiterten Anläufen in New York und London erlaubt die chinesische Aufsicht dem Mode-Discounter den Sprung an die Börse. Der Fall zeigt, dass der Börsenplatz heute eine geopolitische Entscheidung ist.",
+      "image": { "file": "shein-hongkong.jpg", "alt": "Hongkonger Hafen-Skyline in der Abenddämmerung hinter einem Ständer mit bunter Mode", "caption": "Nicht New York, nicht London, sondern Hongkong: Der Börsenplatz ist zur politischen Frage geworden.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Die chinesische Wertpapieraufsicht CSRC hat am 10. Juli den Börsengang des Fast-Fashion-Konzerns Shein in Hongkong genehmigt. Ausgegeben werden dürfen bis zu 341,6 Millionen sogenannter H-Aktien, also in Hongkong notierter Anteile chinesischer Unternehmen. Nach Berichten strebt Shein einen Erlös von über einer Milliarde US-Dollar an. Es ist der dritte Anlauf, nachdem Versuche in New York und London an politischem Widerstand und an einem Veto eben dieser CSRC gescheitert waren.",
+        "Über die angestrebte Bewertung gehen die Angaben auseinander. Genannt werden Spannen von 30 bis 50 Milliarden US-Dollar. Beide Zahlen liegen weit unter der letzten privaten Finanzierungsrunde von 2023, die Shein mit 66 Milliarden Dollar bewertete, und noch weiter unter dem Höchststand von rund 100 Milliarden aus dem Jahr 2022.",
+        "Interpretation: Der eigentliche Nachrichtenwert liegt nicht im Volumen, sondern im Ort. Dass Shein nun ausgerechnet in Hongkong statt in New York oder London an die Börse geht, ist das Ergebnis eines langen Ringens mit Peking. Für Anleger ist die Lehre unbequem: Wo ein Unternehmen Kapital aufnehmen darf, hängt inzwischen ebenso von der Politik ab wie von den Geschäftszahlen."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Für einen Börsengang braucht ein Unternehmen die Zustimmung der Aufsicht am gewählten Handelsplatz und, bei chinesischen Firmen, zusätzlich die der Heimataufsicht CSRC. Diese doppelte Hürde macht den Standort zur politischen Frage. Der fallende Bewertungspfad von 100 auf 30 bis 50 Milliarden zeigt zugleich, wie schnell der Markt bei einem einst gefeierten Wachstumsmodell die Erwartungen zurücknimmt.",
+      "lehre": "Die Lehre: Der Börsenplatz ist heute eine geopolitische Entscheidung, keine rein finanzielle.",
+      "factcheck": {
+        "claim": "CSRC-Genehmigung, bis zu 341,6 Mio. H-Aktien, Zielbewertung 30 bis 50 Mrd. Dollar",
+        "verdict": "bestätigt",
+        "evidence": "Genehmigung und Aktienzahl mehrfach belegt (Bloomberg, SCMP, Nikkei, RTE). Die Bewertung wird als Spanne geführt, weil die Quellen zwischen 30 und 50 Mrd. Dollar auseinandergehen; deshalb keine Einzelzahl im Text."
+      },
+      "sources": [
+        { "title": "SCMP: Shein receives approval for Hong Kong IPO", "url": "https://www.scmp.com/tech/big-tech/article/3360165/shein-receives-approval-hong-kong-ipo-chinese-regulators", "tier": 2 },
+        { "title": "Bloomberg: Shein gets approval from Chinese regulator for Hong Kong IPO", "url": "https://www.bloomberg.com/news/articles/2026-07-10/shein-gets-approval-from-chinese-regulator-for-hong-kong-ipo", "tier": 2 }
+      ]
+    },
+    {
+      "id": "xxxlutz-porta-eu-pruefung",
+      "ressort": "news",
+      "kicker": "Möbelhandel · Wettbewerb",
+      "headline": "EU-Kommission ermittelt gegen XXXLutz wegen zu früher Porta-Übernahme",
+      "subject": "XXXLutz / Porta",
+      "dek": "Brüssel prüft, ob der Möbelriese die Kontrolle über die Porta-Gruppe übernommen hat, bevor die kartellrechtliche Freigabe vorlag. Das kann teuer werden, unabhängig davon, ob die Fusion am Ende erlaubt wird.",
+      "image": { "file": "xxxlutz-porta.jpg", "alt": "Manager mit Klemmbrett prüft Bestand in einem großen Möbel-Lager mit Sofas, Schränken und einem Gabelstapler", "caption": "Die Übernahme wurde 2025 angekündigt, doch die formale Anmeldung bei der EU fehlt bis heute.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Die EU-Kommission hat am 10. Juli ein Ermittlungsverfahren gegen den österreichischen Möbelkonzern XXXLutz und die deutsche Porta-Gruppe eröffnet. Der Verdacht lautet auf sogenanntes Gun-Jumping, also den Vollzug einer Übernahme, bevor die Wettbewerbshüter sie freigegeben haben. Die Übernahme war bereits im Januar 2025 angekündigt worden, wurde nach Angaben in den Berichten aber bis heute nicht formell zur Prüfung angemeldet.",
+        "Für das Unternehmen steht viel auf dem Spiel. Bei einem bestätigten Verstoß gegen die Stillhaltepflicht drohen Bußgelder von bis zu zehn Prozent des weltweiten Konzernjahresumsatzes. XXXLutz setzt mit seinen Marken pro Jahr rund sechs Milliarden Euro um, die Porta-Gruppe betreibt etwa 140 Standorte in Deutschland, Tschechien und der Slowakei.",
+        "Einordnung: Dieses Verfahren ist getrennt von der eigentlichen Fusionskontrolle. Es geht nicht um die Frage, ob die Übernahme wettbewerbsrechtlich erlaubt ist, sondern um das Verfahren. Selbst wenn Brüssel die Fusion später genehmigt, kann das Bußgeld für den Zeitablauf bestehen bleiben. Ein Kaufpreis wurde nie veröffentlicht, konkrete Marktanteile ebenfalls nicht, weshalb wir hier keine Prozentangaben machen."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Wer ein Unternehmen kauft, muss ab einer bestimmten Größe warten, bis die Kartellbehörde zustimmt, und darf bis dahin die Kontrolle nicht ausüben. Diese Stillhaltepflicht schützt den Wettbewerb während der Prüfung. Wird sie verletzt, ist das ein eigener Regelverstoß mit eigenem Bußgeld, unabhängig vom Ausgang der Fusionsprüfung.",
+      "lehre": "Die Lehre: Bei Übernahmen ist der Zeitplan ein eigenes Risiko. Wer zu früh vollzieht, zahlt womöglich, selbst wenn der Deal am Ende erlaubt wird.",
+      "factcheck": {
+        "claim": "EU-Ermittlung wegen Gun-Jumping, Bußgeldrisiko bis zehn Prozent des Konzernjahresumsatzes",
+        "verdict": "bestätigt",
+        "evidence": "Bußgeldrahmen und Verfahrenseröffnung mehrfach in der Wirtschaftspresse belegt (Handelsblatt, onvista, t-online, 10.7.). Hinweis: Die Berichte gehen auf dieselbe dpa-Meldung zurück; eine eigene Mitteilung der EU-Kommission war nicht auffindbar, weshalb Kaufpreis und Marktanteile bewusst offen bleiben."
+      },
+      "sources": [
+        { "title": "Handelsblatt: EU-Kommission prüft Porta-Übernahme durch XXXLutz", "url": "https://www.handelsblatt.com/politik/deutschland/moebelhandel-eu-kommission-prueft-porta-uebernahme-durch-xxxlutz/100239461.html", "tier": 2 },
+        { "title": "XXXLutz-Pressecenter: Übernahme der Porta-Gruppe (Januar 2025)", "url": "https://pr.xxxlutz.de/articles/2025/01/07/xxxlutz-uebernimmt-porta-gruppe-in-deutschland--tschechien-und-der-slowakei/", "tier": 1 }
+      ]
+    },
+    {
+      "id": "commerzbank-visa-umstellung",
+      "ressort": "news",
+      "kicker": "Banken · Zahlungsverkehr",
+      "headline": "Commerzbank tauscht Kreditkarten von Mastercard auf Visa",
+      "subject": "Commerzbank",
+      "dek": "Die Bank bittet ihre Bestandskunden schriftlich um den Wechsel des Kartennetzwerks. Der eigentliche Kurstreiber der Aktie war an diesem Tag jedoch ein anderer.",
+      "image": { "file": "commerzbank-visa.jpg", "alt": "Hand hält zwei verschiedene Bankkarten nebeneinander vor einem unscharfen Bankschalter", "caption": "Zwei Netzwerke, eine Entscheidung: Die Commerzbank verschiebt ihr gesamtes Kreditkartenportfolio.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Die Commerzbank schreibt seit Anfang Juli ihre Bestandskunden an und bittet sie, ihre Mastercard-Kreditkarte auf eine Visa-Karte umzustellen. Es ist die nächste Stufe einer Partnerschaft mit Visa, die im Februar 2025 zunächst nur für Neukunden begann. Die Konditionen bleiben laut Bank gleich, Mastercard-Debitkarten sind nicht betroffen.",
+        "Für den Kapitalmarkt ist der Vorgang vor allem ein Lehrstück über Zuordnung. Die Commerzbank-Aktie bewegte sich am 9. und 10. Juli, doch der Grund lag nicht bei den Kreditkarten. Die Frankfurter Staatsanwaltschaft teilte mit, dass sie kein Ermittlungsverfahren wegen Marktmanipulation gegen die Großaktionärin UniCredit einleitet. Die italienische Bank hält rund 47,6 Prozent der Anteile. Diese Nachricht trieb den Kurs, nicht die Kartenumstellung.",
+        "Einordnung: Für das Kartengeschäft selbst zählt, dass der Zahlungsverkehr von zwei großen Netzwerken beherrscht wird. Wechselt eine Bank das Netzwerk, verschieben sich Gebührenströme und Verhandlungsmacht. Für den Aktienkurs war das an diesem Tag aber zweitrangig."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Bei jeder Kartenzahlung fließt eine kleine Gebühr an das Kartennetzwerk. Visa und Mastercard teilen sich diesen Markt weitgehend auf. Wenn eine große Bank ihr gesamtes Kreditkartenportfolio zu einem Anbieter verschiebt, verändert das die Einnahmen beider Netzwerke und ist ein Signal im Ringen um Marktanteile.",
+      "lehre": "Die Lehre: Kursbewegungen sauber zuordnen. Zwei Nachrichten am selben Tag heißt nicht, dass die lautere auch die kursrelevante ist.",
+      "sources": [
+        { "title": "Handelsblatt: Commerzbank tauscht Mastercard gegen Visa aus", "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/kreditkarten-commerzbank-tauscht-mastercard-gegen-visa-aus/100239158.html", "tier": 2 },
+        { "title": "onvista: Commerzbank, Ermittler sehen keine Marktmanipulation", "url": "https://www.onvista.de/news/2026/07-09-commerzbank-ringen-ermittler-sehen-keine-marktmanipulation-0-10-26530564", "tier": 2 }
+      ]
+    },
+    {
+      "id": "gkv-sparpaket-bundestag",
+      "ressort": "politik",
+      "kicker": "Berlin · Gesundheit",
+      "headline": "Bundestag beschließt Sparpaket für die gesetzlichen Krankenkassen",
+      "subject": "Krankenkassen",
+      "dek": "Verwaltungskosten werden gedeckelt, Werbebudgets halbiert, Zuzahlungen steigen. Für Klinikbetreiber und Versicherer verschiebt das Gesetz die Margenerwartung, für 75 Millionen Versicherte die Kosten.",
+      "image": { "file": "gkv-gesundheit.jpg", "alt": "Stethoskop auf einem Stapel Euro-Scheine und Münzen, im Hintergrund ein Krankenhausflur", "caption": "Kostendämpfung per Gesetz: Was der Bundestag im Gesundheitssystem beschließt, bewegt Klinik- und Versichereraktien.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Der Bundestag hat am 10. Juli das Gesetz zur Stabilisierung der Krankenkassen-Beitragssätze verabschiedet, mit 318 Ja- gegen 284 Nein-Stimmen. Die Kernpunkte: Die Verwaltungskosten der Kassen werden an die Entwicklung der Löhne gekoppelt und damit gedeckelt, die Werbeausgaben der Kassen werden halbiert, die Zuzahlungen der Versicherten steigen einmalig um 50 Prozent. Zudem verschiebt der Bund die Rückzahlung eines Darlehens von 5,6 Milliarden Euro an die gesetzliche Krankenversicherung.",
+        "Für den Kapitalmarkt sind zwei Kanäle relevant. Erstens die Kostenseite: Wenn der Staat die Ausgaben im Gesundheitssystem dämpft, sinken die Margenerwartungen bei Klinikbetreibern und deren Zulieferern, weil weniger Geld im System verteilt wird. Zweitens der Konsumkanal: Höhere Zuzahlungen mindern das frei verfügbare Einkommen der Haushalte, wenn auch nur geringfügig.",
+        "Interpretation: Solche Kostendämpfungsgesetze sind für Gesundheitsaktien selten dramatisch, aber sie verschieben die Richtung. Der Sektor gilt als defensiv, weil die Nachfrage nach Behandlung kaum schwankt. Regulatorische Eingriffe in die Vergütung sind jedoch genau der Punkt, an dem auch defensive Titel Bewertungspunkte verlieren können."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Das Gesundheitssystem ist ein großer Geldkreislauf aus Beiträgen. Deckelt der Staat einzelne Ausgabenposten, bleibt in Summe weniger für Kliniken, Ärzte und Zulieferer übrig. Deren künftige Gewinne fallen dadurch etwas niedriger aus, und die Börse preist das sofort in die Bewertung ein, lange bevor der erste Euro tatsächlich eingespart ist.",
+      "lehre": "Die Lehre: Auch defensive Sektoren wie Gesundheit sind nicht immun. Wo der Staat die Vergütung regelt, entscheidet Politik über Margen.",
+      "factcheck": {
+        "claim": "Beschluss mit 318 zu 284 Stimmen, verschobene Darlehensrückzahlung von 5,6 Mrd. Euro",
+        "verdict": "bestätigt",
+        "evidence": "Abstimmungsergebnis und Maßnahmen belegt durch das Textarchiv des Deutschen Bundestags (Primärquelle) und ZDFheute (10.7.2026)."
+      },
+      "sources": [
+        { "title": "Deutscher Bundestag: Textarchiv, GKV-Beitragssatzstabilisierung", "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw28-de-gkv-1184352", "tier": 1 },
+        { "title": "ZDFheute: Sparpaket Krankenkassen", "url": "https://www.zdfheute.de/politik/deutschland/gesundheit-sparpaket-krankenkassen-reform-bundestag-koalition-100.html", "tier": 2 }
+      ]
+    },
+    {
+      "id": "waermepumpe-foerderung-kuerzung",
+      "ressort": "politik",
+      "kicker": "Berlin · Energie",
+      "headline": "Bund kürzt die Förderung für Wärmepumpen ab dem 21. Juli",
+      "subject": "Wärmepumpen-Förderung",
+      "dek": "Der Speed-Bonus sinkt, gutverdienende Haushalte bekommen weniger. Für Hersteller und Handwerk droht nach einem Vorzieheffekt eine Delle im Auftragsbuch.",
+      "image": { "file": "waermepumpe.jpg", "alt": "Techniker installiert eine graue Luft-Wärmepumpe an der Außenwand eines modernen Wohnhauses", "caption": "Erst Vorzieheffekt, dann Delle: Die gekürzte Förderung trifft Hersteller und das installierende Handwerk.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Die Bundesregierung hat die Bundesförderung für effiziente Gebäude neu gefasst. Ab dem 21. Juli sinkt der sogenannte Speed-Bonus, ein Zuschlag für den schnellen Austausch alter Heizungen, von bisher höheren Sätzen auf 16 Prozent und läuft bis Mitte 2030 schrittweise aus. Die Grundförderung bleibt bei 30 Prozent, der Höchstbetrag bei 28.000 Euro für die erste Wohneinheit. Haushalte mit einem zu versteuernden Einkommen ab 50.000 Euro erhalten künftig deutlich weniger. Der Staat will so bis 2030 bis zu 2,1 Milliarden Euro einsparen.",
+        "Für die Branche wirkt die Kürzung über den Nachfragekanal. Kurzfristig entsteht ein Vorzieheffekt: Wer ohnehin plant, lässt die Wärmepumpe noch vor dem 21. Juli fördern. Danach droht eine Delle, weil ein Teil der Nachfrage vorgezogen wurde und die geringere Förderung die Anschaffung verteuert. Betroffen sind Hersteller wie Bosch, Vaillant, Viessmann und Stiebel Eltron sowie das installierende Handwerk.",
+        "Einordnung: Subventionsabbau folgt fast immer demselben Muster. Erst ein künstlicher Nachfrageschub kurz vor Stichtag, dann eine Flaute. Für die Auftragsbücher der Installateure ist die zeitliche Verschiebung oft schwerer zu verkraften als die reine Kürzung, weil Personal und Material nicht so schnell mitschwingen."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Eine staatliche Förderung senkt den Preis für den Käufer. Wird sie gekürzt, steigt der effektive Preis, und die Nachfrage sinkt. Kündigt der Staat die Kürzung mit Vorlauf an, ziehen viele Käufer ihre Entscheidung vor den Stichtag. Das bläht den Absatz kurz auf und lässt ihn danach umso stärker einbrechen.",
+      "lehre": "Die Lehre: Angekündigter Subventionsabbau erzeugt einen Vorzieheffekt. Der Absatzsprung vor dem Stichtag ist geliehen, nicht verdient.",
+      "factcheck": {
+        "claim": "Speed-Bonus sinkt auf 16 Prozent ab 21. Juli, Einsparziel bis zu 2,1 Mrd. Euro bis 2030",
+        "verdict": "bestätigt",
+        "evidence": "Eckpunkte und Termin belegt durch pv magazine Deutschland und ADAC (Anfang Juli 2026). Einzelne Fördersätze können sich in der finalen Verordnung noch verschieben, weshalb der Text auf die Grundlinie abstellt."
+      },
+      "sources": [
+        { "title": "pv magazine: Regierung will Förderung von Wärmepumpen kürzen", "url": "https://www.pv-magazine.de/2026/07/08/regierung-will-foerderung-von-waermepumpen-kurzfristig-kuerzen/", "tier": 2 },
+        { "title": "ADAC: Wärmepumpe, Förderung soll gekürzt werden", "url": "https://www.adac.de/news/haus-waermepumpe-foerderung-soll-gekuerzt-werden/", "tier": 2 }
+      ]
+    },
+    {
+      "id": "delta-quartalszahlen",
+      "ressort": "unternehmen",
+      "kicker": "Earnings · Luftfahrt",
+      "headline": "Delta übertrifft die Erwartungen und fällt trotzdem",
+      "subject": "Delta Air Lines",
+      "dek": "Die Fluglinie meldet ein starkes Quartal und hebt den Ausblick an. Doch am selben Tag stieg der Ölpreis, und die Aktie drehte von Plus auf Minus. Ein Lehrstück über den Unterschied zwischen Zahlen und Erwartung.",
+      "image": { "file": "delta-fuel.jpg", "alt": "Passagierflugzeug am Gate in der Abenddämmerung, im Vordergrund ein Tankwagen, dahinter ein stürmischer Himmel", "caption": "Delta lieferte, doch der Ölpreis diktierte den Kurs: Treibstoff ist der zweitgrößte Kostenblock einer Airline.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Delta Air Lines hat am 10. Juli für das zweite Quartal einen bereinigten Gewinn von 1,56 US-Dollar je Aktie gemeldet und damit den Analystenkonsens von rund 1,48 bis 1,53 Dollar übertroffen. Auch der bereinigte Umsatz von 17,7 Milliarden Dollar lag über den Erwartungen. Das Management hob den Ausblick an: Für das laufende Quartal stellt Delta 2,00 bis 2,50 Dollar je Aktie in Aussicht, für das Gesamtjahr bekräftigte es die Spanne von 6,50 bis 7,50 Dollar und kündigte eine um 15 Prozent höhere Dividende an.",
+        "Trotzdem drehte die Aktie im Tagesverlauf von einem anfänglichen Plus von rund drei Prozent ins Minus. Der Grund lag nicht in den Zahlen, sondern im Öl. Nach neuen Spannungen zwischen den USA und dem Iran stieg der Ölpreis, und Anleger rechneten die höheren Treibstoffkosten in die kommenden Quartale hoch. Delta zahlte im zweiten Quartal bereits 3,93 Dollar je Gallone, den höchsten Wert der Firmengeschichte und 75 Prozent mehr als ein Jahr zuvor.",
+        "Was war erwartet, was hat sich geändert? Erwartet war ein solides Quartal, und das kam. Geändert hat sich die Einschätzung der Zukunft: Der gestiegene Ölpreis lässt die künftigen Gewinne unsicherer erscheinen. Genau das bewegt den Kurs, denn eine Aktie ist die Summe der erwarteten künftigen Gewinne, nicht das Protokoll des vergangenen Quartals.",
+        "Alternative Erklärung, wie sie unser Skeptiker verlangt: Die Aktie war nach einem starken Lauf womöglich reif für Gewinnmitnahmen, und die Zahlen dienten als Anlass. Beide Erklärungen lassen sich mit Tagesdaten nicht sauber trennen. Die exakte Schlussbewegung war zwischen den Datenanbietern uneinheitlich, weshalb wir die Richtung beschreiben, nicht eine Prozentzahl auf die zweite Stelle."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Der Wert einer Aktie steckt in den erwarteten künftigen Gewinnen. Ein gutes vergangenes Quartal ändert daran wenig, wenn zugleich ein Kostenblock wie Treibstoff teurer wird und die künftigen Gewinne schmälert. Deshalb kann eine Aktie nach einem Rekordquartal fallen: Der Blick nach vorn wiegt schwerer als der Blick zurück.",
+      "company": {
+        "name": "Delta Air Lines",
+        "ticker": "DAL",
+        "exchange": "NYSE",
+        "logoKey": "delta-air-lines",
+        "whatTheyDo": "Delta ist eine der größten Fluggesellschaften der Welt und traditionell die erste US-Aktie, die zur Quartalssaison berichtet. Neben dem Fluggeschäft verdient Delta an einem Kreditkarten-Partnerprogramm und betreibt sogar eine eigene Raffinerie zur Treibstoffversorgung.",
+        "whyItMatters": "Delta eröffnet die US-Berichtssaison und gilt als Frühindikator für Reiselust und Kostendruck. An dieser Aktie lässt sich das wichtigste Prinzip der Börse studieren: Kurse folgen der Differenz zwischen Nachricht und Erwartung.",
+        "keyMetrics": [
+          ["Bereinigter Gewinn je Aktie", "1,56 USD (Konsens ~1,48–1,53)"],
+          ["Bereinigter Umsatz Q2", "17,7 Mrd. USD"],
+          ["Treibstoff je Gallone", "3,93 USD (Rekord, +75 %)"],
+          ["Ausblick Q3 je Aktie", "2,00–2,50 USD"],
+          ["Dividende", "+15 % ab September-Quartal"]
+        ]
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Delta: Treibstoffkosten je Gallone",
+          "subtitle": "bereinigt, Vorjahresquartal gegen Q2 2026",
+          "unit": " USD",
+          "source": "Delta Air Lines Q2-2026-Mitteilung (10.7.2026)",
+          "allPositive": true,
+          "data": [
+            ["Q2 2025", 2.25],
+            ["Q2 2026", 3.93]
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "Bereinigter Gewinn 1,56 USD je Aktie über Konsens, Ausblick angehoben",
+        "verdict": "bestätigt",
+        "evidence": "Gewinn, Umsatz und Guidance belegt durch die Delta-Pressemitteilung (Primärquelle) und CNBC (10.7.2026). Die genaue Schlusskursbewegung war zwischen Anbietern uneinheitlich; belegt und mehrfach bestätigt ist die Richtung, der Dreh von Plus zu Minus wegen der Ölpreissorgen."
+      },
+      "sources": [
+        { "title": "Delta Air Lines: June Quarter 2026 Financial Results", "url": "https://news.delta.com/delta-air-lines-announces-june-quarter-2026-financial-results", "tier": 1 },
+        { "title": "CNBC: Delta Air Lines DAL Q2 2026 earnings", "url": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html", "tier": 2 }
+      ]
+    },
+    {
+      "id": "volkswagen-zukunftsplan",
+      "ressort": "unternehmen",
+      "kicker": "Autoindustrie · Umbau",
+      "headline": "Volkswagens Zukunftsplan scheitert vorerst am Aufsichtsrat",
+      "subject": "Volkswagen",
+      "dek": "Der Vorstand will die Modellpalette halbieren und Kapazitäten abbauen. Der Aufsichtsrat lehnte den Plan mit klarer Mehrheit ab. Die Vorzugsaktie notiert nahe ihrem Jahrestief.",
+      "image": { "file": "vw-fabrik.jpg", "alt": "Weite Aufnahme einer Autofabrik-Halle mit unfertigen Karosserien am Fließband, Roboterarmen und Arbeitern in Schutzkleidung", "caption": "Überkapazität als Kernproblem: Der Vorstand will die Jahreskapazität von rund 12 auf 9 Millionen Fahrzeuge senken.", "credit": "Bild: The Capital Compass / KI-generiert" },
+      "body": [
+        "Der Vorstand von Volkswagen um Konzernchef Oliver Blume hat dem Aufsichtsrat am 9. Juli einen Zukunftsplan vorgelegt, den das Unternehmen selbst als umfassendste Neuausrichtung seiner Geschichte bezeichnet. Kern sind ein Zielbild bis 2030 und ein Bündel von Maßnahmen: Die Modellpalette soll außerhalb Chinas bis 2035 um bis zu die Hälfte schrumpfen, von rund 150 auf etwa 75 Modelle, die Zahl der Ausstattungsvarianten um bis zu drei Viertel. Die Jahreskapazität soll auf rund neun Millionen Fahrzeuge sinken, von etwa zwölf Millionen vor der Pandemie.",
+        "Der Aufsichtsrat lehnte den Plan nach übereinstimmenden Berichten mit sieben zu zwölf Stimmen ab. Widerstand kam von den Arbeitnehmervertretern und vom Land Niedersachsen, das an Volkswagen beteiligt ist. Weitere Beratungen soll es erst nach der Sommerpause geben.",
+        "Wichtige Einordnung zu den Zahlen: Die offizielle Mitteilung von Volkswagen nennt weder konkrete Werke noch eine Zahl zum Stellenabbau. In Medienberichten kursierende Größen von 100.000 oder mehr betroffenen Stellen sowie die Namen einzelner Werke stammen aus Presseberichten, nicht aus der Unternehmenskommunikation. Wir führen sie daher ausdrücklich als unbestätigte Presseangaben und nicht als Fakten.",
+        "Marktseitig blieb die Reaktion verhalten. Die Vorzugsaktie notierte leicht im Minus und nahe ihrem Tief der vergangenen zwölf Monate. Analysten von Jefferies, Bernstein und Metzler bemängelten, der Plan enthalte wenig Neues und wenig Konkretes zur Umsetzung. Erwartet worden war ein Durchbruch mit klaren Werksentscheidungen, geliefert wurde eine Absichtserklärung ohne Beschluss."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Ein Autokonzern trägt hohe Fixkosten für Werke und Entwicklung. Sinkt die Nachfrage, verteilen sich diese Kosten auf weniger Fahrzeuge, und die Marge leidet. Der Abbau von Modellen und Kapazität soll die Kosten senken. Solange aber kein Beschluss vorliegt, bleibt es bei Ankündigungen, und die Börse bezahlt Ankündigungen nur zurückhaltend.",
+      "company": {
+        "name": "Volkswagen AG (Vorzugsaktie)",
+        "ticker": "VOW3",
+        "exchange": "XETRA",
+        "logoKey": "volkswagen",
+        "whatTheyDo": "Volkswagen ist einer der größten Autohersteller der Welt mit Marken von VW über Audi und Porsche bis Skoda. Der Konzern verdient an Fahrzeugverkäufen und Finanzdienstleistungen und steckt mitten im teuren Umbau von Verbrenner zu Elektro.",
+        "whyItMatters": "An Volkswagen lässt sich beobachten, wie ein Industrieriese mit Überkapazitäten ringt und wie stark Mitbestimmung und Politik in strategische Entscheidungen hineinwirken. Die abgelehnte Vorstandsvorlage zeigt, dass gute Absichten am Aufsichtsrat scheitern können.",
+        "keyMetrics": [
+          ["Aufsichtsrat-Votum", "7 zu 12, abgelehnt"],
+          ["Modellpalette (Ziel bis 2035)", "bis -50 % (ex China)"],
+          ["Ausstattungsvarianten (Ziel)", "bis -75 %"],
+          ["Jahreskapazität (Ziel 2030)", "~9 Mio. (von ~12 Mio.)"],
+          ["Vorzugsaktie", "nahe 12-Monats-Tief"]
+        ]
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Volkswagen: geplante Jahreskapazität",
+          "subtitle": "Millionen Fahrzeuge, vor Pandemie gegen Zielbild 2030",
+          "unit": " Mio.",
+          "source": "Volkswagen-Mitteilung und Tagesspiegel (10.7.2026)",
+          "allPositive": true,
+          "data": [
+            ["vor Pandemie", 12.0],
+            ["Ziel 2030", 9.0]
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "Modellpalette bis -50 %, Aufsichtsrat lehnt Zukunftsplan ab",
+        "verdict": "bestätigt",
+        "evidence": "Modell- und Variantenziele belegt durch die Volkswagen-Mitteilung (Primärquelle) und Tagesspiegel; die Ablehnung durch den Aufsichtsrat (7:12) durch RNZ und onvista (10.7.). Stellenabbau-Zahlen und Werksnamen sind unbestätigte Presseangaben und werden im Text als solche gekennzeichnet."
+      },
+      "sources": [
+        { "title": "Volkswagen Group: Executive Board Presents Future Plan", "url": "https://www.volkswagen-group.com/en/press-releases/executive-board-presents-future-plan-20514", "tier": 1 },
+        { "title": "onvista: Durchbruch zu Zukunftsplan für Volkswagen bleibt aus", "url": "https://www.onvista.de/news/2026/07-10-durchbruch-zu-zukunftsplan-fuer-volkswagen-bleibt-aus-0-20-26530964", "tier": 2 }
+      ]
+    }
+  ],
+  "branchenMonitor": [
+    { "sektor": "Energie", "wasIstDas": "Firmen, die Öl und Gas fördern, transportieren und verarbeiten.", "lage": "Neue US-Iran-Spannungen und Sorge um die Straße von Hormus stützten den Ölpreis, der auf Wochensicht knapp fünf Prozent zulegte. Das hilft Förderern, belastet aber Vielverbraucher wie Fluglinien.", "richtung": "up", "tagesWert": "WTI ~71,50 USD (10.7.)" },
+    { "sektor": "Grundstoffe", "wasIstDas": "Hersteller von Chemie, Metallen, Baustoffen und Grundmaterialien.", "lage": "Ruhiger Handelstag ohne eigene Impulse; der teurere Ölpreis erhöht die Energiekosten der Chemie.", "richtung": "neutral", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Industrie", "wasIstDas": "Maschinenbau, Anlagenbau, Verkehr, Logistik und Rüstung.", "lage": "Zwei Kräfte wirken gegeneinander: Der KI-Fabrikausbau stützt Ausrüster, während der Volkswagen-Umbau und teurer Treibstoff für Fluglinien belasten.", "richtung": "neutral", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Zyklischer Konsum", "wasIstDas": "Alles, was Haushalte bei lockerem Geld kaufen: Autos, Mode, Reisen.", "lage": "Volkswagens gescheiterter Zukunftsplan drückte auf die Stimmung bei Autowerten; die Sommerreisesaison stützt dagegen die Fluglinien.", "richtung": "down", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Basiskonsum", "wasIstDas": "Alltagsgüter wie Lebensmittel, Getränke und Drogerieartikel.", "lage": "PepsiCo lieferte am Vortag einen Umsatzsprung bei knappem Gewinnfehlbetrag; der Sektor bleibt ein ruhiger Pol.", "richtung": "neutral", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Gesundheit", "wasIstDas": "Pharmakonzerne, Biotechfirmen, Medizintechnik und Krankenversicherer.", "lage": "Das Krankenkassen-Sparpaket des Bundestags dämpft die Vergütungserwartung für Klinikbetreiber; Übernahmefantasie stützt den Diagnostikkonzern Qiagen.", "richtung": "down", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Finanzen", "wasIstDas": "Banken, Versicherer, Börsenbetreiber und Vermögensverwalter.", "lage": "Der SK-Hynix-Börsengang füllt die Kassen der Investmentbanken; bei der Commerzbank dominierte das UniCredit-Thema. Länger hohe Zinsen (10-Jahres-Rendite 4,56 Prozent) stützen die Margen.", "richtung": "up", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Informationstechnologie", "wasIstDas": "Software, Halbleiter, IT-Dienstleister und Hardware.", "lage": "Der SK-Hynix-Rekordbörsengang und Microns Investitionsoffensive trieben Halbleiterwerte; Nvidia und der Sektor legten deutlich zu.", "richtung": "up", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Kommunikation", "wasIstDas": "Telekomanbieter, Medienkonzerne und Internetplattformen.", "lage": "Die KI-Erzählung trug die Plattformkonzerne; Meta beendete die Woche mit rund 15 Prozent Plus.", "richtung": "up", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Versorger", "wasIstDas": "Strom-, Gas- und Wasserversorger samt Netzbetreibern.", "lage": "Kaum eigene Nachrichten; die Aussicht auf Rechenzentrums-Stromverträge bleibt der strukturelle Lichtblick.", "richtung": "neutral", "tagesWert": "keine Sektordaten belegt" },
+    { "sektor": "Immobilien", "wasIstDas": "Börsennotierte Vermieter von Wohnungen, Büros, Logistik und Rechenzentren.", "lage": "Die leicht gestiegene Anleiherendite belastet zinssensitive Titel; Rechenzentrums-Vermieter profitieren vom KI-Schub.", "richtung": "neutral", "tagesWert": "keine Sektordaten belegt" }
+  ],
+  "stockPicks": [
+    {
+      "name": "Qiagen N.V.",
+      "ticker": "QIA (Xetra) / QGEN (Nasdaq)",
+      "logoKey": "qiagen",
+      "marketCapEUR": "ca. 7,5 Mrd. €",
+      "capSource": "Eigene Berechnung aus 206,08 Mio. Aktien (stockanalysis.com) und Kurs 36,67 € (Yahoo Finance, 9.7.2026); vor dem Newsflow ca. 6,0 Mrd. €.",
+      "whatTheyDo": "Qiagen entwickelt Tests und Geräte für die molekulare Diagnostik, etwa zum Nachweis von Krankheitserregern. Kunden sind Labore, Kliniken und die Pharmaforschung.",
+      "thesis": "Qiagen zeigt den Unterschied zwischen Gerücht und Gebot. Ein bereits im Januar 2026 gestarteter Prozess zur Prüfung strategischer Optionen führt immer wieder zu Spekulationswellen. Am 9. Juli berichtete Bloomberg über frühes Übernahmeinteresse der Finanzinvestoren EQT, Advent und KKR, mit möglichen Einstiegspreisen um 50 Dollar je Aktie. Der Kurs sprang über zehn Prozent, obwohl kein bindendes Angebot vorliegt.",
+      "counterarguments": [
+        "Kein bindendes Angebot: Die Aktie hat einen Großteil einer möglichen Übernahmeprämie bereits vorweggenommen, das Rückschlagrisiko bei Abbruch der Gespräche ist hoch.",
+        "Operative Schwäche: Qiagen hatte die Prognose 2026 zuvor gesenkt (Umsatzwachstum nur noch 1 bis 2 Prozent) wegen schwacher Nachfrage bei QuantiFERON-Tests. Übernahmeinteresse kann auch fundamentale Probleme spiegeln.",
+        "Führungswechsel: Der angekündigte Wechsel an der Unternehmensspitze in der zweiten Jahreshälfte erhöht die Unsicherheit."
+      ],
+      "catalysts": ["Halbjahreszahlen Ende Juli / Anfang August", "konkretes Gebot oder Dementi von EQT, Advent oder KKR", "Fortgang der laufenden strategischen Prüfung"],
+      "confidence": "mittel",
+      "priceUnit": " €",
+      "priceSeriesSource": "Yahoo Finance (QIA.DE), Tagesschlusskurse; letzter Punkt 10.7. vorläufig.",
+      "priceSeries": [
+        {"t":"2026-06-05","v":31.92},{"t":"2026-06-08","v":31.745},{"t":"2026-06-09","v":31.74},{"t":"2026-06-10","v":32.265},{"t":"2026-06-11","v":32.07},{"t":"2026-06-12","v":31.98},{"t":"2026-06-15","v":31.765},{"t":"2026-06-16","v":32.17},{"t":"2026-06-17","v":32.205},{"t":"2026-06-18","v":32.0},{"t":"2026-06-19","v":32.135},{"t":"2026-06-22","v":32.055},{"t":"2026-06-23","v":32.61},{"t":"2026-06-24","v":34.005},{"t":"2026-06-25","v":34.52},{"t":"2026-06-26","v":34.315},{"t":"2026-06-29","v":34.57},{"t":"2026-06-30","v":33.9},{"t":"2026-07-01","v":34.44},{"t":"2026-07-02","v":34.98},{"t":"2026-07-03","v":34.625},{"t":"2026-07-06","v":34.075},{"t":"2026-07-07","v":34.12},{"t":"2026-07-08","v":33.15},{"t":"2026-07-09","v":36.67},{"t":"2026-07-10","v":36.40}
+      ]
+    },
+    {
+      "name": "easyJet plc",
+      "ticker": "EZJ (London)",
+      "logoKey": "easyjet",
+      "marketCapEUR": "ca. 5,1–5,8 Mrd. €",
+      "capSource": "Aus 747–753 Mio. Aktien (gurufocus.com) und Kurs 588–672 GBp (Yahoo Finance, 9./10.7.2026); Spanne wegen des Kurssprungs am Handelstag.",
+      "whatTheyDo": "easyJet ist eine der größten Billigfluglinien Europas mit Drehkreuzen in London, Genf und Berlin. Neben dem Ticketverkauf verdient das Unternehmen an Zusatzleistungen und einem Pauschalreise-Geschäft.",
+      "thesis": "easyJet ist ein Lehrbuchfall für einen Bieterwettstreit. Der Finanzinvestor Apollo überbot am 10. Juli mit 715 Pence je Aktie das zuvor vom Verwaltungsrat gestützte Angebot von Castlelake (690 Pence). Das Unternehmen erklärte, das Castlelake-Angebot nicht mehr zu empfehlen. Die Aktie sprang zweistellig, blieb aber unter dem Gebotspreis, was die verbleibende Unsicherheit über den Abschluss zeigt.",
+      "counterarguments": [
+        "Kein Vollzug garantiert: Es ist eine Grundsatzeinigung, kein bindendes Angebot. Apollo hat bis zum 7. August Zeit, verbindlich zu bieten oder zurückzutreten; solche Deals scheitern mitunter an Finanzierung oder Kartellprüfung.",
+        "Belegschaftswiderstand: Schon vor dem Apollo-Gebot gab es Bedenken der Piloten gegen eine Übernahme, was den Prozess verzögern kann.",
+        "Kurs vorgelaufen: Bei rund 7,80 € (672 Pence) ist der Abstand zum Gebot von 8,30 € (715 Pence) gering, während der Rückfall auf das Niveau vor der Spekulation (rund 5,30 bis 5,80 €) das Abwärtsrisiko markiert."
+      ],
+      "catalysts": ["Frist für Apollos verbindliches Angebot am 7. August 2026, 17 Uhr", "mögliche Gegenreaktion von Castlelake", "Kartell- und Regulierungsprüfung"],
+      "confidence": "hoch",
+      "priceUnit": " €",
+      "priceSeriesSource": "Yahoo Finance (EZJ.L), Tagesschlusskurse aus Pence umgerechnet (1 £ = 1,16 €); letzter Punkt 10.7. vorläufig.",
+      "priceSeries": [
+        {"t":"2026-06-05","v":5.47},{"t":"2026-06-08","v":5.41},{"t":"2026-06-09","v":5.57},{"t":"2026-06-10","v":5.53},{"t":"2026-06-11","v":5.68},{"t":"2026-06-12","v":5.80},{"t":"2026-06-15","v":5.80},{"t":"2026-06-16","v":5.86},{"t":"2026-06-17","v":5.85},{"t":"2026-06-18","v":5.91},{"t":"2026-06-19","v":5.85},{"t":"2026-06-22","v":6.01},{"t":"2026-06-23","v":6.14},{"t":"2026-06-24","v":6.26},{"t":"2026-06-25","v":6.66},{"t":"2026-06-26","v":6.76},{"t":"2026-06-29","v":6.75},{"t":"2026-06-30","v":6.48},{"t":"2026-07-01","v":6.49},{"t":"2026-07-02","v":6.47},{"t":"2026-07-03","v":6.48},{"t":"2026-07-06","v":7.08},{"t":"2026-07-07","v":6.93},{"t":"2026-07-08","v":6.86},{"t":"2026-07-09","v":6.82},{"t":"2026-07-10","v":7.80}
+      ]
+    },
+    {
+      "name": "Lang & Schwarz AG",
+      "ticker": "LUS1 (Frankfurt)",
+      "logoKey": "lang-schwarz",
+      "marketCapEUR": "ca. 168 Mio. €",
+      "capSource": "Aus 9,44 Mio. Aktien und Kurs ~17,85 € (boersennews.de, onvista, 10.7.2026).",
+      "whatTheyDo": "Lang & Schwarz ist ein Wertpapierhandelshaus und betreibt einen eigenen Börsenplatz. Das Geld verdient die Firma vor allem als Market Maker, indem sie An- und Verkauf von Aktien für Broker abwickelt.",
+      "thesis": "Lang & Schwarz zeigt das Konzentrationsrisiko eines Geschäftsmodells, das an einem Großkunden und einem regulatorischen Rahmen hängt. Seit dem EU-weiten Verbot der Rückvergütungen (Payment for Order Flow) zum 1. Juli öffnete Trade Republic seinen Handel für rund 30 Plätze, und die Exklusivität von Lang & Schwarz endete. Die Ad-hoc-Prognosekürzung vom 2. Juli löste einen Kurssturz von über 14 Prozent aus; auf 30-Tage-Sicht verlor die Aktie rund 35 Prozent.",
+      "counterarguments": [
+        "Struktureller Bruch: Das Verbot der Rückvergütungen ist keine einmalige Störung, sondern eine dauerhafte Zäsur. Das Rekordergebnis von 2025 könnte strukturell nicht mehr erreichbar sein.",
+        "Winzige Marktkapitalisierung: Mit rund 168 Millionen Euro und dünnem Handel ist die Aktie hochvolatil und schwer handelbar, was Ausschläge verstärkt.",
+        "Klumpenrisiko bleibt: Auch neue Liquiditätspartner ändern nichts daran, dass wenige Großkunden das Geschäft dominieren."
+      ],
+      "catalysts": ["Halbjahresbericht am 21. August 2026 mit ersten Zahlen zur neuen Auftragslage", "Ad-hoc-Meldungen zu neuen Handelspartnern", "Fortentwicklung der EU-Regulierung"],
+      "confidence": "niedrig",
+      "priceUnit": " €",
+      "priceSeriesSource": "Yahoo Finance (LUS1.DE), Tagesschlusskurse; letzter Punkt 10.7. vorläufig. Der Einbruch ab 2.7. ist die Reaktion auf die Ad-hoc-Prognosekürzung.",
+      "priceSeries": [
+        {"t":"2026-06-05","v":29.4},{"t":"2026-06-08","v":29.6},{"t":"2026-06-09","v":28.5},{"t":"2026-06-10","v":28.9},{"t":"2026-06-11","v":27.7},{"t":"2026-06-12","v":27.9},{"t":"2026-06-15","v":28.3},{"t":"2026-06-16","v":27.4},{"t":"2026-06-17","v":27.5},{"t":"2026-06-18","v":27.1},{"t":"2026-06-19","v":27.3},{"t":"2026-06-22","v":27.0},{"t":"2026-06-23","v":26.7},{"t":"2026-06-24","v":27.1},{"t":"2026-06-25","v":27.4},{"t":"2026-06-26","v":27.3},{"t":"2026-06-29","v":27.0},{"t":"2026-06-30","v":27.8},{"t":"2026-07-01","v":27.4},{"t":"2026-07-02","v":22.4},{"t":"2026-07-03","v":19.95},{"t":"2026-07-06","v":18.2},{"t":"2026-07-07","v":18.5},{"t":"2026-07-08","v":18.15},{"t":"2026-07-09","v":17.9},{"t":"2026-07-10","v":17.85}
+      ]
+    }
+  ],
+  "watchlist": [
+    { "what": "Apollos verbindliches Angebot für easyJet", "when": "Frist 7. August 2026", "bullishIf": "Apollo bietet verbindlich zu 715 Pence oder höher, Deal rückt näher", "bearishIf": "Apollo tritt zurück, die Aktie fällt Richtung 500 Pence" },
+    { "what": "US-Iran-Spannungen und Ölpreis", "when": "laufend, Sanktionsfrist 17. Juli", "bullishIf": "Deeskalation, Öl fällt und entlastet Fluglinien und Verbraucher", "bearishIf": "Eskalation an der Straße von Hormus treibt Öl und Inflation" },
+    { "what": "Qiagen: Gebot oder Dementi", "when": "kommende Wochen, Halbjahreszahlen Ende Juli", "bullishIf": "ein Finanzinvestor legt ein konkretes Gebot vor", "bearishIf": "die Gespräche enden ohne Angebot, die Prämie verpufft" }
+  ],
+  "learningNotes": [
+    "Kurse folgen der Differenz zwischen Nachricht und Erwartung, nicht der Nachricht selbst. Delta übertraf die Zahlen und fiel trotzdem, weil der gestiegene Ölpreis die künftigen Gewinne unsicherer machte.",
+    "Ein Börsengang ist ein Preisschild für einen ganzen Sektor. Die siebenfache Überzeichnung bei SK Hynix misst die Menge an Kapital, die in das Thema KI-Speicher drängt, nicht die Qualität der einzelnen Firma.",
+    "Eine Übernahmeprämie ist kein sicherer Gewinn. Dass die easyJet-Aktie unter dem Gebotspreis bleibt, zeigt, wie der Markt die Wahrscheinlichkeit des Abschlusses einpreist.",
+    "Regulierung trifft Geschäftsmodelle oft indirekt. Das Verbot der Rückvergütungen richtet sich nicht gegen Lang & Schwarz, veränderte aber das Verhalten des Großkunden Trade Republic, mit drastischen Kursfolgen.",
+    "Angekündigter Subventionsabbau erzeugt einen Vorzieheffekt. Der Absatzsprung vor dem Stichtag bei Wärmepumpen ist geliehene Nachfrage, keine verdiente."
+  ],
+  "financeLink": {
+    "titel": "Finance Link: Deltas Quartal durch den Jahresabschluss gedacht",
+    "absaetze": [
+      "Gewinn- und Verlustrechnung: Delta hat im zweiten Quartal geliefert, bereinigter Umsatz 17,7 Milliarden Dollar, bereinigter Gewinn 1,56 Dollar je Aktie, beides über den Erwartungen. Der größte einzelne Kostenposten nach Personal ist Treibstoff, und der erreichte mit 3,93 Dollar je Gallone einen Rekord. Genau hier entsteht die Spannung: gute Vergangenheit, teurer werdende Zukunft.",
+      "Bilanz: Fluglinien sind kapitalintensiv, die Flotte steht als großer Posten im Anlagevermögen, dazu kommen Leasingverpflichtungen. Die angekündigte Dividendenerhöhung um 15 Prozent signalisiert, dass das Management die Bilanz für stabil genug hält, um mehr an die Aktionäre auszuschütten.",
+      "Cashflow: Delta stellt für das Gesamtjahr einen freien Mittelzufluss von drei bis vier Milliarden Dollar in Aussicht. Der freie Cashflow ist die härtere Währung als der ausgewiesene Gewinn, weil er zeigt, wie viel Geld nach Investitionen tatsächlich übrig bleibt.",
+      "Bewertung: Der Markt bewertet die erwarteten künftigen Gewinne. Als der Ölpreis stieg, sank die Sicherheit über eben diese künftigen Gewinne, und die Aktie drehte ins Minus, obwohl das berichtete Quartal stark war. Die Bewertung reagierte auf die Zukunft, nicht auf die Vergangenheit."
+    ],
+    "anfaengerfehler": "Der typische Anfängerfehler: das gute Quartal für ein Kaufsignal halten und den Kursrückgang für unlogisch. Der Kurs bezahlt die Zukunft, und die wurde am selben Tag durch den Ölpreis teurer. Wer nur auf die gemeldeten Zahlen schaut, übersieht, was den Kurs wirklich bewegt."
+  },
+  "glossar": [
+    { "begriff": "Börsengang (IPO)", "erklaerung": "Erstmaliger Verkauf von Aktien eines Unternehmens an das breite Publikum. Der Ausgabepreis entsteht im Bookbuilding aus den Kaufwünschen der Investoren." },
+    { "begriff": "ADS (American Depositary Share)", "erklaerung": "In den USA handelbarer Hinterlegungsschein auf Aktien eines ausländischen Unternehmens. Ermöglicht US-Anlegern den Kauf, ohne an der Heimatbörse handeln zu müssen." },
+    { "begriff": "HBM (High Bandwidth Memory)", "erklaerung": "Gestapelter Hochleistungsspeicher, der direkt neben dem KI-Prozessor sitzt und Daten besonders schnell liefert. Knappes Schlüsselbauteil für KI-Rechenzentren." },
+    { "begriff": "Payment for Order Flow (Rückvergütung)", "erklaerung": "Zahlung eines Handelsplatzes an einen Broker dafür, dass dieser ihm Kundenaufträge zuleitet. In der EU seit 1. Juli 2026 verboten." },
+    { "begriff": "Gun-Jumping", "erklaerung": "Der vorzeitige Vollzug einer Übernahme, bevor die Kartellbehörde sie freigegeben hat. Verstoß gegen die Stillhaltepflicht, mit eigenem Bußgeldrahmen." },
+    { "begriff": "Übernahmeprämie", "erklaerung": "Der Aufschlag, den ein Käufer über den Börsenkurs zahlt, um Aktionäre zum Verkauf zu bewegen. Bei easyJet lag das Apollo-Gebot rund 81 Prozent über dem Kurs vor der Spekulation." },
+    { "begriff": "PUSU-Frist", "erklaerung": "Put Up or Shut Up. Nach britischem Übernahmerecht die Frist, bis zu der ein Interessent ein verbindliches Angebot vorlegen oder zurücktreten muss. Bei easyJet der 7. August 2026." },
+    { "begriff": "KGV (Kurs-Gewinn-Verhältnis)", "erklaerung": "Aktienkurs geteilt durch Gewinn je Aktie. Sagt, wie viele Jahresgewinne der Markt für das Unternehmen bezahlt." },
+    { "begriff": "Basispunkt", "erklaerung": "Ein Hundertstel Prozentpunkt. Übliche Einheit für Zinsänderungen; die 10-Jahres-Rendite stieg um 2 Basispunkte auf 4,56 Prozent." },
+    { "begriff": "Leitzins-Zielspanne", "erklaerung": "Der Korridor, in dem die US-Notenbank Fed den Tagesgeldzins hält, aktuell 3,50 bis 3,75 Prozent. Erste Entscheidung unter dem neuen Fed-Chef Kevin Warsh am 17. Juni." },
+    { "begriff": "VIX (Volatilitätsindex)", "erklaerung": "Misst die erwartete Schwankung des US-Aktienmarkts. Als Angstbarometer der Wall Street steigt er in Stressphasen und fällt bei Ruhe; zuletzt 15,03." },
+    { "begriff": "Market Maker", "erklaerung": "Ein Händler, der laufend An- und Verkaufskurse stellt und so den Handel einer Aktie sicherstellt. Kerngeschäft von Lang & Schwarz." }
+  ],
+  "verificationLog": {
+    "confirmed": [
+      "SK-Hynix-Börsengang: 26,5 Mrd. Dollar, 149 USD je ADS, +12,8 % am Debüt, größter Auslands-IPO der US-Geschichte (TechCrunch, CNBC, 10.7.).",
+      "Markt-Kacheln 10.7.: S&P 500 7.575,39, Nasdaq 26.281,61, Dow 52.637,01, Russell 2.977,81, DAX 25.067,09, VIX 15,03, 10-Jahres-Rendite 4,56 % (Epoch Times/AP, NBC Palm Springs, Ariva/dpa-AFX, Advisor Perspectives).",
+      "US-Leitzins 3,50–3,75 %, unverändert seit FOMC 17.6.2026 (Federal Reserve).",
+      "Delta Q2: bereinigter Gewinn 1,56 USD über Konsens, Ausblick angehoben, Treibstoffrekord 3,93 USD/Gallone (Delta-Mitteilung, CNBC).",
+      "easyJet: Apollo-Gebot 715 Pence übertrifft Castlelake 690 Pence, PUSU-Frist 7.8., Kurssprung zweistellig (Bloomberg, CNBC, easyJet-Newsroom).",
+      "Qiagen: Bloomberg-Bericht über Übernahmeinteresse von EQT, Advent, KKR, Kurssprung über 10 % (Bloomberg, Benzinga).",
+      "Lang & Schwarz: Ad-hoc-Prognosekürzung 2.7. nach Ende der Trade-Republic-Exklusivität, Kurssturz über 14 %, Auslöser EU-Verbot der Rückvergütungen (EQS-Ad-hoc, Handelsblatt).",
+      "GKV-Sparpaket: Bundestag 318:284, verschobene Darlehensrückzahlung 5,6 Mrd. Euro (Deutscher Bundestag, ZDFheute).",
+      "Wärmepumpen-Förderkürzung ab 21.7., Speed-Bonus 16 %, Einsparziel bis 2,1 Mrd. Euro (pv magazine, ADAC).",
+      "Volkswagen-Zukunftsplan: Modellpalette bis -50 %, Aufsichtsrat lehnt 7:12 ab (Volkswagen-Mitteilung, Tagesspiegel, onvista).",
+      "XXXLutz/Porta: EU-Ermittlung wegen Gun-Jumping, Bußgeldrahmen bis 10 % des Konzernumsatzes (Handelsblatt, dpa)."
+    ],
+    "uncertain": [],
+    "gaps": [
+      "Tagesgenaue Sektor-Indexstände für den Branchen-Monitor lagen nicht in belegter Form vor; die betroffenen Felder sind ausdrücklich mit 'keine Sektordaten belegt' gekennzeichnet.",
+      "Kursreihen von Volkswagen und Delta konnten wegen einer Sperre der Kursdatenanbieter nicht als Tagesreihe geladen werden; die Unternehmens-Charts zeigen daher belegte Einzelkennzahlen als Balken statt eines Kursverlaufs."
+    ]
+  }
+}

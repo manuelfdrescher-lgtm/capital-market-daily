@@ -1,0 +1,25 @@
+---
+import LogoChip from "./LogoChip.astro";
+
+interface Props {
+  items: any[];
+}
+const { items } = Astro.props;
+
+function richtung(bewegung) {
+  if (bewegung.trim().startsWith("-")) return "down";
+  if (bewegung.trim().startsWith("+")) return "up";
+  return "flat";
+}
+---
+
+<ul class="gv-liste" aria-label="Gewinner und Verlierer">
+  {items.map((g) => (
+    <li class="gv-zeile">
+      <LogoChip logoKey={g.logoKey} name={g.firma} />
+      <span class="gv-zeile__firma">{g.firma}</span>
+      <span class={`gv-zeile__bewegung gv-zeile__bewegung--${richtung(g.bewegung)}`}>{g.bewegung}</span>
+      <span class="gv-zeile__warum">{g.warum}</span>
+    </li>
+  ))}
+</ul>

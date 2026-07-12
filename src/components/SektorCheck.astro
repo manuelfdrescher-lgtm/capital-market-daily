@@ -1,0 +1,45 @@
+---
+// Branchen-Chips mit Richtung plus aufklappbarer Branchen-Check
+// mit allen 11 GICS-Sektoren aus dem Sector-Sweep.
+interface Props {
+  sektorCheck: any[];
+}
+const { sektorCheck } = Astro.props;
+
+const pfeil = { positiv: "▲", negativ: "▼", gemischt: "◆", neutral: "◆" };
+// Chips: nur direkt und indirekt betroffene Sektoren
+const chips = sektorCheck.filter((s) => s.betroffenheit !== "kaum");
+---
+
+<div class="chips" aria-label="Betroffene Branchen">
+  {chips.map((s) => (
+    <span class={`chip chip--${s.richtung}`}>{pfeil[s.richtung]} {s.sektor}</span>
+  ))}
+</div>
+
+<details class="aufklapp">
+  <summary>Branchen-Check: alle 11 Sektoren</summary>
+  <div class="aufklapp__inhalt">
+    <table class="sektorcheck">
+      <thead>
+        <tr>
+          <th scope="col">Sektor</th>
+          <th scope="col">Betroffenheit</th>
+          <th scope="col">Wirkmechanismus</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sektorCheck.map((s) => (
+          <tr>
+            <td class="sektorname">{pfeil[s.richtung]} {s.sektor}</td>
+            <td class={`betroffen--${s.betroffenheit}`}>{s.betroffenheit} · {s.richtung}</td>
+            <td>
+              {s.mechanismus}
+              {s.teilbranchen && <><br /><em>{s.teilbranchen}</em></>}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</details>

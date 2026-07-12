@@ -1,0 +1,40 @@
+---
+import Base from "../layouts/Base.astro";
+import RessortKopf from "../components/RessortKopf.astro";
+import { getLatestEdition } from "../lib/editions.mjs";
+
+const { data } = getLatestEdition();
+---
+
+<Base title="Lernecke" active="lernecke" edition={data.edition}>
+  <RessortKopf level="h1" titel="Lernecke" untertitel="Übertragbare Kapitalmarkt-Prinzipien aus dieser Ausgabe." />
+  <hr class="ressort-linie" />
+
+  <ol class="lernpunkte" data-pagefind-body>
+    {data.learningNotes.map((note) => <li>{note}</li>)}
+  </ol>
+
+  {data.financeLink && (
+    <>
+      <RessortKopf titel="Finance Link" untertitel="Eine News der Ausgabe, komplett durch Gewinn- und Verlustrechnung, Bilanz, Cashflow und Bewertung gedacht." />
+      <article class="karte" style="max-width:820px; margin:0 auto" data-pagefind-body>
+        <h3 style="margin-top:0; font-family:var(--display)">{data.financeLink.titel}</h3>
+        {data.financeLink.absaetze.map((p) => <p>{p}</p>)}
+        <aside class="mechanik-box" style="margin-bottom:0">
+          <span class="mechanik-box__titel">Typischer Anfängerfehler</span>
+          {data.financeLink.anfaengerfehler.replace(/^Der typische Anfängerfehler:\s*/i, "")}
+        </aside>
+      </article>
+    </>
+  )}
+
+  <RessortKopf titel="Glossar dieser Ausgabe" />
+  <dl class="glossar" data-pagefind-body>
+    {data.glossar.map((g) => (
+      <>
+        <dt>{g.begriff}</dt>
+        <dd>{g.erklaerung}</dd>
+      </>
+    ))}
+  </dl>
+</Base>

@@ -1,0 +1,80 @@
+---
+// Horizontaler Balken-Chart als reines SVG, direkt aus den JSON-Daten.
+// Positiv Blau, negativ Rot; bei allPositive einfarbig Blau.
+// Direkte Wertelabels, Quellenzeile, aufklappbare Datentabelle.
+import { formatNumberDE } from "../lib/format.mjs";
+
+interface Props {
+  chart: any;
+  id: string;
+}
+const { chart, id } = Astro.props;
+
+const rows = chart.data ?? [];
+const W = 640;
+const rowH = 30;
+const padTop = 6;
+const padBottom = 6;
+const labelW = 150;
+const valueW = 62;
+const H = padTop + rows.length * rowH + padBottom;
+
+const maxAbs = Math.max(...rows.map(([, v]) => Math.abs(v)), 1e-9);
+const hasNeg = !chart.allPositive && rows.some(([, v]) => v < 0);
+const plotX = labelW + 8;
+const plotW = W - plotX - valueW;
+// Null-Linie: bei nur positiven Werten ganz links, sonst proportional
+const negMax = hasNeg ? Math.max(...rows.filter(([, v]) => v < 0).map(([, v]) => Math.abs(v))) : 0;
+const posMax = Math.max(...rows.map(([, v]) => Math.max(v, 0)), 0);
+const span = (hasNeg ? negMax : 0) + posMax || maxAbs;
+const zeroX = plotX + (hasNeg ? (negMax / span) * plotW : 0);
+const scale = plotW / span;
+
+function bar(v) {
+  const len = Math.abs(v) * scale;
+  const x = v >= 0 ? zeroX : zeroX - len;
+  return { x, len };
+}
+---
+
+<figure class="chart" role="img" aria-label={`Balkendiagramm: ${chart.title}`}>
+  <p class="chart__titel">{chart.title}</p>
+  {chart.subtitle && <p class="chart__untertitel">{chart.subtitle}</p>}
+  <svg viewBox={`0 0 ${W} ${H}`} aria-hidden="true">
+    <line class="achse achse--null" x1={zeroX} y1={padTop - 2} x2={zeroX} y2={H - padBottom + 2} />
+    {rows.map(([label, v], i) => {
+      const y = padTop + i * rowH;
+      const { x, len } = bar(v);
+      const positive = v >= 0;
+      const valueLabel = `${v > 0 ? "+" : ""}${formatNumberDE(v)}${chart.unit ?? ""}`;
+      const labelX = positive ? x + len + 6 : x - 6;
+      return (
+        <g>
+          <text x={labelW} y={y + rowH / 2 + 4} text-anchor="end" class="achsenlabel" font-size="12.5">{label}</text>
+          <rect
+            class={chart.allPositive || positive ? "balken--positiv" : "balken--negativ"}
+            x={x}
+            y={y + 5}
+            width={Math.max(len, 1)}
+            height={rowH - 12}
+          />
+          <text x={labelX} y={y + rowH / 2 + 4} text-anchor={positive ? "start" : "end"} class="wertlabel">{valueLabel}</text>
+        </g>
+      );
+    })}
+  </svg>
+  <figcaption class="chart__quelle">Quelle: {chart.source}</figcaption>
+  <details class="aufklapp datentabelle">
+    <summary>Datentabelle anzeigen</summary>
+    <div class="aufklapp__inhalt">
+      <table>
+        <thead><tr><th scope="col">Position</th><th scope="col">Wert{chart.unit ? ` (${chart.unit.trim()})` : ""}</th></tr></thead>
+        <tbody>
+          {rows.map(([label, v]) => (
+            <tr><td>{label}</td><td>{formatNumberDE(v)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+</figure>

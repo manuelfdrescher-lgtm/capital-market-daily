@@ -1,0 +1,53 @@
+---
+import LogoChip from "./LogoChip.astro";
+import LineChart from "./LineChart.astro";
+
+interface Props {
+  picks: any[];
+}
+const { picks } = Astro.props;
+---
+
+<div class="picks-grid">
+  {picks.map((p) => (
+    <section class="karte pick" aria-label={`Fallstudie ${p.name}`}>
+      <div class="pick__kopf">
+        <LogoChip logoKey={p.logoKey} name={p.name} />
+        <div>
+          <h3>{p.name}</h3>
+          <span class="pick__cap">{p.ticker} · Börsenwert {p.marketCapEUR}</span>
+        </div>
+      </div>
+      <span class={`confidence confidence--${p.confidence}`}>Confidence: {p.confidence}</span>
+      {p.whatTheyDo && <p class="pick__was">{p.whatTheyDo}</p>}
+      {p.priceSeries && p.priceSeries.length > 1 && (
+        <LineChart
+          id={`pick-${p.ticker}`}
+          chart={{
+            title: `${p.name}, Kursverlauf`,
+            unit: p.priceUnit ?? "",
+            source: p.priceSeriesSource ?? "Kursdaten siehe Fußzeile",
+            series: p.priceSeries,
+          }}
+        />
+      )}
+      <div class="pick__abschnitt">
+        <strong>These</strong>
+        {p.thesis}
+      </div>
+      <div class="pick__abschnitt">
+        <strong>Die stärksten Gegenargumente</strong>
+        <ul>{p.counterarguments.map((c) => <li>{c}</li>)}</ul>
+      </div>
+      <div class="pick__abschnitt">
+        <strong>Katalysatoren</strong>
+        <ul>{p.catalysts.map((c) => <li>{c}</li>)}</ul>
+      </div>
+      <div class="pick__abschnitt">
+        <strong>Quelle Börsenwert</strong>
+        {p.capSource}
+      </div>
+    </section>
+  ))}
+</div>
+<p class="ressort-untertitel" style="margin-top:18px">Analyse-Fallstudien zu Lernzwecken. Keine Kauf-, Verkaufs- oder Halteempfehlung.</p>

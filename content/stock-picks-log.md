@@ -1,0 +1,13 @@
+# Stock-Picks-Log
+
+Der stock-picker liest dieses Log vor jeder Auswahl und trägt seine drei
+Titel danach ein. Regel: Ein Titel, der in den letzten 30 Tagen hier steht,
+ist gesperrt (keine Wiederholungen).
+
+Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
+
+## Einträge
+
+- 2026-07-10-morning | Siltronic AG (WAF) | mittel _(Beispiel-Ausgabe)_
+- 2026-07-10-morning | Levi Strauss & Co. (LEVI) | niedrig _(Beispiel-Ausgabe)_
+- 2026-07-10-morning | Jenoptik AG (JEN) | mittel _(Beispiel-Ausgabe)_

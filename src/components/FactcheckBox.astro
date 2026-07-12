@@ -1,0 +1,18 @@
+---
+interface Props {
+  factcheck: any; // { claim, verdict, evidence }
+}
+const { factcheck } = Astro.props;
+const mod =
+  factcheck.verdict === "bestätigt"
+    ? "bestaetigt"
+    : factcheck.verdict === "unsicher"
+      ? "unsicher"
+      : "ungeprueft";
+---
+
+<aside class={`factcheck-box factcheck-box--${mod}`}>
+  <span class="factcheck-box__titel">Fact Check <span class="factcheck-box__verdict">{factcheck.verdict}</span></span>
+  <p style="margin:0 0 6px; font-style:italic">„{factcheck.claim}“</p>
+  <p style="margin:0"><strong>Beleg:</strong> {factcheck.evidence}</p>
+</aside>

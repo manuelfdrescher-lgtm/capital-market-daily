@@ -1,0 +1,16 @@
+---
+import Base from "../layouts/Base.astro";
+import Article from "../components/Article.astro";
+import RessortKopf from "../components/RessortKopf.astro";
+import { getLatestEdition } from "../lib/editions.mjs";
+
+const { data } = getLatestEdition();
+const artikel = data.articles.filter((a) => a.ressort === "unternehmen");
+---
+
+<Base title="Unternehmen" active="unternehmen" edition={data.edition}>
+  <RessortKopf level="h1" titel="Unternehmen" untertitel="Die spannendsten firmenspezifischen Entwicklungen, ohne Vorwissen verständlich, mit interaktiven Kurscharts." />
+  <hr class="ressort-linie" />
+  {artikel.length === 0 && <p style="text-align:center">Diese Ausgabe enthält keine Unternehmens-Artikel.</p>}
+  {artikel.map((a) => <Article article={a} />)}
+</Base>

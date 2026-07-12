@@ -1,0 +1,20 @@
+---
+// Ressort-Überschrift mit Kompass-Ornament und gestochenen Doppellinien.
+import CompassRose from "./CompassRose.astro";
+
+interface Props {
+  titel: string;
+  untertitel?: string;
+  level?: "h1" | "h2";
+}
+const { titel, untertitel, level = "h2" } = Astro.props;
+const Tag = level;
+---
+
+<div class="ressort-kopf">
+  <div class="ornament-linie" role="presentation">
+    <CompassRose size={26} withRing={false} />
+  </div>
+  <Tag class="ressort-titel">{titel}</Tag>
+  {untertitel && <p class="ressort-untertitel">{untertitel}</p>}
+</div>

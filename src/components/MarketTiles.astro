@@ -1,0 +1,29 @@
+---
+interface Props {
+  tiles: any[];
+  stand?: string;
+}
+const { tiles, stand } = Astro.props;
+const arrow = { up: "▲", down: "▼", flat: "◆" };
+---
+
+<section class="marktpanel" aria-label="Märkte im Überblick">
+  <div class="marktpanel__kopf">
+    <h2 class="marktpanel__titel">Märkte im Überblick</h2>
+    {stand && <span class="marktpanel__stand">{stand}</span>}
+  </div>
+  <div class="marktkacheln">
+    {tiles.map((t) => (
+      <div class="kachel">
+        <span class="kachel__label">{t.label}</span>
+        <span class="kachel__wert">{t.approx ? "ca. " : ""}{t.value}</span>
+        {t.delta && (
+          <span class={`kachel__delta kachel__delta--${t.direction}`}>
+            {arrow[t.direction]} {t.delta}
+          </span>
+        )}
+        {t.note && <span class="kachel__note">{t.note}</span>}
+      </div>
+    ))}
+  </div>
+</section>

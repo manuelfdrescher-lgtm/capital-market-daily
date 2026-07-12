@@ -1,0 +1,81 @@
+---
+// Vollständiger Artikel mit allen Redaktions-Komponenten.
+import SektorCheck from "./SektorCheck.astro";
+import GewinnerVerlierer from "./GewinnerVerlierer.astro";
+import FactcheckBox from "./FactcheckBox.astro";
+import CompanyPanel from "./CompanyPanel.astro";
+import SourcesList from "./SourcesList.astro";
+import BarChart from "./BarChart.astro";
+import LineChart from "./LineChart.astro";
+
+interface Props {
+  article: any;
+  lead?: boolean; // Leitartikel: h1, Initial, Zweispalter
+}
+const { article: a, lead = false } = Astro.props;
+const Headline = lead ? "h1" : "h2";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<article class={`artikel${lead ? " artikel--leit" : ""}`} id={a.id} data-pagefind-body>
+  <p class="kicker">{a.kicker}</p>
+  <Headline class="headline">{a.headline}</Headline>
+  <p class="dek">{a.dek}</p>
+  <p class="byline">Von der Capital-Compass-Redaktion</p>
+
+  {a.image && (
+    <figure class="artikel-bild">
+      <img src={`${base}/images/${a.image.file}`} alt={a.image.alt} loading={lead ? "eager" : "lazy"} />
+      {(a.image.caption || a.image.credit) && (
+        <figcaption>
+          <span>{a.image.caption}</span>
+          {a.image.credit && <span>{a.image.credit}</span>}
+        </figcaption>
+      )}
+    </figure>
+  )}
+
+  <div class={`artikel__body${lead ? " artikel__body--spalten" : ""}`}>
+    {a.body.map((absatz) => <p>{absatz}</p>)}
+  </div>
+
+  {a.factcheck && <FactcheckBox factcheck={a.factcheck} />}
+
+  {a.mechanik && (
+    <aside class="mechanik-box">
+      <span class="mechanik-box__titel">Mechanik einfach erklärt</span>
+      {a.mechanik.replace(/^Mechanik einfach erklärt:\s*/i, "")}
+    </aside>
+  )}
+
+  {a.charts?.map((chart, i) =>
+    chart.type === "bar" ? (
+      <BarChart chart={chart} id={`${a.id}-chart-${i}`} />
+    ) : (
+      <LineChart chart={chart} id={`${a.id}-chart-${i}`} />
+    )
+  )}
+
+  {a.company && <CompanyPanel company={a.company} articleId={a.id} />}
+
+  {a.sektorCheck && <SektorCheck sektorCheck={a.sektorCheck} />}
+
+  {a.gewinnerVerlierer && a.gewinnerVerlierer.length > 0 && (
+    <GewinnerVerlierer items={a.gewinnerVerlierer} />
+  )}
+
+  {a.vertiefung && (
+    <details class="aufklapp">
+      <summary>{a.vertiefung.titel}</summary>
+      <div class="aufklapp__inhalt">
+        {a.vertiefung.absaetze.map((p) => <p>{p}</p>)}
+      </div>
+    </details>
+  )}
+
+  {a.lehre && (
+    <p class="lehre"><strong>Die Lehre</strong> · {a.lehre.replace(/^Die Lehre:\s*/i, "")}</p>
+  )}
+
+  <SourcesList sources={a.sources} compact={true} />
+</article>
