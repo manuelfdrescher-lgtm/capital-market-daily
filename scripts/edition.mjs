@@ -11,12 +11,16 @@
 //   1. Markt-Schnappschuss von Alpha Vantage (Budget: 10 morgens / 12 abends)
 //   2. Agenten-Redaktion über Claude Code (Subagents unter .claude/agents/)
 //   3. Zod-Validierung (invalide Ausgaben gehen nie live)
-//   4. Fehlende Logos nachladen, Build als Rauchtest
-//   5. Commit + Push (löst das Pages-Deployment aus)
+//   4. Fehlende Logos nachladen, Build mit richtigem Pages-Basispfad
+//   5. Quellcode committen + pushen (main)
+//   6. Gebaute Seite live schalten (gh-pages-Zweig)
+//   7. Live-Erreichbarkeit selbst verifizieren (nie nur behaupten)
+//   8. Mail an manuel.f.drescher@gmail.com (kostenlos, Gmail-SMTP; übersprungen ohne Zugangsdaten)
 import { execFileSync, spawnSync } from "node:child_process";
-import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, mkdtempSync, cpSync, writeFileSync as wf } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { tmpdir } from "node:os";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -132,20 +136,56 @@ if (!existsSync(editionPath)) {
 }
 run("node", ["scripts/validate.mjs"]);
 
-// ---------- Phase 4: Logos + Build als Rauchtest ----------
+// ---------- Phase 4: Logos + Build (mit richtigem Pages-Basispfad) ----------
 run("node", ["scripts/fetch-logos.mjs"]);
-run("npm", ["run", "build"]);
+run("npm", ["run", "build"], {
+  env: { ...process.env, GITHUB_REPOSITORY: "manuelfdrescher-lgtm/capital-market-daily" },
+});
 
-// ---------- Phase 5: Commit + Push ----------
+// ---------- Phase 5: Quellcode committen + pushen (main, gesichert bei GitHub) ----------
 if (has("no-commit")) {
   console.log(`\n✅ Ausgabe ${slug} erzeugt und validiert (ohne Commit).`);
   process.exit(0);
 }
-run("git", ["add", "content/", "public/logos/"]);
+run("git", ["add", "content/", "public/logos/", "public/images/"]);
 run("git", ["commit", "-m", `Ausgabe ${slug}`]);
-if (!has("no-push")) {
-  run("git", ["push"]);
-  console.log("\n✅ Gepusht. GitHub Actions baut und veröffentlicht die Ausgabe.");
-} else {
-  console.log("\n✅ Committet (ohne Push).");
+if (has("no-push")) {
+  console.log("\n✅ Committet (ohne Push/Deploy/Mail).");
+  process.exit(0);
 }
+run("git", ["push"]);
+
+// ---------- Phase 6: gebaute Seite live schalten (gh-pages-Zweig) ----------
+wf(join(root, "dist", ".nojekyll"), "");
+const tmp = mkdtempSync(join(tmpdir(), "cmd-deploy-"));
+cpSync(join(root, "dist"), tmp, { recursive: true });
+run("git", ["init", "-q", "-b", "gh-pages"], { cwd: tmp });
+run("git", ["config", "http.postBuffer", "524288000"], { cwd: tmp });
+run("git", ["config", "http.version", "HTTP/1.1"], { cwd: tmp });
+run("git", ["-c", "user.name=Capital Compass Redaktion", "-c", "user.email=actions@users.noreply.github.com", "add", "-A"], { cwd: tmp });
+run("git", ["-c", "user.name=Capital Compass Redaktion", "-c", "user.email=actions@users.noreply.github.com", "commit", "-q", "-m", `Deploy: ${slug}`], { cwd: tmp });
+run("git", ["remote", "add", "origin", "https://github.com/manuelfdrescher-lgtm/capital-market-daily.git"], { cwd: tmp });
+run("git", ["push", "-f", "origin", "gh-pages"], { cwd: tmp });
+
+// ---------- Phase 7: live verifizieren (nie nur behaupten) ----------
+const editionUrl = `https://manuelfdrescher-lgtm.github.io/capital-market-daily/ausgabe/${slug}/`;
+console.log(`\n▶ Verifiziere live: ${editionUrl}`);
+let live = false;
+for (let i = 0; i < 8; i++) {
+  await new Promise((r) => setTimeout(r, 15000));
+  try {
+    const res = await fetch(editionUrl);
+    if (res.ok) { live = true; break; }
+  } catch { /* weiter versuchen */ }
+  console.log(`   … noch nicht live (Versuch ${i + 1}/8)`);
+}
+if (!live) {
+  console.error(`❌ Ausgabe nach 2 Minuten nicht live erreichbar: ${editionUrl}`);
+  process.exit(1);
+}
+console.log(`✅ Live bestätigt: ${editionUrl}`);
+
+// ---------- Phase 8: E-Mail (kostenlos über Gmail-SMTP, überspringt sich selbst ohne Zugangsdaten) ----------
+run("node", ["scripts/send-mail.mjs", "--slug", slug]);
+
+console.log(`\n✅ Ausgabe ${slug} vollständig: erzeugt, validiert, live, Mail verschickt (falls konfiguriert).`);
