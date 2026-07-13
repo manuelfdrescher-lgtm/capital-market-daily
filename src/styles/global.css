@@ -298,6 +298,14 @@ a:hover { text-decoration-color: var(--akzent-rot); }
 }
 
 .kachel {
+  /* Subgrid: Label/Wert/Delta/Notiz jeder Kachel greifen auf dieselben
+     vier Zeilen-Spuren des übergeordneten Grids zu. So bestimmt die
+     längste Notiz/der längste Wert einer Reihe die Zeilenhöhe für alle
+     Kacheln dieser Reihe — unabhängig von unterschiedlich langem Text
+     fluchten Wert, Delta und Notiz immer auf gleicher Höhe. */
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
   min-width: 0;
   background: var(--karte);
   padding: 11px 14px 10px;
@@ -309,25 +317,31 @@ a:hover { text-decoration-color: var(--akzent-rot); }
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--tinte-60);
-  display: block;
-  min-height: 2.4em;
+  align-self: start;
 }
 .kachel__wert {
   font-size: 21px;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  display: block;
+  align-self: start;
   margin-top: 2px;
 }
 .kachel__delta {
   font-size: 14px;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
+  align-self: start;
+  line-height: 1.3;
 }
 .kachel__delta--up { color: var(--positiv); }
 .kachel__delta--down { color: var(--negativ); }
 .kachel__delta--flat { color: var(--neutral); }
-.kachel__note { font-size: 11.5px; color: var(--tinte-40); display: block; margin-top: 2px; }
+/* Kacheln ohne Delta (z. B. Leitzins, EZB-Einlagenzins) rendern die
+   Zeile trotzdem unsichtbar: nötig, damit Label/Wert/Delta/Notiz in
+   Dokumentreihenfolge auf die vier Subgrid-Zeilenspuren der Kachel
+   abgebildet werden, statt dass die Notiz in die Delta-Spur rutscht. */
+.kachel__delta--leer { visibility: hidden; }
+.kachel__note { font-size: 11.5px; color: var(--tinte-40); align-self: start; margin-top: 2px; }
 
 @media (max-width: 720px) {
   .marktkacheln { grid-template-columns: repeat(2, 1fr); }

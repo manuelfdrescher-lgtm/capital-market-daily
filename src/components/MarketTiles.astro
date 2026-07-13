@@ -27,11 +27,9 @@ const luecke = zweiteReihe > 0 ? spalten - zweiteReihe : 0;
       >
         <span class="kachel__label">{t.label}</span>
         <span class="kachel__wert">{t.approx ? "ca. " : ""}{t.value}</span>
-        {t.delta && (
-          <span class={`kachel__delta kachel__delta--${t.direction}`}>
-            {arrow[t.direction]} {t.delta}
-          </span>
-        )}
+        <span class={t.delta ? `kachel__delta kachel__delta--${t.direction}` : "kachel__delta kachel__delta--leer"}>
+          {t.delta ? `${arrow[t.direction]} ${t.delta}` : " "}
+        </span>
         {t.note && <span class="kachel__note">{t.note}</span>}
       </div>
     ))}

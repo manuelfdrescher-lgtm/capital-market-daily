@@ -109,7 +109,7 @@ ARBEITSAUFTRAG (Reihenfolge einhalten, Subagents über das Task-Tool aufrufen):
 15. Subagent design-qa: node scripts/design-qa.mjs ausführen, Screenshots prüfen, Layout-Fehler beheben. Kein Release mit Layout-Fehlern.
 
 VERBINDLICHE REGELN:
-- Markt-Kacheln: nur belegte Werte aus dem Markt-Schnappschuss oder mit approx:true aus Tier-1/2-Quellen (Quelle in note). Pflicht-Kacheln: S&P 500, Nasdaq, Dow, Russell, DAX, VIX (Volatilitätsindex, das Angstbarometer der Wall Street), 10-jährige US-Rendite, Öl, Leitzins, Bitcoin.
+- Markt-Kacheln: nur belegte Werte aus dem Markt-Schnappschuss oder mit approx:true aus Tier-1/2-Quellen (Quelle in note). Pflicht-Kacheln (genau 12, für ein sauberes 6+6-Layout ohne Restfläche): S&P 500, Nasdaq, Dow, Russell, DAX, VIX (Volatilitätsindex, das Angstbarometer der Wall Street), 10-jährige US-Rendite, US-Hypothekenzins (10 Jahre; ist dieser Tageswert nicht beschaffbar, ehrlich mit Stand-Datum und ggf. Vergleichswert des 30-jährigen Hypothekenzinses ausweisen statt fehlender Angabe), Öl, Leitzins, Bitcoin, EZB-Einlagenzins.
 - Charts ausschließlich aus belegten Zahlen (Markt-Schnappschuss, company-Dateien oder verifizierte Zahlen aus Primärquellen). Nie Datenpunkte erfinden.
 - Logos ausschließlich lokal aus public/logos/ (Original-Logos über npm run logos); Bilder ausschließlich lokal aus public/images/.
 - Sprachregeln aus den Agenten-Prompts gelten für jeden Satz. Keine Anlageempfehlungen.
