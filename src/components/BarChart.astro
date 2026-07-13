@@ -16,12 +16,21 @@ const rowH = 30;
 const padTop = 6;
 const padBottom = 6;
 const labelW = 150;
-const valueW = 62;
 const H = padTop + rows.length * rowH + padBottom;
 
 const maxAbs = Math.max(...rows.map(([, v]) => Math.abs(v)), 1e-9);
 const hasNeg = !chart.allPositive && rows.some(([, v]) => v < 0);
-const plotX = labelW + 8;
+
+// Wertelabel-Breite dynamisch aus dem längsten formatierten Wert schätzen
+// (Schriftgröße 12.5px, tabular-nums ≈ 7.2px je Zeichen plus etwas Puffer).
+const valueStrings = rows.map(([, v]) =>
+  `${!chart.absolute && v > 0 ? "+" : ""}${formatNumberDE(v)}${chart.unit ?? ""}`
+);
+const valueW = Math.ceil(Math.max(1, ...valueStrings.map((s) => s.length)) * 7.2) + 10;
+
+// Bei negativen Balken links einen Gutter in Wertelabel-Breite reservieren,
+// damit das Label des tiefsten Balkens nicht in die Kategorie-Labels läuft.
+const plotX = labelW + 8 + (hasNeg ? valueW : 0);
 const plotW = W - plotX - valueW;
 // Null-Linie: bei nur positiven Werten ganz links, sonst proportional
 const negMax = hasNeg ? Math.max(...rows.filter(([, v]) => v < 0).map(([, v]) => Math.abs(v))) : 0;

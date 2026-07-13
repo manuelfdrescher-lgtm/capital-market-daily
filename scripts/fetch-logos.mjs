@@ -67,6 +67,8 @@ const MANUAL_COMMONS = {
   meta: "Meta Platforms Inc. logo.svg",
   shein: "Shein Logo 2017.svg",
   fresenius: "Fresenius Logo.svg",
+  exxonmobil: "Exxon Mobil Logo.svg",
+  frontline: "Frontline Logo.svg",
 };
 
 // Bekannte Markenfarben für den typografischen Fallback-Chip
