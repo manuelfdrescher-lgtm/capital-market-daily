@@ -292,12 +292,13 @@ a:hover { text-decoration-color: var(--akzent-rot); }
 
 .marktkacheln {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(var(--mk-spalten, 6), 1fr);
   gap: 1px;
   background: var(--haarlinie);
 }
 
 .kachel {
+  min-width: 0;
   background: var(--karte);
   padding: 11px 14px 10px;
   font-family: var(--sans);
@@ -327,6 +328,11 @@ a:hover { text-decoration-color: var(--akzent-rot); }
 .kachel__delta--down { color: var(--negativ); }
 .kachel__delta--flat { color: var(--neutral); }
 .kachel__note { font-size: 11.5px; color: var(--tinte-40); display: block; margin-top: 2px; }
+
+@media (max-width: 720px) {
+  .marktkacheln { grid-template-columns: repeat(2, 1fr); }
+  .kachel { grid-column: auto !important; }
+}
 
 /* ---------- Ressort-Köpfe ---------- */
 
