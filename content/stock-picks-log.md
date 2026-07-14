@@ -20,3 +20,6 @@ Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
 - 2026-07-13-evening | Camtek Ltd. (CAMT) | mittel
 - 2026-07-13-evening | Frontline plc (FRO) | mittel
 - 2026-07-13-evening | Wizz Air Holdings plc (WIZZ) | mittel
+- 2026-07-13-morning | DHT Holdings (DHT) | niedrig _(Cowork-Ausgabe, nachtr. eingespielt)_
+- 2026-07-13-morning | Camtek (CAMT) | niedrig _(Cowork-Ausgabe, nachtr. eingespielt; Kollision mit 2026-07-13-evening — beide Systeme wählten Camtek unabhängig voneinander vor der Rückkanal-Synchronisierung)_
+- 2026-07-13-morning | AeroVironment (AVAV) | niedrig _(Cowork-Ausgabe, nachtr. eingespielt)_

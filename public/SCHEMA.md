@@ -14,6 +14,10 @@ Prüfen per `npm run validate` (alle Editionen) oder `npm run ingest <datei>` (e
 - Fakten, Interpretation und Unsicherheit strikt trennen. Keine Anlageempfehlungen.
 - Charts ausschließlich aus belegten Zahlen. Fehlende Daten heißen ausdrücklich
   `"keine Sektordaten belegt"` oder tragen `approx: true`.
+- Markt-Kacheln (`market.tiles[].value`): **niemals** "ca." als Text in den Wert schreiben,
+  das übernimmt die Anzeige automatisch aus `approx: true`. Sonst erscheint "ca. ca. …".
+  `edition.dataAsOf` bleibt ein kurzer Satz (Datenstand), keine Methodik-Absätze – die
+  gehören ins `verificationLog`.
 - `sektorCheck` enthält, wenn vorhanden, **alle 11 GICS-Sektoren** (Energie, Grundstoffe,
   Industrie, Zyklischer Konsum, Basiskonsum, Gesundheit, Finanzen, Informationstechnologie,
   Kommunikation, Versorger, Immobilien). `branchenMonitor` immer genau diese 11.
@@ -31,7 +35,7 @@ Prüfen per `npm run validate` (alle Editionen) oder `npm run ingest <datei>` (e
     "number": 5,                       // fortlaufende Ausgabennummer, ganzzahlig
     "date": "2026-07-11",              // JJJJ-MM-TT
     "slot": "morning",                 // "morning" | "evening"
-    "dataAsOf": "Kurse: US-Schluss 10. Juli; News bis 06:15 MESZ",
+    "dataAsOf": "Kurse: US-Schluss 10. Juli; News bis 06:15 MESZ",  // EIN kurzer Satz; wird auf der Seite NICHT angezeigt (nur Metadaten), Methodik-Details gehören ins verificationLog
     "generatedAt": "2026-07-11T05:02:11Z",   // ISO-Zeit
     "isExample": false                 // true nur für Beispiel-/Demodaten
   },
@@ -43,7 +47,7 @@ Prüfen per `npm run validate` (alle Editionen) oder `npm run ingest <datei>` (e
         "value": "7.543,64",
         "delta": "+0,81 %",            // optional
         "direction": "up",             // "up" | "down" | "flat"
-        "approx": false,               // true = ca.-Angabe aus Sekundärquelle
+        "approx": true,                // true = Kachel zeigt automatisch "ca. " vor dem Wert
         "note": "Schlusskurs Vortag"   // optional, z. B. Datenstand
       }
     ]

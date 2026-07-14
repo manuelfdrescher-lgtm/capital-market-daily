@@ -27,6 +27,13 @@
       "slot": "evening",
       "url": "https://manuelfdrescher-lgtm.github.io/capital-market-daily/ausgabe/2026-07-13-evening/",
       "headline": "Öl springt, Chips stürzen, Gold fällt: ein Schock, vier Kanäle"
+    },
+    {
+      "number": 5,
+      "date": "2026-07-13",
+      "slot": "morning",
+      "url": "https://manuelfdrescher-lgtm.github.io/capital-market-daily/ausgabe/2026-07-13-morning/",
+      "headline": "Seoul im Ausverkauf: Kospi verliert über fünf Prozent, SK Hynix stürzt zwei Handelstage nach dem Rekord-Debüt zweistellig"
     }
   ],
   "recentStockPicks": [
@@ -89,7 +96,22 @@
       "slug": "2026-07-13-evening",
       "name": "Wizz Air Holdings plc (WIZZ)",
       "confidence": "mittel"
+    },
+    {
+      "slug": "2026-07-13-morning",
+      "name": "DHT Holdings (DHT)",
+      "confidence": "niedrig"
+    },
+    {
+      "slug": "2026-07-13-morning",
+      "name": "Camtek (CAMT)",
+      "confidence": "niedrig"
+    },
+    {
+      "slug": "2026-07-13-morning",
+      "name": "AeroVironment (AVAV)",
+      "confidence": "niedrig"
     }
   ],
-  "lastUpdated": "2026-07-13T23:59:47.230Z"
+  "lastUpdated": "2026-07-14T02:11:41.112Z"
 }

@@ -390,5 +390,31 @@
     "license": "Public domain",
     "artist": "Wizz Air",
     "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "dht": {
+    "file": null,
+    "name": "DHT Holdings (Fr)",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "vw": {
+    "file": null,
+    "name": "Volkswagen Vz.",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "fraport": {
+    "file": "fraport.svg",
+    "name": "Fraport",
+    "source": "https://commons.wikimedia.org/wiki/File:Fraport_logo_2016.svg",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "aerovironment": {
+    "file": "aerovironment.png",
+    "name": "AeroVironment",
+    "source": "https://commons.wikimedia.org/wiki/File:AeroVironment_Logo.png",
+    "license": "CC0",
+    "artist": "Avincreports",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
   }
 }

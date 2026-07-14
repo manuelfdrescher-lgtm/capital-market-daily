@@ -1,0 +1,1037 @@
+{
+  "edition": {
+    "number": 5,
+    "date": "2026-07-13",
+    "slot": "morning",
+    "dataAsOf": "Asien-Handel Mo früh (Kospi-Schluss lag bei Redaktionsschluss nicht vor), US/EU Freitagsschluss 10.7. Nummer 4 folgt der Website-Zählung (Nr. 3 = So 12.7., 19 Uhr).",
+    "generatedAt": "2026-07-13T05:00:00Z"
+  },
+  "market": {
+    "tiles": [
+      {
+        "label": "Kospi (Mo, im Handel)",
+        "value": "7.058,82",
+        "delta": "−5,6 %",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "Nikkei 225 (Mo)",
+        "value": "−1,0 %",
+        "delta": "Öl und Chips belasten",
+        "direction": "down",
+        "approx": true
+      },
+      {
+        "label": "S&P-500-Futures",
+        "value": "−0,3 %",
+        "delta": "Nasdaq-Futures −0,5 %",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "Brent (Mo früh)",
+        "value": "78,50–79,24 $",
+        "delta": "+3,3 bis +5 %",
+        "direction": "up",
+        "approx": true
+      },
+      {
+        "label": "WTI (Mo früh)",
+        "value": "73,83 $",
+        "delta": "+3,4 %",
+        "direction": "up",
+        "approx": false
+      },
+      {
+        "label": "Gold (Mo früh)",
+        "value": "4.076 $",
+        "delta": "−1,1 %",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "US-Anleihen 10J",
+        "value": "4,59 %",
+        "delta": "+2 Basispunkte",
+        "direction": "up",
+        "approx": false
+      },
+      {
+        "label": "EUR/USD",
+        "value": "1,1403",
+        "delta": "Dollar-Index 101,12",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "S&P 500 (Fr-Schluss)",
+        "value": "7.575,39",
+        "delta": "+0,42 %",
+        "direction": "up",
+        "approx": false
+      },
+      {
+        "label": "DAX (Fr-Schluss)",
+        "value": "25.067,09",
+        "delta": "−0,20 %",
+        "direction": "down",
+        "approx": false
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "kospi-crash-sk-hynix",
+      "ressort": "titelseite",
+      "kicker": "Leitartikel · Südkorea · KI-Speicher",
+      "headline": "Seoul im Ausverkauf: Kospi verliert über fünf Prozent, SK Hynix stürzt zwei Handelstage nach dem Rekord-Debüt zweistellig",
+      "dek": "Der südkoreanische Leitindex fiel am Montag um 5,6 Prozent, die Börse stoppte zeitweise programmgesteuerte Verkäufe. Ausgerechnet SK Hynix, dessen US-Börsengang am Freitag noch gefeiert wurde, verlor in Seoul rund zehn Prozent. Der Markt beginnt zu bezweifeln, dass sich die gigantischen KI-Investitionen in neue Chipfabriken je verzinsen.",
+      "body": [
+        "Der Montag begann in Seoul harmlos. Um kurz nach Handelsstart notierte der Kospi 0,4 Prozent im Minus, SK Hynix verlor gut vier Prozent, was nach dem Kurssprung von 12,8 Prozent beim Nasdaq-Debüt am Freitag wie normale Gewinnmitnahme aussah. Dann beschleunigte sich der Abverkauf: Bis zum Vormittag stand der Index 5,6 Prozent tiefer bei 7.058,82 Punkten, SK Hynix verlor 10,1 Prozent, und die Börse löste einen sogenannten Sidecar aus, eine automatische Bremse, die programmgesteuerte Verkaufsaufträge für einige Minuten anhält.",
+        "Drei Kräfte wirken zusammen. Erstens die Gewinnmitnahme: Wer die Aktie in Seoul hielt, konnte den US-Kurssprung als Ausstiegsgelegenheit nutzen, und nach einem Jahr, in dem sich der Kospi zeitweise mehr als verdoppelt hatte, sitzen viele Anleger auf hohen Buchgewinnen. Zweitens der Zweck des Börsengangs selbst: Die eingesammelten 26,5 Milliarden Dollar sollen ausdrücklich in neue Fabriken und Maschinen fließen. Neue Fabriken bedeuten künftig mehr Speicherchips am Markt, und mehr Angebot drückt irgendwann die Preise, von denen die heutigen Rekordgewinne leben. Es ist dieselbe Logik, die Anfang Juli schon Samsungs Rekordprognose in einen Kursverlust verwandelte. Drittens senken laut koreanischer Wirtschaftspresse erste Analysten ihre Gewinnschätzungen für SK Hynix.",
+        "Bemerkenswert ist, was diesmal fehlt: eine Nachricht. Kein Unternehmen hat Zahlen vorgelegt, kein Großkunde hat Bestellungen storniert. Der Absturz speist sich aus Positionierung und Erwartungsrevision. Für den weiteren Tag wird der zweite US-Handelstag der SK-Hynix-Papiere zum Preistest: Hält der Kurs deutlich über dem Ausgabepreis von 149 Dollar, bleibt die US-Nachfrage intakt. Rutscht er dorthin ab, bestätigt das die Skeptiker, die eine Umschichtung von Chipherstellern zu deren Großkunden, den Cloud-Konzernen, erwarten."
+      ],
+      "mechanik": "Der Emissionserlös von 26,5 Milliarden Dollar ist für neue Fabriken bestimmt. Für Anleger ist das ein zweischneidiges Schwert: Kurzfristig sichern knappe Chips Rekordpreise, aber jede neue Fabrik rückt den Tag näher, an dem das Angebot die Nachfrage übersteigt und die Preise kippen. Der Markt bezahlt deshalb ausgerechnet in der besten Gewinnphase die niedrigsten Bewertungsaufschläge, weil er das Ende der Knappheit bereits einrechnet. Fachleute nennen das die Zykliker-Falle.",
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Speicherhersteller werden neu bewertet, weil Analysten bei hohen Ausbauplänen ein späteres Überangebot und fallende Chippreise befürchten.",
+          "teilbranchen": "SK Hynix, Samsung, Micron; Ausrüster ASML, Applied Materials, Tokyo Electron"
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Der IPO-Erlös war für Fabrik- und Anlagenbau vorgesehen; Zweifel daran sind eine Erwartungskorrektur für Reinraum-, Strom- und Kühlungsanbieter.",
+          "teilbranchen": "Vertiv, Eaton, Schneider Electric, Fab-Baukonzerne"
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Chipfabriken verbrauchen Spezialchemikalien, Industriegase und Reinstsilizium; Auslastungszweifel treffen die Zulieferer.",
+          "teilbranchen": "Shin-Etsu, Sumco, Linde, Air Liquide"
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Koreanische Broker tragen Risiko aus kreditfinanzierten Aktienkäufen; die begleitenden Investmentbanken haben am Börsengang bereits verdient.",
+          "teilbranchen": "Mirae Asset, Korea Investment, Goldman Sachs, Morgan Stanley"
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Hyperscaler kaufen Speicher in großen Mengen; ein späteres Überangebot würde ihre Kosten senken, dorthin zielt die Umschichtungs-Empfehlung von Morgan Stanley.",
+          "teilbranchen": "Alphabet, Meta, Cloud-Plattformen"
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Rechenzentrums-REITs hängen an der Mietnachfrage der Cloud-Anbieter; die Sorge betrifft bislang die vorgelagerte Chipfertigung.",
+          "teilbranchen": "Equinix, Digital Realty"
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Die Stromnachfrage der Rechenzentren ändert sich durch einen Bewertungsrücksetzer nicht, solange Hyperscaler ihre Pläne nicht kürzen.",
+          "teilbranchen": "Constellation Energy, Vistra"
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Kein direkter Kanal; Randaspekt ist der Vermögenseffekt der stark in Aktien investierten koreanischen Privatanleger. Billigerer Speicher würde Geräteherstellern helfen.",
+          "teilbranchen": "Konsumelektronik"
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Kein fundamentaler Kanal; in Ausverkaufsphasen fließt Geld als Umschichtung in defensive Titel.",
+          "teilbranchen": "Nestlé, Procter & Gamble"
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Betroffen sind höchstens koreanische Indexwerte im allgemeinen Sog; das ist Indexdruck, keine Neubewertung.",
+          "teilbranchen": "Samsung Biologics"
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Strom- und Gasbedarf der Rechenzentren bleibt unberührt, solange der KI-Ausbau real weiterläuft.",
+          "teilbranchen": "Öl- und Gaskonzerne"
+        }
+      ],
+      "gewinnerVerlierer": [
+        {
+          "firma": "SK Hynix (Seoul, Mo)",
+          "logoKey": "skhynix",
+          "bewegung": "−10,1 %",
+          "warum": "Gewinnmitnahmen nach dem US-Debüt plus erste gesenkte Gewinnschätzungen."
+        },
+        {
+          "firma": "Samsung Electronics",
+          "logoKey": "samsung",
+          "bewegung": "unter Druck, kein belegter Wert",
+          "warum": "Gleiche Überangebots-Sorge, eigener Rekord-Investitionsplan."
+        },
+        {
+          "firma": "Micron (Fr)",
+          "logoKey": "micron",
+          "bewegung": "−1,2 %",
+          "warum": "US-Read-Across hielt sich am Freitag deutlich besser als Seoul."
+        }
+      ],
+      "lehre": "Die Lehre: Ein gefeierter Börsengang beantwortet nicht die Bewertungsfrage. Er verschiebt sie nur an den nächsten Handelstag.",
+      "charts": [],
+      "company": {
+        "name": "SK Hynix",
+        "ticker": "000660 / SKHY",
+        "exchange": "Seoul / Nasdaq",
+        "logoKey": "skhynix",
+        "whatTheyDo": "Weltmarktführer bei HBM (High Bandwidth Memory, gestapelter Hochleistungsspeicher, der direkt neben den KI-Rechenchips sitzt) und Hauptlieferant von Nvidia. Im ersten Quartal kamen rund 56 Prozent des Umsatzes aus diesem Spezialspeicher, die operative Marge lag bei etwa 71 Prozent.",
+        "whyItMatters": "Kein börsennotiertes Unternehmen hängt so rein am KI-Speicher-Boom. Sein Kurs ist das Fieberthermometer der gesamten Wette.",
+        "keyMetrics": [
+          [
+            "Kospi (Mo, im Handel)",
+            "7.058,82 · −5,6 %"
+          ],
+          [
+            "SK Hynix Seoul (Mo)",
+            "−10,1 %"
+          ],
+          [
+            "Nasdaq-Debüt (Fr)",
+            "+12,8 % auf 168,01 $"
+          ],
+          [
+            "Ausgabepreis",
+            "149 $"
+          ],
+          [
+            "Emissionserlös",
+            "26,5 Mrd. $"
+          ]
+        ]
+      },
+      "factcheck": {
+        "claim": "Kospi stürzt mehr als fünf Prozent ab",
+        "verdict": "bestätigt",
+        "evidence": "BSS/AFP: −5,6 % auf 7.058,82; Korea JoongAng Daily meldet den Sell-Side-Sidecar; investinglive nennt bis −7 % intraday (einquellig). Schlussstand lag bei Redaktionsschluss nicht vor; frühe Reuters-Stände (−0,4 %) beschreiben den Verlaufsbeginn."
+      },
+      "sources": [
+        {
+          "title": "BSS/AFP: South Korea's Kospi dives more than 5%, SK hynix down 10%",
+          "url": "https://www.bssnews.net/business/405001",
+          "tier": 2
+        },
+        {
+          "title": "Reuters via Yahoo Finance: Shares slip in Asia as oil jumps on Gulf attacks",
+          "url": "https://finance.yahoo.com/markets/articles/shares-slip-asia-oil-jumps-002452563.html",
+          "tier": 2
+        },
+        {
+          "title": "Yahoo Finance: SK Hynix shares fall as much as 4.4% in Seoul",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-shares-fall-much-003035107.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "golf-eskalation-oel",
+      "ressort": "makro",
+      "kicker": "Geopolitik · Energie",
+      "headline": "Größte Angriffswelle des Konflikts: Über 300 US-Schläge, Iran beschießt erstmals fünf Nachbarstaaten, Öl springt zurück über 79 Dollar",
+      "dek": "Iran erklärt die Straße von Hormus für geschlossen, das US-Zentralkommando widerspricht und eskortiert Frachter. Der Ölmarkt bepreist Störungsrisiko, keine Blockade.",
+      "body": [
+        "Die USA griffen in drei Nächten mehr als 300 iranische Ziele an, darunter Luftabwehr, Radar und Anti-Schiffs-Stellungen bei Bandar Abbas und auf der Insel Qeschm. Iran erklärte die Straße von Hormus für den Verkehr geschlossen und feuerte erstmals seit Monaten auf Ziele in Katar, den Vereinigten Arabischen Emiraten, Jordanien, Kuwait und Oman.",
+        "Das US-Zentralkommando widerspricht der Schließung und meldet rund 20 eskortierte Schiffe in 24 Stunden, Schiffstracking zeigt aber stark reduzierten Verkehr; laut UN warten rund 6.000 Seeleute in der Region. Brent stieg Montag früh um mehr als drei Prozent auf 78,50 bis 79,24 Dollar, WTI auf 73,83 Dollar. Das ist ein deutlicher Risikoaufschlag, aber weit entfernt vom Kriegshoch des Frühjahrs um 120 Dollar."
+      ],
+      "mechanik": "Im Ölpreis steckt jetzt eine Kriegsprämie: ein Aufschlag, der sich grob aus Wahrscheinlichkeit mal Schadenshöhe einer echten Lieferunterbrechung ergibt. Rund ein Fünftel des weltweiten Öls fährt durch Hormus. Solange physisch weiter Öl fließt, bleibt die Prämie ein Wahrscheinlichkeitsaufschlag von wenigen Dollar, der bei Entspannung binnen Tagen wieder verschwindet. Erst wenn Lieferungen tatsächlich ausfallen, würden Analysten ihre Gewinn- und Inflationsschätzungen anpassen und aus dem Aufschlag würde ein neues Preisniveau.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Warum der Ölmarkt eine erklärte Schließung nicht voll einpreist",
+        "absaetze": [
+          "Preise messen Erwartungen, keine Erklärungen. Iran hat die Schließung erklärt, das US-Militär eskortiert weiter Schiffe. Der Markt bepreist deshalb ein Spektrum von Szenarien: volle Blockade (Öl weit über 100 Dollar), Dauerstörung mit Umwegen und Prämien (80 bis 90 Dollar), schnelle Deeskalation (zurück Richtung 70). Der aktuelle Preis um 79 Dollar sagt: Die Blockade gilt als möglich, aber unwahrscheinlich.",
+          "Warum nicht einfach absichern? Absicherung kostet. Wer als Airline oder Chemiekonzern Öl auf Termin kauft, zahlt die Angst der anderen mit. Nach mehreren Fehlalarmen in diesem Konflikt (das Kriegshoch von rund 120 Dollar im Frühjahr wurde vollständig abgebaut) sind viele Marktteilnehmer vorsichtig geworden. Das birgt das Spiegelrisiko: Wenn alle das milde Szenario erwarten, trifft eine echte Blockade einen unabgesicherten Markt umso härter.",
+          "Woran man den Ernstfall erkennen würde: an der Terminkurve (steigen auch die Preise für Lieferung in 6 bis 12 Monaten, glaubt der Markt an eine lange Störung), an den Frachtraten und Kriegsversicherungsprämien der Tanker und an den physischen Exportdaten aus dem Golf. Tagesmeldungen bewegen den Preis, diese drei Größen bewegen die Weltwirtschaft."
+        ]
+      },
+      "sektorCheck": [
+        {
+          "sektor": "Energie",
+          "betroffenheit": "direkt",
+          "richtung": "gemischt",
+          "mechanismus": "Förderer verdienen je Barrel sofort mehr bei fast gleichen Kosten; Tanker profitieren doppelt über Kriegsprämien und Umwege.",
+          "teilbranchen": "ExxonMobil, Shell, Equinor; Frontline, DHT, Hafnia; Verlierer: Golf-Anlagen, Raffinerien"
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "direkt",
+          "richtung": "gemischt",
+          "mechanismus": "Rüstung gewinnt über Munitions- und Luftabwehrverbrauch, Airlines verlieren über Kerosin und gesperrte Lufträume, Container-Reeder liegen dazwischen.",
+          "teilbranchen": "Rheinmetall, RTX, Lockheed; Lufthansa, IAG; Maersk"
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Teureres Benzin wirkt wie eine Steuer auf Haushalte und trifft verschiebbare Ausgaben zuerst.",
+          "teilbranchen": "Reise, Kreuzfahrt (Carnival, TUI), Auto, Luxus"
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Chemie zahlt mehr für Öl und Gas; fallen Petrochemie-Mengen am Golf aus, profitieren westliche Anbieter von steigenden Preisen.",
+          "teilbranchen": "BASF, Dow; Yara, OCI"
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Seeversicherer setzen höhere Kriegsrisikoprämien durch, tragen aber Schäden; Banken profitieren von länger hohen Zinsen, riskieren mehr Ausfälle.",
+          "teilbranchen": "Lloyd's-Markt, Munich Re; Großbanken"
+        },
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Kaum Golfgeschäft, aber der Zinskanal wirkt: Öl-Inflation macht ferne Zukunftsgewinne rechnerisch weniger wert.",
+          "teilbranchen": "Hoch bewertete Wachstumswerte, Nasdaq-Schwergewichte"
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Ein großer Teil des weltweiten Flüssigerdgases (LNG) kommt aus Katar durch Hormus; Blockade würde Gaspreise treiben. Zinsen belasten den verschuldeten Sektor.",
+          "teilbranchen": "Gasimporteure, Stadtwerke; Eigenerzeuger wie RWE"
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Stützt der Ölschub die Zinserwartung, verteuern sich Refinanzierungen und Bewertungen sinken rechnerisch.",
+          "teilbranchen": "Vonovia, US-REITs"
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Nachfrage stabil, Zufluchtsort in unsicheren Phasen; nur verzögert höhere Transport- und Verpackungskosten.",
+          "teilbranchen": "Nestlé, Procter & Gamble, Unilever"
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Umsätze hängen weder am Ölpreis noch an Hormus; defensiv in Risk-off-Phasen relativ gefragt.",
+          "teilbranchen": "Novartis, Pfizer, Novo Nordisk"
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "kaum",
+          "richtung": "gemischt",
+          "mechanismus": "Telekom-Abos golfunabhängig und defensiv; Werbeplattformen reagieren auf Konjunktur und Zinsen. Effekte heben sich weitgehend auf.",
+          "teilbranchen": "Deutsche Telekom; Alphabet, Meta"
+        }
+      ],
+      "gewinnerVerlierer": [
+        {
+          "firma": "DHT Holdings (Fr)",
+          "logoKey": "dht",
+          "bewegung": "+4,9 %",
+          "warum": "Reine Rohöl-Supertanker-Flotte, Kriegsprämien und Umwege treiben die Raten."
+        },
+        {
+          "firma": "Frontline (Fr)",
+          "logoKey": "frontline",
+          "bewegung": "+4,3 %",
+          "warum": "Größte börsennotierte Tankerreederei, gleicher Mechanismus."
+        },
+        {
+          "firma": "Delta Air Lines",
+          "logoKey": "delta",
+          "bewegung": "unter Druck",
+          "warum": "Kerosin ist der größte Kostenblock, Golf-Umwege verlängern Routen."
+        }
+      ],
+      "lehre": "Die Lehre: Die Kriegsprämie ist Wahrscheinlichkeit mal Schadenshöhe. Ohne physische Störung verschwindet sie so schnell, wie sie kam.",
+      "charts": [
+        {
+          "type": "line",
+          "title": "Brent: Kriegsprämie rein, raus und wieder rein (US-Dollar je Barrel)",
+          "subtitle": "Belegte Tagespunkte 7.–13.7.",
+          "unit": " $",
+          "source": "CNBC (7.7.), TradingEconomics (8.7.), Marktberichte (10.7.), FastEnergy (13.7., 9:10 MESZ)",
+          "series": [
+            {
+              "t": "2026-07-07",
+              "v": 78.19
+            },
+            {
+              "t": "2026-07-08",
+              "v": 78.55
+            },
+            {
+              "t": "2026-07-10",
+              "v": 76.34
+            },
+            {
+              "t": "2026-07-13",
+              "v": 79.24
+            }
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "Brent springt zur Wochenöffnung über 79 Dollar",
+        "verdict": "bestätigt",
+        "evidence": "Zweiquellig: Reuters/Yahoo 78,50 $ (+3,3 %) und FastEnergy 79,24 $ (9:10 MESZ). Eskalationslage dreiquellig (Al Jazeera, CNN, investinglive)."
+      },
+      "sources": [
+        {
+          "title": "Al Jazeera: US launches new wave of strikes against Iran",
+          "url": "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military",
+          "tier": 2
+        },
+        {
+          "title": "CNN Live: US strikes on Iran (11./12.7.)",
+          "url": "https://www.cnn.com/2026/07/12/world/live-news/iran-war-trump",
+          "tier": 2
+        },
+        {
+          "title": "FastEnergy Rohölpreise",
+          "url": "https://www.fastenergy.de/rohoelpreise/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "gold-faellt-im-krieg",
+      "ressort": "news",
+      "kicker": "Cross-Asset · Rätsel des Tages",
+      "headline": "Gold fällt mitten im Krieg: Der Markt handelt die Eskalation als Zinsrisiko",
+      "dek": "Trotz der größten Angriffswelle des Konflikts fiel Gold um 1,1 Prozent, der Dollar stand fest, Renditen stiegen.",
+      "body": [
+        "Gold fiel am Montag früh um 1,1 Prozent auf 4.076 Dollar, der Dollar-Index stand fest bei 101,12, die 10-Jahres-Rendite stieg um zwei Basispunkte auf 4,59 Prozent. Der klassische Reflex, wonach Krieg den Goldpreis treibt, blieb aus."
+      ],
+      "mechanik": "Gold zahlt keine Zinsen. Sein schärfster Konkurrent ist die US-Staatsanleihe, die derzeit 4,59 Prozent abwirft. Wenn ein Ölpreisschub die Inflation anheizt und damit Zinssenkungen unwahrscheinlicher macht, steigt der Preis des Wartens auf Gold. Diesmal wiegt der Zinskanal schwerer als der Kriegsschutz-Kanal. Dieselbe Logik drückt den Euro: Höhere US-Zinsen ziehen Kapital in den Dollar.",
+      "gewinnerVerlierer": [],
+      "lehre": "Die Lehre: Safe Haven ist kein Naturgesetz. Welcher Kanal gewinnt, Angst oder Zins, entscheidet die Marktlage.",
+      "charts": [],
+      "factcheck": {
+        "claim": "Gold fällt trotz Eskalation",
+        "verdict": "bestätigt",
+        "evidence": "Reuters/Yahoo: 4.076 $ (−1,1 %), Dollar-Index 101,12, 10J 4,59 %. Zinserhöhungs-These der Terminmärkte bleibt einquellig (als unsicher markiert)."
+      },
+      "sources": [
+        {
+          "title": "Reuters via Yahoo Finance: Shares slip in Asia",
+          "url": "https://finance.yahoo.com/markets/articles/shares-slip-asia-oil-jumps-002452563.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "zins-woche-cpi-banken-warsh",
+      "ressort": "makro",
+      "kicker": "Ausblick · Die Zins-Woche",
+      "headline": "Morgen wird es ernst: US-Inflationsdaten, fünf Großbanken und die Warsh-Anhörung an einem Tag",
+      "dek": "Dienstag bündelt die drei wichtigsten Zins-Katalysatoren der Woche. Die Rückstellungen der Banken sind der Realitätscheck zum US-Konsumenten.",
+      "body": [
+        "Dienstag: US-Verbraucherpreise für Juni (Konsens laut Berichten 3,8 bis 3,9 Prozent nach 4,2 Prozent im Mai, Kernrate um 2,9 Prozent), die Senatsanhörung von Kevin Warsh als designiertem Chef der US-Notenbank, dazu Quartalszahlen von JPMorgan, Goldman Sachs, Bank of America, Citigroup und Wells Fargo. Mittwoch: Erzeugerpreise, China-BIP (Erwartung um 4,5 Prozent), Morgan Stanley, BlackRock, ASML. Donnerstag: TSMC, Netflix, US-Einzelhandelsumsätze."
+      ],
+      "mechanik": "Der US-Leitzins (3,75 Prozent) liegt unter der Inflation (zuletzt 3,8 Prozent). Nach Abzug der Geldentwertung kostet Geld praktisch nichts, die Notenbank bremst nicht wirklich. Jede Zehntel-Überraschung bei den Verbraucherpreisen verschiebt deshalb die wichtigste Frage des Markts: Kann die Fed überhaupt weiter senken, oder muss sie sogar erhöhen? Die Bankenzahlen liefern parallel den Realitätscheck zum US-Konsumenten, denn in den Rückstellungen für faule Kredite sieht man Zahlungsprobleme Monate vor den offiziellen Statistiken.",
+      "sektorCheck": [
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "direkt",
+          "richtung": "gemischt",
+          "mechanismus": "Höhere Zinsen erlauben höhere Margen zwischen Kredit- und Einlagenzins, erhöhen aber das Ausfallrisiko; die Rückstellungen sind die Kennzahl der Woche.",
+          "teilbranchen": "JPMorgan u. a. Großbanken; Synchrony, Capital One; BlackRock, Versicherer"
+        },
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "direkt",
+          "richtung": "gemischt",
+          "mechanismus": "Techbewertungen reagieren am stärksten auf Zinsen; CPI-Überraschung nach unten gäbe das größte Erholungspotenzial, nach oben die stärkste Kompression.",
+          "teilbranchen": "KI-Komplex; ASML (Mi) und TSMC (Do) als Realitätscheck"
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Kreditfinanzierte Käufe bremsen bei hohen Zinsen; die eingebrochenen Konsumentenkredite vom Mai deuten genau darauf.",
+          "teilbranchen": "General Motors, Home Depot, Levi's; Luxus weniger exponiert"
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Refinanzierungen verteuern sich, Bewertungen sinken rechnerisch, Dividenden konkurrieren mit 4,59 Prozent Staatsrendite.",
+          "teilbranchen": "Wohn- und Büro-REITs; Rechenzentrums-REITs mit Teilausgleich"
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Anleiheersatz-Logik: Hohe sichere Renditen machen Versorger-Dividenden relativ unattraktiv, Netzausbau läuft auf Kredit.",
+          "teilbranchen": "NextEra, Duke, E.ON"
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "direkt",
+          "richtung": "positiv",
+          "mechanismus": "Einer der wenigen Sektoren, die vom Inflationsszenario profitieren, denn teures Öl ist ihr Produkt.",
+          "teilbranchen": "Förderer, Ölservice"
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Kreditfinanzierte Großprojekte verschieben sich bei teurem Geld; Rüstung weitgehend zinsunempfindlich; Airlines doppelt belastet.",
+          "teilbranchen": "Caterpillar, Siemens; RTX, Rheinmetall; Delta"
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Als Schutzraum gestützt, aber Eigenmarken-Trend drückt Markenmargen und Dividenden konkurrieren mit Anleihen.",
+          "teilbranchen": "PepsiCo, Nestlé, Coca-Cola; Discounter als relative Gewinner"
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Plattformen mit Zinslogik wie Tech, aber Zinsertrag auf Barbeständen; Telekom mit teurer werdender Schulden-Refinanzierung.",
+          "teilbranchen": "Alphabet, Meta; AT&T, Verizon, Deutsche Telekom; Netflix (Do)"
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "China-BIP wichtiger als der US-Zins; fester Dollar drückt Metallpreise, Goldminen leiden am Zinskanal.",
+          "teilbranchen": "BASF, ArcelorMittal, Rio Tinto; Barrick"
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Nachfrage folgt Krankheit und Demografie; Ausnahmen sind kapitalhungrige Biotechs und verschuldete Klinikbetreiber.",
+          "teilbranchen": "Johnson & Johnson, Novartis; unprofitable Biotechs"
+        }
+      ],
+      "gewinnerVerlierer": [],
+      "lehre": "Die Lehre: Rückstellungen und Guidance zeigen Probleme Monate vor den offiziellen Statistiken.",
+      "charts": [],
+      "factcheck": {
+        "claim": "Terminmärkte preisen bis Dezember eher eine Zinserhöhung",
+        "verdict": "unsicher",
+        "evidence": "Einquellig (MoneyCheck, übernommen aus Ausgabe vom 12.7.); als unsicher gekennzeichnet. CPI-Konsens 3,8–3,9 % aus Presseberichten."
+      },
+      "sources": [
+        {
+          "title": "MoneyCheck: Fed-Zinserwartungen (übernommen aus Ausgabe 12.7., einquellig)",
+          "url": "",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "id": "vw-preclose-termine",
+      "ressort": "news",
+      "kicker": "Deutschland · Termine heute",
+      "headline": "Volkswagen lädt nach dem Sparpaket-Streit zum Analysten-Call, Fraport legt Verkehrszahlen vor",
+      "dek": "Der Pre-Close-Call um 18 Uhr ist der erste Markttest nach dem Aufsichtsrats-Nein zum Sparpaket.",
+      "body": [
+        "Volkswagen hält heute um 18 Uhr den sogenannten Pre-Close-Call zum ersten Halbjahr ab, wenige Tage nachdem der Aufsichtsrat das Sparpaket von Konzernchef Blume abgelehnt hat. Fraport meldete Verkehrszahlen für Juni. Dazu startet mit Smag Mobile Antenna Masts ein kleiner Börsengang im Frankfurter Scale-Segment, und die EU-Außenminister beraten unter anderem über die Golf-Lage."
+      ],
+      "mechanik": "Ein Pre-Close-Call ist Erwartungsmanagement: Kurz vor Ende der stillen Phase erklärt der Finanzvorstand Analysten, wie das Halbjahr grob gelaufen ist, damit deren Schätzungen nicht zu weit von der Realität abweichen. Für Anleger ist entscheidend, ob VW den Ton zur Kostenfrage verschärft oder beruhigt, denn nach dem abgelehnten Sparpaket ist die Margenprognose der wackligste Teil der VW-Story.",
+      "gewinnerVerlierer": [
+        {
+          "firma": "Volkswagen Vz.",
+          "logoKey": "vw",
+          "bewegung": "Call 18 Uhr",
+          "warum": "Nach dem Aufsichtsrats-Nein zum Sparpaket sucht der Markt Klarheit zur Marge."
+        },
+        {
+          "firma": "Fraport",
+          "logoKey": "fraport",
+          "bewegung": "Juni-Verkehr",
+          "warum": "Passagierzahlen zeigen, ob der Golfkrieg den Reiseverkehr schon bremst."
+        }
+      ],
+      "lehre": "Die Lehre: Der Ausblick bewegt Kurse stärker als die Vergangenheit, und Pre-Close-Calls formen den Ausblick.",
+      "charts": [],
+      "factcheck": {
+        "claim": "Termine des Tages",
+        "verdict": "bestätigt",
+        "evidence": "dpa-AFX-Tagesvorschau via finanzen.net (10.7.). VW-Sparpaket-Stand aus Ausgabe vom 12.7. übernommen, heute nicht neu geprüft."
+      },
+      "sources": [
+        {
+          "title": "finanzen.net/dpa-AFX: Tagesvorschau 13. Juli 2026",
+          "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-13-juli-2026-15793543",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "boj-pboc-asien",
+      "ressort": "news",
+      "kicker": "Asien · Geldpolitik",
+      "headline": "Japans Notenbank vor Zinsentscheid, Chinas Notenbank setzt den Yuan schwächer",
+      "dek": "Der Yen bleibt mit 161,96 je Dollar sehr schwach, am Mittwoch folgt das chinesische BIP.",
+      "body": [
+        "Die Bank of Japan dürfte laut Berichten die Zinsen unverändert lassen und zugleich ihre Wachstumsprognose anheben (einquellig, ungeprüft). Chinas Zentralbank setzte den täglichen Referenzkurs mit 6,7972 je Dollar schwächer als vom Markt erwartet. Am Mittwoch folgt das chinesische BIP für das zweite Quartal."
+      ],
+      "mechanik": "Ein schwacher Yen wirkt wie ein Rabatt auf japanische Exporte und ein Aufschlag auf alles Importierte, vor allem Energie. Der Ölpreisanstieg ist für Japan deshalb doppelt unangenehm: Öl wird in Dollar bezahlt, und der Dollar ist teuer. Chinas schwächerer Referenzkurs deutet an, dass Peking den Exporteuren in der Zollära Luft verschaffen will. Beides erklärt, warum Asiens Börsen auf Öl- und Zinsnachrichten empfindlicher reagieren als die Wall Street.",
+      "gewinnerVerlierer": [],
+      "lehre": "Die Lehre: Währungen sind der stille Verstärker von Rohstoffschocks.",
+      "charts": [],
+      "factcheck": {
+        "claim": "BOJ-Erwartung und PBOC-Fixing",
+        "verdict": "unsicher",
+        "evidence": "Einquellig (investinglive Asia wrap 13.7.); als unsicher gekennzeichnet. Yen-Stand 161,96 auch bei Reuters/Yahoo."
+      },
+      "sources": [
+        {
+          "title": "investinglive: Asia-Pacific FX news wrap 13 Jul",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-13-jul",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "id": "micron-lehrstueck",
+      "ressort": "unternehmen",
+      "kicker": "Halbleiter · Der US-Spiegel",
+      "headline": "Micron: Der stille Billionen-Konzern, dessen Bewertung dem Boom misstraut",
+      "dek": "Der US-Speicherhersteller hat sich seit Februar mehr als verdoppelt und wird trotzdem mit einem Bruchteil der üblichen Tech-Aufschläge gehandelt. Diese Diskrepanz ist die vielleicht lehrreichste Zahl des KI-Booms.",
+      "body": [
+        "Micron ist der US-Gegenspieler von Samsung und SK Hynix und inzwischen 1,1 Billionen Dollar schwer. Die letzten zwölf Monate: 90,3 Milliarden Dollar Umsatz, 55,9 Prozent Nettomarge, eine operative Marge von rund 80 Prozent im jüngsten Quartal, Eigenkapitalrendite 67 Prozent. Das sind Zahlen, die es in der Speicherbranche historisch schlicht nicht gab.",
+        "Die Bewertung erzählt eine zweite Geschichte: Auf Basis der erwarteten Gewinne kostet die Aktie nur gut das Sechsfache (Forward-KGV 6,3), während der Marktdurchschnitt beim Dreifachen davon liegt. Übersetzt: Der Markt glaubt den aktuellen Rekordgewinnen nicht dauerhaft. Er behandelt Micron als Zykliker, dessen Gewinne mit dem nächsten Überangebot einbrechen, und bezahlt den Gipfel deshalb bewusst billig. Ob das zu vorsichtig ist oder genau richtig, ist die Billionen-Frage dieser Woche. Der Kospi-Montag zeigt, wie schnell die Antwort des Marktes kippen kann."
+      ],
+      "mechanik": "Bei Zyklikern preist der Markt den Zyklus, keine Momentaufnahme: Rekordgewinne am Gipfel bekommen niedrige Multiplikatoren, Verlustphasen am Boden oft hohe, weil jeweils die Wende erwartet wird. Ein optisch billiges KGV kann deshalb teurer sein, als es aussieht.",
+      "gewinnerVerlierer": [],
+      "lehre": "Die Lehre: Ein niedriges Kurs-Gewinn-Verhältnis ist bei Zyklikern kein Schnäppchen-Signal. Es ist die eingepreiste Erwartung, dass der Gewinn von heute nicht bleibt.",
+      "charts": [],
+      "company": {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "exchange": "Nasdaq",
+        "logoKey": "micron",
+        "whatTheyDo": "US-Hersteller von Speicherchips (DRAM und Flash), dritter großer Anbieter neben Samsung und SK Hynix.",
+        "whyItMatters": "Der US-Spiegel des Speicher-Booms; seine Bewertung zeigt, wie viel Zyklus-Skepsis eingepreist ist.",
+        "keyMetrics": [
+          [
+            "Kurs (Fr)",
+            "979,30 $ (−1,2 %)"
+          ],
+          [
+            "Börsenwert",
+            "1,11 Bill. $"
+          ],
+          [
+            "Umsatz (12 Monate)",
+            "90,3 Mrd. $"
+          ],
+          [
+            "Nettomarge (12 M.)",
+            "55,9 %"
+          ],
+          [
+            "KGV rückblickend",
+            "22,1"
+          ],
+          [
+            "KGV erwartet (Forward)",
+            "6,3"
+          ],
+          [
+            "52-Wochen-Spanne",
+            "103,21–1.254,81 $"
+          ]
+        ],
+        "priceSeries": [
+          {
+            "t": "2026-06-01",
+            "v": 1035.5
+          },
+          {
+            "t": "2026-06-02",
+            "v": 1064.1
+          },
+          {
+            "t": "2026-06-03",
+            "v": 1079.57
+          },
+          {
+            "t": "2026-06-04",
+            "v": 996
+          },
+          {
+            "t": "2026-06-05",
+            "v": 864.01
+          },
+          {
+            "t": "2026-06-08",
+            "v": 949.28
+          },
+          {
+            "t": "2026-06-09",
+            "v": 935.89
+          },
+          {
+            "t": "2026-06-10",
+            "v": 891.88
+          },
+          {
+            "t": "2026-06-11",
+            "v": 995.87
+          },
+          {
+            "t": "2026-06-12",
+            "v": 981.61
+          },
+          {
+            "t": "2026-06-15",
+            "v": 1087.99
+          },
+          {
+            "t": "2026-06-16",
+            "v": 1020.76
+          },
+          {
+            "t": "2026-06-17",
+            "v": 1043.19
+          },
+          {
+            "t": "2026-06-18",
+            "v": 1133.99
+          },
+          {
+            "t": "2026-06-22",
+            "v": 1211.38
+          },
+          {
+            "t": "2026-06-23",
+            "v": 1051.77
+          },
+          {
+            "t": "2026-06-24",
+            "v": 1048.51
+          },
+          {
+            "t": "2026-06-25",
+            "v": 1213.56
+          },
+          {
+            "t": "2026-06-26",
+            "v": 1132.33
+          },
+          {
+            "t": "2026-06-29",
+            "v": 1145.28
+          },
+          {
+            "t": "2026-06-30",
+            "v": 1154.29
+          },
+          {
+            "t": "2026-07-01",
+            "v": 1032.28
+          },
+          {
+            "t": "2026-07-02",
+            "v": 975.56
+          },
+          {
+            "t": "2026-07-06",
+            "v": 984.75
+          },
+          {
+            "t": "2026-07-07",
+            "v": 938.38
+          },
+          {
+            "t": "2026-07-08",
+            "v": 948.8
+          },
+          {
+            "t": "2026-07-09",
+            "v": 991.64
+          },
+          {
+            "t": "2026-07-10",
+            "v": 979.3
+          }
+        ]
+      },
+      "factcheck": {
+        "claim": "Micron-Kennzahlen",
+        "verdict": "bestätigt",
+        "evidence": "Alpha Vantage Company Overview und Tagesserie (13.7.): Cap 1,106 Bill. $, KGV 22,13, Forward 6,32, Nettomarge 55,9 %, Fr-Schluss 979,30 $."
+      },
+      "sources": [
+        {
+          "title": "Alpha Vantage: MU Company Overview / TIME_SERIES_DAILY",
+          "url": "https://www.alphavantage.co/",
+          "tier": 2
+        }
+      ]
+    }
+  ],
+  "branchenMonitor": [
+    {
+      "sektor": "Energie",
+      "wasIstDas": "Ölförderer, Gasproduzenten, Raffinerien, Öl-Dienstleister, Tanker.",
+      "lage": "Gewinner der Eskalation: Brent sprang zur Wochenöffnung um mehr als drei Prozent zurück über 79 Dollar, Tankeraktien wie DHT (Fr +4,9 %) und Frontline (Fr +4,3 %) profitieren von Kriegsprämien und Umwegen. Der Sektor verträgt zudem hohe Inflation und hohe Zinsen vergleichsweise gut.",
+      "richtung": "up",
+      "tagesWert": "Brent +3,3–5 % (Mo früh)"
+    },
+    {
+      "sektor": "Informationstechnologie",
+      "wasIstDas": "Software, Hardware, Halbleiter (Chips).",
+      "lage": "Der Kospi-Einbruch (−5,6 %, SK Hynix −10,1 %) stellt die Kernfrage des Jahres neu: Wie viel künftiges Speicher-Überangebot steckt schon in den Investitionsplänen? Dazu droht der Zinskanal, falls die US-Inflation am Dienstag enttäuscht. ASML (Mi) und TSMC (Do) liefern den Realitätscheck der KI-Nachfrage.",
+      "richtung": "down",
+      "tagesWert": "Kospi −5,6 % (Mo)"
+    },
+    {
+      "sektor": "Zyklischer Konsum",
+      "wasIstDas": "Auto, Mode, Luxus, Reisen, Online-Handel.",
+      "lage": "Dreifachlast: teureres Benzin als Konsumsteuer, hohe Kreditzinsen für Autos und Möbel, dazu die schwachen US-Konsumentenkredite vom Mai. VWs Pre-Close-Call heute und die US-Einzelhandelsumsätze am Donnerstag zeigen, wie tief die Delle ist. Premiumkundschaft bleibt bislang robuster als die Masse.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Finanzen",
+      "wasIstDas": "Banken, Versicherer, Vermögensverwalter, Börsen, Zahlungsdienste.",
+      "lage": "Die Woche der Wahrheit beginnt morgen: Fünf US-Großbanken berichten, im Fokus stehen die Rückstellungen für Kreditausfälle als Realitätscheck zum US-Konsumenten. Seeversicherer setzen am Golf höhere Kriegsrisikoprämien durch, tragen aber die Schäden getroffener Schiffe.",
+      "richtung": "neutral",
+      "tagesWert": "Earnings ab Di"
+    },
+    {
+      "sektor": "Industrie",
+      "wasIstDas": "Maschinenbau, Rüstung, Bau, Airlines, Logistik.",
+      "lage": "Gespalten: Airlines leiden unter Kerosin und Golf-Umwegen, Rüstung profitiert vom Munitions- und Luftabwehrverbrauch des Konflikts, Halbleiter-Ausrüster hängen an den nun angezweifelten Investitionsplänen der Speicherkonzerne. Fraports Juni-Verkehr liefert heute einen ersten Reiseverkehrs-Datenpunkt.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Grundstoffe",
+      "wasIstDas": "Chemie, Metalle, Bergbau, Baustoffe, Verpackung.",
+      "lage": "Chemie zahlt mehr für Öl und Gas, der feste Dollar drückt Metallpreise, und Goldminen leiden am Zinskanal, wie der Goldrückgang trotz Kriegseskalation zeigt. Wichtigster Termin ist das China-BIP am Mittwoch, denn China ist der größte Rohstoffkäufer der Welt.",
+      "richtung": "down",
+      "tagesWert": "Gold −1,1 % (Mo früh)"
+    },
+    {
+      "sektor": "Basiskonsum",
+      "wasIstDas": "Lebensmittel, Getränke, Haushaltswaren, Supermärkte.",
+      "lage": "Der Puffer im Depot, in Ausverkaufsphasen relativ gefragt. Zwei Dämpfer bleiben: der Ausweich-Trend zu billigeren Eigenmarken (PepsiCo-Warnung) und die Konkurrenz der Dividenden mit 4,59 Prozent sicherer Anleiherendite.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Gesundheit",
+      "wasIstDas": "Pharma, Biotechnologie, Medizintechnik, Krankenversicherer.",
+      "lage": "Defensiver Ausweichort in einer nervösen Woche, die Nachfrage folgt Krankheit und Demografie statt Zins und Ölpreis. Ausnahmen: kapitalhungrige Biotechfirmen und verschuldete Klinikbetreiber, die teures Geld direkt spüren.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Kommunikation",
+      "wasIstDas": "Telekom, Internet-Plattformen, Medien, Unterhaltung.",
+      "lage": "Zweigeteilt: Plattformen wie Alphabet und Meta gelten als mögliche Gewinner einer Umschichtung aus Chipwerten und verdienen auf Barbeständen sogar an hohen Zinsen, Telekomfirmen tragen dagegen hohe Schulden. Netflix testet am Donnerstag die Kürzungsfestigkeit von Streaming-Abos.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Versorger",
+      "wasIstDas": "Strom-, Gas- und Wassernetze, Stromerzeuger.",
+      "lage": "Doppelt zinsempfindlich: Dividenden konkurrieren mit Anleihen, der Netzausbau läuft auf Kredit. Dazu das Golf-Thema Flüssigerdgas: Ein großer Teil des weltweiten LNG kommt aus Katar durch Hormus, eine echte Blockade würde Europas Gaspreise treiben. Die Rechenzentrums-Story stützt langfristig.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Immobilien",
+      "wasIstDas": "Börsennotierte Vermieter (REITs), Projektentwickler.",
+      "lage": "Der reinste Zinswert unter den Sektoren: Höhere Renditen verteuern Refinanzierungen und drücken rechnerisch die Gebäudewerte. Eine Inflationsüberraschung nach unten am Dienstag wäre hier der stärkste Kurstreiber, Rechenzentrums-REITs halten sich strukturell besser.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt"
+    }
+  ],
+  "stockPicks": [
+    {
+      "name": "DHT Holdings",
+      "ticker": "DHT",
+      "logoKey": "dht",
+      "marketCapEUR": "2,5 Mrd. €",
+      "capSource": "Alpha Vantage 13.7. (2,86 Mrd. $, EUR/USD 1,1403)",
+      "thesis": "Reinster VLCC-Hebel auf Hormus: DHT betreibt ausschließlich Rohöl-Supertanker, Kriegsprämien und Umwege treiben die Raten auf fast fixe Kosten (KGV 8,6, Dividendenrendite 14,4 %, Fr +4,9 % auf 17,76 $).",
+      "counterarguments": [
+        "Binäre Kriegswette: Bei Deeskalation verschwinden Prämien binnen Tagen (Frontline verlor Ende Juni 17 % in drei Tagen)",
+        "Die Dividende folgt den Raten und ist keine feste Zusage",
+        "Nur noch 12 % unter dem 52-Wochen-Hoch, viel Fantasie im Kurs"
+      ],
+      "catalysts": [
+        "Hormus-Lage und Terminkurve",
+        "Tankerraten und Kriegsversicherungsprämien",
+        "Q2-Zahlen"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "name": "Camtek",
+      "ticker": "CAMT",
+      "logoKey": "camtek",
+      "marketCapEUR": "5,9 Mrd. €",
+      "capSource": "Alpha Vantage 13.7. (6,71 Mrd. $)",
+      "thesis": "HBM-Inspektions- und Messgeräte werden mit jeder neuen Speicherfabrik gebraucht, unabhängig davon, ob die Chippreise später fallen; die Aktie hat mit rund einem Drittel Abstand zum 52-Wochen-Hoch bereits korrigiert (Fr 143,79 $). Bewusst kontrarär zum Kospi-Crash.",
+      "counterarguments": [
+        "Sehr teuer: KGV 150 nach US-Bilanzregeln, 41 auf erwartete Gewinne",
+        "Jüngstes Quartal wuchs nur 2,5 %, die Wachstumsstory muss erst wieder liefern",
+        "Kürzen die Speicherkonzerne ihre Investitionen, trifft es Ausrüster zuerst"
+      ],
+      "catalysts": [
+        "Q2-Zahlen Anfang August",
+        "Capex-Ankündigungen von SK Hynix und Samsung"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "name": "AeroVironment",
+      "ticker": "AVAV",
+      "logoKey": "aerovironment",
+      "marketCapEUR": "6,4 Mrd. €",
+      "capSource": "Alpha Vantage 13.7. (7,32 Mrd. $)",
+      "thesis": "US-Spezialist für Kampf- und Aufklärungsdrohnen (Switchblade) und Drohnenabwehr in der Woche, in der die USA laut Berichten erstmals Angriffsdrohnen im Konflikt einsetzten; Umsatz durch die BlueHalo-Übernahme zuletzt +133 %, Analysten-Kursziel 245 $ gegenüber rund 145 $.",
+      "counterarguments": [
+        "65 % unter dem 52-Wochen-Hoch, der Markt hat massiv Vertrauen entzogen",
+        "Auf zwölf Monate Verluste (−5,39 $ je Aktie), Integrationsrisiko BlueHalo",
+        "Verwässerung durch aktienfinanzierte Übernahme, erwartetes KGV 46"
+      ],
+      "catalysts": [
+        "US-Verteidigungsbudget",
+        "Auftragsmeldungen",
+        "BlueHalo-Integrationsfortschritt"
+      ],
+      "confidence": "niedrig"
+    }
+  ],
+  "watchlist": [
+    {
+      "what": "SKHY zweiter Nasdaq-Handelstag, Kospi- und Samsung-Schluss",
+      "when": "Mo 13.7.",
+      "bullishIf": "SKHY hält deutlich über 149 $, Kospi stabilisiert sich zum Schluss",
+      "bearishIf": "Rutsch Richtung Ausgabepreis, Ausweitung auf Nikkei und Taiwan"
+    },
+    {
+      "what": "US-CPI Juni, Warsh-Anhörung, JPM/GS/BAC/C/WFC (Rückstellungen)",
+      "when": "Di 14.7.",
+      "bullishIf": "CPI unter 3,8 %, Rückstellungen flach",
+      "bearishIf": "CPI über 4 %, Rückstellungen springen"
+    },
+    {
+      "what": "Hormus-Ernstfall-Indikatoren: Terminkurve, Tankerraten, Kriegsversicherungsprämien, Exportdaten",
+      "when": "laufend",
+      "bullishIf": "Nur der Frontmonat ist teuer, Passagen normalisieren sich",
+      "bearishIf": "Die ganze Kurve steigt, Brent nachhaltig über 85–90 $"
+    },
+    {
+      "what": "China-BIP Q2 und ASML (Mi), TSMC, Netflix, US Retail Sales (Do)",
+      "when": "Mi/Do",
+      "bullishIf": "KI-Nachfrage bestätigt, Konsum stabil",
+      "bearishIf": "Vorsichtige Ausblicke, negative Einzelhandelsumsätze"
+    },
+    {
+      "what": "VW Pre-Close-Call",
+      "when": "Mo 18:00",
+      "bullishIf": "Margenprognose trotz Sparpaket-Streit bestätigt",
+      "bearishIf": "Vorsichtiger Ton zu Marge und Kosten"
+    }
+  ],
+  "learningNotes": [
+    "Ein IPO-Kurssprung misst Nachfrage, keine Bewertung. Die Bewertungsfrage wird an den nächsten Handelstag verschoben.",
+    "Safe Haven ist kein Naturgesetz: Gold fiel im Krieg, weil der Zinskanal schwerer wog als der Angstkanal.",
+    "Bei Zyklikern ist das billige KGV die Warnung, keine Kaufgelegenheit (Micron Forward-KGV 6,3).",
+    "Wachstum, das sein eigenes Angebot finanziert, trägt sein Verfallsdatum in sich (26,5 IPO-Milliarden für neue Fabriken).",
+    "Kursstürze ohne Nachricht sind Positionierung, keine Neubewertung (Kospi-Montag)."
+  ],
+  "glossar": [
+    {
+      "begriff": "Sidecar",
+      "erklaerung": "Automatische Handelsbremse der Börse Seoul: Bei schnellen Kursstürzen werden programmgesteuerte Verkaufsaufträge fünf Minuten angehalten, um Abwärtsspiralen zu unterbrechen."
+    },
+    {
+      "begriff": "ADR (American Depositary Receipt)",
+      "erklaerung": "In den USA handelbarer Anteilsschein auf eine ausländische Aktie. SKHY ist der ADR auf die SK-Hynix-Aktie in Seoul."
+    },
+    {
+      "begriff": "Kriegsprämie (Risikoaufschlag)",
+      "erklaerung": "Preisaufschlag auf Öl oder Frachtraten, der ungefähr Wahrscheinlichkeit mal Schadenshöhe einer Lieferstörung entspricht. Verschwindet ohne physische Störung so schnell, wie er kam."
+    },
+    {
+      "begriff": "Forward-KGV",
+      "erklaerung": "Kurs geteilt durch den für die nächsten zwölf Monate erwarteten Gewinn je Aktie. Niedrig bei Zyklikern heißt: Der Markt erwartet fallende Gewinne."
+    },
+    {
+      "begriff": "Hyperscaler",
+      "erklaerung": "Betreiber riesiger Cloud-Rechenzentren (Amazon, Microsoft, Alphabet, Meta). Größte Einkäufer von KI-Chips und Speicher."
+    },
+    {
+      "begriff": "Terminkurve",
+      "erklaerung": "Preise für Lieferung zu verschiedenen künftigen Zeitpunkten. Steigen nur die kurzfristigen Preise, erwartet der Markt eine kurze Störung; steigt die ganze Kurve, eine lange."
+    },
+    {
+      "begriff": "Realzins",
+      "erklaerung": "Zins nach Abzug der Inflation. Bei Leitzins 3,75 und Inflation 3,8 Prozent ist er leicht negativ, Geld kostet real nichts, die Notenbank bremst kaum."
+    },
+    {
+      "begriff": "VLCC (Very Large Crude Carrier)",
+      "erklaerung": "Rohöl-Supertanker für rund zwei Millionen Barrel. Ihre Tagesraten reagieren am stärksten auf Störungen wichtiger Seewege."
+    },
+    {
+      "begriff": "Pre-Close-Call",
+      "erklaerung": "Analysten-Telefonat kurz vor Ende der stillen Phase, in dem der Finanzvorstand die grobe Geschäftsentwicklung einordnet, damit Schätzungen nicht zu weit abweichen."
+    }
+  ],
+  "verificationLog": {
+    "confirmed": [
+      "Kospi −5,6 % auf 7.058,82 im Montagshandel (BSS/AFP; Sidecar via Korea JoongAng Daily; Session via investinglive)",
+      "SK Hynix Seoul −10,1 % (BSS/AFP; Reuters −4,4 % früh ist Verlauf, kein Widerspruch)",
+      "SK-Hynix-Debüt 149/168,01 $, +12,8 %, 26,5 Mrd. $ (CNBC, Reuters)",
+      "Brent Montag früh zweiquellig: 78,50 $ +3,3 % (Reuters/Yahoo) und 79,24 $ (FastEnergy 9:10 MESZ)",
+      "Golf-Eskalation dreiquellig (Al Jazeera, CNN, investinglive): >300 US-Schläge, Iran-Angriffe auf fünf Nachbarstaaten, CENTCOM-Dementi",
+      "Micron-, DHT-, Camtek-, AeroVironment-Kennzahlen (Alpha Vantage 13.7.)",
+      "US-10J 4,54 % Do-Schluss (FRED via Alpha Vantage), 4,59 % Mo früh (Reuters)"
+    ],
+    "uncertain": [
+      "Kospi-Schlussstand (Redaktionsschluss vor Seoul-Schluss; alle Korea-Zahlen sind Verlaufswerte)",
+      "Bis zu −7 % intraday (investinglive, einquellig)",
+      "Gesenkte SK-Hynix-Gewinnschätzungen (Asia Business Daily, nur Überschrift abrufbar)",
+      "SK-Hynix-Bewertungsspanne 1,06–1,27 Bill. $ (weiter strittig)",
+      "BOJ-Erwartung und PBOC-Fixing (investinglive, einquellig)",
+      "Terminmärkte preisen eher Zinserhöhung (MoneyCheck, einquellig)",
+      "CPI-Konsens 3,8–3,9 % (Presseberichte)",
+      "Nikkei −1,0 bis −1,5 % ohne belegten Absolutstand",
+      "VW-Sparpaket-Stand (aus Ausgabe 12.7. übernommen, heute nicht neu geprüft)"
+    ],
+    "gaps": [
+      "Kospi-, Nikkei- und Samsung-Schlussstände Montag (Abendausgabe nachtragen)",
+      "SKHY-Kursdaten über Alpha Vantage (Ticker zu neu, Quote leer)",
+      "DAX-Vorbörse (dpa-Ausblick erschien nach Redaktionsschluss)",
+      "US-Sektortageswerte seit Freitag"
+    ]
+  }
+}
