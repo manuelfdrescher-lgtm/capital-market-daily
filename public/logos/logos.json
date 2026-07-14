@@ -416,5 +416,55 @@
     "license": "CC0",
     "artist": "Avincreports",
     "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "wellsfargo": {
+    "file": "wellsfargo.svg",
+    "name": "Wells Fargo",
+    "source": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Bank.svg",
+    "license": "Public domain",
+    "artist": "Wells Fargo",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "goldman": {
+    "file": "goldman.svg",
+    "name": "Goldman Sachs",
+    "source": "https://commons.wikimedia.org/wiki/File:Goldman_Sachs_logo.svg",
+    "license": "Public domain",
+    "artist": "Goldman Sachs &amp; Co. LLC",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "yaskawa": {
+    "file": null,
+    "name": "Yaskawa Electric",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "kioxia": {
+    "file": "kioxia.svg",
+    "name": "Kioxia",
+    "source": "https://commons.wikimedia.org/wiki/File:Kioxia.svg",
+    "license": "Public domain",
+    "artist": "Kioxia",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "mufg": {
+    "file": null,
+    "name": "Mitsubishi UFJ",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "lufthansa": {
+    "file": "lufthansa.svg",
+    "name": "Lufthansa",
+    "source": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+    "license": "Public domain",
+    "artist": "Lufthansa Group",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "flatex": {
+    "file": "flatex.svg",
+    "name": "flatexDEGIRO",
+    "source": "https://commons.wikimedia.org/wiki/File:Flatex_logo.svg",
+    "license": "Public domain",
+    "artist": "Flatex GmbH",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
   }
 }

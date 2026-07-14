@@ -1,0 +1,999 @@
+{
+  "edition": {
+    "number": 6,
+    "date": "2026-07-14",
+    "slot": "morning",
+    "dataAsOf": "US-Montagsschluss (13.7.), Asien Dienstag im Verlauf, Redaktionsschluss 06:45 Berlin",
+    "generatedAt": "2026-07-14T04:40:00Z",
+    "isExample": false
+  },
+  "market": {
+    "tiles": [
+      {
+        "label": "S&P 500 (Mo)",
+        "value": "7.517",
+        "delta": "−0,8 %",
+        "direction": "down",
+        "approx": true
+      },
+      {
+        "label": "Nasdaq Composite (Mo)",
+        "value": "25.873",
+        "delta": "−1,6 %",
+        "direction": "down",
+        "approx": true
+      },
+      {
+        "label": "Dow Jones (Mo)",
+        "value": "52.499",
+        "delta": "−0,3 %",
+        "direction": "down",
+        "approx": true
+      },
+      {
+        "label": "US-Chipindex SOX (Mo)",
+        "value": "−4,78 %",
+        "delta": "Korea-Ansteckung",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "DAX (Mo)",
+        "value": "25.114,25",
+        "delta": "+0,19 %",
+        "direction": "up",
+        "approx": false
+      },
+      {
+        "label": "Kospi (Di Eröffnung)",
+        "value": "6.746,89",
+        "delta": "−0,88 %, Verlauf über 6.800",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "Nikkei 225 (Mo)",
+        "value": "67.242,73",
+        "delta": "−1,92 %",
+        "direction": "down",
+        "approx": false
+      },
+      {
+        "label": "Brent / WTI",
+        "value": "≈ 83 / 78 $",
+        "delta": "Mo +9 %, Maut ab 22:00",
+        "direction": "up",
+        "approx": true
+      },
+      {
+        "label": "US 10J",
+        "value": "≈ 4,59 %",
+        "delta": "Stand Mo früh",
+        "direction": "up",
+        "approx": true
+      },
+      {
+        "label": "Won je Dollar",
+        "value": "1.498,5",
+        "delta": "nahe Krisenmarke 1.500",
+        "direction": "down",
+        "approx": false
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "cpi-banken-doppeltag",
+      "ressort": "titelseite",
+      "kicker": "Leitartikel · Geldpolitik · Banken",
+      "headline": "Der Vormittag der Wahrheit: Inflationszahlen und fünf Großbanken testen die Zinshoffnung gleichzeitig",
+      "dek": "Um 14:30 Uhr Berliner Zeit erscheint die US-Inflation für Juni, erwartet wird der erste monatliche Preisrückgang seit der Pandemie. Wenige Stunden vorher legen JPMorgan, Goldman Sachs, Bank of America, Citigroup und Wells Fargo ihre Quartalszahlen vor.",
+      "body": [
+        "Die US-Jahresinflation soll laut Konsens von 4,2 Prozent im Mai auf rund 3,9 Prozent im Juni fallen, die Monatsrate sogar auf minus 0,1 Prozent. Das wäre der erste monatliche Rückgang des Preisniveaus seit der Pandemie. Der Grund: Benzin wurde im Juni rund zehn Prozent billiger, weil damals eine Waffenruhe am Golf galt. Diese Grundlage existiert seit einer Woche nicht mehr. Die Waffenruhe kollabierte am 8. Juli, seit Montag notiert Brent-Öl nach einem Neun-Prozent-Sprung bei rund 83 Dollar je Barrel.",
+        "Der Markt bekommt heute also eine Zahl, deren wichtigster Treiber bereits überholt ist. Die Kernrate soll unverändert bei etwa 2,9 Prozent liegen. Sie ist die Zahl, auf die die Notenbank wirklich schaut, und sie liegt weiter klar über dem Zwei-Prozent-Ziel. Am Mittwoch folgen die Erzeugerpreise, deren Kernrate laut Bloomberg-Umfrage sogar auf 5,2 Prozent steigen soll.",
+        "Parallel liefern die fünf größten US-Banken den Blick in die reale Wirtschaft. Analysten achten auf die Prognose für den Zinsüberschuss und die Rückstellungen für faule Kredite. Steigen die Rückstellungen deutlich, bestätigt das die Sorge, dass der US-Konsument schwächelt.",
+        "Dazu kommt der neue Notenbankchef selbst: Kevin Warsh, seit Mai im Amt und als geldpolitischer Falke bekannt, sagt diese Woche turnusgemäß vor dem Kongress aus. Er kann jede Zinssenkungshoffnung, die der CPI heute weckt, mit wenigen Sätzen wieder einfangen."
+      ],
+      "mechanik": "Die Notenbank steuert mit ihrem Leitzins (aktuell 3,75 Prozent) die Nachfrage der Wirtschaft. Fällt die Inflation, wächst der Spielraum für Zinssenkungen, und niedrigere Zinsen machen künftige Unternehmensgewinne in heutiger Rechnung mehr wert. Heute ist die Falle: Die gute Juni-Zahl beruht auf Benzinpreisen, die es schon nicht mehr gibt. Reagiert der Markt euphorisch, handelt er eine Vergangenheit, die der Juli bereits widerlegt.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Wie eine Notenbank mit einer veralteten Zahl umgeht",
+        "absaetze": [
+          "Das Mandat: stabile Preise (Ziel rund zwei Prozent) und maximale Beschäftigung. Kernrate 2,9 Prozent, Leitzins 3,75 Prozent, real ist Geld fast kostenlos, die Politik bremst kaum.",
+          "Das Zeitproblem: Zinsentscheidungen wirken mit vielen Monaten Verzögerung. Eine Notenbank muss die Inflation von übermorgen schätzen. Die Juni-Zahl fällt wegen billigen Benzins, die Juli-Zahl wird den Effekt umkehren, weil Öl seit dem 8. Juli rund neun Prozent gesprungen ist.",
+          "Erwartungsankerung: Das größte Kapital einer Notenbank ist der Glaube, dass Inflation Richtung zwei Prozent zurückgeht. Bei 2,9 Prozent Kernrate und neuem Ölschock ist dieser Anker angespannt. Deshalb signalisiert ein Falke wie Warsh lieber zu lange Härte als zu früh Entspannung.",
+          "Für Anleger: Die Reaktion auf die heutige Zahl verrät mehr über die Positionierung des Markts als über die Inflation. Eine Rally auf eine rückwärtsgewandte Zahl zeigt Bestätigungshunger der Zinssenkungs-Wetten; ein Abverkauf trotz guter Zahl zeigt, dass der Juli-Effekt schon eingepreist wird."
+        ]
+      },
+      "sektorCheck": [
+        {
+          "sektor": "Finanzen",
+          "richtung": "neutral",
+          "mechanismus": "Fünf Großbanken berichten heute. Entscheidend ist der Zinsüberschuss, also die Differenz zwischen Kreditzinsen und Einlagenzinsen. Steigende Kreditrückstellungen wären ein Warnsignal für die ganze Wirtschaft.",
+          "teilbranchen": "Großbanken, Regionalbanken, Kreditkartenanbieter, Versicherer",
+          "betroffenheit": "direkt"
+        },
+        {
+          "sektor": "Informationstechnologie",
+          "richtung": "positiv",
+          "mechanismus": "Tech-Gewinne liegen oft Jahre in der Zukunft. Niedrigere Zinsen machen sie in heutiger Rechnung wertvoller. Risiko: Warsh kann die Hoffnung vor dem Kongress wieder einkassieren.",
+          "teilbranchen": "Software, Halbleiter, Hardware",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Immobilien",
+          "richtung": "positiv",
+          "mechanismus": "REITs leben von geliehenem Geld. Fallende Zinserwartungen verbilligen die Refinanzierung und erhöhen Objektwerte. Zweiter Blick: Bank-Rückstellungen für Gewerbeimmobilienkredite.",
+          "teilbranchen": "Wohn-, Logistik-, Büro-REITs",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Versorger",
+          "richtung": "positiv",
+          "mechanismus": "Stabile Dividenden konkurrieren mit Staatsanleihen. Fallen die Zinserwartungen, werden Versorger relativ attraktiver, ihre Schulden billiger bedienbar.",
+          "teilbranchen": "Stromversorger, Netzbetreiber, Erneuerbare",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Energie",
+          "richtung": "positiv",
+          "mechanismus": "Öl ist seit Montag rund neun Prozent gestiegen. Die heutige CPI-Entspannung beruht auf alten Juni-Benzinpreisen und ist für den Sektor Vergangenheit.",
+          "teilbranchen": "Ölförderer, Ölservice; Raffinerien gemischt",
+          "betroffenheit": "direkt"
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "richtung": "neutral",
+          "mechanismus": "Die niedrige Juni-Inflation entlastet auf dem Papier, das teure Juli-Benzin frisst die Entlastung wieder auf. Kreditkarten-Ausfallraten der Banken liefern heute den ehrlichsten Blick auf die Kassenlage.",
+          "teilbranchen": "Auto, Einzelhandel, Reise",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Industrie",
+          "richtung": "neutral",
+          "mechanismus": "Zinshoffnung verbilligt Maschinenfinanzierung, teurer Treibstoff belastet Airlines und Logistiker. Rüstung profitiert von der Geopolitik.",
+          "teilbranchen": "Airlines, Logistik, Maschinenbau, Rüstung",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Kommunikation",
+          "richtung": "neutral",
+          "mechanismus": "Plattformen reagieren wie Tech positiv auf Zinshoffnung. Telekomkonzerne mit hohen Schulden profitieren von billigeren Krediten, Werbetöchter hängen an der Konsumlaune.",
+          "teilbranchen": "Plattformen, Telekom, Medien",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Grundstoffe",
+          "richtung": "neutral",
+          "mechanismus": "Zinshoffnung stützt Rohstoffpreise und Bergbauwerte, teures Öl erhöht die Kosten der Chemie. Goldminen profitieren tendenziell von Zinssenkungsfantasie.",
+          "teilbranchen": "Chemie, Bergbau, Goldminen",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Gesundheit",
+          "richtung": "neutral",
+          "mechanismus": "Medikamente braucht man unabhängig von Inflation und Zinsen. Nur junge Biotechfirmen ohne Gewinne hängen stark an den Zinsen.",
+          "teilbranchen": "Pharma, Medizintechnik, Biotech",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Basiskonsum",
+          "richtung": "neutral",
+          "mechanismus": "Lebensmittel werden in jeder Lage gekauft. Nebeneffekt: Fallende Inflation erschwert Preiserhöhungen der Markenhersteller.",
+          "teilbranchen": "Lebensmittel, Getränke, Haushaltswaren",
+          "betroffenheit": "kaum"
+        }
+      ],
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "jpmorgan",
+          "bewegung": "heute",
+          "warum": "Größte US-Bank, ihr Ausblick gilt als Konjunkturbarometer.",
+          "firma": "JPMorgan Chase"
+        },
+        {
+          "logoKey": "wellsfargo",
+          "bewegung": "heute",
+          "warum": "Erstes volles Jahr ohne Bilanzdeckel, Wachstumsstory im Test.",
+          "firma": "Wells Fargo"
+        },
+        {
+          "logoKey": "goldman",
+          "bewegung": "heute",
+          "warum": "Handelsgeschäft profitiert tendenziell von volatilen Märkten.",
+          "firma": "Goldman Sachs"
+        }
+      ],
+      "charts": [
+        {
+          "type": "line",
+          "title": "Kospi: Vom Rekordniveau in den Crash und der Stabilisierungsversuch",
+          "unit": " Pkt.",
+          "source": "bloomingbit (Di Eröffnung), Mo-Schluss dreiquellig, Fr rechnerisch",
+          "series": [
+            {
+              "t": "2026-07-10",
+              "v": 7476,
+              "note": "Schluss, rechnerisch"
+            },
+            {
+              "t": "2026-07-13",
+              "v": 6806.93,
+              "note": "Schluss, −8,95 %, Circuit Breaker"
+            },
+            {
+              "t": "2026-07-14",
+              "v": 6746.89,
+              "note": "Eröffnung, Verlauf danach über 6.800"
+            }
+          ]
+        },
+        {
+          "type": "bar",
+          "title": "US-Inflation: Konsens für Juni gegen Mai-Stand (Jahresrate in %)",
+          "unit": " %",
+          "source": "IG, TechTimes (Konsenswerte, Ist-Zahl 14:30)",
+          "allPositive": true,
+          "data": [
+            [
+              "Mai (Ist)",
+              4.2
+            ],
+            [
+              "Juni Konsens",
+              3.9
+            ],
+            [
+              "Kernrate Juni Konsens",
+              2.9
+            ],
+            [
+              "Fed-Ziel",
+              2
+            ]
+          ]
+        }
+      ],
+      "lehre": "Märkte handeln heute nicht die Juni-Inflation. Sie handeln die Differenz zwischen der Zahl und dem, was für Juli schon absehbar ist.",
+      "factcheck": {
+        "claim": "Erster monatlicher Preisrückgang seit der Pandemie erwartet",
+        "verdict": "bestätigt",
+        "evidence": "Als Konsenserwartung zweiquellig (IG; Bloomberg via Spokesman). Prognose, kein Messwert. Banken-EPS-Konsens einquellig (TechTimes), als Spannen zu lesen."
+      },
+      "sources": [
+        {
+          "title": "IG: US CPI June 2026 preview",
+          "url": "https://www.ig.com/uk/trading-strategies/us-cpi-june-2026-preview-what-to-expect-tomorrow-260713",
+          "tier": 2
+        },
+        {
+          "title": "TechTimes: Bank Earnings and June CPI Collide Tuesday",
+          "url": "https://www.techtimes.com/articles/320366/20260713/wall-street-q2-bank-earnings-june-cpi-collide-tuesday-rare-double-print.htm",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "kospi-stabilisierung-tag2",
+      "ressort": "news",
+      "kicker": "Südkorea · Tag 2 nach dem Beben",
+      "headline": "Seoul versucht die Stabilisierung: Kospi eröffnet schwächer und kämpft sich über 6.800 zurück",
+      "dek": "Samsung dreht ins Plus, Ausländer und Institutionen kaufen, Privatanleger verkaufen. Der HBM-These-Test folgt mit ASML und TSMC.",
+      "body": [
+        "Nach dem Schwarzen Montag (−8,95 Prozent auf 6.806,93) eröffnete der Kospi heute mit minus 0,88 Prozent bei 6.746,89 Punkten und erholte sich im Verlauf über 6.800. Samsung Electronics +0,59 Prozent, SK Hynix zunächst −1,63 Prozent, Kosdaq −1,14 Prozent, Won 1.498,5 je Dollar.",
+        "Käuferstruktur am Morgen: Ausländer +853,1 Milliarden Won, Institutionen +756 Milliarden, Privatanleger −1,593 Billionen (bloomingbit). Endgültige Schlusskurse nach Redaktionsschluss (Seoul schließt 08:30 Berlin).",
+        "Die HBM-Preisdeckel-These, Auslöser des Crashs, wird von der Erholung weder bestätigt noch widerlegt. Der Test kommt mit ASML (Mittwoch) und TSMC (Donnerstag)."
+      ],
+      "mechanik": "Am Tag nach einem Crash zeigt sich, wer verkauft hat: Wenn Profis kaufen und Privatanleger verkaufen, deutet das auf kapitulierende Kleinanleger und schnäppchenjagende Institutionen. Das stabilisiert kurzfristig, beantwortet aber die Bewertungsfrage nicht.",
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "samsung",
+          "bewegung": "+0,59 % (Di früh)",
+          "warum": "Dreht nach −10,7 % am Montag als erster Blue Chip ins Plus.",
+          "firma": "Samsung Electronics"
+        },
+        {
+          "logoKey": "skhynix",
+          "bewegung": "−1,63 % (Di früh)",
+          "warum": "Epizentrum der HBM-Preisdeckel-These, Erholung zäher als beim Gesamtmarkt.",
+          "firma": "SK Hynix (Seoul)"
+        },
+        {
+          "logoKey": "micron",
+          "bewegung": "−4,3 % (Mo)",
+          "warum": "US-Speicherhersteller, wird mit derselben Gewinnschätzungs-Logik neu bewertet.",
+          "firma": "Micron"
+        }
+      ],
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "richtung": "negativ",
+          "mechanismus": "Gedeckelte KI-Speicherpreise stellen die Gewinnschätzungen der Chipbranche in Frage. SOX −4,78 Prozent zeigt die Ansteckung. Für Chip-Käufer wie Nvidia wären gedeckelte Preise sogar eine Kostenentlastung.",
+          "teilbranchen": "Speicher, Ausrüster, Foundries, KI-Designer",
+          "betroffenheit": "direkt"
+        },
+        {
+          "sektor": "Industrie",
+          "richtung": "negativ",
+          "mechanismus": "Rechenzentrums-Zulieferer (Stromtechnik, Kühlung, Reinraum) leiden bei Zweifeln am KI-Investitionszyklus trotz voller Auftragsbücher.",
+          "teilbranchen": "Elektrotechnik, Kühltechnik, RZ-Bau",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Finanzen",
+          "richtung": "negativ",
+          "mechanismus": "Kurssturz trifft Broker und Vermögensverwalter über Depotwerte und Zwangsverkäufe; Won-Schwäche belastet koreanische Banken. Außerhalb Koreas klein.",
+          "teilbranchen": "Korea-Banken, Broker, Börsenbetreiber",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Kommunikation",
+          "richtung": "neutral",
+          "mechanismus": "Plattformen kaufen KI-Rechenleistung: Stabile Speicherpreise senken Kosten, KI-Zweifel drücken zugleich die Kurse.",
+          "teilbranchen": "Internet-Plattformen, Cloud-Medien",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Versorger",
+          "richtung": "neutral",
+          "mechanismus": "Stromerzeuger mit Rechenzentrumsverträgen hängen an der KI-Story, der regulierte Rest gilt als sicherer Hafen.",
+          "teilbranchen": "Unregulierte Erzeuger, Netzbetreiber",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Immobilien",
+          "richtung": "neutral",
+          "mechanismus": "Rechenzentrums-REITs hängen an der Cloud-Nachfrage. Solange nur Gewinne innerhalb der Chipbranche umverteilt werden, ändert sich wenig.",
+          "teilbranchen": "RZ-REITs; Wohnen/Büro unberührt",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Grundstoffe",
+          "richtung": "neutral",
+          "mechanismus": "Chipfabriken brauchen Spezialchemie, Gase, Wafer. Vorsichtigere Ausbaupläne dämpfen die Nachfrage mittelfristig.",
+          "teilbranchen": "Elektronikchemie, Industriegase",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "richtung": "neutral",
+          "mechanismus": "HBM betrifft Rechenzentren, keine Endkundenprodukte. Koreanische Autobauer fielen mit dem Markt, der schwache Won stützt ihre Exportmargen.",
+          "teilbranchen": "Hyundai/Kia marktgetrieben",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Gesundheit",
+          "richtung": "neutral",
+          "mechanismus": "Kein Bezug zu Speicherpreisen, defensiver Ausweichort.",
+          "teilbranchen": "Pharma, Biotech, Medizintechnik",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Basiskonsum",
+          "richtung": "positiv",
+          "mechanismus": "In Risk-off-Phasen fließt Geld relativ in stabile Geschäftsmodelle.",
+          "teilbranchen": "Nahrungsmittel, Haushaltswaren",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Energie",
+          "richtung": "neutral",
+          "mechanismus": "Öl und Gas reagieren auf Geopolitik und OPEC. Die Rechenzentrums-Stromnachfrage steht nicht in Frage.",
+          "teilbranchen": "Förderer, Pipelines",
+          "betroffenheit": "kaum"
+        }
+      ],
+      "lehre": "Erzwungene Stabilisierung ist thesenneutral: Erst ASML und TSMC testen, ob die HBM-Sorge berechtigt war.",
+      "factcheck": {
+        "claim": "Kospi-Eröffnungsdaten und Käuferstruktur",
+        "verdict": "bestätigt",
+        "evidence": "bloomingbit (9:04 Ortszeit, exakte Werte). Verlauf über 6.800 einquellig (asiae-Schlagzeile, Volltext gesperrt)."
+      },
+      "sources": [
+        {
+          "title": "bloomingbit: Kospi Opens Lower at 6,746",
+          "url": "https://en.bloomingbit.io/feed/news/116180",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "vw-100000-stellen",
+      "ressort": "unternehmen",
+      "kicker": "Deutschland · Volkswagen",
+      "headline": "Blume nennt erstmals die große Zahl: Bis zu 100.000 VW-Stellen stehen im Raum",
+      "dek": "Der Aufsichtsrat stoppt das Sparpaket, der CEO beziffert im Intranet das theoretische Abbaupotenzial. Konkretes am 24. Juli.",
+      "body": [
+        "VW-Chef Blume nannte am Montag im Konzern-Intranet erstmals eine Gesamtdimension: Zusätzlich zu den vereinbarten 50.000 könnten weitere rund 50.000 Stellen wegfallen, zusammen etwa 100.000 über mehrere Jahre, vor allem in Deutschland.",
+        "Zu Werksschließungen: Es gebe intelligentere Lösungen, als Werke zu schließen. Für Emden, Hannover, Zwickau und Neckarsulm könne er eine wettbewerbsfähige Auslastung in den 2030er Jahren aber nicht garantieren.",
+        "Am Wochenende hatte der Aufsichtsrat dem Sparpaket die Zustimmung verweigert (geplant: Modellpalette −50 Prozent, Komplexität −75 Prozent, Kapazität von 10 auf ~9 Millionen Fahrzeuge). Die Aktie notiert um 71 Euro nahe dem 52-Wochen-Tief."
+      ],
+      "mechanik": "Für die Börse ist ein Sparprogramm erst Geld wert, wenn es beschlossen und umsetzbar ist. VW hat das Gegenteil: eine große Zahl im Raum und einen blockierenden Aufsichtsrat. Der Markt bepreist die Wahrscheinlichkeit der Umsetzung, und die ist nach dem Veto gesunken.",
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "vw",
+          "bewegung": "~71 € · nahe 52W-Tief",
+          "warum": "Große Sparzahl trifft auf Aufsichtsrats-Veto: Der Markt bepreist Umsetzungsrisiko, keine Fantasie.",
+          "firma": "Volkswagen"
+        }
+      ],
+      "sektorCheck": [
+        {
+          "sektor": "Zyklischer Konsum",
+          "richtung": "negativ",
+          "mechanismus": "Zulieferer wie Bosch, Continental und ZF verlieren planbares Volumen, wenn VW Kapazität und Variantenvielfalt kürzt.",
+          "teilbranchen": "Autohersteller, Zulieferer, Händler",
+          "betroffenheit": "direkt"
+        },
+        {
+          "sektor": "Industrie",
+          "richtung": "negativ",
+          "mechanismus": "Schwächere Auslastung heißt weniger Maschinen-, Roboter- und Anlagenbestellungen; auch Logistik verliert Volumen.",
+          "teilbranchen": "Werkzeugmaschinen, Robotik, Autotransport",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Grundstoffe",
+          "richtung": "negativ",
+          "mechanismus": "Eine Million Fahrzeuge weniger Kapazität bedeutet dauerhaft weniger Stahl, Aluminium und Kunststoffe (rund eine Tonne Stahl je Auto).",
+          "teilbranchen": "Stahl, Aluminium, Lacke, Kunststoffe",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Finanzen",
+          "richtung": "negativ",
+          "mechanismus": "Höhere Ausfallrisiken bei Zuliefererkrediten, regionale Institute zusätzlich über Konsum- und Baufinanzierung betroffen.",
+          "teilbranchen": "Regionalbanken, Autobanken, Kreditversicherer",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Informationstechnologie",
+          "richtung": "neutral",
+          "mechanismus": "Weniger Fahrzeuge heißt weniger Autochips; gegenläufig steigt der Chipanteil je Auto strukturell.",
+          "teilbranchen": "Automotive-Halbleiter, Autosoftware",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Immobilien",
+          "richtung": "negativ",
+          "mechanismus": "In Werksstädten drücken wegfallende Stellen über Jahre Mieten und Kaufpreise; börsennotierte Konzerne mit Großstadt-Bestand wenig exponiert.",
+          "teilbranchen": "Wohnen regional, Gewerbe, Entwickler",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Versorger",
+          "richtung": "negativ",
+          "mechanismus": "Schwächer ausgelastete Werke verbrauchen weniger Strom und Gas, sichtbar eher bei Stadtwerken.",
+          "teilbranchen": "Regionalversorger, Industriegase",
+          "betroffenheit": "indirekt"
+        },
+        {
+          "sektor": "Kommunikation",
+          "richtung": "neutral",
+          "mechanismus": "VW ist Groß-Werbetreibender, eine halbierte Modellpalette braucht weniger Kampagnen. Für große Medienkonzerne klein.",
+          "teilbranchen": "Werbevermarkter, Regionalmedien",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Basiskonsum",
+          "richtung": "neutral",
+          "mechanismus": "Defensiv; nur Händler mit Schwerpunkt in VW-Regionen spüren Kaufkraft leicht.",
+          "teilbranchen": "Lebensmittelhandel regional",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Gesundheit",
+          "richtung": "neutral",
+          "mechanismus": "Von der Lage eines Autokonzerns weitgehend entkoppelt.",
+          "teilbranchen": "Pharma, Kliniken",
+          "betroffenheit": "kaum"
+        },
+        {
+          "sektor": "Energie",
+          "richtung": "neutral",
+          "mechanismus": "Globale Öl- und Gasnachfrage ändert sich durch einen Konzernumbau fast nicht.",
+          "teilbranchen": "Öl und Gas",
+          "betroffenheit": "kaum"
+        }
+      ],
+      "company": {
+        "name": "Volkswagen",
+        "ticker": "VOW3",
+        "exchange": "Xetra / DAX",
+        "whatTheyDo": "Größter europäischer Autohersteller (VW, Audi, Porsche, Skoda und weitere). Hohe deutsche Kostenbasis, schwaches China-Geschäft, E-Transformation.",
+        "whyItMatters": "Musterfall für die Frage, ob deutsche Industrie-Ikonen ihre Kostenbasis reformieren können.",
+        "keyMetrics": [
+          [
+            "Kurs",
+            "~71 € (nahe 52W-Tief)"
+          ],
+          [
+            "H1-Auslieferungen",
+            "4,1 Mio."
+          ],
+          [
+            "Abbaupotenzial lt. Blume",
+            "bis zu 100.000 Stellen"
+          ],
+          [
+            "Nächster Termin",
+            "24.7. Halbjahreszahlen"
+          ]
+        ]
+      },
+      "lehre": "Ein Sparprogramm ist erst Geld wert, wenn es beschlossen und umsetzbar ist.",
+      "factcheck": {
+        "claim": "Bis zu 100.000 Stellen, Sparpaket gestoppt",
+        "verdict": "bestätigt",
+        "evidence": "Zweiquellig: wallstreetONLINE (Veto, Paketdetails), t-online (Intranet-Zahlen, vier Standorte)."
+      },
+      "sources": [
+        {
+          "title": "wallstreetONLINE: VW-Umbau stockt",
+          "url": "https://www.wallstreet-online.de/nachricht/21099882-vw-umbau-stockt-aufsichtsrat-stoppt-radikale-plaene-jobaengste",
+          "tier": 2
+        },
+        {
+          "title": "t-online: Blume nennt erstmals Zahlen",
+          "url": "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101340908/vw-chef-oliver-blume-nennt-erstmals-zahlen-zum-stellenabbau-beim-autobauer.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "yaskawa-limit-down",
+      "ressort": "unternehmen",
+      "kicker": "Japan · Robotik",
+      "headline": "Yaskawa fällt 14 Prozent ans Tageslimit: Ein Quartalsbericht als Lehrstück über Einmalkosten",
+      "dek": "Nettogewinn −22 Prozent, Umsatz +11 Prozent, Aufträge +30 Prozent, Prognose bestätigt. Der Markt bestraft trotzdem maximal.",
+      "body": [
+        "Q1 (März bis Mai): Umsatz 138,9 Milliarden Yen (+11 Prozent), operativer Gewinn 8,4 Milliarden (−19 Prozent), netto 5,4 Milliarden (−22 Prozent). Die Robotersparte verlor 82 Prozent ihres operativen Gewinns (IT-Systemumstellung, Umbaukosten), Motion Control legte 50 Prozent zu (Chipfabriken, Rechenzentren), der Auftragseingang stieg 30 Prozent.",
+        "Die Jahresprognose blieb bestätigt: 580 Milliarden Yen Umsatz, 47 Milliarden Nettogewinn (+33 Prozent). Die Aktie fiel am Montag 14,34 Prozent auf 5.972 Yen, das maximale Tagesminus in Tokio.",
+        "Kernfrage: temporäre Störung, wie das Management sagt, oder strukturelle China-Schwäche? Die bestätigte Prognose verlangt eine deutliche Aufholjagd in drei Quartalen."
+      ],
+      "mechanik": "Ein Limit-Down-Tag bei bestätigter Jahresprognose heißt: Der Markt handelt die Glaubwürdigkeit des Managements. Wer dem Wort temporär glaubt, sieht einen erzwungenen Abverkauf; wer nicht glaubt, sieht den Anfang einer Prognosesenkung.",
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "yaskawa",
+          "bewegung": "−14,34 % (Mo)",
+          "warum": "Gewinneinbruch im Roboter-Geschäft, Kurs fiel ans erlaubte Tageslimit.",
+          "firma": "Yaskawa Electric"
+        },
+        {
+          "logoKey": "kioxia",
+          "bewegung": "−12,86 % (Mo)",
+          "warum": "Speicherhersteller, von der HBM-Preisdeckel-These mit erfasst.",
+          "firma": "Kioxia"
+        },
+        {
+          "logoKey": "mufg",
+          "bewegung": "+2,31 % (Mo)",
+          "warum": "Steigende Zinserwartungen weiten die Kreditmarge der Großbank.",
+          "firma": "Mitsubishi UFJ"
+        }
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Yaskawa Q1: Ein Quartal, zwei Welten (Veränderung in %)",
+          "unit": " %",
+          "source": "Unternehmensangaben via BigGo Finance, 13.7.2026",
+          "allPositive": false,
+          "data": [
+            [
+              "Umsatz",
+              11
+            ],
+            [
+              "Operativer Gewinn",
+              -19
+            ],
+            [
+              "Nettogewinn",
+              -22
+            ],
+            [
+              "Roboter-Sparte (op.)",
+              -82
+            ],
+            [
+              "Motion Control (op.)",
+              50
+            ],
+            [
+              "Auftragseingang",
+              30
+            ]
+          ]
+        }
+      ],
+      "company": {
+        "name": "Yaskawa Electric",
+        "ticker": "6506",
+        "exchange": "Tokio",
+        "whatTheyDo": "Einer der weltgrößten Hersteller von Industrierobotern und Antriebstechnik. Frühindikator der globalen Automatisierung.",
+        "whyItMatters": "Zeigt beide Welten gleichzeitig: schwaches Auto- und China-Geschäft, boomende Nachfrage aus Chipfabriken und Rechenzentren.",
+        "keyMetrics": [
+          [
+            "Kurs (Mo)",
+            "5.972 ¥ (−14,34 %, Limit-Down)"
+          ],
+          [
+            "Umsatz Q1",
+            "138,9 Mrd. ¥ (+11 %)"
+          ],
+          [
+            "Nettogewinn Q1",
+            "5,4 Mrd. ¥ (−22 %)"
+          ],
+          [
+            "Auftragseingang",
+            "+30 %"
+          ],
+          [
+            "Jahresprognose",
+            "bestätigt (+33 % netto)"
+          ]
+        ]
+      },
+      "lehre": "Limit-Down bei bestätigter Prognose ist ein Misstrauensvotum gegen das Management, noch vor den Zahlen.",
+      "factcheck": {
+        "claim": "Yaskawa −14,34 % Limit-Down nach Q1",
+        "verdict": "bestätigt",
+        "evidence": "Business Recorder (Reuters-Text) und BigGo Finance. Einzelne Aggregatoren melden fälschlich Prognosesenkung; die konkreten Guidance-Zahlen sprechen für Bestätigung."
+      },
+      "sources": [
+        {
+          "title": "Business Recorder: Nikkei closes lower",
+          "url": "https://www.brecorder.com/news/40429769",
+          "tier": 2
+        },
+        {
+          "title": "BigGo Finance: Yaskawa Q1",
+          "url": "https://finance.biggo.com/news/779d5104-8035-4976-8144-7abfd86f6d3c",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "fraport-verkehr-juni",
+      "ressort": "unternehmen",
+      "kicker": "Deutschland · Verkehrsinfrastruktur",
+      "headline": "Fraport senkt das Passagierziel für Frankfurt, hält aber den Finanzausblick",
+      "dek": "Frankfurt −1,7 Prozent im Juni, Konzern +1,0 Prozent im Halbjahr: Das internationale Portfolio trägt.",
+      "body": [
+        "Juni: 5,7 Millionen Passagiere in Frankfurt (−1,7 Prozent), Halbjahr 28,9 Millionen (−0,8 Prozent), Fracht +2,0 Prozent. Konzernweit 77,7 Millionen Passagiere im Halbjahr (+1,0 Prozent), getragen von Beteiligungsflughäfen in Griechenland, Antalya und Lima.",
+        "Das Frankfurter Jahresziel wurde auf etwa Vorjahresniveau gesenkt (Lufthansa-Streiks mit rund 700.000 verlorenen Passagieren, Iran-Krieg). Der Finanzausblick bleibt bestätigt. Aktie 66,50 Euro, 52-Wochen-Spanne 57,95 bis 86,85 Euro."
+      ],
+      "mechanik": "Ein Flughafen verdient an Entgelten je Passagier und am Geschäft im Terminal, seine Kosten sind weitgehend fix. Deshalb schlägt ein kleines Passagierminus überproportional auf den Gewinn durch, und deshalb ist die Kombination aus gesenktem Passagierziel und bestätigtem Finanzausblick nur scheinbar widersprüchlich: Die profitableren Auslandsflughäfen gleichen das Frankfurter Minus aus.",
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "fraport",
+          "bewegung": "66,50 € (Di früh)",
+          "warum": "Juni-Minus in Frankfurt, Konzernportfolio gleicht aus, Finanzausblick bestätigt.",
+          "firma": "Fraport"
+        },
+        {
+          "logoKey": "lufthansa",
+          "bewegung": "Streik-Effekt",
+          "warum": "Rund 700.000 Passagiere gingen Frankfurt laut Fraport durch Streiks verloren.",
+          "firma": "Lufthansa"
+        }
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Fraport im Juni: Frankfurt schrumpft, der Konzern wächst (Veränderung in %)",
+          "unit": " %",
+          "source": "Fraport-Pressemitteilung (Primärquelle), 13.7.2026",
+          "allPositive": false,
+          "data": [
+            [
+              "Passagiere Frankfurt Juni",
+              -1.7
+            ],
+            [
+              "Passagiere Frankfurt H1",
+              -0.8
+            ],
+            [
+              "Fracht Frankfurt Juni",
+              2
+            ],
+            [
+              "Passagiere Konzern H1",
+              1
+            ]
+          ]
+        }
+      ],
+      "company": {
+        "name": "Fraport",
+        "ticker": "FRA",
+        "exchange": "Xetra / MDAX",
+        "whatTheyDo": "Betreibt den Flughafen Frankfurt und Beteiligungsflughäfen unter anderem in Griechenland, Antalya und Lima.",
+        "whyItMatters": "Fixkostengeschäft mit Konzessions-Moat: Kleine Passagierveränderungen wirken überproportional auf den Gewinn.",
+        "keyMetrics": [
+          [
+            "Kurs (Di früh)",
+            "66,50 €"
+          ],
+          [
+            "Börsenwert",
+            "6,17 Mrd. €"
+          ],
+          [
+            "KGV",
+            "17,4"
+          ],
+          [
+            "Analystenziel Ø",
+            "81,33 €"
+          ]
+        ]
+      },
+      "lehre": "Bei Infrastrukturwerten zählt das Portfolio: Ein schwacher Heimatstandort ist tragbar, solange diversifizierte Standorte wachsen.",
+      "factcheck": {
+        "claim": "Passagierziel gesenkt, Finanzausblick bestätigt",
+        "verdict": "bestätigt",
+        "evidence": "Primärquelle Fraport-Pressemitteilung; Kurs und Bewertung wallstreetONLINE."
+      },
+      "sources": [
+        {
+          "title": "Fraport: Verkehrszahlen Juni 2026",
+          "url": "https://www.fraport.com/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport-verkehrszahlen-im-juni-2026.html",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "id": "skhy-adr-praemie",
+      "ressort": "news",
+      "kicker": "Börsengang · Nachbeben",
+      "headline": "SK-Hynix-ADR fällt auf 152 Dollar: Die Prämie gegenüber Seoul schmilzt",
+      "dek": "Montag −9,32 Prozent auf 152,35 Dollar, gut zwei Prozent über dem Ausgabepreis von 149 Dollar.",
+      "body": [
+        "Das am Freitag mit +12,8 Prozent gefeierte US-Zweitlisting verlor am Montag 9,32 Prozent auf 152,35 Dollar. Die ADR notieren laut Berichten weiter mit rund 20 Prozent Aufschlag gegenüber Seoul (Spitze 25,6 Prozent)."
+      ],
+      "mechanik": "Ein und dasselbe Unternehmen hat hier zwei Preise. Der US-Aufschlag entsteht durch Indexkäufe, Dollar-Anleger und knappe ADR-Stückzahl. Solche Prämien sind selten stabil: Entweder wächst das ADR-Angebot, oder Arbitrage-Händler drücken die Lücke zu. ADR-Halter tragen also Geschäftsrisiko plus Prämienrisiko.",
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "skhynix",
+          "bewegung": "−9,32 % (Mo)",
+          "warum": "Schluss 152,35 $, nur noch gut zwei Prozent über dem Ausgabepreis von 149 $.",
+          "firma": "SK Hynix ADR (Nasdaq)"
+        }
+      ],
+      "lehre": "Zwei Preise für dieselbe Firma sind selten stabil. Die Frage ist nur, von welcher Seite sich die Lücke schließt.",
+      "factcheck": {
+        "claim": "SKHY-Schluss 152,35 $ (−9,32 %)",
+        "verdict": "bestätigt",
+        "evidence": "stockanalysis.com; fxleaders (Prämie, Marken)."
+      },
+      "sources": [
+        {
+          "title": "stockanalysis.com: SKHY",
+          "url": "https://stockanalysis.com/stocks/skhy/",
+          "tier": 2
+        }
+      ]
+    }
+  ],
+  "branchenMonitor": [
+    {
+      "sektor": "Energie",
+      "wasIstDas": "Ölförderer, Gasproduzenten, Raffinerien, Öl-Dienstleister",
+      "lage": "Gewinner der Lage: Brent hält die 83 Dollar, heute Abend wird die Hormus-Gebühr wirksam. Förderer außerhalb der Krisenregion verdienen mit, ohne Mehrkosten. Terminmarkt (Dez ~80 $) preist eher Beruhigung.",
+      "richtung": "up",
+      "tagesWert": "Brent ≈83 $ · PBF +8,0 % (Mo)"
+    },
+    {
+      "sektor": "Informationstechnologie",
+      "wasIstDas": "Software, Hardware, Halbleiter",
+      "lage": "Zweiter Belastungstag durch das Korea-Beben, SOX −4,78 Prozent. Die HBM-Preisdeckel-These stellt Gewinnschätzungen in Frage; Realitätschecks: ASML (Mi), TSMC (Do). Gegenkraft: freundlicher CPI über den Zinskanal.",
+      "richtung": "down",
+      "tagesWert": "SOX −4,78 % (Mo)"
+    },
+    {
+      "sektor": "Finanzen",
+      "wasIstDas": "Banken, Versicherer, Vermögensverwalter, Börsen",
+      "lage": "Sektor des Tages: Fünf Großbanken berichten. Zinsüberschuss-Prognosen und Rückstellungen entscheiden über die Konsumschwäche-These. Japanische Banken stiegen am Montag mit der Zinsfantasie.",
+      "richtung": "neutral",
+      "tagesWert": "Earnings heute · MUFG +2,31 % (Mo)"
+    },
+    {
+      "sektor": "Industrie",
+      "wasIstDas": "Maschinenbau, Rüstung, Bau, Airlines, Logistik",
+      "lage": "Teures Kerosin trifft Airlines und Logistiker, die Hormus-Lage stört Routen, ein VW-Umbau würde Maschinenbau Volumen kosten. Yaskawa −14,34 Prozent zeigt die Härte gegen Enttäuschungen. Rüstung strukturell gestützt.",
+      "richtung": "down",
+      "tagesWert": "Yaskawa −14,34 % (Mo)"
+    },
+    {
+      "sektor": "Zyklischer Konsum",
+      "wasIstDas": "Auto, Mode, Luxus, Reisen, Online-Handel",
+      "lage": "VW-Konflikt belastet die Zulieferkette, teures Benzin wirkt wie eine Steuer auf das frei verfügbare Einkommen. Die Kreditkarten-Daten der Banken liefern heute den ehrlichsten Konsum-Blick.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Basiskonsum",
+      "wasIstDas": "Lebensmittel, Getränke, Haushaltswaren, Supermärkte",
+      "lage": "Puffer im Depot: In Risk-off-Phasen fließt Geld relativ in den Sektor. Kehrseite: Fallende Inflation erschwert weitere Preiserhöhungen der Markenhersteller.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Gesundheit",
+      "wasIstDas": "Pharma, Biotechnologie, Medizintechnik, Krankenversicherer",
+      "lage": "Von den Tagesthemen weitgehend entkoppelt, klassischer Ausweichort. Zinssensibel sind vor allem junge Biotechfirmen ohne Gewinne.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Immobilien",
+      "wasIstDas": "Börsennotierte Vermieter (REITs), Projektentwickler",
+      "lage": "Reinster Zinswert: Eine freundliche Inflationszahl stützt Refinanzierung und Objektwerte. Sonderthemen: Gewerbeimmobilien-Rückstellungen der Banken, regional die VW-Städte.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Versorger",
+      "wasIstDas": "Strom-, Gas- und Wassernetze, Stromerzeuger",
+      "lage": "Doppelt gestützt: Anleihe-Ersatz bei Zinssenkungsfantasie plus Rechenzentrums-Wachstumsstory. Risiko über die Gaspreise bei Hormus-Eskalation (Katar-Flüssiggas).",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Kommunikation",
+      "wasIstDas": "Telekom, Internet-Plattformen, Medien, Unterhaltung",
+      "lage": "Zweigeteilt: Plattformen hängen an Chip-Debatte und Zinskanal, gedeckelte Speicherpreise wären für sie Kostenentlastung. Donnerstag berichtet Netflix.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt"
+    },
+    {
+      "sektor": "Grundstoffe",
+      "wasIstDas": "Chemie, Metalle, Bergbau, Baustoffe, Verpackung",
+      "lage": "Teures Öl verteuert die Chemie-Einsatzstoffe, ein VW-Kapazitätsabbau würde Stahl- und Aluminiumnachfrage schmälern. Gegenkraft: Zinssenkungsfantasie stützt Metalle und Goldminen.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt"
+    }
+  ],
+  "stockPicks": [
+    {
+      "name": "Yaskawa Electric",
+      "ticker": "6506",
+      "logoKey": "yaskawa",
+      "marketCapEUR": "≈ 8,4 Mrd. € (≈1,59 Bill. ¥)",
+      "capSource": "Eigene Rechnung aus Schlusskurs 5.972 ¥; companiesmarketcap vor Kurssturz 10,9 Mrd. $",
+      "thesis": "Weltmarktführer der Automatisierung nach Limit-Down-Tag mit den Problemen eines Einzelquartals bepreist, während Aufträge +30 %, Motion Control +50 % und die bestätigte Prognose (+33 % netto) auf Erholung deuten.",
+      "counterarguments": [
+        "Roboterschwäche könnte strukturell sein (China-Lokalkonkurrenz)",
+        "Prognose verlangt steile Aufholjagd in drei Quartalen",
+        "Börsenwert nur näherungsweise belegt",
+        "Yen-Währungsrisiko für Euro-Anleger"
+      ],
+      "catalysts": [
+        "Q2-Bericht",
+        "Roboter-Auftragseingang",
+        "China-Automatisierungsnachfrage"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "name": "Fraport",
+      "ticker": "FRA",
+      "logoKey": "fraport",
+      "marketCapEUR": "6,17 Mrd. €",
+      "capSource": "wallstreetONLINE 14.7.",
+      "thesis": "Infrastruktur-Monopolist nahe Jahrestief zum 17-fachen Gewinn, internationales Portfolio wächst, Finanzausblick trotz Frankfurt-Schwäche bestätigt, Analystenziel im Schnitt gut 20 % höher.",
+      "counterarguments": [
+        "Hormus-Eskalation träfe doppelt (Kerosin, Routen)",
+        "Frankfurt-Minus teils strukturell",
+        "Terminal 3 bindet Kapital",
+        "UBS kürzlich auf Neutral (Ziel 65 €)"
+      ],
+      "catalysts": [
+        "Verkehrszahlen Juli/August",
+        "Hormus-Lage",
+        "Halbjahreszahlen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "name": "flatexDEGIRO",
+      "ticker": "FTK",
+      "logoKey": "flatex",
+      "marketCapEUR": "≈ 4,1 Mrd. € (4,63 Mrd. $)",
+      "capSource": "companiesmarketcap, Juli 2026",
+      "thesis": "Mechanischer Profiteur des Volatilitätsregimes: Crash-Tage, CPI-Termine und Kriegsprämien erzeugen Handelsaktivität, ein Broker verdient an jeder Transaktion richtungsunabhängig. Kein firmenspezifischer Newsflow diese Woche, reine Geschäftsmodell-These, so gekennzeichnet.",
+      "counterarguments": [
+        "Volatilitätsphasen sind kurz",
+        "Kurs +52 % in zwölf Monaten",
+        "Sinkende Zinsen drücken den Zinsertrag auf Kundengelder",
+        "Preisdruck durch Neobroker"
+      ],
+      "catalysts": [
+        "Handelsvolumen-Statistiken",
+        "Q2-Zahlen",
+        "Zinsentscheidungen"
+      ],
+      "confidence": "niedrig"
+    }
+  ],
+  "watchlist": [],
+  "learningNotes": [
+    "Märkte handeln die Abweichung, nicht das Ereignis: Konsenswerte sind öffentlich, nur Abweichung bewegt.",
+    "Eine Inflationszahl hat zwei Schichten: Die Schlagzeilenrate schwankt mit Benzin, die Kernrate zeigt das Festgesetzte. Notenbanken handeln nach der zweiten.",
+    "Rückstellungen sind das Frühwarnsystem der Wirtschaft, sie kippen vor den Arbeitsmarktdaten.",
+    "Limit-Down bei bestätigter Prognose ist ein Misstrauensvotum gegen das Management (Yaskawa).",
+    "Zwei Preise für dieselbe Firma (ADR-Prämie) sind selten stabil; die Lücke schließt sich meist."
+  ],
+  "financeLink": {
+    "titel": "Der Zinsüberschuss einer Bank durch die drei Abschlüsse",
+    "absaetze": [
+      "Gewinn- und Verlustrechnung: Zinsüberschuss ist Zinsertrag aus Krediten minus Zinsaufwand für Einlagen, oft die halbe Ertragsbasis; Rückstellungen werden vom Gewinn abgezogen, bevor ein Euro ausfällt.",
+      "Bilanz: Kredite stehen als Forderungen im Aktivbestand, die Risikovorsorge kürzt ihren Buchwert; Einlagen sind Verbindlichkeiten, Konkurrenz um Sparer verteuert sie.",
+      "Cashflow: Rückstellungen sind zunächst nur ein Buchungsvorgang, deshalb kann der Cashflow stabil bleiben, bis Ausfälle real werden.",
+      "Bewertung: Banken werden oft zum Kurs-Buchwert-Verhältnis bewertet; steigende Ausfallerwartungen drücken das gerechtfertigte Vielfache."
+    ],
+    "anfaengerfehler": "Der typische Anfängerfehler: Nur auf Gewinn über Erwartungen schauen; die Kursreaktion entsteht im Ausblick auf Zinsüberschuss und Risikovorsorge."
+  },
+  "glossar": [
+    {
+      "begriff": "Kernrate",
+      "erklaerung": "Inflation ohne Energie- und Lebensmittelpreise. Zeigt, wie tief sich Preissteigerungen in Mieten, Dienstleistungen und Löhnen festgesetzt haben."
+    },
+    {
+      "begriff": "Zinsüberschuss (Net Interest Income)",
+      "erklaerung": "Differenz zwischen dem, was eine Bank für Kredite kassiert, und dem, was sie Sparern zahlt. Wichtigste Ertragsquelle klassischer Banken."
+    },
+    {
+      "begriff": "Rückstellung (Risikovorsorge)",
+      "erklaerung": "Gewinn, den eine Bank vorsorglich für erwartete Kreditausfälle beiseitelegt. Frühindikator für die Konjunktur."
+    },
+    {
+      "begriff": "ADR (American Depositary Receipt)",
+      "erklaerung": "In den USA handelbarer Hinterlegungsschein auf eine ausländische Aktie. Kann mit Auf- oder Abschlag zum Heimatkurs notieren."
+    },
+    {
+      "begriff": "Limit-Down",
+      "erklaerung": "Maximal erlaubtes Tagesminus an Börsen wie Tokio. Der restliche Verkaufsdruck verschiebt sich auf den nächsten Tag."
+    },
+    {
+      "begriff": "Falke / Taube",
+      "erklaerung": "Falken bevorzugen hohe Zinsen gegen Inflation, Tauben niedrige Zinsen für Wachstum. Fed-Chef Warsh gilt als Falke."
+    },
+    {
+      "begriff": "Forward Guidance",
+      "erklaerung": "Notenbank-Kommunikation über künftige Zinspolitik. Wirkt auf Marktzinsen, bevor eine Entscheidung fällt."
+    }
+  ],
+  "verificationLog": {
+    "confirmed": [
+      "Kospi-Eröffnung Di 6.746,89/−0,88 %, Samsung +0,59 %, SKH −1,63 %, Won 1.498,5 (bloomingbit)",
+      "CPI-Konsens 3,9/2,9/−0,1 (IG + Bloomberg via Spokesman)",
+      "VW: Veto + 100.000-Rahmen (wallstreetONLINE + t-online)",
+      "Fraport-Juni (Primärquelle)",
+      "Yaskawa Q1 und −14,34 % (BigGo + Business Recorder)",
+      "SKHY 152,35 $/−9,32 % (stockanalysis + fxleaders)",
+      "Nikkei −1,92 %/67.242,73 (Business Recorder)",
+      "Warsh seit Mai im Amt (CNBC, C-SPAN)"
+    ],
+    "uncertain": [
+      "Banken-EPS-Konsens (TechTimes, einquellig)",
+      "Kospi-Verlauf über 6.800 (Schlagzeile, einquellig)",
+      "Tankerpassagen −52 % (einquellig)",
+      "Kern-PPI 5,2 % (einquellig)",
+      "Warsh-Testimony-Wochentage (Quelle inkonsistent)",
+      "Yaskawa-Börsenwert (eigene Umrechnung)"
+    ],
+    "gaps": [
+      "VIX/Gold/10J-Schluss Mo",
+      "US-Futures und DAX-Indikation Di früh",
+      "Kospi/Nikkei-Schluss Di (nach Redaktionsschluss)",
+      "CPI-Ist (14:30)",
+      "Alpha Vantage komplett ausgefallen (Tageslimit), keine Kursserien-Charts",
+      "content-index.json nicht abrufbar, Nr. 7 aus Projekt-Zählung"
+    ]
+  }
+}

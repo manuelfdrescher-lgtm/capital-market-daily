@@ -4,7 +4,7 @@
 //
 //   npm run ingest <datei.json>
 //   Optionen: --commit (direkt committen)
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
@@ -30,6 +30,24 @@ try {
 } catch (err) {
   console.error(`❌ Kein gültiges JSON: ${err.message}`);
   process.exit(1);
+}
+
+// Die Ausgabennummer ist website-kanonisch und wird IMMER hier neu vergeben,
+// nie von der liefernden Quelle übernommen (Cowork-Läufe ohne Zugriff auf
+// content-index.json haben wiederholt eigene, falsche Nummern vergeben).
+const editionsDir = join(root, "content", "editions");
+let nextNumber = 1;
+if (existsSync(editionsDir)) {
+  for (const f of readdirSync(editionsDir).filter((f) => f.endsWith(".json"))) {
+    try {
+      const ed = JSON.parse(readFileSync(join(editionsDir, f), "utf8"));
+      if (ed.edition?.number >= nextNumber) nextNumber = ed.edition.number + 1;
+    } catch { /* invalide Altdatei ignorieren */ }
+  }
+}
+if (json.edition && json.edition.number !== nextNumber) {
+  console.log(`ℹ️  Ausgabennummer der Quelle (${json.edition.number}) überschrieben mit kanonischer Nummer ${nextNumber}.`);
+  json.edition.number = nextNumber;
 }
 
 let edition;

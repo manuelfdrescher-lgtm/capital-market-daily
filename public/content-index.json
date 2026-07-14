@@ -34,6 +34,13 @@
       "slot": "morning",
       "url": "https://manuelfdrescher-lgtm.github.io/capital-market-daily/ausgabe/2026-07-13-morning/",
       "headline": "Seoul im Ausverkauf: Kospi verliert über fünf Prozent, SK Hynix stürzt zwei Handelstage nach dem Rekord-Debüt zweistellig"
+    },
+    {
+      "number": 6,
+      "date": "2026-07-14",
+      "slot": "morning",
+      "url": "https://manuelfdrescher-lgtm.github.io/capital-market-daily/ausgabe/2026-07-14-morning/",
+      "headline": "Der Vormittag der Wahrheit: Inflationszahlen und fünf Großbanken testen die Zinshoffnung gleichzeitig"
     }
   ],
   "recentStockPicks": [
@@ -111,7 +118,22 @@
       "slug": "2026-07-13-morning",
       "name": "AeroVironment (AVAV)",
       "confidence": "niedrig"
+    },
+    {
+      "slug": "2026-07-14-morning",
+      "name": "Yaskawa Electric (6506)",
+      "confidence": "mittel"
+    },
+    {
+      "slug": "2026-07-14-morning",
+      "name": "Fraport (FRA)",
+      "confidence": "mittel"
+    },
+    {
+      "slug": "2026-07-14-morning",
+      "name": "flatexDEGIRO (FTK)",
+      "confidence": "niedrig"
     }
   ],
-  "lastUpdated": "2026-07-14T02:11:41.112Z"
+  "lastUpdated": "2026-07-14T13:43:30.162Z"
 }
