@@ -8,7 +8,6 @@ import Article from "../components/Article.astro";
 import BranchenMonitor from "../components/BranchenMonitor.astro";
 import RessortKopf from "../components/RessortKopf.astro";
 import { getLatestEdition } from "../lib/editions.mjs";
-import { formatDateShort } from "../lib/format.mjs";
 
 const { data, slug } = getLatestEdition();
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -30,11 +29,10 @@ const kurzNotiert = weitere.slice(0, 5).map((a) => ({
   subject: a.subject ?? a.kicker,
   text: a.dek.split(". ")[0].replace(/\.?$/, "."),
 }));
-const stand = `Kurse: US-Schluss ${formatDateShort(data.edition.date)}`;
 ---
 
 <Base title="Titelseite" active="titelseite" edition={data.edition}>
-  <MarketTiles tiles={data.market.tiles} stand={stand} />
+  <MarketTiles tiles={data.market.tiles} />
 
   <div class="titel-raster">
     <div>

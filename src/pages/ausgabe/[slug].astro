@@ -22,7 +22,7 @@ const unternehmen = data.articles.filter((a) => a.ressort === "unternehmen");
 ---
 
 <Base title={`Ausgabe ${data.edition.date} (${slotLabel(data.edition.slot)})`} edition={data.edition}>
-  <MarketTiles tiles={data.market.tiles} stand={data.edition.dataAsOf} />
+  <MarketTiles tiles={data.market.tiles} />
 
   {leitartikel.map((a) => <Article article={a} lead={true} />)}
 

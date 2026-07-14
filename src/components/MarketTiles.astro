@@ -1,9 +1,8 @@
 ---
 interface Props {
   tiles: any[];
-  stand?: string;
 }
-const { tiles, stand } = Astro.props;
+const { tiles } = Astro.props;
 const arrow = { up: "▲", down: "▼", flat: "◆" };
 // Ein einziges Grid mit fester Spaltenzahl (zwei Reihen), damit die
 // Trennlinien zwischen den Reihen exakt fluchten. Ist die zweite Reihe
@@ -17,7 +16,6 @@ const luecke = zweiteReihe > 0 ? spalten - zweiteReihe : 0;
 <section class="marktpanel" aria-label="Märkte im Überblick">
   <div class="marktpanel__kopf">
     <h2 class="marktpanel__titel">Märkte im Überblick</h2>
-    {stand && <span class="marktpanel__stand">{stand}</span>}
   </div>
   <div class="marktkacheln" style={`--mk-spalten: ${spalten}`}>
     {tiles.map((t, i) => (
