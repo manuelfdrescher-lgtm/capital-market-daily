@@ -487,5 +487,37 @@
     "file": null,
     "name": "CleanSpark",
     "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "blackrock": {
+    "file": "blackrock.svg",
+    "name": "BlackRock",
+    "source": "https://commons.wikimedia.org/wiki/File:BlackRock_wordmark.svg",
+    "license": "Public domain",
+    "artist": "BlackRock",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "renk": {
+    "file": "renk.svg",
+    "name": "RENK Group AG",
+    "source": "https://commons.wikimedia.org/wiki/File:RENK_Logo_RGB.svg",
+    "license": "Public domain",
+    "artist": "Renk GmbH",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "voestalpine": {
+    "file": "voestalpine.svg",
+    "name": "voestalpine AG",
+    "source": "https://commons.wikimedia.org/wiki/File:Voestalpine_2017_logo.svg",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "nexans": {
+    "file": "nexans.svg",
+    "name": "Nexans S.A.",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_Nexans.svg",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
   }
 }

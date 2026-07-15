@@ -1,0 +1,741 @@
+{
+  "edition": {
+    "number": 8,
+    "date": "2026-07-15",
+    "slot": "morning",
+    "schemaVersion": 2,
+    "dataAsOf": "Kurse: US-Schluss 14.7. übernommen (keine Alpha-Vantage-Daten diese Ausgabe); Asien 15.7. Intraday, ASML-Zahlen und China-BIP amtlich; PPI, ZEW, BlackRock und J&J als Termine; News bis 06:45 MESZ 15.7.",
+    "generatedAt": "2026-07-15T05:10:00Z",
+    "isExample": false
+  },
+
+  "market": {
+    "tiles": [
+      { "label": "S&P 500", "value": "7.543,59", "delta": "+0,38 %", "direction": "up", "approx": true, "note": "Schluss 14.7." },
+      { "label": "Nasdaq Composite", "value": "26.107,01", "delta": "+0,9 %", "direction": "up", "approx": true, "note": "Schluss 14.7., Chips führten" },
+      { "label": "Dow Jones", "value": "52.508,27", "delta": "+0,02 %", "direction": "flat", "approx": true, "note": "Schluss 14.7." },
+      { "label": "Russell 2000", "value": "2.964,76", "delta": "+0,39 %", "direction": "up", "approx": true, "note": "Schluss 14.7." },
+      { "label": "DAX", "value": "25.147", "delta": "+0,1 %", "direction": "up", "approx": true, "note": "Xetra-Schluss 14.7." },
+      { "label": "VIX (Angstbarometer Wall Street)", "value": "16,50", "delta": "−3,7 %", "direction": "down", "approx": false, "note": "Cboe, Schluss 14.7." },
+      { "label": "10-jährige US-Rendite", "value": "4,58 %", "delta": "nach CPI leicht gefallen", "direction": "down", "approx": false, "note": "früh 15.7.; von 4,62 % Vortageshoch zurück" },
+      { "label": "US-Hypothekenzins (30 J.)", "value": "6,49 %", "delta": "Vorwoche 6,43 %", "direction": "up", "approx": false, "note": "Freddie Mac PMMS, Woche 9.7.2026; 10-J.-Festhypothek am US-Markt unüblich, daher 30-J.-Wert" },
+      { "label": "Öl (WTI / Brent)", "value": "WTI 79,60 $ / Brent 84,95 $", "delta": "leicht fester, Monatshoch", "direction": "up", "approx": true, "note": "früh 15.7. (WTI +26, Brent +22 Cent); hält das erhöhte Niveau trotz Iran-Eskalation" },
+      { "label": "Leitzins (Fed Funds)", "value": "3,50–3,75 %", "delta": "seit 17.6.2026 gehalten", "direction": "flat", "approx": false, "note": "Fed, 4. Beibehaltung, unter Chef Kevin Warsh" },
+      { "label": "Bitcoin", "value": "64.800 $", "delta": "Stand 14.7.", "direction": "flat", "approx": true, "note": "Nachmittagsstand 14.7. (ET); kein sauber belegter Übernachtwert 15.7., daher letzter belegter Stand" },
+      { "label": "EZB-Einlagenzins", "value": "2,25 %", "delta": "seit 17.6.2026", "direction": "flat", "approx": false, "note": "EZB, Einlagefazilität" }
+    ]
+  },
+
+  "articles": [
+    {
+      "id": "zwei-motoren-ki-china",
+      "ressort": "titelseite",
+      "kicker": "Leitartikel · KI-Zyklus · Weltkonjunktur",
+      "headline": "Zwei Motoren, zwei Richtungen: Der Chip-Zyklus liefert, während Chinas Realwirtschaft schwächelt",
+      "dek": "ASML hebt mitten in der Chip-Panikwoche die Jahresprognose an, Seoul reagiert mit einem Kauf-Handelsstopp und über sieben Prozent. Am selben Morgen wächst China nur noch 4,3 Prozent und verfehlt erstmals seit der Pandemie sein Ziel. Die Frage der Woche: Trägt das robuste KI-Angebot die schwache globale Nachfrage?",
+      "image": {
+        "file": "nvidia-neubewertung.jpg",
+        "alt": "Nahaufnahme eines modernen Halbleiter-Chips auf einer Leiterplatte",
+        "caption": "Der KI-Investitionszyklus ist der eine Motor der Weltwirtschaft, Chinas Binnennachfrage der andere. Am 15. Juli liefen beide gegeneinander.",
+        "credit": "Foto: The Capital Compass"
+      },
+      "body": [
+        "Fakt: Der niederländische Chipmaschinen-Bauer ASML meldete am frühen Mittwoch für das zweite Quartal 9,3 Milliarden Euro Umsatz und 2,9 Milliarden Euro Nettogewinn und hob zugleich die Jahresprognose für 2026 von zuvor 36 bis 40 auf nun 43 bis 45 Milliarden Euro an. Der Kurs stieg vorbörslich in den USA rund 3,4 Prozent. Wenige Stunden zuvor war die südkoreanische Börse durchgedreht: Der Leitindex Kospi sprang intraday über sieben Prozent, löste einen fünfminütigen Kauf-Sidecar aus, eine Handelsnotbremse, die auch bei extrem schnellen Kursanstiegen nach oben greift, und der Speicherhersteller SK Hynix legte rund zwölf Prozent zu.",
+        "Fakt, am selben Morgen: Chinas Statistikamt meldete für das zweite Quartal ein Wirtschaftswachstum von nur noch 4,3 Prozent zum Vorjahr, nach 5,0 Prozent zuvor. Es ist das schwächste Tempo seit dreieinhalb Jahren, und erstmals seit der Pandemie verfehlte das Land sein offizielles Ziel von rund fünf Prozent. Auffällig ist die Schere im Detail: Die Industrieproduktion wuchs robust um 5,3 Prozent, doch die Binnennachfrage blieb kraftlos (Einzelhandel nur plus 1,0 Prozent, Anlageinvestitionen minus 5,7 Prozent). Was China produziert, ist stark. Was China im Inland kauft und investiert, ist schwach.",
+        "Interpretation: Das ist das Regime der Ausgabe, zwei Motoren, zwei Richtungen. Der KI-Investitionszyklus zieht die Angebotsseite der Chipwelt (ASML, Korea, Taiwan) nach oben, während die reale Endnachfrage (China, Konsum, Industriemetalle) nach unten zieht. ASMLs Auftragslage läuft der eigentlichen Chipproduktion rund zwölf bis achtzehn Monate voraus, weil eine bestellte Belichtungsmaschine erst später Chips fertigt. Eine angehobene Prognose ist damit ein Frühindikator, dass der Investitionszyklus trägt, und genau das gab dem Chip-Sektor nach dem Crash vom 13. Juli seinen Boden zurück.",
+        "Restrisiko und Gegenlesart: Die Erzählung vom siegreichen KI-Motor ist verführerisch, aber unterbelegt. Erstens ist die Auftragslage ein Angebots-Signal, keine bestätigte Nachfrage. Ob hinter den vollen Büchern nachhaltiger Endbedarf steht oder ein Vorziehen von Bestellungen aus Angst vor Lieferengpässen, lässt sich nicht ablesen, zumal ASML seit 2026 keine Quartals-Auftragszahl mehr veröffentlicht und die als extrem stark beschriebene Auftragslage ein Wort des Vorstands bleibt, keine geprüfte Zahl. Zweitens trägt der Seoul-Sprung die Züge einer überverkauften Gegenbewegung nach einem Neun-Prozent-Crash, ausgelöst von einer einzigen Analystennotiz der Bank Barclays und abgesichert durch den Kauf-Handelsstopp. Drittens ist ASMLs geplanter Kapazitätsausbau um rund 30 Prozent bei schwacher Endnachfrage nicht nur Stärke, sondern der Keim einer möglichen Überkapazität von morgen, das klassische Muster eines Schweinezyklus.",
+        "Auch die China-Lesart ist nicht eindeutig. Der Markt handelte die schwache Zahl uneinheitlich: Der Hang Seng in Hongkong stieg um 1,6 Prozent, weil ein verfehltes Ziel die Erwartung staatlicher Konjunkturhilfen weckt, ein Fall von \"schlechte Nachricht ist gute Nachricht\". Und im Kopfwert steckten zwei positive Überraschungen, Einzelhandel und Industrieproduktion kamen besser als erwartet. Die China-Schwäche ist für deutsche Exporteure eher ein mittelfristiges Risiko als eine Tagesreaktion. Wer heute liest, muss beide Motoren im Blick behalten, und offen halten, welcher am Ende lauter läuft. Keine Anlageempfehlung.",
+        "Der Tag bleibt gespannt: Um 11:00 Uhr kommen die ZEW-Konjunkturerwartungen, um 14:30 Uhr die US-Erzeugerpreise, und in der US-Vorbörse öffnen der Vermögensverwalter BlackRock und der Pharmakonzern Johnson & Johnson die nächste Runde der Berichtssaison."
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Asiens Zweiteilung am 15. Juli",
+          "subtitle": "Aktienindizes, Intraday-Stände (Prozent)",
+          "unit": " %",
+          "source": "News-Curator Nr. 8 (TradingKey, ClickOnDetroit/AP, Korea Times); Asien 15.7. im Handel",
+          "allPositive": false,
+          "data": [["Kospi (Seoul)", 7.1], ["Hang Seng", 1.6], ["Nikkei 225", 0.9], ["Shanghai Comp.", -0.4]]
+        }
+      ],
+      "gewinnerVerlierer": [
+        { "firma": "ASML", "logoKey": "asml", "bewegung": "+3,4 % (Vorbörse)", "warum": "Jahresprognose auf 43–45 Mrd. € angehoben, KI-Auftragslage extrem stark." },
+        { "firma": "SK Hynix", "logoKey": "sk-hynix", "bewegung": "+12 % (Seoul, Intraday)", "warum": "Barclays startet Coverage der US-Notierung mit Kursziel 330 Dollar." },
+        { "firma": "Shanghai Composite", "bewegung": "−0,4 %", "warum": "China verfehlt das Wachstumsziel, Binnennachfrage bleibt schwach." }
+      ],
+      "lehre": "Die Lehre: Ein voller Auftragsbestand ist ein Angebots-Frühindikator, kein Beweis für nachhaltige Nachfrage. Und eine schwache Konjunkturzahl kann Kurse stützen, wenn sie Stimulus-Fantasie weckt.",
+      "sources": [
+        { "title": "ASML meldet 9,3 Mrd. € Umsatz und 2,9 Mrd. € Gewinn in Q2 2026", "url": "https://www.globenewswire.com/news-release/2026/07/15/3327450/0/en/ASML-reports-9-3-billion-total-net-sales-and-2-9-billion-net-income-in-Q2-2026.html", "tier": 1 },
+        { "title": "China verfehlt Wachstumsziel, Q2-BIP +4,3 %", "url": "https://www.cnn.com/2026/07/14/business/china-q2-gdp-export-economy-intl-hnk", "tier": 2 },
+        { "title": "Kospi über 7 %, Kauf-Sidecar, SK Hynix +12 %", "url": "https://www.koreatimes.co.kr/economy/20260715/kospi-closes-nears-7300-as-sk-hynix-adr-surge-boosts-investor-sentiment", "tier": 2 }
+      ]
+    },
+
+    {
+      "id": "seoul-melt-up-sidecar",
+      "ressort": "news",
+      "kicker": "Aktienmärkte · Halbleiter",
+      "headline": "Seoul dreht durch: Kospi über sieben Prozent, Kauf-Handelsstopp ausgelöst, SK Hynix plus zwölf Prozent",
+      "dek": "Nach dem Chip-Crash vom Montag folgte am Mittwoch ein Melt-up. Ein einziger Analysten-Katalysator und kühle US-Inflationsdaten drehten einen überverkauften Markt. Der Kospi sprang so schnell, dass eine Handelsnotbremse nach oben griff.",
+      "image": {
+        "file": "sk-hynix-ipo.jpg",
+        "alt": "Handelssaal mit steigenden Kursen auf großen Anzeigetafeln",
+        "caption": "Ein Kauf-Sidecar bremst den Handel, wenn Kurse zu schnell steigen, nicht nur, wenn sie abstürzen.",
+        "credit": "Foto: The Capital Compass"
+      },
+      "body": [
+        "Fakt: Die südkoreanische Börse erlebte am Mittwoch eine der stärksten Sitzungen ihrer Geschichte. Der Leitindex Kospi stieg im Handelsverlauf um rund 7,1 Prozent, nachdem der Terminkontrakt Kospi 200 zur Eröffnung um 6,5 Prozent gesprungen war. Um 9:06 Uhr Ortszeit löste das einen fünfminütigen Kauf-Sidecar aus. Einzelne Werte liefen noch weiter: Der Speicherhersteller SK Hynix legte rund zwölf Prozent zu, Samsung Electronics sechs bis acht Prozent, der Chip-Ausrüster Hanmi Semiconductor zeitweise rund 25 Prozent.",
+        "Fakt: Auslöser waren die kühlen US-Verbraucherpreise vom Vortag und eine frische Kaufempfehlung. Die britische Bank Barclays startete die Analyse der neuen US-Notierung von SK Hynix mit dem Votum \"Overweight\" und einem Kursziel von 330 US-Dollar. Der Konzern hatte erst am 10. Juli eine Zweitnotierung an der US-Technologiebörse Nasdaq vollzogen und dabei rund 26,5 Milliarden Dollar eingesammelt, laut Berichten die größte Auslandsplatzierung in der Geschichte einer US-Börse.",
+        "Interpretation: Das ist die dritte Etappe einer Achterbahn. Am 13. Juli war der Kospi um rund neun Prozent gecrasht, es folgte eine dünne Erholung, nun der Melt-up. Ein Markt, der drei Tage zuvor eingebrochen ist und bei einer einzigen Analystennotiz zweistellig hochschießt, ist rechnerisch überverkauft, die Bewegung trägt die Züge einer schlagartigen Eindeckung von Wetten auf fallende Kurse. Der Kontrast zu China (Shanghai minus 0,4 Prozent) zeigt die Zweiteilung Asiens: hier die chip- und exportgetriebene Fantasie, dort die schwache Realwirtschaft.",
+        "Restrisiko: Die Barclays-Studie ist eine Meinung mit einer Prognose für 2027, kein Ergebnisbericht. Die frisch gelistete US-Notierung ist dünn gehandelt und schwankungsanfällig, ihr technischer Überkauft-Indikator stand bereits im roten Bereich. Ob die Preise für Hochleistungsspeicher tatsächlich steigen, ist eine Wette, kein Fakt. Und die genannten Kurse sind Intraday-Stände: Seoul und Tokio waren zum Redaktionsschluss noch im Handel."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Ein Sidecar oder Handelsstopp ist eine automatische Notbremse an der Börse. Steigen oder fallen die Kurse innerhalb kürzester Zeit extrem schnell, wird der Handel für wenige Minuten ausgesetzt, damit sich die Lage beruhigt und keine Panik oder Euphorie außer Kontrolle gerät. Die meisten kennen solche Stopps nur nach unten, als Schutz vor einem Crash. In Seoul griff er am Mittwoch nach oben, weil die Kurse zu schnell stiegen. Das ist selbst ein Signal, wie extrem und wie sehr von Positionierung getrieben die Bewegung war.",
+      "sektorCheck": [
+        { "sektor": "Energie", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Öl und Gas reagieren auf Geopolitik und die Förderpolitik der OPEC, nicht auf koreanische Speicherpreise oder einen Handelsstopp in Seoul.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Grundstoffe", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Ein bestätigter Speicher-Aufschwung stützt die Nachfrage nach Vorprodukten der Chipfertigung wie Spezialchemie, Wafer und Industriegasen.", "teilbranchen": "Elektronikchemie, Wafer und Industriegase leicht gestützt; breite Metalle neutral." },
+        { "sektor": "Industrie", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Der Speicher-Rebound gehört zum KI-Investitionszyklus und stützt die Zulieferer für Chipfabriken und Rechenzentren, von der Ausrüstungstechnik bis zur Kühlung.", "teilbranchen": "Gewinner: Chip-Ausrüstung (Hanmi rund +25 Prozent), Automatisierung, Rechenzentrums-Infrastruktur." },
+        { "sektor": "Zyklischer Konsum", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Hochleistungsspeicher landet in KI-Servern, nicht in Endkundenprodukten. Koreanische Autobauer bewegen sich mit dem Gesamtmarkt, ohne direkten Chip-Bezug.", "teilbranchen": "Kein direkter Kanal; Hyundai und Kia marktgetrieben." },
+        { "sektor": "Basiskonsum", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Defensive Verbrauchsgüter sind vom Speicherzyklus entkoppelt und verlieren in einer risikofreudigen Sitzung eher relativ an Aufmerksamkeit.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Gesundheit", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Kein Bezug zu Halbleiterpreisen; in einer Risk-on-Session dient der Sektor eher als Kapitalquelle für zyklische Käufe.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Finanzen", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Die breite Risikofreude hebt die Depotwerte von Vermögensverwaltern und Brokern; koreanische Broker atmen nach dem Crash auf. Der ausgelöste Kauf-Sidecar zeigt, wie extrem die Bewegung war.", "teilbranchen": "Korea-Broker und Vermögensverwalter über steigende Kurswerte gestützt." },
+        { "sektor": "Informationstechnologie", "betroffenheit": "direkt", "richtung": "positiv", "mechanismus": "Eine einzige Analysten-Aufstufung drehte einen überverkauften Markt und bestätigte die KI-Speicher-Story. Die Bewegung strahlte über die globale Lieferkette auf alle Speicher- und Chipwerte aus.", "teilbranchen": "Gewinner: SK Hynix (+12 Prozent), Samsung (+6 bis +8 Prozent), Hanmi (+25 Prozent), Kioxia, global Speicher und Ausrüster." },
+        { "sektor": "Kommunikation", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Internet- und Cloud-Plattformen sind Großabnehmer von KI-Speicher. Eine wieder positive Speicherdebatte stützt die Fantasie ihrer KI-Investitionen.", "teilbranchen": "Cloud- und Plattformkonzerne mit KI-Fahrplan gestützt; der Tech-Investor SoftBank genannt." },
+        { "sektor": "Versorger", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Bestätigt sich der KI-Ausbau über die Speicher-Nachfrage, stützt das mittelbar die Strom-Nachfragefantasie für Rechenzentren. Der Effekt ist schwächer als bei den Chipwerten selbst.", "teilbranchen": "Unregulierte Erzeuger mit Rechenzentrums-Verträgen leicht gestützt." },
+        { "sektor": "Immobilien", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Rechenzentrums-Vermieter (REITs) hängen an der KI- und Cloud-Nachfrage. Ein Speicher-Rebound stützt die Auslastungsfantasie ihrer Serverimmobilien.", "teilbranchen": "Rechenzentrums-REITs leicht gestützt; Wohnen und Büro unberührt." }
+      ],
+      "gewinnerVerlierer": [
+        { "firma": "SK Hynix", "logoKey": "sk-hynix", "bewegung": "+12 % (Intraday)", "warum": "Barclays-Kursziel 330 Dollar für die neue US-Notierung." },
+        { "firma": "Samsung Electronics", "logoKey": "samsung", "bewegung": "+6 bis +8 %", "warum": "Ansteckung durch die Speicher-Neubewertung." },
+        { "firma": "Hanmi Semiconductor", "bewegung": "rund +25 %", "warum": "Ausrüster für die Chip-Verpackung, im Zentrum der HBM-Fantasie." }
+      ],
+      "sources": [
+        { "title": "Korean stocks rebound: Kospi surged 7 %, SK Hynix jumped 12 %", "url": "https://www.tradingkey.com/analysis/stocks/more/262030748-korean-stocks-rebounded-kospi-surged-7-percent-sk-hynix-jumped-12-percent-tradingkey", "tier": 2 },
+        { "title": "Barclays sieht Verdopplungspotenzial für die SK-Hynix-US-Notierung (Ziel 330 $)", "url": "https://www.cnbc.com/2026/07/14/barclays-believes-sk-hynixs-us-shares-can-double-heres-why.html", "tier": 2 },
+        { "title": "Kospi schließt nahe 7.300 nach US-Notierungs-Rally von SK Hynix", "url": "https://www.koreatimes.co.kr/economy/20260715/kospi-closes-nears-7300-as-sk-hynix-adr-surge-boosts-investor-sentiment", "tier": 2 }
+      ]
+    },
+
+    {
+      "id": "iran-hormus-blockade-oel",
+      "ressort": "news",
+      "kicker": "Geopolitik · Energie",
+      "headline": "Neue US-Angriffe auf Iran, Marineblockade zurück, und Öl steigt trotzdem kaum",
+      "dek": "US-Streitkräfte griffen über Nacht Ziele nahe der Straße von Hormus an und setzten die Blockade iranischer Häfen wieder in Kraft. Der Ölpreis hält sein hohes Niveau auf einem Monatshoch, springt aber nicht weiter. Der Markt hat den Engpass bereits eingepreist.",
+      "image": {
+        "file": "hormus-oel-sperrung.jpg",
+        "alt": "Öltanker in einer engen Meerenge bei diesigem Licht",
+        "caption": "Die Straße von Hormus ist das wichtigste Öl-Nadelöhr der Welt. Dass der Preis trotz Eskalation nicht weiter steigt, ist selbst eine Information.",
+        "credit": "Foto: The Capital Compass"
+      },
+      "body": [
+        "Fakt: US-Streitkräfte griffen in einer rund siebenstündigen Operation Dutzende militärische Ziele an Irans Küste und nahe der Straße von Hormus an, um Teherans Fähigkeit zur Störung der Schifffahrt zu schwächen. Washington setzte die Marineblockade iranischer Häfen nahe der Meerenge wieder in Kraft. US-Präsident Donald Trump warnte, kommende Woche könnten auch iranische Kraftwerke und Brücken zum Ziel werden, falls Teheran nicht an den Verhandlungstisch zurückkehre. Zugleich bestätigte er den Verzicht auf die zuvor erwogene 20-prozentige Durchfahrtsgebühr.",
+        "Fakt: Trotz der Eskalation stieg der Ölpreis nur leicht. Die US-Sorte WTI notierte im frühen Handel bei rund 79,60 Dollar je Barrel (plus 26 Cent), die Nordseesorte Brent bei rund 84,95 Dollar (plus 22 Cent), beide auf einem Ein-Monats-Hoch, aber ohne neuen Sprung. Der Preis hält das erhöhte Niveau, ohne weiter davonzulaufen.",
+        "Interpretation: Dass Öl trotz militärischer Eskalation kaum steigt, ist die eigentliche Nachricht. Der Markt hat den Angebotsengpass bereits eingepreist, das englische Fachwort lautet \"priced in\". Ein stabiler Preis bei laufendem Konflikt heißt: Der Markt erwartet eine begrenzte Auseinandersetzung, keinen totalen Ausfall der Meerenge. Erst eine echte, länger anhaltende physische Sperrung würde einen neuen Preissprung auslösen. Das hohe Ölniveau bleibt der Gegenspieler zur kühlen Inflation und stützt die verbleibende Sorge vor einer Zinsanhebung.",
+        "Restrisiko: Trumps Drohung gegen Kraftwerke und Brücken ist eine neue Eskalationsstufe. Schlägt Iran zurück oder wird die Meerenge tatsächlich länger gesperrt, ist der eingepreiste Puffer schnell aufgebraucht, und Brent könnte über 90 Dollar springen. Für energieintensive Industrie, Airlines und Logistik in Europa bliebe das ein spürbarer Kostenschock."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Ein Ölpreis bildet sich aus Angebot und Nachfrage plus einer Risikoprämie für mögliche Störungen. Sobald ein Risiko wie eine Blockade der Straße von Hormus wahrscheinlich wird, kaufen Händler vorsorglich und treiben den Preis nach oben, oft schon Wochen bevor tatsächlich weniger Öl fließt. Ist dieses Risiko einmal im Preis, bewegt eine erwartete Eskalation den Kurs kaum noch, weil sie bereits eingerechnet ist. Neue Bewegung entsteht erst, wenn die Lage deutlich schlimmer oder deutlich besser wird als erwartet.",
+      "sektorCheck": [
+        { "sektor": "Energie", "betroffenheit": "direkt", "richtung": "positiv", "mechanismus": "Das hohe, stabile Ölniveau sichert den Förderern hohe Verkaufserlöse. Anbieter außerhalb der Krisenregion verdienen an der Risikoprämie, ohne höhere Förderkosten zu tragen.", "teilbranchen": "Ölförderer und Ölservice gewinnen; Raffineriemargen gemischt je nach Produktpreisen." },
+        { "sektor": "Grundstoffe", "betroffenheit": "direkt", "richtung": "negativ", "mechanismus": "Öl und Gas sind zentrale Einsatzstoffe der Chemie. Ein anhaltend hoher Ölpreis hält die Materialkosten oben und drückt die Margen der energieintensiven Grundstoffbranche.", "teilbranchen": "Chemie (BASF) über die Einsatzkosten belastet; Stahl energieintensiv." },
+        { "sektor": "Industrie", "betroffenheit": "direkt", "richtung": "negativ", "mechanismus": "Teurer Treibstoff trifft Airlines und Logistiker unmittelbar über die Kerosin- und Dieselrechnung. Reeder und Rüstung profitieren gegenläufig von gestörten Routen und der geopolitischen Lage.", "teilbranchen": "Verlierer: Airlines, Speditionen. Gewinner: Reeder (Hapag-Lloyd), Rüstung (Rheinmetall, Hensoldt)." },
+        { "sektor": "Zyklischer Konsum", "betroffenheit": "indirekt", "richtung": "negativ", "mechanismus": "Hohe Benzinpreise wirken wie eine Steuer auf das frei verfügbare Einkommen und drücken die Ausgaben für Reisen, Autos und Handel.", "teilbranchen": "Reiseanbieter, Autohandel und Non-Food-Handel belastet." },
+        { "sektor": "Basiskonsum", "betroffenheit": "indirekt", "richtung": "negativ", "mechanismus": "Hohe Öl- und Transportkosten verteuern Herstellung und Auslieferung von Lebensmitteln und Haushaltswaren und drücken die Margen.", "teilbranchen": "Verpackungsintensive Hersteller und Handel mit langen Lieferwegen belastet." },
+        { "sektor": "Gesundheit", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Die Nachfrage nach Medikamenten und Behandlungen ist unabhängig vom Ölpreis; der Sektor dient als defensiver Ausweichort.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Finanzen", "betroffenheit": "indirekt", "richtung": "gemischt", "mechanismus": "Das hohe Öl stützt die Inflationsprämie und damit die Erwartung höher bleibender Zinsen, was den Zinsüberschuss der Banken stützt. Gegenläufig erhöht ein Ölschock die Rezessions- und Kreditrisiken.", "teilbranchen": "Zinsmargen-Banken über die höhere Zinserwartung leicht gestützt; Energiefinanzierer profitieren." },
+        { "sektor": "Informationstechnologie", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Chips und Software sind im Vertrieb wenig energiepreissensibel. Nur der Betrieb von Rechenzentren spürt höhere Strompreise mittelbar über die Stromrechnung.", "teilbranchen": "Kein direkter Kanal; Rechenzentrumsbetrieb sehr mittelbar belastet." },
+        { "sektor": "Kommunikation", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Plattformen und Telekom haben eine geringe direkte Energiekostenquote.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Versorger", "betroffenheit": "indirekt", "richtung": "gemischt", "mechanismus": "Höhere Gaspreise im Gefolge des Ölschocks verteuern die Brennstoffkosten von Gaskraftwerken. Regulierte Netzbetreiber können Kosten oft weiterreichen und sind weniger betroffen.", "teilbranchen": "Gasverstromer belastet; regulierte Netze robust; Flüssiggas-Bezieher im Fokus." },
+        { "sektor": "Immobilien", "betroffenheit": "kaum", "richtung": "negativ", "mechanismus": "Höhere Energiekosten belasten die Nebenkosten von Bestandshaltern leicht, der Effekt ist aber klein und meist auf Mieter umlagefähig.", "teilbranchen": "Energieintensive Bestände marginal betroffen." }
+      ],
+      "sources": [
+        { "title": "Öl auf Monatshoch, Hormus-Blockade wieder in Kraft", "url": "https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook", "tier": 2 },
+        { "title": "Ölpreise heute: Brent, WTI und die Hormus-Blockade", "url": "https://www.cnbc.com/2026/07/15/oil-prices-today-brent-wti-hormuz-blockade.html", "tier": 2 }
+      ]
+    },
+
+    {
+      "id": "risk-on-realzins-gold",
+      "ressort": "news",
+      "kicker": "Zinsen · Edelmetalle",
+      "headline": "Aktien steigen, Gold gibt nach: Warum die langen US-Renditen die Bremse bleiben",
+      "dek": "Trotz Risikofreude an den Börsen hält die 30-jährige US-Rendite ihr höchstes Niveau seit 2007, und Gold notiert rund 27 Prozent unter dem Januar-Rekord. Kein Widerspruch, sondern das Lehrbild hoher Realzinsen. Zwei Gegenkräfte ziehen dem Edelmetall aber einen Boden.",
+      "image": {
+        "file": "gold-bitcoin.jpg",
+        "alt": "Goldbarren und Münzen vor dunklem Hintergrund",
+        "caption": "Gold zahlt keine Zinsen. Steigen die realen Renditen sicherer Anleihen, werden die entgangenen Zinsen zum Nachteil des Edelmetalls.",
+        "credit": "Foto: The Capital Compass"
+      },
+      "body": [
+        "Fakt: Nach dem kühlen US-Inflationswert vom Vortag fiel die Wahrscheinlichkeit einer Zinsanhebung im September laut dem Terminmarkt-Barometer CME FedWatch auf rund 49 Prozent, von zuvor etwa 63 Prozent. Zugleich blieben die langen Zinsen hoch: Die 30-jährige US-Staatsanleihe rentierte zuletzt bei rund 5,06 Prozent, am Auktionshoch vom 9. Juli der höchste Stand seit 2007. Die zehnjährige Rendite gab nach dem Inflationswert leicht auf rund 4,58 Prozent nach. Gold notierte bei rund 4.070 Dollar je Unze, rund 27 Prozent unter dem Januar-Rekord von etwa 5.590 Dollar.",
+        "Interpretation: Dass Aktien steigen, während lange Renditen hoch bleiben und Gold fällt, ist kein Widerspruch, sondern das Lehrbild hoher Realzinsen. Der Realzins ist der Nominalzins minus der erwarteten Inflation, also der echte Kaufkraftgewinn einer sicheren Anleihe. Solange ein hoher Ölpreis und ein geldpolitischer Falke an der Fed-Spitze die Inflationsprämie am langen Ende stützen, bleiben die realen Renditen hoch. Und hohe Realzinsen sind der direkte Gegenspieler zinsloser Anlagen: Wer Gold hält, verzichtet auf die Rendite einer sicheren Staatsanleihe. Steigt diese Rendite, wird der Verzicht teuer.",
+        "Restrisiko und Gegenlesart: Das Modell erklärt die Richtung der Bewegung, aber es ist kein Naturgesetz. Gold stieg 2024 und 2025 trotz bereits hoher Realzinsen auf sein Rekordhoch, ein einfaches \"hohe Zinsen, also Gold runter\" hätte das verhindert. Zwei Kräfte ziehen dem Edelmetall einen Boden: die Krisenversicherungs-Nachfrage, gerade durch die Hormus-Eskalation belebt, und die anhaltenden Käufe der Zentralbanken, die ihre Reserven weg vom Dollar diversifizieren. Ob Gold tiefer bleibt, ist deshalb offen. Die 27-Prozent-Korrektur ist plausibler als Auflösung eines parabolischen Anstiegs denn als Beweis einer dauerhaften Zinsbremse.",
+        "Für Bitcoin lässt sich kein sauberer Übernacht-Wert belegen; qualitativ korreliert die Kryptowährung zunehmend mit den kurzfristigen US-Renditen und leidet wie Gold, wenn zinslose Anlagen an relativer Attraktivität verlieren."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Jede Geldanlage konkurriert mit der sicheren Staatsanleihe. Deren reale Rendite ist die Messlatte. Zahlt eine sichere Anleihe nach Abzug der erwarteten Inflation ordentlich Ertrag, dann kostet es, in etwas zu investieren, das keine Zinsen abwirft, etwa Gold oder Bitcoin. Ökonomen nennen diesen entgangenen Ertrag Opportunitätskosten. Steigen die realen Renditen, steigen die Opportunitätskosten zinsloser Anlagen, und Geld fließt tendenziell aus Gold in verzinste Papiere. Fällt der reale Zins, dreht die Logik, und Gold glänzt wieder.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Warum hohe Realzinsen Gold drücken",
+        "absaetze": [
+          "Der Realzins ist die eigentlich wichtige Größe. Was Sparer und Anleger sehen, ist der Nominalzins, also die Rendite, die auf dem Papier steht, etwa 4,6 Prozent bei der zehnjährigen US-Staatsanleihe. Wirtschaftlich zählt aber der Realzins: der Nominalzins minus der erwarteten Inflation. Wenn eine Anleihe 4,6 Prozent bringt und die Menschen mit drei Prozent Inflation rechnen, dann bleibt ein realer Ertrag von rund 1,6 Prozent. Nur dieser reale Teil ist echter Kaufkraftgewinn. Steigt der Nominalzins schneller als die Inflationserwartung, steigt der Realzins, und genau das passiert 2026: Ein falkenhafter Notenbankchef und hohe lange Renditen treiben den realen Ertrag sicherer Anleihen nach oben.",
+          "Gold zahlt keine Zinsen, und das ist der ganze Punkt. Eine Unze Gold wirft keine Dividende und keinen Kupon ab; ihr einziger möglicher Gewinn ist ein steigender Preis. Wer Gold hält, verzichtet also auf die Rendite, die er mit einer sicheren Staatsanleihe verdienen könnte. Ökonomen nennen diesen entgangenen Ertrag die Opportunitätskosten, die Kosten der verpassten Alternative. Sind die realen Anleiherenditen niedrig oder negativ, kosten diese verpassten Zinsen fast nichts, und Gold glänzt. Steigen die realen Renditen, wird der Verzicht teuer, und rational schichten Anleger aus Gold in verzinste Papiere um. Das ist der Kernmechanismus hinter dem Satz, hohe Realzinsen drücken Gold.",
+          "Deshalb kann Gold nach einem Rekordjahr um rund ein Viertel fallen, ohne dass sich an der Welt etwas Dramatisches ändert. Der Goldpreis stieg bis Januar 2026 auf ein Rekordhoch von rund 5.590 Dollar, in einer Phase großer Unsicherheit und niedrigerer realer Renditen. Seitdem hat sich das Umfeld gedreht: Die Fed unter Chef Kevin Warsh signalisiert Härte, die langen Renditen kletterten auf den höchsten Stand seit 2007, und der reale Ertrag sicherer Anleihen stieg. Rund 27 Prozent unter dem Rekord ist Gold damit keine Panik, sondern eine mechanische Reaktion auf teurer gewordene Opportunitätskosten.",
+          "Was das für die Einordnung heißt und wo die Grenzen liegen. Der Realzins-Kanal erklärt Richtung und Wucht der Goldbewegung, aber nicht alles. Gold hat eine zweite Rolle als Krisenversicherung: In einem echten geopolitischen Schock, etwa einer dauerhaften Sperrung der Straße von Hormus, kann Gold steigen, obwohl die Realzinsen hoch sind. Hinzu kommt eine dritte, oft unterschätzte Kraft: Seit Jahren kaufen Zentralbanken netto Gold, um ihre Reserven weg vom Dollar zu diversifizieren. Genau diese Käufe zogen dem Preis in den Vorjahren trotz hoher Zinsen einen Boden und sind der Grund, warum das Wort dauerhaft hier fehl am Platz ist. Anleger sehen deshalb oft gegenläufige Kräfte gleichzeitig: die Zinsbremse nach unten, die Krisen- und Zentralbanknachfrage nach oben. Keine Anlageempfehlung."
+        ]
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Die Zinslandschaft im Juli 2026",
+          "subtitle": "Renditen und Leitzinsen (Prozent)",
+          "unit": " %",
+          "source": "Fact-Check Nr. 8 (CNBC, Bloomberg, Fed, EZB); 30J als Auktionswert 9.7., 10J früh 15.7.",
+          "allPositive": true,
+          "absolute": true,
+          "data": [["30J US-Rendite", 5.06], ["10J US-Rendite", 4.58], ["Fed Funds (oben)", 3.75], ["EZB-Einlage", 2.25]]
+        }
+      ],
+      "sources": [
+        { "title": "Höchste 30-jährige US-Rendite seit 2007", "url": "https://finance.yahoo.com/markets/crypto/articles/highest-30-treasury-yield-since-160000644.html", "tier": 2 },
+        { "title": "Treasury-Renditen fallen nach kühlerem Juni-CPI", "url": "https://www.cnbc.com/2026/07/14/treasury-yields-slide-after-june-cpi-slows-much-more-than-expected.html", "tier": 2 },
+        { "title": "Höchster Goldpreis der Geschichte: Entwicklung 2025 zu 2026", "url": "https://www.cbsnews.com/news/highest-gold-price-in-history-how-its-changed-from-2025-to-2026/", "tier": 2 }
+      ]
+    },
+
+    {
+      "id": "bundeshaushalt-2027-schulden",
+      "ressort": "politik",
+      "kicker": "Fiskalpolitik · Anleihen",
+      "headline": "Rekordschulden im Bundeshaushalt 2027: Wie das Anleiheangebot auf alle Zinsen durchschlägt",
+      "dek": "Der Entwurf für 2027 sieht ein Volumen von rund 555 Milliarden Euro vor, die gesamte Neuverschuldung inklusive Sondervermögen liegt bei rund 200 Milliarden Euro. Verteidigung und Infrastruktur wachsen am stärksten. Für den Kapitalmarkt zählt der Weg über den Anleihemarkt.",
+      "body": [
+        "Fakt: Der Entwurf für den Bundeshaushalt 2027 hat ein Gesamtvolumen von rund 555 Milliarden Euro, nach 524,5 Milliarden im laufenden Jahr. Die gesamte Neuverschuldung inklusive der Sondervermögen für Infrastruktur, Klima und Bundeswehr liegt bei rund 200 Milliarden Euro; die reine Neuverschuldung des Kernhaushalts beträgt 118,7 Milliarden Euro. Den stärksten Zuwachs verzeichnen Verteidigung und Infrastruktur, der Verteidigungsetat wächst um rund ein Drittel. Gespart wird bei Förderprogrammen, Elterngeld, Zuschüssen zur Renten- und Krankenversicherung sowie der Entwicklungshilfe. Finanzminister Lars Klingbeil (SPD) sagte, einige Ressorts hätten ihre Schmerzgrenze erreicht.",
+        "Interpretation: Rekord-Neuverschuldung bedeutet ein hohes Angebot an Bundesanleihen, im Fachjargon Bunds. Mehr Angebot bei gegebener Nachfrage drückt tendenziell die Anleihekurse und hebt die Renditen. Und die Rendite der Bundesanleihe ist der Referenzzins für Baufinanzierung, Unternehmensrefinanzierung und die gesamte Euro-Zinskurve. Das ist der Kernkanal, über den Staatsverschuldung auf alle anderen Zinsen durchschlägt, Ökonomen nennen ihn Verdrängungs- oder Crowding-out-Effekt.",
+        "Gegenläufig wirkt die Ausgabenseite: Rund ein Drittel mehr für Verteidigung und ein hoher Infrastruktur-Etat sind direkte Staatsnachfrage. Das füllt die Auftragsbücher von Rüstungsherstellern wie Rheinmetall und Hensoldt sowie von Bau- und Infrastrukturkonzernen. Für den Euro ist der Netto-Effekt offen: Höhere Renditen ziehen Kapital an und stützen die Währung, doch eine als unsolide wahrgenommene Fiskalpolitik kann die Risikoprämie erhöhen.",
+        "Restrisiko: Es ist ein Entwurf, kein Gesetz. Der parlamentarische Weg und die Reaktion des Anleihemarkts, also die Nachfrage nach den zusätzlichen Bunds, sind offen. Wichtiger als die Kopfzahl der Schulden ist die Qualität: Produktive Investitionen können Wachstum schaffen, das die Schuldenlast trägt, reiner Konsum nicht."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Der Staat leiht sich Geld, indem er Anleihen ausgibt. Je mehr Anleihen er auf den Markt wirft, desto höher muss die Verzinsung sein, damit Investoren sie alle abnehmen, denn der Preis einer Anleihe fällt, wenn das Angebot steigt, und eine fallender Anleihekurs bedeutet eine steigende Rendite. Weil sich Banken und Unternehmen an dieser Staatsanleihe orientieren, verteuert eine höhere Staatsverschuldung tendenziell auch Baukredite und Firmenanleihen.",
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Bundeshaushalt: Volumen und neue Schulden",
+          "subtitle": "In Milliarden Euro",
+          "unit": " Mrd. €",
+          "source": "Fact-Check Nr. 8 (WirtschaftsWoche, ZDF, Tagesspiegel), Regierungsentwurf",
+          "allPositive": true,
+          "absolute": true,
+          "data": [["Volumen 2026", 524.5], ["Volumen 2027", 555.4], ["Neuverschuldung ges.", 204.0], ["davon Kernhaushalt", 118.7]]
+        }
+      ],
+      "sources": [
+        { "title": "Haushaltsentwurf: Bund plant für 2027 neue Schulden von fast 204 Mrd. €", "url": "https://www.wiwo.de/politik/deutschland/haushaltsentwurf-bund-plant-fuer-2027-neue-schulden-von-fast-204-milliarden-euro/100237828.html", "tier": 2 },
+        { "title": "Haushalt und Finanzplan: der Regierungsentwurf", "url": "https://www.zdfheute.de/politik/deutschland/haushalt-finanzplan-regierungsentwurf-kabinett-100.html", "tier": 2 }
+      ]
+    },
+
+    {
+      "id": "merz-reformpaket-kapitalrente",
+      "ressort": "politik",
+      "kicker": "Wirtschaftspolitik · Altersvorsorge",
+      "headline": "Merz zieht Bilanz: Kapitalrente, Steuerentlastung und eine Reichensteuer von 47 Prozent",
+      "dek": "Vor der Sommerpause präsentiert Bundeskanzler Friedrich Merz ein Reformpaket. Der strukturell wichtigste Punkt für den Kapitalmarkt ist die Kapitalrente, die erstmals einen Teil der gesetzlichen Rente am Aktienmarkt anlegen würde.",
+      "body": [
+        "Fakt: Bundeskanzler Friedrich Merz (CDU) zog vor der Sommerpause Bilanz und erklärte, die Koalition habe Tritt gefasst. Das beschlossene Reformpaket umfasst mehrere Punkte mit direktem Kapitalmarktbezug. Die Kapitalrente sieht einen je zur Hälfte von Arbeitnehmern und Arbeitgebern gezahlten Zusatzbeitrag vor, der den Rentenbeitrag um bis zu zwei Prozentpunkte anhebt; dieses Geld soll am Kapitalmarkt angelegt werden. Hinzu kommt eine schrittweise Anhebung des Renteneintrittsalters über 67 Jahre hinaus.",
+        "Fakt: Bei der Einkommensteuer ist eine Entlastung von rund zehn Milliarden Euro jährlich vorgesehen, mit Wirkung ab dem 1. Januar 2027, gegenfinanziert durch einen gesplitteten Spitzensteuersatz: 45 Prozent ab 250.000 Euro und 47 Prozent, die sogenannte Reichensteuer, ab 280.000 Euro. Am Arbeitsmarkt wird die sachgrundlose Befristung von bislang 24 auf künftig bis zu 48 Monate verlängert, mit bis zu sechs Verlängerungen, befristet bis Ende 2030.",
+        "Interpretation: Die Kapitalrente ist der strukturell bedeutsamste Punkt. Erstmals würde ein Teil der gesetzlichen Rente am Aktien- und Kapitalmarkt angelegt, was über Jahre einen stetigen Kapitalzufluss in Wertpapiere schafft. Das ist ein langfristiger Rückenwind für Fondsanbieter, Vermögensverwalter und die Deutsche Börse und, ganz grundsätzlich, für die Aktiennachfrage. Die längere Befristung senkt für Unternehmen das Risiko einer Einstellung, der höhere Kapitalrenten-Beitrag hebt aber die Lohnnebenkosten. Der höhere Spitzensteuersatz trifft Besserverdiener und den Konsum am oberen Rand.",
+        "Restrisiko: Vieles ist beschlossen, doch die genaue gesetzliche Ausgestaltung, die Anlageregeln der Kapitalrente und die tatsächliche jährliche Zuflusssumme sind offen und bislang nicht sauber beziffert. Ob die Reichensteuer Spitzenkräfte abschreckt, ist eine Behauptung, kein belegter Effekt."
+      ],
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Umlage gegen Kapitaldeckung, warum die Kapitalrente ein Systemwechsel ist",
+        "absaetze": [
+          "Zwei Wege, eine Rente zu finanzieren. Das deutsche Rentensystem läuft bisher fast vollständig im Umlageverfahren: Die Beiträge der heute Arbeitenden werden sofort an die heutigen Rentner ausgezahlt. Es wird kein Kapital angespart, sondern ein Generationenvertrag umgelegt. Der Vorteil ist, dass es sofort funktioniert und von Börsenschwankungen unabhängig ist. Der Nachteil zeigt sich, wenn die Bevölkerung altert: Immer weniger Beitragszahler tragen immer mehr Rentner, und der Beitragssatz muss steigen oder die Rente sinken. Genau in diese demografische Klemme läuft Deutschland.",
+          "Die Kapitaldeckung funktioniert anders. Bei ihr zahlt jeder in einen Topf ein, der am Kapitalmarkt angelegt wird; aus dem angesparten Vermögen plus dessen Erträgen wird später die Rente bezahlt. Der Vorteil ist, dass das Kapital über Jahrzehnte arbeitet und die Demografie weniger direkt durchschlägt. Der Nachteil ist das Marktrisiko: Bricht die Börse kurz vor Renteneintritt ein, schmilzt das Polster. Die neue Kapitalrente ist ein Mischschritt: Der Rentenbeitrag steigt um bis zu zwei Prozentpunkte, und dieser Zusatzteil wird nicht sofort ausgezahlt, sondern am Kapitalmarkt investiert. Deutschland behält also das Umlagesystem und legt eine kapitalgedeckte Säule daneben.",
+          "Warum das für den Kapitalmarkt zählt. Länder mit großer kapitalgedeckter Säule, etwa die USA mit ihren 401k-Plänen oder Schweden mit seinem Prämienrentensystem, haben tiefe, liquide Aktienmärkte, weil jeden Monat automatisch Sparbeiträge in Wertpapiere fließen. Genau dieser stetige, regelbasierte Zufluss stützt die Nachfrage nach Aktien unabhängig von der Tagesstimmung. Führt Deutschland eine solche Säule ein, entsteht mittelfristig ein neuer, verlässlicher Käufer am Markt. Das ist der Grund, warum Fondsanbieter, die Deutsche Börse und Vermögensverwalter die Reform als strukturellen Rückenwind lesen. Die konkrete jährliche Zuflusssumme hängt an der Ausgestaltung und ist bisher nicht beziffert.",
+          "Was die Reform kann und was nicht. Eine kapitalgedeckte Säule kann die Rente langfristig auf ein zweites Bein stellen und die Abhängigkeit von der Demografie mildern. Sie kann aber die Übergangslast nicht wegzaubern: Die heutige Generation zahlt gleichzeitig für die laufenden Renten und für den eigenen Kapitalstock, ein Doppellast-Problem, das jeden Systemwechsel begleitet. Und sie verlagert Risiko auf den Einzelnen, weil Kapitalmarktrenditen schwanken. Für die Einordnung reicht der Kern: Die Kapitalrente ist kein Detail der Beitragssätze, sondern der Einstieg in einen anderen Finanzierungsmechanismus der Altersvorsorge, mit spürbaren Folgen für die langfristige Kapitalmarktnachfrage. Keine Anlageempfehlung."
+        ]
+      },
+      "sources": [
+        { "title": "Merz: Die Koalition hat Tritt gefasst", "url": "https://www.onvista.de/news/2026/07-15-merz-die-koalition-hat-tritt-gefasst-0-10-26532497", "tier": 2 },
+        { "title": "Reformpaket: Reichensteuer, Kapitalrente und Arbeitsmarkt", "url": "https://www.zdfheute.de/politik/deutschland/merz-koalition-treffen-reformen-100.html", "tier": 2 },
+        { "title": "Bundesregierung: Reformen bei Rente, Arbeitsmarkt und Steuern", "url": "https://www.bundesregierung.de/breg-en/news/pension-job-market-tax-reforms-2445962", "tier": 1 }
+      ]
+    },
+
+    {
+      "id": "eu-us-zoll-stahlschutz",
+      "ressort": "politik",
+      "kicker": "Handelspolitik · Industrie",
+      "headline": "Zwei Regelwerke, zwei Richtungen: Wie die Handelspolitik Auto und Stahl gegensätzlich trifft",
+      "dek": "Der EU-US-Zolldeal belastet mit 15 Prozent die exportstarke Autoindustrie, während der verschärfte EU-Stahlschutz mit 50 Prozent Zoll jenseits einer gekürzten Quote die europäischen Stahlpreise stützt. Handelspolitik verteilt gezielt um.",
+      "body": [
+        "Fakt: Seit dem 1. Juli 2026 hat die EU alle Zölle auf US-Industriegüter gestrichen und den Marktzugang für bestimmte Agrarprodukte verbessert; im Gegenzug liegt der US-Zoll auf die meisten EU-Waren bei 15 Prozent. Die Drohung von US-Präsident Donald Trump, Autozölle von 15 auf 25 Prozent zu erhöhen, wurde nach der Zustimmung des EU-Parlaments am 16. Juni und der Einhaltung der Frist am 4. Juli entschärft.",
+        "Fakt: Parallel gilt seit dem 1. Juli ein verschärftes EU-Stahlschutzsystem. Die zollfreie Importquote wurde auf rund 18,3 Millionen Tonnen jährlich gesenkt, im Schnitt rund 47 Prozent weniger als zuvor, verteilt über 30 Produktkategorien; jenseits der Quote greift ein Zoll von 50 Prozent, statt zuvor 25 Prozent. Ab dem 1. Oktober kommt ein Herkunftsnachweis hinzu, der belegt, wo der Stahl geschmolzen und gegossen wurde.",
+        "Interpretation: Der Fall zeigt lehrbuchhaft, dass Zollpolitik keine pauschale Größe ist, sondern Branchen gezielt umverteilt. Der 15-Prozent-US-Zoll verteuert deutsche Autos und Maschinen auf dem US-Markt: Entweder geben die Hersteller den Zoll weiter, dann sinkt der Absatz, oder sie schlucken ihn, dann sinkt die Marge. Der 50-Prozent-Stahlschutz dagegen verknappt Importe in die EU und stützt so die europäischen Stahlpreise, ein Preisboden für die heimischen Hersteller. Das verschränkt sich mit Chinas Überkapazität: Der Stahlschutz ist gerade die Antwort der EU auf billigen Import aus Überschussländern.",
+        "Restrisiko: Beide Regelwerke sind politisch reversibel. Trump kann die Auto-Zoll-Drohung reaktivieren, und der Stahlschutz ist vor der Welthandelsorganisation angreifbar. Der stützende Effekt auf die Stahlpreise hängt zudem daran, ob die Binnennachfrage aus Bau und Auto überhaupt anzieht, ein Preisboden ohne Nachfrage füllt keine Auftragsbücher."
+      ],
+      "sources": [
+        { "title": "EU-Kommission: EU-US-Handelsdeal", "url": "https://commission.europa.eu/topics/trade/eu-us-trade-deal_en", "tier": 1 },
+        { "title": "Neue EU-Stahl-Schutzverordnung mit 18,3-Mio.-Tonnen-Quote", "url": "https://www.indexbox.io/blog/eu-publishes-new-steel-import-safeguard-regulation-with-183-million-tonne-duty-free-quota/", "tier": 2 }
+      ]
+    },
+
+    {
+      "id": "asml-prognose-angehoben",
+      "ressort": "unternehmen",
+      "kicker": "Halbleiter · Bilanz",
+      "headline": "ASML hebt die Jahresprognose an: Warum die Zukunftszahl mehr wiegt als das gemeldete Quartal",
+      "dek": "Der niederländische Chipmaschinen-Bauer meldet 9,3 Milliarden Euro Umsatz und hebt die Jahresziele deutlich an. Der Kurs bewegt sich an der angehobenen Prognose, nicht an der gemeldeten Vergangenheit.",
+      "body": [
+        "Fakt: ASML meldete für das zweite Quartal 2026 einen Umsatz von 9,3 Milliarden Euro, einen Nettogewinn von 2,9 Milliarden Euro, einen Gewinn je Aktie von 7,59 Euro und eine Bruttomarge von 54,0 Prozent. Verkauft wurden 86 Lithografie-Systeme. Entscheidend war jedoch der Ausblick: ASML hob die Jahresprognose für 2026 von zuvor 36 bis 40 auf nun 43 bis 45 Milliarden Euro Umsatz an, bei einer Bruttomarge von 54 bis 56 Prozent. Für das dritte Quartal werden 11 bis 12 Milliarden Euro erwartet. Vorstandschef Christophe Fouquet nannte den Auftragseingang im ersten Halbjahr extrem stark. Die Aktie stieg vorbörslich in den USA rund 3,4 Prozent, in Amsterdam rund fünf Prozent.",
+        "Interpretation: Der Kurs bewegt sich an der angehobenen Prognose, nicht an den gemeldeten 9,3 Milliarden Euro, die Vergangenheit sind. Der Sprung der Jahresmitte um rund 16 Prozent hebt die erwartete Ertragsbasis deutlich, und weil ASML ein Wachstumswert mit einem hohen Kurs-Gewinn-Verhältnis von rund 60 ist, wirkt das überproportional auf den Kurs. Als einziger Hersteller der EUV-Belichtungsmaschinen ist ASML das Nadelöhr der KI-Lieferkette; weil eine bestellte Maschine erst mit rund einem Jahr Vorlauf Chips fertigt, ist die Prognose ein Frühindikator für den ganzen Sektor.",
+        "Restrisiko und Gegenlesart: Gemessen an einer 16-prozentigen Anhebung ist ein Kursplus von 3,4 Prozent eher moderat, ein Teil der guten Nachricht war nach der Erholung vom Vortag schon eingepreist. Ehrlich benannt: ASML weist seit Anfang 2026 keine exakte Quartals-Auftragszahl mehr aus, die als extrem stark beschriebene Auftragslage bleibt damit ein Wort des Vorstands. Und der geplante Kapazitätsausbau um rund 30 Prozent stützt die These heute, birgt bei schwacher Endnachfrage aber das Risiko einer künftigen Überkapazität. Keine Anlageempfehlung."
+      ],
+      "company": {
+        "name": "ASML",
+        "ticker": "ASML",
+        "exchange": "NASDAQ / Euronext Amsterdam",
+        "logoKey": "asml",
+        "whatTheyDo": "ASML aus den Niederlanden baut die Maschinen, mit denen die Muster für Computerchips auf Silizium belichtet werden. Das Unternehmen ist der einzige Hersteller der modernsten dieser Maschinen, der sogenannten EUV-Belichter, mit denen die feinsten Strukturen heutiger Chips überhaupt möglich sind. Jeder große Chiphersteller wie TSMC, Samsung oder Intel ist auf ASML angewiesen.",
+        "whyItMatters": "ASML ist das Nadelöhr der gesamten KI-Lieferkette. Weil eine bestellte Maschine erst mit rund einem Jahr Vorlauf Chips produziert, ist ASMLs Auftrags- und Prognoselage ein Frühindikator dafür, ob der KI-Investitionszyklus trägt.",
+        "keyMetrics": [
+          ["Kurs (Amsterdam)", "≈ 1.549,40 € (Schluss 14.7., −0,41 %); Vorbörse +3,4 %"],
+          ["Börsenwert", "≈ 597 Mrd. € (14.7.)"],
+          ["KGV (Kurs-Gewinn-Verhältnis)", "≈ 60 (Näherung, Stand ~10.7.)"],
+          ["Umsatz Q2 2026", "9,3 Mrd. € (Nettogewinn 2,9 Mrd. €, EPS 7,59 €)"],
+          ["Jahresprognose 2026 (neu)", "43–45 Mrd. € (vorher 36–40 Mrd. €)"],
+          ["Bruttomarge Q2", "54,0 % (Guidance Jahr 54–56 %)"]
+        ]
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "ASML-Jahresprognose 2026: alt gegen neu",
+          "subtitle": "Umsatzspanne in Milliarden Euro",
+          "unit": " Mrd. €",
+          "source": "ASML-Pressemitteilung Q2 2026 (neu); Q1-Guidance via Investing.com (alt)",
+          "allPositive": true,
+          "absolute": true,
+          "data": [["alt, unten", 36], ["alt, oben", 40], ["neu, unten", 43], ["neu, oben", 45]]
+        }
+      ],
+      "sektorCheck": [
+        { "sektor": "Energie", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Der Ölpreis reagiert auf Geopolitik und Förderpolitik, nicht auf Lithografie-Aufträge. Nur sehr mittelbar erhöht der KI-Ausbau über mehr Rechenzentren den Strombedarf.", "teilbranchen": "Kein direkter Kanal; Gasproduzenten sehr langfristig über den Rechenzentrums-Strombedarf leicht gestützt." },
+        { "sektor": "Grundstoffe", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Chipfabriken und der geplante Kapazitätsausbau brauchen Spezialchemie, Industriegase, hochreine Wafer und Metalle. Eine gesicherte Ausbauplanung stützt die Bestellungen dieser Vorlieferanten.", "teilbranchen": "Elektronikchemie, Industriegase und Wafer-Zulieferer leicht gestützt; breite Chemie unberührt." },
+        { "sektor": "Industrie", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Der bestätigte KI-Investitionszyklus stützt alle Zulieferer für Rechenzentren und Chipfabriken: Stromtechnik, Kühlung, Reinraum, Automatisierung und Präzisionsmechanik.", "teilbranchen": "Gewinner: Elektrotechnik, Kühl- und Reinraumtechnik, Rechenzentrumsbau, Automatisierung; deutsche Zulieferer im ASML-Umfeld leicht gestützt." },
+        { "sektor": "Zyklischer Konsum", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "EUV-Maschinen und KI-Serverchips betreffen Rechenzentren, keine Endkundenprodukte. Nur sehr mittelbar könnte günstigere KI-Rechenleistung später Unterhaltungselektronik verbilligen.", "teilbranchen": "Kein direkter Kanal; Unterhaltungselektronik sehr langfristig und indirekt berührt." },
+        { "sektor": "Basiskonsum", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Defensive Verbrauchsgüter sind vom Chip-Investitionszyklus entkoppelt und verlieren in einer Risk-on-Bewegung eher relativ an Aufmerksamkeit.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Gesundheit", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Die Nachfrage nach Medikamenten ist unabhängig von Chip-Ausrüstern. Nur künftige KI-Anwendungen in Forschung und Diagnostik bilden einen sehr entfernten Bezug.", "teilbranchen": "Kein direkter Kanal; KI-nahe Diagnostik sehr langfristig indirekt gestützt." },
+        { "sektor": "Finanzen", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Ein starkes ASML-Ergebnis bestätigt die KI-Story und hebt die breite Risikobereitschaft. Steigende Depotwerte stützen Vermögensverwalter und Broker.", "teilbranchen": "Vermögensverwalter und Broker über steigende Kurswerte leicht gestützt; kein direkter Ertragskanal." },
+        { "sektor": "Informationstechnologie", "betroffenheit": "direkt", "richtung": "positiv", "mechanismus": "ASMLs angehobene Prognose und der starke Auftragseingang sind der Realitätstest nach dem Chip-Crash und nehmen Druck von den Gewinnschätzungen der gesamten Halbleiterkette.", "teilbranchen": "Gewinner: ASML (rund +3,4 Prozent), Ausrüster (BE Semiconductor, Aixtron), Foundries (TSMC), Speicher (SK Hynix, Samsung), Nvidia." },
+        { "sektor": "Kommunikation", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Internet- und Cloud-Plattformen sind die großen Käufer von KI-Rechenleistung. Ein bestätigter Ausbau stützt die Fantasie ihrer eigenen KI-Investitionen.", "teilbranchen": "Cloud- und Plattformkonzerne mit KI-Fahrplan gestützt; werbeabhängige Medien unberührt." },
+        { "sektor": "Versorger", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Rechenzentren sind sprunghaft wachsende Stromabnehmer. Bestätigt sich der KI-Ausbau über ASMLs Auftragslage, stützt das die Erzeuger mit Rechenzentrums-Lieferverträgen.", "teilbranchen": "Unregulierte Stromerzeuger mit Rechenzentrums-Verträgen gestützt; regulierte Netze neutral." },
+        { "sektor": "Immobilien", "betroffenheit": "indirekt", "richtung": "positiv", "mechanismus": "Rechenzentrums-REITs hängen an der Cloud- und KI-Nachfrage. Ein bestätigter Investitionszyklus stützt ihre Auslastungs- und Mietfantasie.", "teilbranchen": "Rechenzentrums-REITs gestützt; Wohnen und Büro unberührt." }
+      ],
+      "sources": [
+        { "title": "ASML meldet 9,3 Mrd. € Umsatz und 2,9 Mrd. € Gewinn in Q2 2026", "url": "https://www.globenewswire.com/news-release/2026/07/15/3327450/0/en/ASML-reports-9-3-billion-total-net-sales-and-2-9-billion-net-income-in-Q2-2026.html", "tier": 1 },
+        { "title": "ASML-Aktie springt nach angehobenem Ausblick (SEC Form 6-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm", "tier": 1 },
+        { "title": "ASML Q2 2026: Ausblick auf KI-Nachfrage angehoben", "url": "https://invezz.com/news/2026/07/15/asml-stock-jumps-after-2026-outlook-raise-as-ai-demand-drives-capacity-expansion/", "tier": 2 }
+      ],
+      "factcheck": {
+        "claim": "ASML Q2 2026: Umsatz 9,3 Mrd. €, Nettogewinn 2,9 Mrd. €, EPS 7,59 €, Bruttomarge 54,0 %; Jahresprognose auf 43–45 Mrd. € angehoben.",
+        "verdict": "bestätigt",
+        "evidence": "ASML-Pressemitteilung/GlobeNewswire und SEC Form 6-K (Tier 1); Invezz und Proactive (Tier 2) unabhängig bestätigt. Vorbörse +3,4 % (US) / rund +5 % (Amsterdam)."
+      }
+    },
+
+    {
+      "id": "sk-hynix-hbm-barclays",
+      "ressort": "unternehmen",
+      "kicker": "Halbleiter · Speicher",
+      "headline": "SK Hynix und die HBM-Wette: Wie eine Analystennotiz den Speicher-Zyklus neu bewertet",
+      "dek": "Der weltgrößte Hersteller von KI-Speicher steht im Epizentrum der Chip-Achterbahn. Eine frische US-Notierung und eine Kaufempfehlung von Barclays lösten eine sprunghafte Neubewertung aus, doch die Zahlen dahinter sind eine Prognose, kein Ergebnisbericht.",
+      "body": [
+        "Fakt: SK Hynix aus Südkorea ist der weltgrößte Hersteller von Hochleistungsspeicher, im Fachjargon HBM (High Bandwidth Memory), dem schnellen Spezialspeicher, der neben den Rechenchips von Nvidia in KI-Rechenzentren steckt. Nach dem Chip-Crash vom 13. Juli, an dem die Aktie in Seoul laut Berichten so stark einbrach wie selten in der Firmengeschichte, drehte die Stimmung: Die britische Bank Barclays startete die Analyse der neuen US-Notierung mit dem Votum Overweight und einem Kursziel von 330 US-Dollar. In Seoul stieg die Aktie am 15. Juli intraday rund zwölf Prozent.",
+        "Fakt: Erst am 10. Juli hatte SK Hynix eine Zweitnotierung an der Nasdaq vollzogen und dabei rund 26,5 Milliarden Dollar eingesammelt, laut Berichten die größte Auslandsplatzierung in der Geschichte einer US-Börse. Barclays begründet das Kursziel mit einem Angebots-Nachfrage-Ungleichgewicht: Die Nachfrage nach Speicherchips soll 2027 schneller wachsen als das Angebot, was die Preise für HBM treibt. SK Hynix halte in diesem Segment einen Marktanteil von über 50 Prozent.",
+        "Interpretation: Der Markt preist nicht das laufende Quartal, sondern eine höhere Ertragsbasis für 2027. Höhere Speicherpreise bei bereits gebauten Fabriken bedeuten überproportional mehr Gewinn, weil die Fixkosten der Chipfabrik gleich bleiben, das ist der operative Hebel. Zudem ist ein Wert, der drei Tage zuvor eingebrochen war, rechnerisch überverkauft, sodass ein einzelner Katalysator eine sprunghafte Gegenbewegung auslösen kann.",
+        "Restrisiko: Eine frisch gelistete Notierung mit dünner Kurshistorie ist schwankungsanfällig, ihr technischer Überkauft-Indikator mahnt zur Vorsicht. Die Barclays-These ist eine Meinung mit einer Prognose für 2027, kein Fakt. Ob die HBM-Preise tatsächlich steigen, entscheidet sich erst in den kommenden Quartalen. Der Börsenwert von SK Hynix ist ohne belastbaren Datenzugang hier bewusst offengelassen, insbesondere ist die kursierende Zahl von rund 713 Milliarden Dollar der angekündigte KI-Ausbauplan, nicht die Marktkapitalisierung. Keine Anlageempfehlung."
+      ],
+      "company": {
+        "name": "SK Hynix",
+        "ticker": "000660 (KRX)",
+        "exchange": "Korea Exchange / NASDAQ (US-Zweitnotierung)",
+        "logoKey": "sk-hynix",
+        "whatTheyDo": "SK Hynix aus Südkorea ist einer der weltgrößten Hersteller von Speicherchips. Sein wichtigstes Produkt für den KI-Boom ist Hochleistungsspeicher (HBM), der zusammen mit den Rechenchips von Nvidia in KI-Rechenzentren steckt. Bei diesem Speicher hält SK Hynix mehr als die Hälfte des Weltmarkts.",
+        "whyItMatters": "SK Hynix ist das Epizentrum der Chip-Achterbahn dieser Woche. Ob der Konzern am schnellen KI-Speicher gutes Geld verdient, entscheidet mit darüber, wie tragfähig der ganze KI-Investitionszyklus ist.",
+        "keyMetrics": [
+          ["Kurs (Seoul)", "+12 % intraday (15.7.); US-Notierung +27 % am 14.7."],
+          ["Barclays-Kursziel (US-Notierung)", "330 $ (\"Overweight\")"],
+          ["HBM-Marktanteil", "> 50 % des Weltmarkts"],
+          ["Umsatz 2025", "97,15 Bio. Won (+46,8 %)"],
+          ["Nettogewinn 2025", "42,92 Bio. Won (+116,9 %)"],
+          ["Börsenwert", "nicht sauber belegt (Datenlücke; 713 Mrd. $ = Ausbauplan, nicht Marktwert)"]
+        ]
+      },
+      "sources": [
+        { "title": "Barclays sieht Verdopplungspotenzial für die SK-Hynix-US-Notierung", "url": "https://www.cnbc.com/2026/07/14/barclays-believes-sk-hynixs-us-shares-can-double-heres-why.html", "tier": 2 },
+        { "title": "Barclays startet Coverage der SK-Hynix-Notierung mit Ziel 330 $", "url": "https://www.koreajoongangdaily.com/business/barclays-initiates-coverage-on-sk-hynix-adrs-with-330-price-target/12774288", "tier": 2 },
+        { "title": "SK-Hynix-US-Notierung: größte Auslandsplatzierung, Debüt", "url": "https://www.koreaherald.com/article/10804650", "tier": 2 }
+      ],
+      "factcheck": {
+        "claim": "SK Hynix +12 % intraday (Seoul), Barclays-Kursziel 330 $ (Overweight); US-Platzierung rund 26,5 Mrd. $.",
+        "verdict": "bestätigt",
+        "evidence": "TradingKey, IBTimes AU, Korea Times, CNBC, Korea JoongAng Daily, Bloomberg, Korea Herald (Tier 2, mehrfach unabhängig). Seoul-Kurs als Intraday-Stand gekennzeichnet."
+      }
+    },
+
+    {
+      "id": "blackrock-q2-vorschau",
+      "ressort": "unternehmen",
+      "kicker": "Vermögensverwaltung · Vorschau",
+      "headline": "BlackRock vor Zahlen: Warum bei einem Vermögensverwalter das verwaltete Vermögen zählt",
+      "dek": "Der weltgrößte Vermögensverwalter berichtet am Mittwoch in der US-Vorbörse. Zum Redaktionsschluss sind die Zahlen noch nicht amtlich. Entscheidend sind nicht der Quartalsgewinn, sondern verwaltetes Vermögen und Netto-Mittelzuflüsse.",
+      "body": [
+        "Termin, im Blatt als Erwartung geführt: BlackRock, der weltgrößte Vermögensverwalter, legt am 15. Juli in der US-Vorbörse seine Zahlen für das zweite Quartal vor. Zum Redaktionsschluss um 06:45 Uhr Berliner Zeit liegen sie noch nicht amtlich vor. Der Analystenkonsens erwartet einen bereinigten Gewinn je Aktie von rund 12,59 US-Dollar. Der letzte amtlich berichtete Wert für das verwaltete Vermögen lag bei rund 13,9 Billionen Dollar zum 31. März 2026.",
+        "Interpretation: Bei einem Vermögensverwalter ist der entscheidende Bewertungskanal nicht der Quartalsgewinn, sondern das verwaltete Vermögen, im Fachjargon AUM (Assets under Management). BlackRock verdient hauptsächlich eine kleine jährliche Gebühr auf dieses Vermögen. Steigt das AUM, steigt die künftige Gebührenbasis fast automatisch. Noch aussagekräftiger als das AUM sind die Netto-Mittelzuflüsse, also das Geld, das Kunden neu einzahlen, abzüglich der Abflüsse. Das AUM kann auch nur steigen, weil die Börsenkurse steigen; Netto-Zuflüsse zeigen dagegen, dass Kunden aktiv neues Geld anvertrauen.",
+        "Interpretation, Brücke zur Politik: Die von der Merz-Koalition beschlossene Kapitalrente würde erstmals einen Teil der gesetzlichen deutschen Rente am Kapitalmarkt anlegen. Das ist strukturell genau das Geschäft, von dem Anbieter wie BlackRock über Jahre profitieren, weil dauerhaft neues Geld in Fonds und börsengehandelte Indexfonds fließt.",
+        "Restrisiko: Es lohnt der Blick auf den Unterschied zwischen ausgewiesenem und bereinigtem Gewinn, der deutlich auseinanderliegen kann. Wer nur die bereinigte Zahl bejubelt, übersieht Sonderposten, dieselbe Falle wie bei den Großbanken der Vorwoche. Und eine Vorbörsenreaktion ist dünn gehandelt und nicht mit dem regulären Handelsschluss zu verwechseln. Keine Anlageempfehlung."
+      ],
+      "company": {
+        "name": "BlackRock",
+        "ticker": "BLK",
+        "exchange": "NYSE",
+        "logoKey": "blackrock",
+        "whatTheyDo": "BlackRock aus den USA ist der größte Vermögensverwalter der Welt. Das Unternehmen legt das Geld von Privatanlegern, Pensionskassen und Staaten in Fonds und börsengehandelten Indexfonds (ETFs) an, vor allem unter der Marke iShares. Es verdient hauptsächlich eine kleine jährliche Gebühr auf das gesamte verwaltete Vermögen.",
+        "whyItMatters": "BlackRock ist der Seismograf der globalen Anlegerstimmung. Weil sein Ergebnis am verwalteten Vermögen hängt, zeigen die Mittelzuflüsse, ob Anleger trotz Krisen weiter Geld in Wertpapiere stecken. Die geplante deutsche Kapitalrente ist genau dieses Geschäft.",
+        "keyMetrics": [
+          ["Kurs", "≈ 1.025,44 $ (Schluss 14.7.)"],
+          ["Börsenwert", "≈ 167 Mrd. $ (Näherung)"],
+          ["KGV (Kurs-Gewinn-Verhältnis)", "≈ 26 (nachlaufend); ≈ 19 (erwartet)"],
+          ["Gewinn je Aktie Q2 (erwartet)", "Konsens ≈ 12,59 $ (Termin 15.7.)"],
+          ["Verwaltetes Vermögen (AUM)", "≈ 13,9 Bio. $ (letzter amtlicher Stand, 31.3.2026)"],
+          ["Umsatz Q2 (erwartet)", "Konsens ≈ 6,80 Mrd. $"]
+        ]
+      },
+      "sources": [
+        { "title": "BlackRock Q2 2026 Vorschau: EPS-Konsens 12,59 $", "url": "https://news.alphastreet.com/blackrock-blk-q2-2026-preview-eps-est-12-59-reports-july-15/amp/", "tier": 2 },
+        { "title": "BlackRock: Ergebnisrelease zweites Quartal 2026", "url": "https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/blackrock-reports-second-quarter-2026", "tier": 1 }
+      ]
+    },
+
+    {
+      "id": "china-bip-43-prozent",
+      "ressort": "makro",
+      "kicker": "Weltkonjunktur · China",
+      "headline": "Chinas Wachstum fällt auf 4,3 Prozent: die Schere zwischen starkem Angebot und schwacher Nachfrage",
+      "dek": "Erstmals seit der Pandemie verfehlt China sein Wachstumsziel. Doch die eigentliche Nachricht steckt im Detail: Industrie und Export laufen robust, die Binnennachfrage bleibt kraftlos. Das trifft deutsche Exporteure, weckt aber Stimulus-Fantasie.",
+      "body": [
+        "Fakt: Chinas Wirtschaft wuchs im zweiten Quartal 2026 nur noch um 4,3 Prozent zum Vorjahr, nach 5,0 Prozent zuvor und schwächer als die vom Konsens erwarteten 4,5 Prozent. Es ist das schwächste Tempo seit dreieinhalb Jahren, und erstmals seit der Pandemie verfehlte das Land sein offizielles Ziel von rund fünf Prozent. Zum Vorquartal wuchs die Wirtschaft um 0,9 Prozent. Im Detail zeigte sich eine Schere: Die Industrieproduktion stieg robust um 5,3 Prozent, doch der Einzelhandel legte nur um 1,0 Prozent zu und die Anlageinvestitionen fielen kumuliert um 5,7 Prozent, gedrückt von der anhaltenden Immobilienschwäche.",
+        "Interpretation: Das, was China produziert (Industrie, Export), ist stark. Das, was China im Inland kauft und investiert (Konsum, Anlagen, Bau), ist schwach. Diese Schere ist die eigentliche Nachricht, nicht die Kopfzahl allein. Für den weltgrößten Abnehmer von Rohstoffen und Investitionsgütern bedeutet schwache Binnennachfrage weniger Bestellungen für deutsche Autos, Maschinen und Chemie sowie für Industriemetalle. Zugleich erhöht die starke, überschüssige Angebotsseite den Preisdruck auf europäische Konkurrenten in Stahl und Chemie, genau darum geht es beim neuen EU-Stahlschutz.",
+        "Gegenlesart: Der Markt handelte die Zahl uneinheitlich. Der Hang Seng in Hongkong stieg um 1,6 Prozent, weil ein verfehltes Ziel die Erwartung staatlicher Konjunkturhilfen weckt, ein Fall von schlechte Nachricht ist gute Nachricht. Und im Kopfwert steckten zwei positive Überraschungen: Einzelhandel und Industrieproduktion kamen besser als erwartet. Die eigentliche Abweichung beim Wachstum betrug nur 0,2 Prozentpunkte.",
+        "Restrisiko: Die offiziellen China-Daten sind schwer unabhängig prüfbar. Der leicht bessere Konsum-Wert könnte eine Stabilisierung anzeigen oder ein statistisches Strohfeuer sein. Ob Peking mit einem großen Stimulus reagiert, ist offen und wäre der wichtigste Kurstreiber der kommenden Wochen. Für deutsche Zykliker ist die China-Schwäche eher ein mittelfristiges Risiko als eine Tagesreaktion."
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Chinas Schere: starkes Angebot, schwache Nachfrage",
+          "subtitle": "Wachstum zum Vorjahr (Prozent)",
+          "unit": " %",
+          "source": "Statistikamt China (NBS); investinglive, CNBC (Tier 2)",
+          "allPositive": false,
+          "data": [["Industrieproduktion", 5.3], ["BIP Q2", 4.3], ["Einzelhandel", 1.0], ["Anlageinvestitionen", -5.7]]
+        }
+      ],
+      "sektorCheck": [
+        { "sektor": "Energie", "betroffenheit": "indirekt", "richtung": "negativ", "mechanismus": "China ist der größte Ölimporteur der Welt. Schwächere Binnennachfrage und schwache Anlageinvestitionen dämpfen den Rohöl- und Dieselverbrauch und wirken preisdrückend.", "teilbranchen": "Ölförderer über die gedämpfte Nachfrageerwartung belastet; der Hormus-Angebotsengpass wirkt gegenläufig stützend." },
+        { "sektor": "Grundstoffe", "betroffenheit": "direkt", "richtung": "negativ", "mechanismus": "China verbraucht über die Hälfte vieler Industriemetalle und den Großteil des weltweiten Stahls. Die einbrechenden Anlageinvestitionen und die Immobilienschwäche drücken die Nachfrage nach Kupfer, Eisenerz und Baustoffen.", "teilbranchen": "Verlierer: Bergbau (Eisenerz, Kupfer), Baustoffe, breite Chemie mit China-Absatz (BASF); chinesischer Stahl-Export erhöht den Preisdruck." },
+        { "sektor": "Industrie", "betroffenheit": "direkt", "richtung": "negativ", "mechanismus": "Deutsche und internationale Maschinenbauer verkaufen einen großen Teil ihrer Anlagen nach China. Schwache Anlageinvestitionen bedeuten weniger Bestellungen für Fabrikausrüstung und Baumaschinen.", "teilbranchen": "Verlierer: Maschinenbau, Baumaschinen, Automatisierung mit China-Exposure; Rüstung und Rechenzentrumsbau unberührt." },
+        { "sektor": "Zyklischer Konsum", "betroffenheit": "direkt", "richtung": "negativ", "mechanismus": "China ist der wichtigste Absatz- und Wachstumsmarkt für deutsche Premiumautos und europäischen Luxus. Schwache Binnennachfrage und nur +1,0 Prozent Einzelhandel bremsen Verkäufe und Preise direkt.", "teilbranchen": "Verlierer: Mercedes-Benz, BMW, Volkswagen (China-Absatz), Luxus (LVMH); heimischer Handel unberührt." },
+        { "sektor": "Basiskonsum", "betroffenheit": "indirekt", "richtung": "gemischt", "mechanismus": "Globale Marken-Konsumgüterhersteller mit China-Geschäft spüren die schwache Nachfrage, doch der defensive Grundbedarf ist konjunkturunabhängiger als Luxus. Billiger chinesischer Export kann Vorprodukte verbilligen.", "teilbranchen": "Markenhersteller mit hohem China-Anteil leicht belastet; Grundnahrung robust." },
+        { "sektor": "Gesundheit", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Die Nachfrage nach Medikamenten ist wenig konjunkturabhängig. Nur Anbieter mit größerem China-Geschäft oder Medizintechnik im Krankenhausbau spüren die schwache Investitionslage mittelbar.", "teilbranchen": "Kein starker Kanal; Medizintechnik mit China-Absatz leicht belastet." },
+        { "sektor": "Finanzen", "betroffenheit": "indirekt", "richtung": "negativ", "mechanismus": "Eine schwächere zweitgrößte Volkswirtschaft erhöht die globalen Konjunktur- und Kreditrisiken. Banken mit Asien- und Rohstoffkreditgeschäft geraten stärker in den Blick.", "teilbranchen": "Banken mit Asien- und Handelsfinanzierung leicht belastet; Versicherer kaum berührt." },
+        { "sektor": "Informationstechnologie", "betroffenheit": "indirekt", "richtung": "gemischt", "mechanismus": "Der KI-Investitionszyklus läuft weitgehend getrennt von Chinas Binnennachfrage, das erklärt die Zweiteilung Asiens. Doch schwache chinesische Endnachfrage nach Smartphones dämpft die Standardchip-Sparte.", "teilbranchen": "KI- und Speicherchips vom China-Effekt abgekoppelt; Standard- und Consumer-Chips mit China-Absatz belastet." },
+        { "sektor": "Kommunikation", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Westliche Plattformen und Telekomkonzerne haben kaum direktes China-Geschäft. Der Bezug bleibt allgemein konjunkturell über die globale Werbekonjunktur.", "teilbranchen": "Kein direkter Kanal; werbeabhängige Medien nur sehr mittelbar berührt." },
+        { "sektor": "Versorger", "betroffenheit": "kaum", "richtung": "neutral", "mechanismus": "Regulierte Strom- und Netzbetreiber in Europa und den USA sind von Chinas Wachstumstempo unabhängig, ihr Geschäft ist heimisch und reguliert.", "teilbranchen": "Kein direkter Kanal." },
+        { "sektor": "Immobilien", "betroffenheit": "indirekt", "richtung": "negativ", "mechanismus": "Der direkte Kanal betrifft vor allem chinesische Entwickler, deren Krise die Anlageinvestitionen drückt. Für westliche REITs ist der Effekt gering und läuft über die Weltkonjunktur.", "teilbranchen": "Chinesische Projektentwickler direkt betroffen; westliche REITs kaum, außer über die Konjunkturstimmung." }
+      ],
+      "sources": [
+        { "title": "China verfehlt Wachstumsziel, Q2-BIP +4,3 %", "url": "https://www.cnn.com/2026/07/14/business/china-q2-gdp-export-economy-intl-hnk", "tier": 2 },
+        { "title": "China Juni: Einzelhandel und Industrieproduktion", "url": "https://investinglive.com/news/china-june-retail-sales-y-y-expected-0-1-and-industrial-output-y-y-expected-4-6", "tier": 2 },
+        { "title": "Statistikamt China (NBS), Pressemitteilungen", "url": "https://www.stats.gov.cn/english/PressRelease/", "tier": 1 }
+      ]
+    },
+
+    {
+      "id": "us-ppi-vorschau-inflationswoche",
+      "ressort": "makro",
+      "kicker": "Geldpolitik · Inflation",
+      "headline": "Zweiter Baustein der Inflationswoche: Was die US-Erzeugerpreise heute verraten",
+      "dek": "Um 14:30 Uhr erscheinen die US-Erzeugerpreise für Juni. Nach dem kühlen Verbraucherpreis-Wert ist es der Bestätigungstest. Der Erzeugerpreis läuft dem Verbraucherpreis oft voraus, doch beide messen eine bereits überholte Ölwelt.",
+      "body": [
+        "Termin, im Blatt als Erwartung geführt: Um 14:30 Uhr Berliner Zeit veröffentlicht das US-Arbeitsministerium den Erzeugerpreisindex für Juni. Der Konsens erwartet eine Jahresrate von rund 6,2 Prozent. Der Erzeugerpreisindex, im Fachjargon PPI (Producer Price Index), misst die Preise auf der Herstellerstufe, also den Fabrik- und Großhandelspreis, bevor die Ware den Endkunden erreicht.",
+        "Interpretation: Der Erzeugerpreis gilt als Vorlaufindikator für den Verbraucherpreis. Preise wandern die Lieferkette entlang: Erst verteuert oder verbilligt sich das Vorprodukt beim Hersteller, Wochen bis Monate später erreicht das den Ladenpreis. Ein fallender Erzeugerpreis signalisiert also, dass Preisentspannung noch in der Pipeline steckt. Nach dem überraschend kühlen Verbraucherpreis der Vorwoche ist der heutige Wert der Bestätigungstest: Kühlt auch er, verdichtet sich das Bild einer breiteren Entspannung und stützt die Anleihen.",
+        "Interpretation: Wie beim Verbraucherpreis ist die Kernrate ohne Nahrung, Energie und Handel entscheidend. Drückt nur die Energie-Komponente den Kopfwert, während die Kernrate hoch bleibt, liest die Fed die Zahl vorsichtig. Genau dieses Muster zeigte schon der Verbraucherpreis.",
+        "Restrisiko: Der Juni-Erzeugerpreis misst eine Ölwelt, die der Juli mit der Hormus-Eskalation bereits überholt hat. Ein kühler Juni-Wert ist deshalb kein Beweis für eine anhaltende Entspannung, sondern ein Blick in den Rückspiegel. Erscheint diese Ausgabe vor 14:30 Uhr, gilt ausschließlich der Konsens; der amtliche Wert liegt erst danach vor."
+      ],
+      "mechanik": "Mechanik einfach erklärt: Die Inflation lässt sich an zwei Stellen der Lieferkette messen. Der Erzeugerpreis erfasst, was Fabriken und Großhändler verlangen, der Verbraucherpreis, was am Ende im Laden steht. Weil das Vorprodukt zuerst teurer oder billiger wird, läuft der Erzeugerpreis dem Verbraucherpreis meist voraus. Für die Zinsdebatte heißt das: Ein kühler Erzeugerpreis deutet an, dass die Entspannung beim Verbraucher erst noch ankommt.",
+      "sources": [
+        { "title": "US-Erzeugerpreise Juni: Konsens rund 6,2 %", "url": "https://investinglive.com/news/us-june-ppi-vs-6-2-expected", "tier": 2 },
+        { "title": "BLS: Producer Price Index, Release-Archiv 2026", "url": "https://www.bls.gov/news.release/archives/ppi_07152026.htm", "tier": 1 }
+      ]
+    },
+
+    {
+      "id": "zew-fruehindikatoren",
+      "ressort": "makro",
+      "kicker": "Konjunktur · Deutschland",
+      "headline": "ZEW-Erwartungen im Blick: Die Kluft zwischen mieser Lage und aufhellender Hoffnung",
+      "dek": "Um 11:00 Uhr kommen die ZEW-Konjunkturerwartungen für Juli. Zuletzt kehrte der Stimmungsindikator in den positiven Bereich zurück, während die Beurteilung der aktuellen Lage tief im Minus blieb. Die Börse handelt die Erwartung, nicht die Lage.",
+      "body": [
+        "Termin, im Blatt als Erwartung geführt: Um 11:00 Uhr Berliner Zeit veröffentlicht das Mannheimer ZEW seine Konjunkturerwartungen für Juli. Der Index misst, wie rund 200 Finanzanalysten die deutsche Wirtschaft in den kommenden sechs Monaten einschätzen. Zuletzt, im Juni, sprang er überraschend von minus 10,2 auf plus 10,5 Punkte und kehrte damit erstmals wieder in den positiven Bereich zurück; erwartet worden war nur ein Wert um minus 6,0. Getragen wurde die Aufhellung von der Hoffnung auf ein Ende des Iran-Konflikts.",
+        "Interpretation: Der Schlüssel ist die Kluft zwischen zwei Zahlen. Die Beurteilung der aktuellen Lage gab im Juni auf minus 81,0 Punkte nach, sie ist also miserabel. Die Erwartung dagegen hellt auf. Die Börse handelt die Erwartung, nicht die Lage, deshalb ist der ZEW ein Frühindikator für den DAX. Ein weiterer Anstieg heute würde die Erholungserzählung stützen und die Risikoprämie auf deutsche Zykliker senken.",
+        "Restrisiko: Die Juni-Aufhellung beruhte gerade auf der Hoffnung eines Iran-Endes, die die Übernacht-Eskalation mit neuen US-Angriffen widerlegt. Der heutige Juli-Wert könnte deshalb zurückfallen, ohne dass sich an der realen Lage etwas geändert hätte. Eine bessere Konjunkturerwartung stützt tendenziell auch den Euro, weil sie die relative Wachstums- und Zinsfantasie der Eurozone hebt."
+      ],
+      "sources": [
+        { "title": "ZEW-Konjunkturerwartungen, Verlaufsdaten", "url": "https://tradingeconomics.com/germany/zew-economic-sentiment-index", "tier": 2 },
+        { "title": "ZEW: Finanzmarkttest und Konjunkturerwartungen", "url": "https://www.zew.de/en/publications/zew-expertises-research-reports/research-reports/business-cycle/zew-financial-market-survey", "tier": 1 }
+      ]
+    }
+  ],
+
+  "branchenMonitor": [
+    {
+      "sektor": "Energie",
+      "wasIstDas": "Ölförderer, Gasproduzenten, Raffinerien und Öl-Dienstleister.",
+      "lage": "Gestützt, aber ohne neuen Schub. Die US-Angriffe auf Iran und die wieder in Kraft gesetzte Marineblockade halten Brent auf einem Monatshoch bei rund 84,95 US-Dollar, ohne den Preis weiter zu treiben, weil der Angebotsengpass bereits eingepreist ist. Gegenläufig dämpft Chinas schwache Nachfrage die Verbrauchserwartung.",
+      "richtung": "neutral",
+      "tagesWert": "WTI ~79,60 $ / Brent ~84,95 $",
+      "istZustand": "Der Sektor ist im historischen Vergleich günstig bewertet, mit einem groben Kurs-Gewinn-Verhältnis in der niedrigen zweistelligen Spanne, und diszipliniert bei Investitionen, weil Anleger seit dem Ölpreisverfall der Vorjahre Ausschüttungen statt Mengenwachstum verlangen. Nützliches Modell ist die Preiselastizität des Ölangebots: Kurzfristig ist das Angebot sehr unelastisch, weil neue Förderung Jahre braucht, deshalb schlagen geopolitische Störungen wie an der Straße von Hormus stark auf den Preis durch, während die Nachfrage träge reagiert. Zyklisch hält knappes Angebot plus Förderdisziplin der OPEC die Preise oben. Strukturell drückt langfristig die Energiewende auf die Nachfrageerwartung, doch der KI-getriebene Strombedarf und geopolitische Knappheit stützen kurz- bis mittelfristig. Das hohe Ölniveau bleibt 2026 der wichtigste Gegenspieler zur kühlenden Inflation."
+    },
+    {
+      "sektor": "Grundstoffe",
+      "wasIstDas": "Chemie, Metalle, Bergbau, Baustoffe und Verpackung.",
+      "lage": "Belastet über den China-Kanal. Die einbrechenden chinesischen Anlageinvestitionen (−5,7 Prozent) und die Immobilienschwäche drücken die Nachfrage nach Industriemetallen und Stahl. Zusätzlich hält das hohe Öl die Einsatzkosten der Chemie oben.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Die Bewertungen sind gemischt, europäische Chemie handelt zyklisch bedingt eher am unteren Rand ihrer historischen Spanne. Aufschlussreich ist die Kapitalzyklus-Theorie: Jahre hoher Investitionen, vor allem in China, haben Überkapazitäten in Chemie und Stahl geschaffen, die nun auf Preise und Renditen drücken; erst wenn schwache Renditen genug Kapazität aus dem Markt drängen, drehen die Margen wieder. Zyklisch steckt der Sektor in einer späten, schwachen Phase, verschärft durch hohe europäische Energiekosten. Strukturell wirken der verschärfte EU-Stahlschutz (50 Prozent Zoll jenseits der Quote) und mögliche Industriestrom-Subventionen als politische Stützen, während die Dekarbonisierung hohe Investitionen verlangt. China bleibt mit über der Hälfte der Weltnachfrage bei vielen Metallen der entscheidende Taktgeber."
+    },
+    {
+      "sektor": "Industrie",
+      "wasIstDas": "Maschinenbau, Rüstung, Bau, Airlines und Logistik.",
+      "lage": "Geteiltes Bild. Der bestätigte KI-Investitionszyklus (ASML) stützt Rechenzentrums-Zulieferer und Automatisierung, doch Chinas schwache Anlageinvestitionen treffen den exportstarken Maschinenbau. Die Pentair-Gewinnwarnung (vorbörslich rund minus 20 Prozent) zeigt die Verwundbarkeit der Kurzzykliker, teures Kerosin belastet Airlines.",
+      "richtung": "neutral",
+      "tagesWert": "Pentair ~−20 % (Vorbörse, Gewinnwarnung)",
+      "istZustand": "Der Sektor ist nach der Rally der Vorjahre eher ambitioniert bewertet, mit einem groben Kurs-Gewinn-Rahmen oberhalb des Gesamtmarkts bei Qualitätswerten. Zyklisch ist das Bild klar geteilt: klassische Kurzzykliker wie Autozulieferung, Anlagenbau und Wasser-/Filtertechnik (Beispiel Pentair) sind schwach ausgelastet, während Rüstung, Elektrifizierung und Rechenzentrumsbau volle Auftragsbücher haben. Strukturelle Treiber der nächsten Quartale sind steigende Verteidigungsbudgets (der deutsche Haushalt 2027 hebt den Verteidigungsetat um rund ein Drittel an), die Automatisierung gegen Arbeitskräftemangel und der KI-getriebene Infrastrukturausbau. Der 15-Prozent-US-Zoll auf EU-Waren bleibt eine Belastung für exportstarke Maschinenbauer, die entschärfte Auto-Zoll-Drohung nimmt aber ein Risiko heraus."
+    },
+    {
+      "sektor": "Zyklischer Konsum",
+      "wasIstDas": "Auto, Mode, Luxus, Reisen und Online-Handel.",
+      "lage": "Belastet über China und Zinsen. Die schwache chinesische Binnennachfrage (Einzelhandel nur +1,0 Prozent) trifft deutsche Premiumautos und europäischen Luxus direkt. Das hohe Öl frisst über den Benzinpreis am frei verfügbaren Einkommen, und die 30-jährige US-Rendite auf dem höchsten Stand seit 2007 verteuert Auto- und Konsumkredite.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Die Bewertung ist gespreizt, teure Online- und Luxusnamen stehen neben günstigen Autoherstellern mit teils einstelligem Kurs-Gewinn-Verhältnis. Zyklisch ist der Sektor spät im Zyklus: Die pandemischen Überschussersparnisse sind aufgebraucht, und der Konsum stützt sich stärker auf Kredit, was bei den höchsten langen Zinsen seit 2007 besonders wehtut. Strukturelle Themen sind der Preiskampf bei Elektroautos, die anhaltende China-Schwäche im Luxussegment und der teure Umbau der europäischen Autoindustrie. Die von Merz vorgestellte Einkommensteuer-Entlastung von rund zehn Milliarden Euro (Wirkung ab 2027) könnte den Massenkonsum später leicht stützen, während der höhere Spitzensteuersatz den Luxuskonsum am oberen Rand trifft."
+    },
+    {
+      "sektor": "Basiskonsum",
+      "wasIstDas": "Lebensmittel, Getränke, Haushaltswaren und Supermärkte.",
+      "lage": "Relativer Verlierer in der risikofreudigen Session. Nach den starken ASML-Zahlen und dem Seoul-Melt-up floss Geld eher in zyklische und KI-nahe Titel. Zusätzlich hält das hohe Öl die Transportkosten oben, und die höchsten langen Zinsen seit 2007 mindern die Attraktivität des defensiven Sektors als Anleihe-Ersatz.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist nach Jahren als sicherer Hafen nicht mehr billig und handelt nahe seinem historischen Bewertungsschnitt, mit einem groben Kurs-Gewinn-Rahmen im mittleren bis oberen Zehnerbereich. Zyklisch ist er defensiv und wenig konjunkturabhängig, steht aber unter Margendruck, weil viele Verbraucher nach der Inflationswelle zu günstigeren Handelsmarken wechseln. Als zinssensibler Bond-Proxy leidet er zudem darunter, dass die hohen langen Renditen sichere Anleihen wieder attraktiver machen und die stabilen Dividenden relativ entwerten. Strukturelle Treiber sind der Abwehrkampf der Marken gegen Handelsmarken und der Nachfragedämpfer durch Abnehmspritzen (die Wirkstoffklasse GLP-1) bei Snacks und Süßwaren."
+    },
+    {
+      "sektor": "Gesundheit",
+      "wasIstDas": "Pharma, Biotechnologie, Medizintechnik und Krankenversicherer.",
+      "lage": "Weitgehend entkoppelt vom Chip- und Ölgeschehen, dient als defensiver Ausweichort. Im Fokus steht der Termin: Johnson & Johnson eröffnet vorbörslich die Gesundheits-Berichtssaison (Konsens rund 2,86 US-Dollar Gewinn je Aktie). Der Sektor ist vom Zinssignal weniger abhängig als zyklische Branchen.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Große Pharmawerte sind moderat bewertet, mit einem groben Kurs-Gewinn-Rahmen im mittleren Zehnerbereich, während unprofitables Biotech nach dem Zinsanstieg der Vorjahre stark abgestraft bleibt und unter den höchsten langen Renditen seit 2007 weiter leidet, weil seine Erträge weit in der Zukunft liegen. Zyklisch ist der Sektor defensiv, kämpft aber mit auslaufenden Patenten großer Umsatzträger in den nächsten Jahren (Patentklippe). Strukturelle Treiber sind der anhaltende Boom der Abnehm- und Diabetesmittel (GLP-1), politischer Preisdruck auf Medikamente in den USA und die Notwendigkeit teurer Zukäufe, um Patentlücken zu schließen. Die defensive Nachfrage macht ihn zum bevorzugten Ausweichort, wenn zyklische Sektoren wie China-Exporteure schwächeln."
+    },
+    {
+      "sektor": "Finanzen",
+      "wasIstDas": "Banken, Versicherer, Vermögensverwalter und Börsen.",
+      "lage": "Freundlich gestimmt. Die Risk-on-Welle aus Asien hebt Depot- und Kurswerte, und im Fokus steht BlackRock, das vorbörslich Rekord-Mittelzuflüsse melden dürfte (Konsens rund 12,59 US-Dollar Gewinn je Aktie). Die anhaltend hohen langen Zinsen und die Debatte über eine Zinsanhebung stützen den Zinsüberschuss der Banken.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Banken sind weiter günstig bewertet, viele US-Großbanken handeln nahe oder wenig über Buchwert, mit einem groben Kurs-Gewinn-Rahmen im niedrigen Zehnerbereich. Zyklisch profitieren sie aktuell von hohen Zinsen und starker Kapitalmarktaktivität, das Risiko sind steigende Kreditausfälle bei einer Konjunkturabkühlung, für die Chinas Schwäche ein Warnsignal ist. Strukturelle Treiber sind die hohen Handels- und Investmentbanking-Erträge im volatilen Zinsregime und die Rekordzuflüsse in ETFs, sichtbar an BlackRock als Seismograf der Anlegerstimmung. Ein potenziell großer Rückenwind ist die von Merz vorgestellte deutsche Kapitalrente, die erstmals einen Teil der gesetzlichen Rente am Kapitalmarkt anlegen und langfristig Kapital zu Fondsanbietern, Börsen und Vermögensverwaltern lenken würde."
+    },
+    {
+      "sektor": "Informationstechnologie",
+      "wasIstDas": "Software, Hardware und Halbleiter.",
+      "lage": "Der Leitsektor des Tages. ASML hob die Jahresprognose auf 43 bis 45 Milliarden Euro an und nannte den Auftragseingang extrem stark, die Aktie stand vorbörslich rund 3,4 Prozent im Plus. Seoul reagierte mit einem Melt-up: SK Hynix +12 Prozent, Samsung +6 bis +8 Prozent, Hanmi rund +25 Prozent. Gegenwind bleibt die 30-jährige Rendite auf dem höchsten Stand seit 2007.",
+      "richtung": "up",
+      "tagesWert": "SK Hynix +12 % / ASML +3,4 % (Vorbörse) / Kospi +7,1 %",
+      "istZustand": "Der Sektor ist im historischen Vergleich teuer, die großen US-Techwerte handeln zu deutlich überdurchschnittlichen Vielfachen, mit einem groben Kurs-Gewinn-Rahmen im hohen Zwanziger- bis Dreißigerbereich, weshalb die höchsten langen Zinsen seit 2007 den Barwert künftiger Gewinne belasten. Der Speichermarkt folgt einem klassischen Schweinezyklus: Auf Knappheit und hohe Preise folgt ein Ausbau der Fabriken, dann Überangebot und Preisverfall, wie der Chip-Crash vom 13. Juli zeigte, ehe die KI-Nachfrage die Erholung trug. Zyklisch steckt die Branche mitten im KI-Investitionsboom mit knappen Kapazitäten bei Rechenzentrumschips. Strukturelle Treiber der nächsten Quartale sind die KI-Investitionsbudgets der Hyperscaler, die EUV-Bestellungen bei ASML als Frühindikator mit 12 bis 18 Monaten Vorlauf und die Capex-Pläne von TSMC (Zahlen 16.7.)."
+    },
+    {
+      "sektor": "Kommunikation",
+      "wasIstDas": "Telekom, Internet-Plattformen, Medien und Unterhaltung.",
+      "lage": "Freundlich über den KI-Kanal. Die bestätigte Chip- und Speicher-Story (ASML, Seoul) stützt die Fantasie der KI-Investitionen der Cloud-Plattformen. Gegenläufig belasten die höchsten langen Zinsen seit 2007 die Refinanzierung der hoch verschuldeten Telekomkonzerne.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Die Bewertung ist zweigeteilt: teure Wachstumsplattformen stehen neben billigen, hoch verschuldeten Telekomkonzernen mit einem groben Kurs-Gewinn-Rahmen im niedrigen Zehnerbereich. Für die Plattformen ist das entscheidende Modell der Netzwerkeffekt: Jeder zusätzliche Nutzer macht das Netz für alle anderen wertvoller, was zu wenigen dominanten Gewinnern mit hoher Preissetzungsmacht führt und ihre hohen Bewertungen trägt. Zyklisch hängen die werbefinanzierten Plattformen an der Konsumlaune, während Abo-Modelle wie Streaming stabiler laufen. Als kapitalintensive Schuldner leiden die Telekoms zusätzlich unter den hohen langen Zinsen, die ihre Netz-Refinanzierung verteuern. Strukturelle Treiber sind das anziehende Werbegeschäft der Streaminganbieter, der Preiswettbewerb im Mobilfunk und der Einsatz von KI in Such- und Empfehlungssystemen."
+    },
+    {
+      "sektor": "Versorger",
+      "wasIstDas": "Strom-, Gas- und Wassernetze sowie Stromerzeuger.",
+      "lage": "Gegenläufige Kräfte. Der bestätigte KI-Ausbau (ASML, Seoul) stützt die Rechenzentrums-Stromfantasie, doch die höchsten langen Zinsen seit 2007 sind starker Gegenwind für den schuldenintensiven, zinssensiblen Sektor. Höhere Gaspreise im Hormus-Umfeld verteuern zudem die Brennstoffkosten der Gaskraftwerke.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Versorger sind moderat bewertet, mit einem groben Kurs-Gewinn-Rahmen im mittleren Zehnerbereich, und stark zinsabhängig, weil ihre Geschäftsmodelle auf viel Fremdkapital beruhen. Hier hilft das Konzept der Duration und Zinssensitivität: Weil Versorger wie eine langlaufende Anleihe stabile, weit in die Zukunft reichende Zahlungsströme liefern, drücken steigende lange Zinsen ihren Barwert besonders stark, und die 30-jährige US-Rendite auf dem höchsten Stand seit 2007 ist genau dieser Gegenwind. Zyklisch sind sie defensiv, stehen aber vor einer historischen Investitionswelle in Netze und Erzeugung. Der zentrale strukturelle Treiber ist der sprunghaft steigende Strombedarf durch Rechenzentren und Elektrifizierung, der aus dem trägen Sektor überraschend eine Wachstumsstory macht, deren Finanzierung im Hochzinsumfeld aber teurer wird."
+    },
+    {
+      "sektor": "Immobilien",
+      "wasIstDas": "Börsennotierte Vermieter (REITs) und Projektentwickler.",
+      "lage": "Unter Zinsdruck. Der reinste Zinswert des Index leidet am stärksten unter der 30-jährigen US-Rendite auf dem höchsten Stand seit 2007, die die Refinanzierung verteuert und Objektwerte drückt. Ein Lichtblick bleibt die KI-Nachfrage, die Rechenzentrums-REITs stützt.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Nach dem Zinsschock der Vorjahre sind viele REITs mit Abschlag zum Substanzwert (unter dem Nettoinventarwert) günstig bewertet, doch die Bewertung allein ist keine Wende. Auch hier ist Duration das Schlüsselmodell: Immobilien sind langlaufende Zahlungsströme, die die höchsten langen Zinsen seit 2007 über den Diskontierungseffekt und die teurere Refinanzierung doppelt treffen. Zyklisch drückt weiter der hohe Refinanzierungsbedarf auslaufender Kredite zu höheren Zinsen, besonders bei Büroimmobilien mit strukturell schwacher Nachfrage durch Homeoffice. Die deutsche Rekord-Neuverschuldung erhöht zudem das Angebot an Bundesanleihen und hält so den Aufwärtsdruck auf die Zinsen. Strukturelle Treiber der nächsten Quartale sind die Refinanzierungswelle, die anhaltende Büroschwäche und der Nachfrageboom bei Logistik- und Rechenzentrums-Immobilien."
+    }
+  ],
+
+  "stockPicks": [
+    {
+      "name": "RENK Group AG",
+      "ticker": "R3NK",
+      "logoKey": "renk",
+      "marketCapEUR": "rund 4,3 Mrd. €",
+      "capSource": "stockanalysis.com, 15.7.2026: 4,33 Mrd. € (Kurs 43,89 €, rund 98,6 Mio. Aktien). Notierung in Euro.",
+      "marktEinordnung": "RENK ist nach eigenen Angaben und Branchenberichten Weltmarktführer bei Voll-Automatikgetrieben für schwere Kettenfahrzeuge (Leopard 2, Puma, K2, Lynx KF41, Boxer-Antriebskomponenten). Die Nische hat sehr hohe Eintrittshürden: Ein Getriebe wird über Jahre pro Panzerplattform qualifiziert, danach ist der Zulieferer über den gesamten Lebenszyklus faktisch gesetzt (Quasi-Monopol je Plattform). Eine exakte Marktgröße für den engen Teilmarkt ist öffentlich nicht sauber belegt (eigene Schätzung); als belastbarer Nachfrage-Indikator dient der Rekord-Auftragsbestand von 6,68 Mrd. € (31.12.2025, Quelle RENK, Tier 1). Rückenwind: Bundeshaushalt 2027 mit Verteidigungsetat rund ein Drittel höher und mehrere neue Lynx-Nutzerstaaten in Europa.",
+      "thesis": "Fakt: Am 9.7.2026 erweiterte RENK den Rahmenvertrag mit Rheinmetall für Lynx-KF41-Antriebe um mehr als 270 Mio. € (inkl. Optionen); Anfang Juli kam der bindende Kauf von David Brown Defence (UK-Marine-/Landgetriebe, Closing Q4 2026). Für 2026 erwartet RENK über 1,5 Mrd. € Umsatz und 255 bis 285 Mio. € bereinigtes EBIT. Interpretation: RENK profitiert als spezialisierter Zulieferer vom europäischen Aufrüstungszyklus, ohne selbst das teure Endprodukt zu bauen; der Auftragsbestand von 6,68 Mrd. € liefert mehr als vierfache Jahresumsatz-Sichtbarkeit, die David-Brown-Übernahme verbreitert von Land- auf Marineantriebe. RENK ist der kleinere, günstiger bewertete Antriebsspezialist neben dem höher bewerteten Systemhaus Rheinmetall, worin die mögliche asymmetrische Chance dieser Fallstudie liegt. Ausdrücklich keine Empfehlung.",
+      "counterarguments": [
+        "Der Abschlag zu Rheinmetall könnte strukturell gerechtfertigt sein, nicht eine Aufhol-Chance: RENK hat niedrigere Margen und hängt über den Plattform- und Kundenweg von Rheinmetall selbst ab (der Lynx-Auftrag vom 9.7. kommt von Rheinmetall); zudem kann ein Free-Float-Überhang aus der Private-Equity-Altbeteiligung als Kursdeckel wirken.",
+        "Starke Abhängigkeit von staatlichen Budgets: Der Stopp der Fregatte F126 (Bundestag, 8.7.2026) zeigt, dass einzelne Programme gestrichen werden können und einen Zulieferer wie RENK direkt treffen.",
+        "Ausführungsrisiko: Der Rekord-Auftragsbestand muss physisch abgearbeitet werden; Engpässe bei Personal, Vorprodukten oder Energiekosten können Umsatz und Marge verschieben."
+      ],
+      "catalysts": [
+        "Q2-/Halbjahreszahlen 2026 mit aktualisiertem Auftragsbestand (Sommer 2026)",
+        "Abschluss der David-Brown-Defence-Übernahme im vierten Quartal 2026",
+        "Weitere Lynx-Abrufe und konkrete Mittel aus dem Bundeshaushalt 2027 (Verteidigungsetat rund ein Drittel höher)"
+      ]
+    },
+    {
+      "name": "voestalpine AG",
+      "ticker": "VOE",
+      "logoKey": "voestalpine",
+      "marketCapEUR": "rund 7,3 Mrd. €",
+      "capSource": "companiesmarketcap.com / stockanalysis.com, Juli 2026 (Spanne rund 7,0 bis 7,8 Mrd. €, Kurs rund 44 €). Näherung. Notierung in Euro.",
+      "marktEinordnung": "voestalpine ist kein reiner Massenstahl-Produzent, sondern Weltmarktführer in mehreren Premium-Nischen: Werkzeugstahl (über die Böhler-Gesellschaften), Bahnsysteme und Weichentechnik (voestalpine Railway Systems) sowie Spezialprofile. Diese Segmente sind technisch anspruchsvoll und deutlich weniger konjunktur- und China-abhängig als Baustahl, weil sie in Werkzeuge, Hochgeschwindigkeitsstrecken, Luftfahrt und Automobilanwendungen eingehen. Als Marktkontext gilt seit 1.7.2026 das verschärfte EU-Stahlschutzsystem (Importquote rund −47 %, 50 % Zoll jenseits der Quote), das die Massenstahl-Preise stützt; für voestalpine ist es aber eher Rückenwind als Kern der These.",
+      "thesis": "Interpretation: Die eigentliche Substanz des Falls liegt nicht im zyklischen Stahlpreis, sondern in den strukturell China-insensitiven Nischen. voestalpine führt global bei Werkzeugstahl (Böhler) und bei Bahnsystemen und Weichentechnik, zwei Märkten, die an Schieneninfrastruktur, Luftfahrt und hochwertigen Werkstoffen hängen, nicht an chinesischer Bau-Nachfrage. Fakt: Im Geschäftsjahr 2025/26 stieg das EBIT um 59 % auf 724 Mio. €, das EBITDA lag bei rund 1,5 Mrd. €; für 2026/27 werden 1,60 bis 1,85 Mrd. € EBITDA erwartet, wobei die High-Performance-Metals-Division ihr EBITDA in den ersten drei Quartalen um 163 % steigerte. Fakt: Am 10.7.2026 hob J.P. Morgan voestalpine in einer Doppel-Hochstufung von Underweight auf Overweight (Kursziel 50 €). Das Verhältnis von Unternehmenswert zu EBITDA von grob 6 bis 7 ist für einen Qualitäts-Nischenführer moderat, sofern die Ergebnisbasis der Premium-Segmente trägt. Der EU-Stahlschutz und ein möglicher Restocking-Zyklus sind zusätzlicher, aber nicht tragender Rückenwind. Ausdrücklich keine Empfehlung.",
+      "counterarguments": [
+        "Konjunktur- und China-Risiko: Trotz der Nischenstärke bleibt ein Teil des Geschäfts von Auto-, Maschinenbau- und Energienachfrage abhängig; ein schwaches China (Q2-BIP +4,3 %) und flaue EU-Industrie können die Erholung ausbremsen, die der Markt womöglich schon einpreist.",
+        "Die Bull-Fantasie stützt sich stark auf einen einzelnen Analysten-Call (J.P. Morgan, 10.7.) und einen noch unbewiesenen Restocking-Zyklus; ein Preisboden ohne anziehende Nachfrage füllt keine Auftragsbücher, und ein KGV um 35 auf Tiefpunktgewinnen trägt Value-Trap-Züge.",
+        "Energie- und Handelspolitik zweischneidig: Als energieintensiver Hersteller trifft ein hoher Öl- und Strompreis die Marge direkt; der 50-Prozent-Schutz kann Vergeltung auslösen, und der EU-Emissionshandel (CBAM) belastet die Kostenposition langfristig."
+      ],
+      "catalysts": [
+        "Erste Quartalszahlen des Geschäftsjahres 2026/27 mit Marge der Premium-Divisionen (Werkzeugstahl, Bahntechnik) (Sommer 2026)",
+        "Coil-Stahl-Preisentwicklung in Europa in Q3/Q4 2026 als Test der Restocking-These",
+        "Weitere Analysten-Neubewertungen im Zuge des europäischen Stahl-Narrativs"
+      ]
+    },
+    {
+      "name": "Nexans S.A.",
+      "ticker": "NEX",
+      "logoKey": "nexans",
+      "marketCapEUR": "rund 5,9 Mrd. €",
+      "capSource": "stockanalysis.com, 15.7.2026: 5,94 Mrd. € (Kurs 136,00 €, 43,74 Mio. Aktien). Notierung in Euro.",
+      "marktEinordnung": "Nexans baut Kabel mit Schwerpunkt auf Hochspannungs- und Seekabeln (Netzanbindung, Offshore-Wind, Länder-Interkonnektoren). Der Markt für Hochspannungskabel wird 2026 auf rund 39,85 Mrd. USD geschätzt und soll bis 2031 auf rund 56,26 Mrd. USD wachsen (Branchenschätzung). Die Teilnische Untersee-HVDC ist ein enges Oligopol: Prysmian rund 25 %, Nexans rund 12 %, dahinter NKT, Siemens Energy, ABB; die Top-Anbieter halten über 60 %. Netzumbau, Offshore-Wind, Interkonnektoren und der Strombedarf von KI-Rechenzentren treffen auf knappe Fertigungs- und Verlegekapazität (Seekabel-Verlegeschiffe sind rar); Nexans besitzt mit der Electra (Auslieferung 2026) eine solche Kapazität. Das gibt den wenigen Anbietern Preissetzungsmacht; Nexans meldet rund 7,9 Mrd. € Auftragsbestand mit Sicht bis 2028.",
+      "thesis": "Fakt: Nexans hat sich zum fokussierten Elektrifizierungs-Spezialisten umgebaut und den Umbau abgeschlossen: Am 3.7.2026 schloss es den Verkauf der letzten Nicht-Kern-Sparte (Bordnetz-Geschäft Autoelectric) an Motherson (Unternehmenswert 207 Mio. €) ab; am 6.7.2026 sicherte es über einen Fünf-Jahres-Vertrag mit Hydro rund 85.000 t CO2-armes Aluminium für die europäische Netzmodernisierung, dazu einen 600-Mio.-€-Rahmenvertrag mit Enedis. Interpretation: Der Fall zeigt, wie ein Pure-Play-Umbau eine Neubewertung auslösen kann. Als Mischkonzern trug Nexans einen Bewertungsabschlag; als reiner Profiteur von Stromnetzen, Offshore-Wind und Rechenzentrums-Strom kann sich die Bewertung dem höher gehandelten Nischenführer Prysmian annähern. Nexans handelt bei rund 8,5x Unternehmenswert/EBITDA und rund 0,8x Unternehmenswert/Umsatz, klar unter dem Primus; der Auftragsbestand bis 2028 begrenzt das kurzfristige Nachfragerisiko, während der Umbau den Neubewertungshebel liefert. Ausdrücklich keine Empfehlung.",
+      "counterarguments": [
+        "Ausführungsrisiko bei Großprojekten: Seekabel-Projekte sind technisch komplex; Verzögerungen, Verlegefehler oder Vertragsstrafen können einzelne Aufträge in die Verlustzone drehen und treffen ein Kabelunternehmen überproportional.",
+        "Rohstoff- und Kostenrisiko: Kupfer und Aluminium sind die größten Inputs; Preisschwankungen und der hohe Energiepreis belasten Kalkulation und Working Capital.",
+        "Kapazitäts- und Konkurrenzrisiko: Prysmian, NKT und andere bauen ebenfalls Kapazität und Verlegeschiffe auf; zudem kann der Bewertungsabschlag zu Prysmian dauerhaft sein, weil Nexans als Nummer 2 mit kleinerem Anteil und niedrigerer Marge strukturell niedriger gehandelt werden könnte, statt zum Primus aufzuschließen."
+      ],
+      "catalysts": [
+        "Halbjahreszahlen 2026 mit Auftragsbestand und Hochspannungs-Marge (Sommer 2026)",
+        "Neue Großaufträge für Interkonnektoren, Offshore-Wind oder Rechenzentrums-Stromanbindung",
+        "Analysten-Neubewertung nach vollzogenem Pure-Play-Umbau (Multiplikator-Vergleich mit Prysmian)"
+      ]
+    }
+  ],
+
+  "watchlist": [
+    { "what": "US-Erzeugerpreise (PPI) für Juni, zweiter Baustein der Inflationswoche", "when": "heute, 15.7., 14:30 Berliner Zeit", "bullishIf": "Kopf- und Kernrate unter Konsens (unter rund 6,2 Prozent Jahresrate), bestätigt die Abkühlung, die Anhebungswette fällt weiter unter 49 Prozent", "bearishIf": "Kernrate überrascht nach oben, die Anhebungswette springt zurück Richtung 60 Prozent, lange Renditen steigen" },
+    { "what": "ZEW-Konjunkturerwartungen für Juli (Frühindikator für den DAX)", "when": "heute, 15.7., 11:00 Berliner Zeit", "bullishIf": "weiterer Anstieg über plus 10,5 Punkte, stützt die DAX-Erholungserzählung", "bearishIf": "Rückfall, weil die Iran-Eskalation die Juni-Aufhellung frisst; Lage-Komponente unter minus 81" },
+    { "what": "TSMC-Quartalszahlen und Investitionsrahmen 2026 (Frühindikator Rechenzentrumsnachfrage)", "when": "Donnerstag, 16.7.2026", "bullishIf": "Anhebung des Investitionsbudgets bestätigt den KI-Zyklus im Anschluss an ASML", "bearishIf": "nur Bestätigung oder Senkung dämpft die KI-These und belastet Kospi und Nasdaq-Chips" },
+    { "what": "FOMC-Zinsentscheid unter Fed-Chef Kevin Warsh", "when": "28. bis 29. Juli 2026", "bullishIf": "Beibehaltung der Spanne 3,50 bis 3,75 Prozent ohne konkrete September-Anhebungsansage", "bearishIf": "Anhebung um 25 Basispunkte oder klare Ankündigung einer September-Anhebung" },
+    { "what": "Chinesische Konjunkturhilfen als Reaktion auf das verfehlte Wachstumsziel", "when": "laufend, mögliche Politbüro-Signale im Sommer", "bullishIf": "großer Nachfrage-Stimulus stützt deutsche China-Exporteure und Industriemetalle", "bearishIf": "kein Stimulus, Binnennachfrage bleibt schwach, Überkapazität drückt weiter auf europäische Preise" },
+    { "what": "Ölpreis und Hormus-Transit nach der neuen US-Eskalation", "when": "laufend, täglich", "bullishIf": "Deeskalation, Transits normalisieren sich, Brent fällt nachhaltig unter 80 Dollar", "bearishIf": "länger anhaltende Sperrung der Meerenge, Brent bricht über 90 Dollar, Inflationsprämie und Anhebungswette steigen" }
+  ],
+
+  "learningNotes": [
+    "Der Kurs bezahlt die Zukunft, nicht die Vergangenheit: ASML bewegt sich an der angehobenen Prognose, nicht am gemeldeten Quartal.",
+    "Bad news is good news: Ein verfehltes China-Ziel kann Kurse stützen, wenn es Stimulus-Fantasie weckt (Hang Seng plus 1,6 Prozent).",
+    "Ein voller Auftragsbestand ist ein Angebots-Frühindikator, keine bestätigte Nachfrage; er kann auch Vorziehen oder künftige Überkapazität bedeuten.",
+    "Hohe Realzinsen sind der Hauptgegenwind für zinslose Anlagen wie Gold, doch Krisen-Bid und Zentralbankkäufe ziehen einen Boden.",
+    "Guidance schlägt gemeldete Zahl: Eine gesenkte Prognose (Pentair rund minus 20 Prozent) schlägt an einem Tag zweistellig durch."
+  ],
+
+  "lernecke": [
+    {
+      "disziplin": "VWL",
+      "modell": "Komparativer Kostenvorteil und Handelspolitik (David Ricardo)",
+      "erklaerung": "Der komparative Kostenvorteil ist eine der ältesten Erkenntnisse der Volkswirtschaftslehre, formuliert vom britischen Ökonomen David Ricardo Anfang des 19. Jahrhunderts. Seine Kernaussage: Zwei Länder gewinnen durch Handel, selbst wenn ein Land in allem produktiver ist, solange jedes sich auf das spezialisiert, worin es relativ am effizientesten ist, und den Rest importiert. Der Gesamtwohlstand steigt, weil die weltweite Produktion effizienter wird. Zölle brechen diesen Gewinn auf: Sie schützen eine heimische Branche vor günstigerer Konkurrenz, verteuern aber die geschützten Güter für Verbraucher und benachteiligen Exporteure, die mit Vergeltung rechnen müssen. Handelspolitik ist deshalb nie neutral, sondern verteilt Wohlstand gezielt zwischen Branchen um.",
+      "anwendung": "Genau diese Umverteilung zeigt der 15-Prozent-US-Zoll gegen die 50-Prozent-EU-Stahlabgabe: Der eine verteuert deutsche Autos in den USA, der andere schützt europäische Stahlwerke vor billigem Import. Die Handelspolitik trifft Auto und Stahl gegensätzlich, statt pauschal zu wirken."
+    },
+    {
+      "disziplin": "VWL",
+      "modell": "Crowding-out und das Modell der ausleihbaren Mittel (Loanable Funds)",
+      "erklaerung": "Das Modell der ausleihbaren Mittel betrachtet den Kapitalmarkt wie jeden anderen Markt, mit Angebot (den Ersparnissen) und Nachfrage (dem Kreditbedarf), deren Ausgleich den Zins bildet. Nimmt der Staat in großem Umfang Kredit auf, tritt er als zusätzlicher, sehr großer Nachfrager auf und konkurriert mit privaten Unternehmen und Haushalten um denselben Pool an Ersparnissen. Diese zusätzliche Nachfrage treibt den Zins nach oben und kann private Investitionen verdrängen, weil manche Projekte sich bei höheren Finanzierungskosten nicht mehr lohnen. Ökonomen nennen das Crowding-out, also Verdrängung. Ein Gegenargument liefert die Ricardianische Äquivalenz: Vorausschauende Haushalte könnten mehr sparen, weil sie künftige Steuern zur Schuldentilgung erwarten, was den Effekt dämpft.",
+      "anwendung": "Die im Bundeshaushalt 2027 geplante Neuverschuldung von rund 200 Milliarden Euro ist genau ein solcher Nachfrageschub am Anleihemarkt: Mehr Bundesanleihen bei gegebener Nachfrage heben die Renditen und verteuern damit Baufinanzierung und Unternehmenskredite in ganz Deutschland."
+    },
+    {
+      "disziplin": "Politikwissenschaft",
+      "modell": "Median-Wähler-Theorem (Anthony Downs)",
+      "erklaerung": "Das Median-Wähler-Theorem, ausformuliert vom Ökonomen Anthony Downs 1957 auf Basis früherer Arbeiten, erklärt, warum sich Parteien in einer Mehrheitsdemokratie inhaltlich oft ähneln. Ordnet man alle Wähler auf einer Links-rechts-Achse, dann liegt in der Mitte der Medianwähler, jene Person, die genau die Hälfte der Wähler links und die Hälfte rechts von sich hat. Wer die Präferenz dieses Medianwählers trifft, gewinnt die Mehrheit. Rational bewegen sich konkurrierende Parteien deshalb auf die Mitte zu, weil extreme Positionen zwar die eigenen Ränder begeistern, aber die entscheidende Mitte verlieren. Das Theorem erklärt Kompromisspolitik nicht als Prinzipienlosigkeit, sondern als vorhersehbares Ergebnis des Wettbewerbs um Mehrheiten.",
+      "anwendung": "Das Merz-Reformpaket ist danach idealtypisch gebaut: Entlastung der breiten Mitte um zehn Milliarden Euro, Belastung nur der Spitzenverdiener durch die Reichensteuer ab 280.000 Euro. Der Zuschnitt schont bewusst den Medianwähler und balanciert die Koalitionsflügel von CDU und SPD aus."
+    },
+    {
+      "disziplin": "BWL",
+      "modell": "Economic Moat (Wettbewerbsvorteil / Burggraben)",
+      "erklaerung": "Der Begriff Economic Moat, deutsch wirtschaftlicher Burggraben, stammt aus der Investitionslehre und beschreibt einen dauerhaften Wettbewerbsvorteil, der ein Unternehmen wie ein Wassergraben eine Burg vor Angreifern schützt. Solche Gräben entstehen etwa aus Patenten, hohen Umstellungskosten der Kunden, Größenvorteilen oder einem technologischen Vorsprung, den Konkurrenten über Jahre nicht aufholen können. Ein Unternehmen mit breitem Burggraben kann höhere Preise und Margen dauerhaft verteidigen, weil neue Wettbewerber die Eintrittshürde nicht überwinden. Genau das rechtfertigt oft ein hohes Bewertungsvielfaches an der Börse: Anleger zahlen für die Sicherheit, dass die Gewinne nicht schnell wegkonkurriert werden. Ein Burggraben ist aber nie ewig; Technologiewechsel oder Regulierung können ihn austrocknen.",
+      "anwendung": "ASML ist das Musterbeispiel: Als einziger Hersteller der EUV-Belichtungsmaschinen hat der Konzern ein technologisches Quasi-Monopol aus Jahrzehnten Forschung, Patenten und einem Zuliefernetz. Auch SK Hynix verteidigt mit über 50 Prozent HBM-Anteil einen schmaleren, aber realen Burggraben im KI-Speicher."
+    },
+    {
+      "disziplin": "VWL",
+      "modell": "Schweinezyklus / Cobweb-Theorem (Kapazitätszyklus)",
+      "erklaerung": "Der Schweinezyklus, in der Theorie als Cobweb- oder Spinnwebtheorem bekannt, beschreibt wiederkehrende Preisschwankungen in Märkten, in denen die Produktion nur mit langer Verzögerung auf Preise reagiert. Das klassische Bild stammt aus der Landwirtschaft: Hohe Schweinepreise verleiten viele Bauern dazu, mehr Ferkel aufzuziehen; wenn diese Monate später gleichzeitig auf den Markt kommen, entsteht ein Überangebot, die Preise stürzen ab, die Aufzucht wird gedrosselt, und aus der Knappheit von morgen folgen wieder hohe Preise. Weil alle Anbieter auf dasselbe Preissignal mit Verzögerung reagieren, schwingt der Markt immer wieder über und unter das Gleichgewicht, statt sich zu beruhigen. Dasselbe Muster gilt überall dort, wo Kapazität erst nach Jahren entsteht, etwa im Halbleiter- und Speichermarkt.",
+      "anwendung": "ASMLs geplanter Kapazitätsausbau um rund 30 Prozent und der Speicher-Boom bei SK Hynix folgen genau diesem Muster: Der heutige Investitionsschub in Fabriken kann bei schwacher Endnachfrage in zwei Jahren als Überangebot enden, wie schon der Chip-Crash vom 13. Juli andeutete."
+    }
+  ],
+
+  "financeLink": {
+    "titel": "Finance Link: Warum ASMLs angehobene Prognose mehr bewegt als der gemeldete Gewinn",
+    "absaetze": [
+      "Gewinn- und Verlustrechnung: ASML meldete für das zweite Quartal 9,3 Milliarden Euro Umsatz, 2,9 Milliarden Euro Gewinn und eine Bruttomarge von 54 Prozent. Diese Zahlen beschreiben aber nur die Vergangenheit, ein bereits abgeschlossenes Quartal. Ein Aktienkurs bezahlt jedoch keine Vergangenheit, sondern die erwarteten Gewinne der Zukunft. Deshalb ist die zweite Zahl im Bericht wichtiger als die erste: ASML hob die Jahresprognose von 36 bis 40 auf 43 bis 45 Milliarden Euro an. Das ist die Aussage über die Zukunft, und genau daran bewegt sich der Kurs.",
+      "Bilanz und Auftragsbestand: Bei einem Maschinenbauer steht die eigentliche Zukunftsinformation nicht in der Gewinn- und Verlustrechnung, sondern im Auftragsbestand. Eine bestellte EUV-Maschine wird erst mit rund einem Jahr Vorlauf ausgeliefert und bezahlt. Der Auftragsbestand ist damit ein Blick nach vorn. ASML nennt den Ordereingang im ersten Halbjahr extrem stark, weist aber seit 2026 keine exakte Quartalszahl mehr aus. Der Anleger muss also der Prognose als Verdichtung dieser Auftragslage vertrauen.",
+      "Cashflow und Kapitalrückgabe: ASML kaufte im Quartal für 1,1 Milliarden Euro eigene Aktien zurück und zahlt eine Schlussdividende von 2,70 Euro je Aktie. Das ist echter Mittelabfluss an die Eigentümer und nur möglich, weil das Geschäft viel Bargeld erzeugt. Eine Firma, die zugleich die Prognose anhebt und Aktien zurückkauft, signalisiert doppeltes Vertrauen ins eigene künftige Geschäft.",
+      "Bewertung: Hier entsteht der Hebel. ASML wird mit einem Kurs-Gewinn-Verhältnis von rund 60 gehandelt, also einem hohen Vielfachen des Jahresgewinns. Bei einem so hoch bewerteten Wachstumswert wirkt eine höhere erwartete Gewinnbasis überproportional auf den Kurs, weil der Wert der Aktie fast ganz aus weit in der Zukunft liegenden Gewinnen besteht. Steigt die erwartete Ertragsbasis um rund 16 Prozent, hebt das den rechnerischen Wert dieser Zukunftsgewinne spürbar, selbst wenn das gemeldete Quartal nur im Rahmen lag."
+    ],
+    "anfaengerfehler": "Der typische Anfängerfehler: Zuerst auf den gemeldeten Quartalsgewinn und die Schlagzeile schauen und fragen, ob die 9,3 Milliarden Euro die Erwartung geschlagen haben. Der Kurs handelt aber die angehobene Prognose und die Auftragslage, also die Zukunft. Wer nur die Vergangenheitszahl liest, versteht nicht, warum die Aktie steigt, obwohl das gemeldete Quartal kaum überraschte."
+  },
+
+  "glossar": [
+    { "begriff": "EUV-Lithografie", "erklaerung": "Extrem-Ultraviolett-Belichtung, das feinste Verfahren, um die Muster moderner Chips auf Silizium zu zeichnen. ASML ist der einzige Hersteller dieser Maschinen." },
+    { "begriff": "HBM (High Bandwidth Memory)", "erklaerung": "Hochleistungsspeicher, der neben den Rechenchips in KI-Rechenzentren steckt. SK Hynix hält hier über die Hälfte des Weltmarkts." },
+    { "begriff": "Sidecar / Kauf-Handelsstopp", "erklaerung": "Eine automatische Handelsnotbremse an der Börse. Sie setzt den Handel kurz aus, wenn die Kurse extrem schnell steigen oder fallen, damit sich die Lage beruhigt." },
+    { "begriff": "PPI (Erzeugerpreisindex)", "erklaerung": "Misst die Preise auf der Herstellerstufe, bevor die Ware den Endkunden erreicht. Gilt als Vorlaufindikator für die Verbraucherpreise." },
+    { "begriff": "AUM (verwaltetes Vermögen)", "erklaerung": "Assets under Management, das gesamte Geld, das ein Vermögensverwalter für Kunden anlegt. Auf dieses Vermögen verdient er hauptsächlich eine kleine Gebühr." },
+    { "begriff": "Realzins", "erklaerung": "Der Nominalzins minus der erwarteten Inflation, also der echte Kaufkraftgewinn einer Anlage. Hohe Realzinsen drücken zinslose Anlagen wie Gold." },
+    { "begriff": "KGV (Kurs-Gewinn-Verhältnis)", "erklaerung": "Der Aktienkurs geteilt durch den Jahresgewinn je Aktie. Ein hohes KGV bedeutet, dass Anleger viel künftiges Wachstum einpreisen." },
+    { "begriff": "Kapitalrente", "erklaerung": "Ein neuer, am Kapitalmarkt angelegter Zusatzbeitrag zur gesetzlichen Rente. Er ergänzt das Umlageverfahren um eine kapitalgedeckte Säule." }
+  ],
+
+  "verificationLog": {
+    "confirmed": [
+      "ASML Q2 2026: Umsatz 9,3 Mrd. €, Nettogewinn 2,9 Mrd. €, EPS 7,59 €, Bruttomarge 54,0 %; Jahresprognose auf 43–45 Mrd. € angehoben, Q3 11–12 Mrd. €; Vorbörse +3,4 % (US) / ~+5 % (Amsterdam). Tier 1 (ASML/SEC) + Tier 2.",
+      "China-BIP Q2 +4,3 % YoY / +0,9 % QoQ, Ziel verfehlt, 3,5-Jahres-Tief; Industrieproduktion +5,3 %, Einzelhandel +1,0 %, Anlageinvestitionen −5,7 %. Tier 1 (NBS) + Tier 2.",
+      "Seoul-Melt-up: Kospi intraday über +7 % mit Kauf-Sidecar, SK Hynix +12 %, Samsung ~8 %, Hanmi ~25 %; Barclays Overweight, Kursziel 330 $; US-Platzierung ~26,5 Mrd. $. Tier 2 mehrfach unabhängig.",
+      "Öl auf Monatshoch: WTI ~79,60 $ (+26 Cent), Brent ~84,95 $ (+22 Cent); US-Marineblockade Iran wieder in Kraft. Tier 2 (CNBC, Bloomberg, Al Jazeera).",
+      "Zinsen: FedWatch September-Anhebung ~49 %; 30J-US-Rendite 5,058 % (Auktion 9.7.), höchste seit 2007; 10J ~4,58 % nach CPI gefallen; Gold ~4.070 $, rund 27 % unter Rekord ~5.590 $. Tier 2.",
+      "Deutsche Politik: Bundeshaushalt 2027 Volumen ~555 Mrd. €, Neuverschuldung ~200 Mrd. € inkl. Sondervermögen (Kernhaushalt 118,7 Mrd.), Verteidigung rund ein Drittel mehr; Merz-Reformpaket (Kapitalrente +2 Pp., Steuerentlastung ~10 Mrd. €, Spitzensteuer 45→47 %); EU-Stahlschutz Quote 18,3 Mio. t / 50 % Zoll / 30 Kategorien; EU-US-Zoll 15 %. Tier 1/2.",
+      "Stock Picks belegt unter 10 Mrd. € Börsenwert: RENK ~4,3 Mrd. € (Auftragsbestand 6,68 Mrd. €, Lynx-KF41 >270 Mio. €), voestalpine ~7,3 Mrd. € (EBIT +59 % auf 724 Mio. €, JPM Ziel 50 €), Nexans ~5,9 Mrd. € (Auftragsbestand 7,9 Mrd. €, Autoelectric-Closing 3.7.). Tier 1/2.",
+      "Termine als Erwartung geführt (IST nicht amtlich): US-PPI Juni (Konsens ~6,2 %), ZEW Juli (Juni +10,5), BlackRock (Konsens EPS ~12,59 $), J&J (Konsens EPS ~2,86 $); Pentair-Gewinnwarnung als bestätigte 8-K-Meldung, Vorbörse ~−20 %."
+    ],
+    "uncertain": [],
+    "gaps": [
+      "ASML-Quartals-Bookings/EUV-Anteil: strukturell nicht mehr ausgewiesen (seit 2026); nur qualitativ plus letzter Backlog-Wert ~38,8 Mrd. € (Ende 2025).",
+      "Keine Alpha-Vantage-Kursreihen (kein API-Zugang, MCP nicht freigegeben) für ASML, SK Hynix, BlackRock; keine priceSeries, Charts nur aus belegten Einzelzahlen; Markt-Kacheln vom US-Schluss 14.7. übernommen.",
+      "Sechs der elf GICS-Sektor-Tageswerte ohne Datenzugang; wörtlich 'keine Sektordaten belegt'.",
+      "SK-Hynix-Börsenwert bewusst offengelassen, um Verwechslung mit dem KI-Ausbauplan (713 Mrd. $, nicht Marktkapitalisierung) zu vermeiden.",
+      "Bitcoin-Übernachtstand 15.7. nicht sauber belegbar; Markt-Kachel trägt den letzten belegten Stand vom 14.7. mit Hinweis."
+    ]
+  }
+}

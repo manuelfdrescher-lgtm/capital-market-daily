@@ -29,3 +29,6 @@ Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
 - 2026-07-14-evening | Evotec SE (EVT) | hoch
 - 2026-07-14-evening | Vossloh AG (VOS) | mittel
 - 2026-07-14-evening | CleanSpark, Inc. (CLSK) | niedrig
+- 2026-07-15-morning | RENK Group AG (R3NK) | —
+- 2026-07-15-morning | voestalpine AG (VOE) | —
+- 2026-07-15-morning | Nexans S.A. (NEX) | —
