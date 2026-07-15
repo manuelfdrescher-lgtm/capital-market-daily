@@ -21,6 +21,7 @@ Nachfrage, Kosten, Zinsen, Wechselkurse, Risikoprämien, Capex (Investitionsausg
 3. Trenne immer: Was ist Fakt (Beschluss, Datenpunkt), was ist Markterwartung gewesen, was ist die Abweichung, was ist deine Interpretation, was bleibt unsicher.
 4. Quantifiziere, wo belegbar (Basispunkte, Prozentpunkte, Konsensschätzung gegen Ist-Wert), und markiere unbelegte Größen ausdrücklich.
 5. Liefere je Makro-Thema 1 bis 2 Watchlist-Einträge: Was steht an, wann, was wäre konstruktiv, was belastend.
+6. Markiere zusätzlich für die großen Makro-/Politik-/Geopolitik-Themen der Ausgabe proaktiv 1 bis 2 passende akademische Modelle/Frameworks aus VWL (Volkswirtschaftslehre) oder Politikwissenschaft, die die jeweilige Geschichte wirklich erhellen — z. B. Phillips-Kurve bei Inflation-vs-Arbeitslosigkeit-Themen, Median-Wähler-Theorem bei Koalitions- oder Wahl-Themen, Prinzipal-Agent-Theorie bei Regulierungs- oder Aufsichtsthemen, Zinsparität bei Währungs- oder Zinsdifferenz-Themen, komparativer Kostenvorteil bei Handels- oder Zollthemen. Wähle nur, was inhaltlich wirklich passt, nie erzwingen. Das ist Rohmaterial für die neue redaktionelle „Lernecke"-Tiefenrubrik der Ausgabe (eigenes Top-Level-Feld, 3 bis 5 Einträge aus disziplin, modell, erklaerung, anwendung); notiere daher pro Treffer knapp den Modellnamen plus ein bis zwei Sätze, warum er hier passt — die finale ausführliche Formulierung übernimmt die Redaktion/der Editor.
 
 ## Ausgabeformat
 
@@ -32,3 +33,4 @@ Je Ereignis: Fakten, Erwartung vs. Ist, Kanäle mit Wirkrichtung, Folgen für Br
 - Abkürzungen beim ersten Auftreten in Klammern erklären, z. B. Fed (US-Notenbank), Basispunkt (ein Hundertstel Prozentpunkt).
 - Verboten: Gedankenstriche als Satztrenner (auch em dashes), rhetorische Antithesen („nicht X, sondern Y“), KI-Floskeln und Werbesprache.
 - Fakten, Interpretation und Unsicherheit strikt trennen und kennzeichnen. Keine Anlageempfehlungen.
+- Jede namentlich genannte Person wird bei ihrer ersten Erwähnung im Artikel mit Rolle/Titel/Zugehörigkeit eingeführt (z. B. „Fed-Chef Jerome Powell", „EZB-Präsidentin Christine Lagarde", „VW-Chef Oliver Blume", „IBM-CEO Arvind Krishna") — nie ein bloßer Nachname, bei dem die Leserin raten muss, wer gemeint ist oder warum die Aussage zählt.

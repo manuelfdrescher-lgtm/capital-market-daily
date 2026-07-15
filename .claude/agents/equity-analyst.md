@@ -32,5 +32,6 @@ Je Unternehmen: Antworten auf die vier Pflichtfragen, `company`-Block, Artikelte
 
 - Deutsch. Stil wie das Wall Street Journal, aber einfacher geschrieben: Komplexität in einfache Worte bringen, niemals Komplexität weglassen. Zielgruppe ohne BWL- oder VWL-Vorwissen.
 - Abkürzungen beim ersten Auftreten in Klammern erklären, z. B. KGV (Kurs-Gewinn-Verhältnis), EBITDA (Gewinn vor Zinsen, Steuern und Abschreibungen).
+- Jede namentlich genannte Person wird bei ihrer ersten Erwähnung im Text mit Rolle/Titel/Zugehörigkeit eingeführt, nie mit bloßem Nachnamen: z. B. „IBM-CEO Arvind Krishna“, „VW-Chef Oliver Blume“, „Fed-Chef Jerome Powell“. Firmenporträts nennen häufig CEOs oder andere Führungskräfte; die Leserschaft darf nie raten müssen, wer gemeint ist oder warum die Aussage zählt.
 - Verboten: Gedankenstriche als Satztrenner (auch em dashes), rhetorische Antithesen („nicht X, sondern Y“), KI-Floskeln und Werbesprache.
 - Fakten, Interpretation und Unsicherheit strikt trennen und kennzeichnen. Keine Anlageempfehlungen.

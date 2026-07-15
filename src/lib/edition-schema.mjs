@@ -102,7 +102,7 @@ export const ArticleImageSchema = z.object({
 
 export const ArticleSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/, "id als kleingeschriebener Slug"),
-  ressort: z.enum(["titelseite", "news", "politik", "unternehmen", "makro", "aktien", "lernecke"]),
+  ressort: z.enum(["titelseite", "news", "politik", "unternehmen", "makro", "lernecke"]),
   kicker: nonEmpty,
   headline: nonEmpty,
   dek: nonEmpty,
@@ -141,9 +141,16 @@ export const StockPickSchema = z.object({
   marketCapEUR: nonEmpty,
   capSource: nonEmpty,
   thesis: nonEmpty,
+  // Markt-Einordnung: Marktgröße / warum diese Nische unterpenetriert bzw.
+  // aufstrebend ist / warum diese Firma darin führend ist ("McKinsey-Tiefe").
+  // Ab schemaVersion 2 redaktionelle Pflicht (siehe editorialChecks).
+  marktEinordnung: z.string().optional(),
   counterarguments: z.array(nonEmpty).min(2),
   catalysts: z.array(nonEmpty).min(1),
-  confidence: z.enum(["hoch", "mittel", "niedrig"]),
+  // Confidence-Label entfällt redaktionell (nur noch hohe Überzeugung wird
+  // überhaupt publiziert) und wird auf dem Frontend nicht mehr angezeigt.
+  // Optional statt required aus Kompatibilität mit älteren Ausgaben.
+  confidence: z.enum(["hoch", "mittel", "niedrig"]).optional(),
   whatTheyDo: z.string().optional(),
   priceSeries: z.array(SeriesPointSchema).optional(),
   priceUnit: z.string().optional(),
@@ -157,6 +164,18 @@ export const WatchlistItemSchema = z.object({
   bearishIf: nonEmpty,
 });
 
+// Lernecke-Tiefenrubrik (schemaVersion >= 2): ein Modell/Konzept aus VWL, BWL
+// oder Politikwissenschaft, von Grund auf erklärt und auf ein Ereignis DIESER
+// Ausgabe angewendet. Zusätzlich zu (nicht statt) den kurzen learningNotes.
+// Array-Länge (min. 3, max. 5) und Mindest-Zeichenlängen von erklaerung/
+// anwendung werden NICHT hier, sondern in editorialChecks geprüft (siehe dort).
+export const LerneckeEintragSchema = z.object({
+  disziplin: z.enum(["VWL", "BWL", "Politikwissenschaft"]),
+  modell: nonEmpty,
+  erklaerung: nonEmpty,
+  anwendung: nonEmpty,
+});
+
 export const EditionSchema = z.object({
   edition: z.object({
     number: z.number().int().nonnegative(),
@@ -167,6 +186,10 @@ export const EditionSchema = z.object({
     dataAsOf: nonEmpty,
     generatedAt: nonEmpty,
     isExample: z.boolean().default(false),
+    // Schema-Generation: alte Editionen ohne dieses Feld gelten implizit als
+    // Version 1 (unverändertes Verhalten). Neue Ausgaben setzen explizit 2,
+    // wodurch die zusätzlichen, strengeren editorialChecks-Regeln greifen.
+    schemaVersion: z.number().int().default(1),
   }),
   market: z.object({
     tiles: z.array(MarketTileSchema).min(1),
@@ -182,6 +205,10 @@ export const EditionSchema = z.object({
   stockPicks: z.array(StockPickSchema).length(3, "Genau drei Aktien des Tages"),
   watchlist: z.array(WatchlistItemSchema).default([]),
   learningNotes: z.array(nonEmpty).min(3).max(5),
+  // Neue Tiefenrubrik ab schemaVersion 2 (additiv zu learningNotes, siehe
+  // LerneckeEintragSchema oben). Min./Max.-Länge und Zeichenfloors werden in
+  // editorialChecks geprüft, nicht hier.
+  lernecke: z.array(LerneckeEintragSchema).optional(),
   financeLink: z
     .object({
       titel: nonEmpty,
@@ -216,6 +243,68 @@ export function editorialChecks(edition) {
       errors.push(`Artikel "${a.id}": Unternehmens-Artikel brauchen ein company-Objekt.`);
     }
   }
+
+  // Ab schemaVersion 2 gelten zusätzliche, strengere Redaktionsregeln.
+  // Intraday-Updates (slot startet mit "update-") sind von den
+  // Mindest-Artikelzahlen pro Ressort ausgenommen.
+  if ((edition.edition.schemaVersion ?? 1) >= 2) {
+    if (!edition.edition.slot.startsWith("update-")) {
+      const pflichtRessorts = ["news", "politik", "unternehmen", "makro"];
+      for (const ressort of pflichtRessorts) {
+        const anzahl = edition.articles.filter((a) => a.ressort === ressort).length;
+        if (anzahl < 3) {
+          errors.push(
+            `Ressort "${ressort}": mindestens 3 Artikel nötig (hat ${anzahl}).`
+          );
+        }
+      }
+    }
+
+    if (!edition.lernecke || edition.lernecke.length < 3) {
+      errors.push(
+        `"lernecke": mindestens 3 Einträge nötig (hat ${edition.lernecke?.length ?? 0}).`
+      );
+    } else if (edition.lernecke.length > 5) {
+      errors.push(
+        `"lernecke": höchstens 5 Einträge erlaubt (hat ${edition.lernecke.length}).`
+      );
+    } else {
+      for (const eintrag of edition.lernecke) {
+        if (eintrag.erklaerung.length < 280) {
+          errors.push(
+            `"lernecke" – Modell "${eintrag.modell}": "erklaerung" muss mindestens 280 Zeichen lang sein (hat ${eintrag.erklaerung.length}).`
+          );
+        }
+        if (eintrag.anwendung.length < 140) {
+          errors.push(
+            `"lernecke" – Modell "${eintrag.modell}": "anwendung" muss mindestens 140 Zeichen lang sein (hat ${eintrag.anwendung.length}).`
+          );
+        }
+      }
+    }
+
+    for (const eintrag of edition.branchenMonitor) {
+      if (!eintrag.istZustand || eintrag.istZustand.length < 260) {
+        errors.push(
+          `Branchen-Monitor "${eintrag.sektor}": "istZustand" muss mindestens 260 Zeichen lang sein (hat ${eintrag.istZustand?.length ?? 0}).`
+        );
+      }
+    }
+
+    for (const pick of edition.stockPicks) {
+      if (!pick.marktEinordnung || pick.marktEinordnung.length < 200) {
+        errors.push(
+          `Aktie "${pick.name}": "marktEinordnung" muss mindestens 200 Zeichen lang sein (hat ${pick.marktEinordnung?.length ?? 0}).`
+        );
+      }
+      if (pick.thesis.length < 400) {
+        errors.push(
+          `Aktie "${pick.name}": "thesis" muss mindestens 400 Zeichen lang sein (hat ${pick.thesis.length}).`
+        );
+      }
+    }
+  }
+
   return errors;
 }
 

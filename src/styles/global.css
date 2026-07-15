@@ -978,20 +978,6 @@ figcaption.chart__quelle {
 }
 .pick ul { margin: 0; padding-left: 18px; }
 .pick li { margin-bottom: 4px; }
-.confidence {
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: 12.5px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border: 1px solid currentColor;
-  border-radius: 2px;
-  padding: 1px 9px;
-  align-self: flex-start;
-}
-.confidence--hoch { color: var(--positiv); }
-.confidence--mittel { color: var(--box-gelb-kante); }
-.confidence--niedrig { color: var(--neutral); }
 
 /* ---------- Watchlist ---------- */
 
@@ -1030,6 +1016,31 @@ figcaption.chart__quelle {
 @media (min-width: 760px) { .glossar { grid-template-columns: 1fr 1fr; } }
 .glossar dt { font-family: var(--sans); font-weight: 600; font-size: 16px; margin-top: 13px; }
 .glossar dd { margin: 2px 0 0; font-size: 15px; color: var(--tinte-60); }
+
+/* ---------- Lernecke Vertiefung ---------- */
+
+.lernecke-vertiefung { display: grid; gap: 22px; margin: 20px 0 34px; }
+@media (min-width: 860px) {
+  .lernecke-vertiefung { grid-template-columns: repeat(2, 1fr); }
+}
+.lernecke-modell { display: flex; flex-direction: column; gap: 4px; }
+.lernecke-modell__titel {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.25;
+}
+.lernecke-modell__disziplin {
+  display: block;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--akzent-rot);
+  margin-bottom: 4px;
+}
 
 /* ---------- Quellen (je Artikel) ---------- */
 

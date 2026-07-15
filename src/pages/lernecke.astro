@@ -14,6 +14,30 @@ const { data } = getLatestEdition();
     {data.learningNotes.map((note) => <li>{note}</li>)}
   </ol>
 
+  {data.lernecke && data.lernecke.length > 0 && (
+    <>
+      <RessortKopf titel="Vertiefung: Die Modelle dahinter" untertitel="Die ökonomischen und politikwissenschaftlichen Denkmodelle hinter den Ereignissen dieser Ausgabe, erklärt und angewendet." />
+      <div class="lernecke-vertiefung" data-pagefind-body>
+        {data.lernecke.map((entry) => (
+          <article class="karte lernecke-modell">
+            <h3 class="lernecke-modell__titel">
+              <span class="lernecke-modell__disziplin">{entry.disziplin}</span>
+              {entry.modell}
+            </h3>
+            <div class="mechanik-box">
+              <span class="mechanik-box__titel">Das Modell</span>
+              {entry.erklaerung}
+            </div>
+            <div class="mechanik-box" style="margin-bottom:0">
+              <span class="mechanik-box__titel">Angewendet auf diese Ausgabe</span>
+              {entry.anwendung}
+            </div>
+          </article>
+        ))}
+      </div>
+    </>
+  )}
+
   {data.financeLink && (
     <>
       <RessortKopf titel="Finance Link" untertitel="Eine News der Ausgabe, komplett durch Gewinn- und Verlustrechnung, Bilanz, Cashflow und Bewertung gedacht." />
