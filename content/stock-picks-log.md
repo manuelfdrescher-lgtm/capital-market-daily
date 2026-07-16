@@ -32,3 +32,6 @@ Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
 - 2026-07-15-morning | RENK Group AG (R3NK) | —
 - 2026-07-15-morning | voestalpine AG (VOE) | —
 - 2026-07-15-morning | Nexans S.A. (NEX) | —
+- 2026-07-16-morning | Powell Industries, Inc. (POWL) | — _(7,44 Mrd. €; Schaltanlagen-Spezialist für Rechenzentren, LNG und Energieinfrastruktur, profitiert direkt von der Stromseite des KI-Booms mit ~1,8 Mrd. USD Auftragsbestand)_
+- 2026-07-16-morning | Moelis & Company (MC) | — _(4,34 Mrd. €; kapitalarme M&A-Beratungsboutique als direkter Hebel auf den Kapitalmarkt-Boom bei Fusionen und Börsengängen)_
+- 2026-07-16-morning | SPX Technologies, Inc. (SPXC) | — _(9,45 Mrd. €; diversifizierter, defensiverer Zugang zur Strom- und Kühlseite des KI-Booms über Kühlung, Messtechnik und Energie)_
