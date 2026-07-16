@@ -519,5 +519,28 @@
     "license": "Public domain",
     "artist": "Unknown authorUnknown author",
     "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "tsmc": {
+    "file": null,
+    "name": "TSMC (Taiwan Semiconductor)",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "powell": {
+    "file": null,
+    "name": "Powell Industries",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "moelis": {
+    "file": "moelis.png",
+    "name": "Moelis & Company",
+    "source": "https://commons.wikimedia.org/wiki/File:Moelis_Logo.png",
+    "license": "Public domain",
+    "artist": "Moelis",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "spx": {
+    "file": null,
+    "name": "SPX Technologies",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
   }
 }

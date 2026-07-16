@@ -1,0 +1,1262 @@
+{
+  "edition": {
+    "number": 9,
+    "date": "2026-07-16",
+    "slot": "morning",
+    "schemaVersion": 2,
+    "dataAsOf": "US-Handelsschluss Mi 15.7. (Motley Fool), Asien-Sitzung Do 16.7. (TradingKey), Marktdaten aus Alpha Vantage (EUR/USD, TSM-Quote, Brent bis 13.7., 10J-Rendite bis 14.7.). TSMC-Q2-Ist-Zahlen und US-Einzelhandelsumsätze Juni zum Redaktionsschluss noch nicht veröffentlicht (Termine heute 08:00 bzw. 14:30 Berlin).",
+    "generatedAt": "2026-07-16T04:32:00Z",
+    "note": "Ab dieser Ausgabe nur noch eine Tagesausgabe, die separate Abendausgabe entfällt."
+  },
+  "market": {
+    "tiles": [
+      {
+        "label": "S&P 500",
+        "value": "7.572,40",
+        "delta": "+0,38 %",
+        "direction": "up",
+        "approx": false,
+        "note": "Schluss 15.7."
+      },
+      {
+        "label": "Nasdaq Composite",
+        "value": "26.269,23",
+        "delta": "+0,62 %",
+        "direction": "up",
+        "approx": false,
+        "note": "Schluss 15.7."
+      },
+      {
+        "label": "Dow Jones",
+        "value": "52.658,64",
+        "delta": "+0,29 %",
+        "direction": "up",
+        "approx": false,
+        "note": "Schluss 15.7."
+      },
+      {
+        "label": "KOSPI (Seoul)",
+        "value": "6.910,49",
+        "delta": "-5,13 %",
+        "direction": "down",
+        "approx": false,
+        "note": "16.7., Asien"
+      },
+      {
+        "label": "Nikkei 225",
+        "value": "67.128,17",
+        "delta": "-2,36 %",
+        "direction": "down",
+        "approx": false,
+        "note": "16.7., Asien"
+      },
+      {
+        "label": "SK Hynix",
+        "value": "-9,17 %",
+        "delta": "Speicher",
+        "direction": "down",
+        "approx": false,
+        "note": "16.7., Seoul"
+      },
+      {
+        "label": "Micron",
+        "value": "-6,96 %",
+        "delta": "Speicher",
+        "direction": "down",
+        "approx": false,
+        "note": "15.7., US"
+      },
+      {
+        "label": "US-Rendite 10 Jahre",
+        "value": "4,58 %",
+        "delta": "-4 Bp.",
+        "direction": "down",
+        "approx": false,
+        "note": "Stand 14.7. (Alpha Vantage)"
+      },
+      {
+        "label": "Öl (Brent)",
+        "value": "81,62 USD",
+        "delta": "Hormus-Prämie",
+        "direction": "up",
+        "approx": true,
+        "note": "Stand 13.7. (Alpha Vantage), Tagespreis 15./16.7. nicht taggenau belegt"
+      },
+      {
+        "label": "EUR / USD",
+        "value": "1,1469",
+        "delta": "16.7.",
+        "direction": "flat",
+        "approx": false,
+        "note": "Alpha Vantage"
+      },
+      {
+        "label": "US-Leitzins (Fed)",
+        "value": "3,50-3,75 %",
+        "delta": "unverändert",
+        "direction": "flat",
+        "approx": false,
+        "note": "nächste Sitzung 28./29.7."
+      },
+      {
+        "label": "TSMC (ADR)",
+        "value": "419,48 USD",
+        "delta": "-0,22 %",
+        "direction": "down",
+        "approx": false,
+        "note": "Schluss 15.7. (Alpha Vantage)"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "titel-speicher-vs-tsmc",
+      "ressort": "titelseite",
+      "kicker": "Titelseite · Halbleiter und der KI-Investitionszyklus",
+      "headline": "Der Speicher bricht ein, während die KI-Rechenfabrik ihren Härtetest hat",
+      "dek": "Massenspeicher stürzen an zwei Handelstagen ab und ziehen ganz Asien mit nach unten. Am selben Morgen legt TSMC Zahlen vor, die zeigen sollen, ob die Nachfrage nach KI-Rechenchips ungebrochen ist.",
+      "body": [
+        "US-Speicherwerte fielen am 15.7. deutlich (Micron rund minus 7 Prozent), in der Nacht auf Donnerstag folgte Asien: KOSPI minus 5,1 Prozent, SK Hynix minus 9,2 Prozent, Samsung minus 5,3 Prozent, Kioxia minus 7,4 Prozent. Auslöser ist die Sorge vor einem Überangebot bei DRAM und NAND.",
+        "TSMC, die weltgrößte Auftragsfertigerin von Rechenchips, berichtet heute um 08:00 Uhr Berliner Zeit. Die Juni-Erlöse lagen laut Berichten rund 68 Prozent über Vorjahr, die Q2-Umsatzprognose bei 39,0 bis 40,2 Mrd. US-Dollar.",
+        "Der Widerspruch löst sich in der Trennung zweier Chip-Arten auf. Massenspeicher ist austauschbar und angebotsgetrieben, KI-Rechenlogik ein knappes Engpassgut mit Preissetzungsmacht."
+      ],
+      "lehre": "Ein Investitionsboom hebt nicht alle gleich. Wer ein knappes Engpassgut liefert, behält die Marge, wer austauschbare Massenware liefert, verliert im Überangebot zuerst.",
+      "factcheck": {
+        "claim": "Speicher-Ausverkauf US 15.7. und Asien 16.7.",
+        "verdict": "bestätigt",
+        "evidence": "TradingKey, 24/7 Wall St., Benzinga"
+      },
+      "sources": [
+        {
+          "title": "Japan and South Korea Stocks Hammered at Open: KOSPI Tumbles 5%, SK Hynix Plunges 9%, Samsung, Kioxia and SoftBank Follow Lower",
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262033140-kospi-nekki-kioxia-samsung-skhynix-ai-softbank-adr-skhy-etf-tradingkey",
+          "tier": 2
+        },
+        {
+          "title": "Jim Cramer Blames SK Hynix Chaos for TSMC Fall Despite 'Insanely Good' Q2 Earnings: 'A Casino of Emotions'",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60493174/jim-cramer-blames-sk-hynix-chaos-for-tsmc-fall-despite-insanely-good-q2-earnings-a-casino-of-emotions",
+          "tier": 2
+        },
+        {
+          "title": "TSMC Stock Slides Despite Crushing Q2 Estimates With Fifth Straight Record Profit",
+          "url": "https://www.benzinga.com/markets/tech/26/07/60489128/tsmc-stock-slides-despite-crushing-q2-estimates-with-fifth-straight-record-profit",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-speicher-rout",
+      "ressort": "news",
+      "kicker": "Halbleiter · Speicherzyklus",
+      "headline": "Speicheraktien brechen ein, Asien folgt am Morgen nach",
+      "dek": "Die Sorge vor einem Überangebot bei DRAM und NAND kippt die zuvor hochgelaufenen Speicherwerte. Der Ausverkauf springt von der Wall Street auf Seoul und Tokio über.",
+      "body": [
+        "Am 15.7. verloren in den USA Micron rund 7 Prozent, SanDisk und Western Digital kräftiger, Seagate schwächelte. Auslöser war ein vorsichtigerer Ton zur Preisentwicklung bei Standardspeichern.",
+        "In der Nacht auf Donnerstag verstärkte sich die Bewegung in Asien: KOSPI minus 5,1 Prozent, Nikkei minus 2,4 Prozent, SK Hynix minus 9,2 Prozent, Samsung minus 5,3 Prozent, Kioxia minus 7,4 Prozent, SoftBank minus 4,9 Prozent. Ein Teil ist Gewinnmitnahme nach der Erholung der Vorwoche."
+      ],
+      "mechanik": "Speicherchips verhalten sich wie ein Rohstoff. Übersteigt die Nachfrage das Angebot, springen Preise und Gewinne. Kündigen alle zugleich Fabriken an, entsteht Überkapazität, und schon eine kleine Nachfragedelle lässt die Preise fallen. Wegen der hohen Fixkosten schlägt das überproportional auf den Gewinn durch.",
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Speicherhersteller verdienen weniger bei fallenden DRAM- und NAND-Preisen. KI-Rechenlogik und Foundry bleiben nachfragegetrieben und weniger betroffen."
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Rechenzentrumsbetreiber kaufen Speicher als Vorleistung, günstigere Preise senken ihre Hardwarekosten. Effekt klein."
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Smartphone- und Autohersteller mit viel Elektronik profitieren von günstigeren Chips, zeitverzögert wegen langer Verträge."
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Keine nennenswerte Abhängigkeit von Speicherpreisen."
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Chipkostenanteil in Geräten klein, Nachfrage unelastisch."
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Nur mittelbar über die allgemeine Risikostimmung bei einem Tech-Ausverkauf."
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Keine Verbindung zu Speicherpreisen im Kerngeschäft."
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Anbieter von Fotolack, Industriegasen und Wafern verkaufen weniger, wenn Speicherfirmen Fabrikinvestitionen drosseln."
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Fabrikausrüster für Chipwerke bekommen weniger Aufträge, breiter Maschinenbau unberührt."
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Nur kleiner Nebeneffekt über den Stromverbrauch der Fabriken."
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Rechenzentrums-REITs begrüßen günstigere Speicher, die Überkapazitätssorge belastet die KI-Stimmung."
+        }
+      ],
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "skhynix",
+          "warum": "Größter HBM-Speicherhersteller, im Zentrum der Überangebotssorge (16.7.).",
+          "firma": "SK Hynix",
+          "bewegung": "-9,17 %"
+        },
+        {
+          "logoKey": "kioxia",
+          "warum": "Japanischer NAND-Spezialist, direkt vom Preisdruck betroffen (16.7.).",
+          "firma": "Kioxia",
+          "bewegung": "-7,36 %"
+        },
+        {
+          "logoKey": "micron",
+          "warum": "US-Speicherhersteller, Startpunkt des Ausverkaufs (15.7.).",
+          "firma": "Micron",
+          "bewegung": "-6,96 %"
+        },
+        {
+          "logoKey": "samsung",
+          "warum": "Größter Speicherkonzern der Welt (16.7.).",
+          "firma": "Samsung Electronics",
+          "bewegung": "-5,28 %"
+        }
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Asiens Chipwerte am Donnerstagmorgen",
+          "subtitle": "Kursveränderung im frühen Handel am 16.7.2026, in Prozent",
+          "unit": " %",
+          "source": "TradingKey (16.7.2026)",
+          "allPositive": false,
+          "data": [
+            [
+              "SK Hynix",
+              -9.17
+            ],
+            [
+              "Kioxia",
+              -7.36
+            ],
+            [
+              "Samsung",
+              -5.28
+            ],
+            [
+              "KOSPI",
+              -5.13
+            ],
+            [
+              "SoftBank",
+              -4.89
+            ],
+            [
+              "Nikkei 225",
+              -2.36
+            ]
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "Micron -6,96 % (15.7.), SK Hynix -9,17 % (16.7.)",
+        "verdict": "bestätigt",
+        "evidence": "TradingKey, 24/7 Wall St."
+      },
+      "sources": [
+        {
+          "title": "Micron Technology Inc Stock (MU) Moved Down by 6.96% on Jul 15: What Investors Need To Know",
+          "url": "https://www.tradingkey.com/news/market-movers/262032458-market-movers-mu-20260715",
+          "tier": 2
+        },
+        {
+          "title": "Japan and South Korea Stocks Hammered at Open: KOSPI Tumbles 5%, SK Hynix Plunges 9%, Samsung, Kioxia and SoftBank Follow Lower",
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262033140-kospi-nekki-kioxia-samsung-skhynix-ai-softbank-adr-skhy-etf-tradingkey",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-us-close",
+      "ressort": "news",
+      "kicker": "Aktienmärkte · USA",
+      "headline": "Wall Street schließt höher, Apple markiert ein Rekordhoch",
+      "dek": "Kühlere Erzeugerpreise und ein solider Start der Berichtssaison heben die großen Indizes. Kommunikationswerte führen, der Technologiesektor gibt leicht nach.",
+      "body": [
+        "Der S&P 500 gewann am 15.7. 0,38 Prozent auf 7.572,40, der Nasdaq Composite 0,62 Prozent auf 26.269,23, der Dow 0,29 Prozent auf 52.658,64. Apple markierte ein Rekordhoch.",
+        "Unter der Oberfläche führten die Kommunikationsdienste mit rund plus 2,7 Prozent, während Technologie und Industrie je etwa 0,25 Prozent verloren. Der Index stieg, obwohl ein Teil des Chipsektors abverkauft wurde."
+      ],
+      "mechanik": "Ein Index ist ein gewichteter Durchschnitt. Er kann steigen, obwohl einzelne große Branchen fallen, wenn andere stärker zulegen. Der Blick auf die Sektoren zeigt, wohin das Geld tatsächlich fliesst.",
+      "factcheck": {
+        "claim": "US-Schlusskurse 15.7.",
+        "verdict": "bestätigt",
+        "evidence": "Motley Fool (Einzelquelle für exakte Punktstände)"
+      },
+      "sources": [
+        {
+          "title": "Stock Market Today, July 15: Markets Rise on Cooler Inflation and Strong Earnings Start",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/15/stock-market-today-july-15-markets-rise-on-cooler-inflation-and-strong-earnings-start/",
+          "tier": 2
+        },
+        {
+          "title": "Why Apple Stock Climbed to a New All-Time High Today",
+          "url": "https://www.fool.com/investing/2026/07/15/why-apple-stock-climbed-to-new-all-time-high-today/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-blackrock",
+      "ressort": "news",
+      "kicker": "Unternehmen · Vermögensverwaltung",
+      "headline": "BlackRock verwaltet erstmals mehr als 15 Billionen Dollar",
+      "dek": "Rekordzuflüsse und steigende Kurse heben das verwaltete Vermögen auf einen neuen Höchststand. Gewinn und Marge übertreffen die Erwartungen deutlich.",
+      "body": [
+        "BlackRock meldete für Q2 ein verwaltetes Vermögen von 15,34 Bill. US-Dollar (Vorquartal 13,89, Vorjahr 12,53). Umsatz 7,08 Mrd. (Konsens 6,83), bereinigtes EPS 13,91 (Konsens 12,59), operative Marge 45,9 Prozent, höchster Wert seit fast fünf Jahren. Die Aktie stieg vorbörslich rund 6 Prozent."
+      ],
+      "mechanik": "Ein Vermögensverwalter verdient Gebühren als Prozentsatz des verwalteten Vermögens. Dieses wächst durch neue Zuflüsse und durch steigende Kurse der bestehenden Anlagen. Steigende Börsen wirken deshalb wie ein automatischer Umsatztreiber und heben die Marge, weil die Kosten nicht mitwachsen.",
+      "factcheck": {
+        "claim": "AUM 15,34 Bill. USD, adj. EPS 13,91 vs. 12,59",
+        "verdict": "bestätigt",
+        "evidence": "American Bazaar, Qz, Investing.com"
+      },
+      "sources": [
+        {
+          "title": "BlackRock beats Q2 earnings estimates, assets under management hit $15.3 trillion",
+          "url": "https://americanbazaaronline.com/2026/07/15/blackrock-beats-q2-earnings-estimates-484645/",
+          "tier": 2
+        },
+        {
+          "title": "BlackRock Q2 2026 slides: record flows drive 45.9% margin peak",
+          "url": "https://www.investing.com/news/company-news/blackrock-q2-2026-slides-record-flows-drive-459-margin-peak-93CH-4793442",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-lucid-paypal",
+      "ressort": "news",
+      "kicker": "Tagesbewegungen · Einzelwerte",
+      "headline": "Lucid springt 29 Prozent, PayPal auf Übernahmefantasie",
+      "dek": "Zwei Einzelwerte bewegen sich stark aus firmenspezifischen Gründen. Der eine dementiert eine Pleite, der andere nährt Spekulationen über ein Gebot.",
+      "body": [
+        "Lucid gewann am 15.7. rund 29 Prozent nach dem Dementi von Insolvenzgerüchten, ein typischer Short Squeeze bei stark leerverkauften Aktien.",
+        "PayPal legte deutlich zu, gestützt von unbestätigten Berichten über ein mögliches Übernahmeangebot von Stripe. Das Gerücht ist offen und wird hier nicht als Tatsache behandelt."
+      ],
+      "mechanik": "Bei stark leerverkauften Aktien löst das Ausbleiben schlechter Nachrichten Rückkäufe der Baisse-Spekulanten aus, was den Kurs zusätzlich treibt. Bewegungen auf Übernahmefantasie kehren sich rasch um, wenn sich die Spekulation nicht bestätigt.",
+      "factcheck": {
+        "claim": "PayPal-Stripe-Gebot",
+        "verdict": "ungeprüft",
+        "evidence": "Marktgerücht, unbestätigt (Motley Fool)"
+      },
+      "sources": [
+        {
+          "title": "Stock Market Today, July 15: Lucid Spikes 29% After Dismissing Bankruptcy and Take-Private Rumors",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/15/stock-market-today-july-15-lucid-spikes-29-after-dismissing-bankruptcy-and-take-private-rumors/",
+          "tier": 2
+        },
+        {
+          "title": "Why PayPal Stock Just Went to the Moon",
+          "url": "https://www.fool.com/investing/2026/07/15/why-paypal-stock-just-went-to-the-moon/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "id": "politik-hormus",
+      "ressort": "politik",
+      "kicker": "Geopolitik · Öl und Handelswege",
+      "headline": "Neue US-Angriffe auf den Iran, Hormus-Maut wieder verworfen",
+      "dek": "Der Ölpreis steigt mit der erneuten Zuspitzung um die Straße von Hormus. Eine kurz angekündigte Frachtabgabe wird laut Berichten wieder fallengelassen.",
+      "body": [
+        "Neue US-Luftangriffe und die zeitweise Blockade-Drohung an der Straße von Hormus, durch die rund ein Fünftel des verschifften Öls läuft, trieben den Preis. Brent lag laut Alpha Vantage am 13.7. bei rund 81,6 US-Dollar, nach einem Juli-Tief um 68 bis 74 Dollar und einem Kriegshoch über 100 Dollar Anfang Juni. Eine 20-Prozent-Maut wurde laut Berichten wieder verworfen, die Faktenlage bleibt widersprüchlich."
+      ],
+      "mechanik": "Der Ölpreis enthält in solchen Phasen eine Risikoprämie als Aufschlag für die Wahrscheinlichkeit eines Lieferausfalls. Schon die Drohung einer Blockade hebt sie, weil Käufer sich absichern. Verschwindet die Drohung, fällt die Prämie, ohne dass sich an der geförderten Menge sofort etwas ändert.",
+      "sektorCheck": [
+        {
+          "sektor": "Energie",
+          "betroffenheit": "direkt",
+          "richtung": "positiv",
+          "mechanismus": "Förderer verkaufen zu höheren Preisen bei fast gleichen Kosten, auch Ölfelddienste und Tanker profitieren."
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Höhere Benzinpreise senken das frei verfügbare Einkommen, Airlines zahlen mehr für Kerosin."
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Logistik trägt höhere Kosten, Rüstung profitiert von der geopolitischen Zuspitzung."
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Chemie nutzt Öl als Rohstoff und Energie, Dünger- und Goldwerte können profitieren."
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Transport und Verpackung verteuern sich, ein Teil lässt sich über Preise weitergeben."
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Höhere Inflation kann Zinsmargen stützen, zugleich steigt das Kreditrisiko bei teurer Energie."
+        },
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Ölgetriebene Inflation kann die Zinserwartung heben, was hochbewertete Wachstumsaktien belastet."
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Werbung und Abos hängen kaum am Ölpreis, nur der Zins- und Bewertungskanal wirkt."
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Nachfrage konjunkturunabhängig, Sektor gilt in Krisen als defensiv."
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Gaskraftwerke haben höhere Brennstoffkosten, der Sektor gilt aber als defensiv."
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Ölbedingt höhere Zinsen erhöhen Finanzierungskosten und drücken Bewertungen."
+        }
+      ],
+      "charts": [
+        {
+          "type": "line",
+          "title": "Brent-Ölpreis: vom Kriegshoch über die Waffenruhe zur Hormus-Prämie",
+          "subtitle": "Schlusskurse je Barrel in USD, 15.5. bis 13.7.2026",
+          "unit": " USD",
+          "source": "Alpha Vantage, Brent-Tagesreihe",
+          "series": [
+            {
+              "t": "2026-05-15",
+              "v": 113.96
+            },
+            {
+              "t": "2026-05-22",
+              "v": 106.9
+            },
+            {
+              "t": "2026-05-29",
+              "v": 92.88
+            },
+            {
+              "t": "2026-06-03",
+              "v": 101.69
+            },
+            {
+              "t": "2026-06-10",
+              "v": 95.73
+            },
+            {
+              "t": "2026-06-16",
+              "v": 80.5
+            },
+            {
+              "t": "2026-06-19",
+              "v": 80.46
+            },
+            {
+              "t": "2026-06-26",
+              "v": 70.16
+            },
+            {
+              "t": "2026-07-03",
+              "v": 68.68
+            },
+            {
+              "t": "2026-07-08",
+              "v": 76.5
+            },
+            {
+              "t": "2026-07-10",
+              "v": 74.34
+            },
+            {
+              "t": "2026-07-13",
+              "v": 81.62
+            }
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "US-Angriffe und Maut-Rücknahme",
+        "verdict": "unsicher",
+        "evidence": "CNBC (14./15.7.); Maut-Faktenlage widersprüchlich, exakter Tagespreis 15./16.7. nicht belegt"
+      },
+      "sources": [
+        {
+          "title": "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
+          "url": "https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html",
+          "tier": 2
+        },
+        {
+          "title": "Oil hits 1-month high as US-Iran attacks dim Strait of Hormuz outlook",
+          "url": "https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "politik-korea-etf",
+      "ressort": "politik",
+      "kicker": "Regulierung · Südkorea",
+      "headline": "Seouls Aufseher nehmen gehebelte Einzelaktien-Fonds ins Visier",
+      "dek": "Nach dem heftigen Auf und Ab am koreanischen Markt prüfen die Behörden die Wirkung von Produkten, die Kursbewegungen einzelner Aktien vervielfachen.",
+      "body": [
+        "Südkoreanische Aufsichtsbehörden hielten laut Marktberichten am 16.7. eine Abstimmungsrunde zu gehebelten Einzelaktien-Fonds ab. Solche Produkte bilden die Tagesbewegung einer Aktie mit einem Vielfachen ab und stehen im Verdacht, die extremen Schwankungen zu verstärken."
+      ],
+      "mechanik": "Ein gehebelter Fonds muss täglich nachkaufen, wenn der Kurs steigt, und verkaufen, wenn er fällt, um seinen festen Hebel zu halten. Das wirkt prozyklisch und kann einen Ausverkauf vertiefen, wenn viele Produkte auf dieselben Aktien laufen.",
+      "factcheck": {
+        "claim": "Regulierungssitzung 16.7.",
+        "verdict": "unsicher",
+        "evidence": "TradingKey-Marktbericht, keine Primärmitteilung eingesehen"
+      },
+      "sources": [
+        {
+          "title": "Japan and South Korea Stocks Hammered at Open: KOSPI Tumbles 5%, SK Hynix Plunges 9%, Samsung, Kioxia and SoftBank Follow Lower",
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262033140-kospi-nekki-kioxia-samsung-skhynix-ai-softbank-adr-skhy-etf-tradingkey",
+          "tier": 3
+        },
+        {
+          "title": "South Korea to Halt New Listings of Single Stock Leveraged ETFs",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-16/south-korea-to-halt-new-listings-of-single-stock-leveraged-etfs",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "politik-fed-trump",
+      "ressort": "politik",
+      "kicker": "Geldpolitik · USA",
+      "headline": "Trump erhöht den Druck auf die Fed vor der Sitzung Ende Juli",
+      "dek": "Kühlere Inflationsdaten dienen der Regierung als Argument für Zinssenkungen. Die Notenbank entscheidet am 28. und 29. Juli und gilt bislang als zurückhaltend.",
+      "body": [
+        "Nach kühleren Inflationsdaten erneuerte US-Präsident Donald Trump seine Forderung nach niedrigeren Zinsen und verstärkte den Druck auf Fed-Chef Kevin Warsh. Die nächste FOMC-Sitzung fällt laut offiziellem Kalender auf den 28. und 29. Juli 2026, der Leitzins liegt bei 3,50 bis 3,75 Prozent."
+      ],
+      "mechanik": "Die Fed ist rechtlich unabhängig. Politischer Druck ändert daran formal nichts, kann aber Erwartungen beeinflussen. Fürchten Anleger, die Notenbank könne nachgeben, verlangen sie für langlaufende Anleihen einen höheren Zins als Inflationsausgleich, was die langfristigen Zinsen sogar steigen lassen kann.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Wie die Notenbank auf Inflation reagiert",
+        "absaetze": [
+          "Die Fed verfolgt stabile Preise (Ziel 2 Prozent) und hohe Beschäftigung. Als Faustregel dient die Taylor-Regel: Zins hoch bei Inflation über Ziel oder heisser Wirtschaft, Zins runter im Gegenteil.",
+          "Beim Öl unterscheidet man Erst- und Zweitrundeneffekte. Der Erstrundeneffekt ist der direkte Preisanstieg, der von selbst ausläuft. Der Zweitrundeneffekt entsteht, wenn höhere Energiekosten in Löhne und Preise durchsickern und sich eine dauerhafte Inflationserwartung festsetzt. Gegen diesen gehen Notenbanken entschlossen vor."
+        ]
+      },
+      "factcheck": {
+        "claim": "FOMC-Termin 28./29. Juli",
+        "verdict": "bestätigt",
+        "evidence": "offizieller Fed-Kalender (Datums-Gate); Trump-Druck laut Fox Business, CBS"
+      },
+      "sources": [
+        {
+          "title": "Fed - Meeting calendars and information",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "tier": 1
+        },
+        {
+          "title": "Warsh says Fed policymakers have 'no tolerance' for elevated inflation",
+          "url": "https://www.foxbusiness.com/economy/fed-chair-kevin-warsh-says-central-bank-has-no-tolerance-elevated-inflation",
+          "tier": 2
+        },
+        {
+          "title": "Warsh vows to tackle inflation in first congressional testimony as Fed chairman",
+          "url": "https://www.cbsnews.com/news/kevin-warsh-fed-testimony/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-tsmc",
+      "ressort": "unternehmen",
+      "kicker": "Unternehmensanalyse · TSMC",
+      "headline": "TSMC: der Flaschenhals des KI-Booms auf dem Prüfstand",
+      "dek": "Die weltgrößte Auftragsfertigerin liefert heute die Zahlen, an denen der Markt die Gesundheit des KI-Investitionszyklus misst.",
+      "body": [
+        "TSMC berichtet heute um 08:00 Uhr Berliner Zeit. Umsatzprognose Q2 39,0 bis 40,2 Mrd. US-Dollar, Bruttomarge 65,5 bis 67,5 Prozent, Juni-Erlöse rund 68 Prozent über Vorjahr.",
+        "Für die Kursreaktion zählt vor allem der Ausblick auf die Folgequartale und die Investitionsplanung. Solange TSMC hohe Investitionen bestätigt, stützt das die These ungebrochener KI-Nachfrage.",
+        "Der Kontrast zum Speicherausverkauf ist die Lehre. TSMC produziert Rechenlogik, ein Engpassgut mit Preissetzungsmacht, während Massenspeicher austauschbar und angebotsgetrieben ist."
+      ],
+      "company": {
+        "name": "TSMC (Taiwan Semiconductor)",
+        "ticker": "TSM",
+        "exchange": "NYSE-ADR / Taiwan",
+        "logoKey": "tsmc",
+        "whatTheyDo": "Fertigt im Auftrag die fortschrittlichsten Computerchips der Welt, unter anderem für Nvidia, Apple und AMD.",
+        "whyItMatters": "Als Engpass der Chipfertigung ist die Auftragslage ein Frühindikator der gesamten Halbleiterindustrie.",
+        "keyMetrics": [
+          [
+            "Umsatzprognose Q2",
+            "39,0-40,2 Mrd. $"
+          ],
+          [
+            "Bruttomarge (Prognose)",
+            "65,5-67,5 %"
+          ],
+          [
+            "Juni-Erlöse",
+            "ca. +68 % ggü. Vj."
+          ],
+          [
+            "ADR-Schluss 15.7.",
+            "419,48 $ (-0,2 %)"
+          ]
+        ]
+      },
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "direkt",
+          "richtung": "positiv",
+          "mechanismus": "Starke TSMC-Nachfrage bestätigt die gesamte Chip-Kette, von Chipdesignern über Ausrüster bis zu Hardware-Großkunden."
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Plattformen sind Endabnehmer der KI-Rechenleistung, anhaltende Nachfrage stützt die These umschlagender Investitionen."
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Cloud- und Handelskonzerne mit eigenen Rechenzentren profitieren, breiter Konsum nur über Konjunktur und Zinsen."
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Keine direkte Verbindung zum Rechen-Capex."
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Kleiner positiver Kanal bei KI-gestützter Diagnostik und Medizintechnik."
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Banken finanzieren den KI-Ausbau, solange sich Investitionen rechnen ist das Risiko beherrschbar."
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Rechenzentren verbrauchen viel Strom, das hebt die Nachfrage nach Erdgas und Energieinfrastruktur."
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Chipfertigung und Rechenzentrumsbau brauchen Spezialchemie, Industriegase und Kupfer."
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Bau und Betrieb von Rechenzentren treiben Kühlung, Stromverteilung, Netztechnik und Automatisierung."
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Rechenzentren sind große, stetige Stromabnehmer und rechtfertigen Netz- und Erzeugungsinvestitionen."
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Rechenzentren sind eine eigene Immobilienklasse, ihr Ausbau stützt Vermietung und Mieten."
+        }
+      ],
+      "lehre": "Ein Zulieferer am Engpass der Kette liefert oft das ehrlichere Nachfragesignal als der Endkunde.",
+      "factcheck": {
+        "claim": "Q2-Prognose und Konferenztermin",
+        "verdict": "bestätigt",
+        "evidence": "TSMC-Investorenseite (Primärquelle); Ist-Zahlen zum Redaktionsschluss offen"
+      },
+      "sources": [
+        {
+          "title": "TSMC 2026 Q2 Quarterly Results — Taiwan Semiconductor Manufacturing Company Limited",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+          "tier": 1
+        },
+        {
+          "title": "TSMC's Second Quarter Will Test Whether The AI Buildout Has A Ceiling",
+          "url": "https://www.forbes.com/sites/drewbernstein/2026/07/09/tsmcs-second-quarter-will-test-whether-the-ai-buildout-has-a-ceiling/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-micron",
+      "ressort": "unternehmen",
+      "kicker": "Unternehmensanalyse · Micron",
+      "headline": "Micron: wie ein Überangebot die Speicherrechnung dreht",
+      "dek": "Der US-Speicherhersteller steht im Zentrum der Sorge, dass der Preiszyklus bei DRAM und NAND von der Knappheit ins Überangebot kippt.",
+      "body": [
+        "Am 15.7. verlor Micron rund 7 Prozent. Der Mechanismus ist der Betriebshebel: Eine Chipfabrik hat sehr hohe Fixkosten, fällt der Verkaufspreis je Chip, bricht ein großer Teil davon direkt auf den Gewinn durch. Steigt der Preis, springt der Gewinn.",
+        "Ein Überangebot zeigt sich zuerst im Lager. Steigende Vorräte binden Kapital, sinkt der Marktpreis unter den Buchwert, folgt eine Abwertung, die den Gewinn zusätzlich belastet."
+      ],
+      "company": {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "exchange": "NASDAQ",
+        "logoKey": "micron",
+        "whatTheyDo": "Stellt Speicherchips her, vor allem DRAM als Arbeitsspeicher und NAND als Datenspeicher.",
+        "whyItMatters": "Speicherpreise sind stark zyklisch, Microns Gewinn schwankt entsprechend extrem.",
+        "keyMetrics": [
+          [
+            "Kursreaktion 15.7.",
+            "-6,96 %"
+          ]
+        ]
+      },
+      "mechanik": "Der Betriebshebel beschreibt, wie stark der Gewinn auf Umsatzänderungen reagiert. Hohe Fixkosten bedeuten einen starken Hebel und damit sehr schwankende Gewinne.",
+      "factcheck": {
+        "claim": "Micron -6,96 % am 15.7.",
+        "verdict": "bestätigt",
+        "evidence": "TradingKey"
+      },
+      "sources": [
+        {
+          "title": "Micron (MU) Stock Crashes Below $910 as China's CXMT Plans an $8.5B IPO; Is the DRAM Bull Cycle Cracking?",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262033102-micron-mu-stock-falls-cxmt-ipo-hbm-export-restriction-2026-tradingkey",
+          "tier": 2
+        },
+        {
+          "title": "Micron Technology Inc Stock (MU) Moved Down by 6.96% on Jul 15: What Investors Need To Know",
+          "url": "https://www.tradingkey.com/news/market-movers/262032458-market-movers-mu-20260715",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-blackrock",
+      "ressort": "unternehmen",
+      "kicker": "Unternehmensanalyse · BlackRock",
+      "headline": "BlackRock: die Gebührenmaschine des steigenden Marktes",
+      "dek": "Hinter dem Rekord von 15,34 Billionen Dollar steht ein Geschäftsmodell, das an steigenden Märkten fast automatisch mitverdient.",
+      "body": [
+        "BlackRock verwaltet Geld überwiegend in kostengünstigen iShares-Indexfonds und verdient Gebühren als Prozentsatz des Vermögens. Im Q2 trieben zwei Kräfte den Rekord: Nettozuflüsse von 71,6 Mrd. in Aktien und 92 Mrd. in Anleihen sowie steigende Kurse.",
+        "Weil die Kosten nicht mitwuchsen, stieg die operative Marge auf 45,9 Prozent. Das Aktienrückkaufprogramm 2026 wurde auf 2 Mrd. Dollar angehoben. Die Kehrseite ist die Abhängigkeit vom Markt, fällt die Börse, sinkt die Gebühr."
+      ],
+      "company": {
+        "name": "BlackRock",
+        "ticker": "BLK",
+        "exchange": "NYSE",
+        "logoKey": "blackrock",
+        "whatTheyDo": "Größter Vermögensverwalter der Welt, verwaltet Geld für Pensionskassen, Versicherer, Staaten und Privatanleger.",
+        "whyItMatters": "Das verwaltete Vermögen wächst mit den Märkten, weshalb BlackRock in starken Börsenjahren fast automatisch mehr verdient.",
+        "keyMetrics": [
+          [
+            "Verwaltetes Vermögen",
+            "15,34 Bill. $"
+          ],
+          [
+            "Umsatz Q2",
+            "7,08 Mrd. $"
+          ],
+          [
+            "Adj. EPS",
+            "13,91 $ (Kons. 12,59)"
+          ],
+          [
+            "Operative Marge",
+            "45,9 %"
+          ]
+        ]
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "BlackRocks verwaltetes Vermögen",
+          "subtitle": "in Billionen US-Dollar, jeweils Quartalsende",
+          "unit": " Bill. $",
+          "source": "BlackRock Q2-Meldung (American Bazaar, Qz)",
+          "allPositive": true,
+          "data": [
+            [
+              "Q2 2025",
+              12.53
+            ],
+            [
+              "Q1 2026",
+              13.89
+            ],
+            [
+              "Q2 2026",
+              15.34
+            ]
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "Alle Kennzahlen",
+        "verdict": "bestätigt",
+        "evidence": "American Bazaar, Qz, Investing.com, TechTimes"
+      },
+      "sources": [
+        {
+          "title": "BlackRock beats Q2 earnings estimates, assets under management hit $15.3 trillion",
+          "url": "https://americanbazaaronline.com/2026/07/15/blackrock-beats-q2-earnings-estimates-484645/",
+          "tier": 2
+        },
+        {
+          "title": "BlackRock Q2 2026 slides: record flows drive 45.9% margin peak",
+          "url": "https://www.investing.com/news/company-news/blackrock-q2-2026-slides-record-flows-drive-459-margin-peak-93CH-4793442",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "makro-inflation-fed",
+      "ressort": "makro",
+      "kicker": "Konjunktur · Inflation und Zinsen",
+      "headline": "Kühlere Erzeugerpreise treffen auf steigendes Öl",
+      "dek": "Die Inflationsdaten geben der Notenbank Spielraum, doch der wieder anziehende Ölpreis könnte den Effekt in den Folgemonaten umkehren.",
+      "body": [
+        "Die zuletzt veröffentlichten US-Erzeugerpreise fielen kühler aus als erwartet und dämpften die Erwartung einer Zinserhöhung, was am 15.7. die Kurse stützte. Ein Teil der guten Zahlen stammt aus der Phase gesunkener Energiepreise während der Waffenruhe.",
+        "Der seit Anfang Juli wieder steigende Ölpreis dürfte diesen Effekt in den kommenden Monaten teilweise umkehren."
+      ],
+      "mechanik": "Märkte preisen Erwartungen über die Zukunft ein. Eine gute Inflationszahl kann überholt sein, wenn ein neuer Kostentreiber wie der Ölpreis am Horizont steht. Für die Fed zählt vor allem, wohin die Inflation als nächstes läuft.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Erst- und Zweitrundeneffekte",
+        "absaetze": [
+          "Notenbanken tolerieren den direkten Erstrundeneffekt eines Ölpreisanstiegs eher, weil er von selbst ausläuft. Gefährlich ist der Zweitrundeneffekt, wenn höhere Kosten in Löhne und Preise durchsickern und sich eine dauerhafte Inflationserwartung festsetzt."
+        ]
+      },
+      "factcheck": {
+        "claim": "Kühlere Erzeugerpreise als Kurstreiber",
+        "verdict": "bestätigt",
+        "evidence": "Motley Fool (15.7.); Zweitrundeneffekt ist Interpretation"
+      },
+      "sources": [
+        {
+          "title": "Wholesale inflation improved as energy prices fell last month — but relief may be temporary",
+          "url": "https://www.cnn.com/2026/07/15/economy/us-ppi-wholesale-inflation-june",
+          "tier": 2
+        },
+        {
+          "title": "Producer Price Index News Release, June 2026",
+          "url": "https://www.bls.gov/news.release/archives/ppi_07152026.htm",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "id": "makro-china",
+      "ressort": "makro",
+      "kicker": "Makro · China",
+      "headline": "China wächst unter dem eigenen Ziel, der Ruf nach Stimulus wird lauter",
+      "dek": "Die zweitgrößte Volkswirtschaft bleibt hinter ihrer Wachstumsvorgabe zurück. Schwache Investitionen und eine flaue Binnennachfrage drängen die Regierung zum Handeln.",
+      "body": [
+        "Chinas BIP wuchs im Q2 um 4,3 Prozent und fiel damit erstmals seit der Pandemie unter das Ziel von rund 5 Prozent. Schwachpunkt sind die Anlageinvestitionen (Immobilienkrise) und eine zurückhaltende Binnennachfrage. Jüngste Finanzdaten deuten auf eine leichte Stabilisierung der Kreditvergabe hin."
+      ],
+      "mechanik": "Eine chinesische Wachstumsschwäche wirkt über konkrete Kanäle: als größter Rohstoffabnehmer drücken schwache Investitionen die Metallpreise, über die Nachfrage trifft es Luxus und Autos mit China-Anteil. Rohstoffimporteuren kann es zugleich Entlastung bringen.",
+      "factcheck": {
+        "claim": "China-BIP Q2 4,3 %",
+        "verdict": "bestätigt",
+        "evidence": "CNN, FXStreet; Finanzdaten-Stabilisierung (CGTN) unsicher"
+      },
+      "sources": [
+        {
+          "title": "China's economy expands 4.3% YoY in Q2, vs. 4.5% expected",
+          "url": "https://www.fxstreet.com/news/chinas-economy-expands-09-qoq-in-q2-as-expected-202607150201",
+          "tier": 2
+        },
+        {
+          "title": "China: Growth outlook steady with policy support – Standard Chartered",
+          "url": "https://www.fxstreet.com/news/china-growth-outlook-steady-with-policy-support-standard-chartered-202607151241",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "makro-konsum",
+      "ressort": "makro",
+      "kicker": "Makro · US-Konsum",
+      "headline": "Der US-Konsum im Blick, die Einzelhandelsumsätze für Juni folgen heute",
+      "dek": "Um 14:30 Uhr Berliner Zeit veröffentlicht die US-Statistikbehörde die Einzelhandelsumsätze für Juni. Sie zeigen, wie robust die wichtigste Stütze der US-Wirtschaft noch ist.",
+      "body": [
+        "Der private Konsum trägt den größten Teil der US-Wirtschaftsleistung. Die heutige Zahl ist ein wichtiger Gradmesser. In den Vormonaten war der Konsum robust, zugleich mehren sich Zeichen einer Abschwächung an der Basis. Das Ergebnis liegt zum Redaktionsschluss noch nicht vor.",
+        "Am 15.7. warnte Investor Warren Buffett vor Spekulation statt langfristigem Investieren und verwies auf die stark gestiegene Wertpapierkredit-Verschuldung als historisches Warnsignal."
+      ],
+      "mechanik": "Die Einzelhandelsumsätze messen die Ausgaben der Verbraucher. Eine starke Zahl stützt Konsumgewinne, kann aber die Erwartung höherer Zinsen nähren. Eine schwache Zahl erhöht die Erwartung von Zinssenkungen. Der Markt liest die Zahl im Verhältnis zu den Zinserwartungen.",
+      "factcheck": {
+        "claim": "Freigabetermin 16.7. 08:30 ET (14:30 Berlin)",
+        "verdict": "bestätigt",
+        "evidence": "US Census Zeitplan; Ergebnis offen. Buffett-Warnung laut Motley Fool"
+      },
+      "sources": [
+        {
+          "title": "Monthly Retail Trade Release Schedule",
+          "url": "https://www.census.gov/retail/release_schedule.html",
+          "tier": 1
+        },
+        {
+          "title": "Warren Buffett's Most Recent Warning to Wall Street Echoes One He Issued During the Dot-Com Bubble.",
+          "url": "https://www.fool.com/investing/2026/07/12/warren-buffetts-most-recent-warning-to-wall-street/",
+          "tier": 2
+        }
+      ]
+    }
+  ],
+  "branchenMonitor": [
+    {
+      "sektor": "Informationstechnologie",
+      "wasIstDas": "Chips, Software, Hardware, KI-Infrastruktur.",
+      "lage": "Massenspeicher stürzt ab, KI-Rechenlogik hält sich, TSMC berichtet heute.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor trägt eine deutliche KI-Prämie und ist damit anfällig für Enttäuschungen. Innerhalb des Sektors klaffen zwei Zyklen auseinander. Auftragsfertiger und KI-Logik stehen spät in einem starken Nachfragezyklus, während Massenspeicher gerade von der Knappheit ins drohende Überangebot kippt. Strukturell treiben drei Themen die nächsten Quartale: die HBM-Knappheit, der Ausbau der fortgeschrittenen Chip-Verpackung und die US-Exportkontrollen gegen China. Nach der Kapitalzyklus-Logik sät die heutige Investitionswelle die Überkapazität von morgen, zuerst sichtbar bei den austauschbaren Massenprodukten."
+    },
+    {
+      "sektor": "Kommunikation",
+      "wasIstDas": "Internet-Plattformen, Medien, Telekom.",
+      "lage": "Führender US-Sektor am 15.7. mit rund plus 2,7 Prozent, gestützt als Abnehmer der KI-Investitionen.",
+      "richtung": "up",
+      "tagesWert": "Sektor +2,69 % (15.7., Motley Fool)",
+      "istZustand": "Die großen Plattformen sind ambitioniert bewertet, tragen dies aber mit stabilem Werbewachstum und der Fantasie KI-gestützter Monetarisierung. Das zentrale Spannungsfeld liegt zwischen hohen Rechenzentrums-Investitionen und der Frage, wie schnell diese in Erlöse umschlagen. Steigende Abschreibungen auf die neue Hardware drücken künftig die Margen, sofern die KI-Produkte nicht zügig Geld verdienen. Der Telekom-Teil bleibt defensiv, zinssensitiv und wachstumsarm. Insgesamt profitiert der Sektor davon, Abnehmer und nicht Hersteller der teuren Chips zu sein."
+    },
+    {
+      "sektor": "Zyklischer Konsum",
+      "wasIstDas": "Autos, Handel, Reisen, Luxus.",
+      "lage": "Gemischt: günstigere Chips helfen Geräteherstellern, höhere Benzinpreise belasten die Kaufkraft, Chinas Schwäche drückt Luxus und Autos.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist konjunkturabhängig und in der Bewertung gespalten. Der US-Konsum zeigt sich robust, reagiert aber empfindlich auf Zinsen und Benzinpreise. Autohersteller und Luxuskonzerne mit hohem China-Anteil stehen strukturell unter Druck, weil die dortige Nachfrage nach der Immobilienkrise schwach bleibt. Ein Thema der nächsten Quartale ist die Spreizung zwischen einkommensstarken Haushalten, die weiter ausgeben, und einkommensschwächeren, die sparen. Nach Porters Wettbewerbslogik verschärft der Onlinehandel den Preisdruck im stationären Handel. Reise und Erlebnis bleiben vergleichsweise gefragt."
+    },
+    {
+      "sektor": "Basiskonsum",
+      "wasIstDas": "Nahrung, Getränke, Haushaltswaren.",
+      "lage": "Ruhig und wenig bewegt, von Chip- und Ölthemen weitgehend entkoppelt, defensiver Anker.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Die Bewertung liegt nahe dem langjährigen Durchschnitt, das Mengenwachstum ist schwach. Nach Jahren der Preiserhöhungen müssen die Hersteller wieder über Menge wachsen, weil die Verbraucher preissensibler geworden sind und teils zu Handelsmarken wechseln. Ein strukturelles Thema sind die Abnehmpräparate, die den Konsum bestimmter kalorienreicher Produkte langfristig dämpfen könnten. Der Sektor bietet stabile Ausschüttungen und geringe Schwankung und gewinnt in unsicheren Marktphasen relativ an Attraktivität, weil seine Nachfrage kaum vom Konjunkturzyklus abhängt."
+    },
+    {
+      "sektor": "Gesundheit",
+      "wasIstDas": "Pharma, Medizintechnik, Versicherer.",
+      "lage": "Weitgehend abgekoppelt von Chip-, Öl- und Asien-Themen, defensiver Anker. Johnson & Johnson gab trotz angehobener Prognose leicht nach.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist unter dem Marktschnitt bewertet und gilt als konjunkturrobust, weil die Nachfrage nach Behandlung kaum vom Zyklus abhängt. Drei Themen prägen die nächsten Quartale. Erstens laufen bei mehreren Pharmakonzernen wichtige Patente aus, was Umsatz kostet. Zweitens bleibt die US-Preisregulierung ein politisches Risiko. Drittens verändern Abnehmpräparate ganze Produktkategorien und schaffen neue Wachstumsfelder. Medizintechnik und Diagnostik gewinnen durch KI-gestützte Auswertung einen zusätzlichen, kleinen Nachfragekanal. Insgesamt ein defensiver Baustein mit selektiven Wachstumsinseln."
+    },
+    {
+      "sektor": "Finanzen",
+      "wasIstDas": "Banken, Versicherer, Kapitalmarktdienste.",
+      "lage": "BlackRock hebt mit Rekordvermögen die Stimmung, der Kapitalmarkt-Boom füllt Gebühren und Provisionen.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Großbanken und Kapitalmarktdienstleister sind gemessen an ihren Gewinnen günstig bewertet und stehen spät in einem starken Zyklus. Der Boom bei Fusionen, Börsengängen und Handel füllt die Gebühren, diese Erträge sind jedoch volatil und nicht beliebig fortschreibbar. Zwei Risiken prägen die nächsten Quartale: mögliche Ausfälle bei Gewerbeimmobilienkrediten und die sinkende Zinsmarge im Kreditgeschäft. Vermögensverwalter mit gebührenbasiertem Modell profitieren dagegen direkt von steigenden Märkten und stetigen Zuflüssen, was ihre Erträge stabiler macht."
+    },
+    {
+      "sektor": "Energie",
+      "wasIstDas": "Öl, Gas, Ölfeld-Dienste.",
+      "lage": "Die Hormus-Zuspitzung stützt den Ölpreis, Brent zuletzt rund 81,6 Dollar (Stand 13.7., AV), was Förderer und Tanker begünstigt.",
+      "richtung": "up",
+      "tagesWert": "Brent 81,62 USD (13.7., Alpha Vantage)",
+      "istZustand": "Der Sektor ist zyklisch, günstig bewertet und trägt derzeit eine Geopolitik-Prämie. Nach Jahren der Kapitaldisziplin schütten viele Förderer hohe Anteile ihres Cashflows aus, statt aggressiv zu investieren, was das Angebot knapper hält und die Preise stützt. Das zentrale Spannungsfeld liegt zwischen der kurzfristigen Empfindlichkeit für geopolitische Ereignisse und der langfristigen Unsicherheit über die Ölnachfrage in einer Welt zunehmender Elektrifizierung. Ein neues Nachfragethema ist der hohe Strombedarf der KI-Rechenzentren, der Erdgas als Brücke wieder gefragter macht."
+    },
+    {
+      "sektor": "Grundstoffe",
+      "wasIstDas": "Chemie, Metalle, Bergbau, Baustoffe.",
+      "lage": "Doppelt belastet: Chinas Schwäche drückt die Metallnachfrage, höhere Energiepreise verteuern die Chemie, Chip-Materialanbieter leiden unter der Speicherschwäche.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor hängt stark an China und leidet unter der dortigen Bauschwäche, viele Metallpreise liegen nahe dem Zyklustief. Die Chemie kämpft zusätzlich mit hohen Energiekosten und Überkapazitäten. Ein strukturelles Gegenthema ist die Elektrifizierung, die die Nachfrage nach Kupfer und Spezialmetallen langfristig hebt, kurzfristig überwiegt jedoch die zyklische Schwäche. Anbieter von Halbleitermaterialien wie Industriegasen und Fotolack sind an den Chipzyklus gekoppelt und spüren die Speicherschwäche. Nach dem Kapitalzyklus könnte die heutige Investitionszurückhaltung die Basis für den nächsten Aufschwung legen."
+    },
+    {
+      "sektor": "Industrie",
+      "wasIstDas": "Maschinenbau, Transport, Rüstung, Bau, Elektrotechnik.",
+      "lage": "Gemischt: Rechenzentrumstechnik und Rüstung profitieren, Logistik und Fabrikausrüster für Speicherwerke stehen unter Druck.",
+      "richtung": "neutral",
+      "tagesWert": "Sektor -0,25 % (15.7., Motley Fool)",
+      "istZustand": "Nach der Rüstungs- und Reshoring-Rally ist der Sektor eher teuer bewertet und steht spät im Zyklus, die Auftragsbücher sind jedoch gut gefüllt. Das stärkste Strukturthema ist der Bau von Rechenzentren, der die Nachfrage nach Stromverteilung, Kühlung, Netztechnik und Automatisierung antreibt. Dazu kommen die Aufrüstung in Europa und die Verlagerung von Lieferketten. Ein Gegengewicht bilden hohe Frachtkosten und die schwache Nachfrage aus China. Innerhalb des Sektors trennt sich die Spreu vom Weizen entlang der Frage, wer an Elektrifizierung und KI-Ausbau verdient."
+    },
+    {
+      "sektor": "Versorger",
+      "wasIstDas": "Strom- und Gasversorger, Netzbetreiber.",
+      "lage": "Leicht gestützt durch etwas niedrigere langfristige Zinsen, höhere Gaspreise verteuern die Erzeugung, stabile Nachfrage wirkt defensiv.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Versorger verhalten sich anleiheähnlich und sind zuletzt teurer geworden, weil Anleger stabile Ausschüttungen suchen. Das größte Strukturthema ist die steigende Stromnachfrage aus KI-Rechenzentren, die nach Jahren stagnierender Verbräuche wieder Wachstum bringt. Das rechtfertigt hohe Investitionen in Netze und Erzeugung, die als regulierte Kapitalbasis die künftigen Gewinne stützen. Die Kehrseite ist die hohe Verschuldung, die den Sektor zinssensitiv macht. Fallende Zinsen wirken deshalb doppelt positiv, über niedrigere Finanzierungskosten und über die relative Attraktivität der Dividende."
+    },
+    {
+      "sektor": "Immobilien",
+      "wasIstDas": "REITs, Gewerbe, Wohnen, Rechenzentren.",
+      "lage": "Zwiespältig: etwas niedrigere Zinsen stützen REITs, die Überkapazitätssorge bei Chips belastet die Stimmung rund um Rechenzentren.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist stark zinssensitiv und wurde unter den hohen Zinsen der Vorjahre gedrückt, viele Bewertungen sind niedrig. Innerhalb des Sektors laufen die Segmente auseinander. Rechenzentrums- und Logistikimmobilien wachsen mit der Digitalisierung, während klassische Büroimmobilien unter Leerstand und Homeoffice leiden. Der wichtigste kurzfristige Treiber bleibt das Zinsniveau, weil es Finanzierungskosten und Bewertung der Mieteinnahmen bestimmt. Ein spezifisches Thema ist, ob der KI-Ausbau die Nachfrage nach Rechenzentrumsflächen dauerhaft trägt oder ob eine Überkapazität droht, sobald zu viele Betreiber gleichzeitig bauen."
+    }
+  ],
+  "stockPicks": [
+    {
+      "name": "Powell Industries",
+      "ticker": "POWL",
+      "logoKey": "powell",
+      "marketCapEUR": "7,44 Mrd. €",
+      "capSource": "8,53 Mrd. $, Alpha Vantage COMPANY_OVERVIEW 16.7.2026, EUR/USD 1,1469 (Alpha Vantage 16.7.)",
+      "marktEinordnung": "Der Bau von Rechenzentren, LNG-Terminals und Stromnetzen erfordert robuste Schaltanlagen, um sehr hohe Stromlasten sicher zu verteilen. Dieser Markt für schwere elektrische Infrastruktur wächst mit dem KI-Ausbau und der Elektrifizierung strukturell. Powell ist auf komplexe, projektspezifische Anlagen für Energie, Industrie und zunehmend Rechenzentren spezialisiert, ein Segment mit hohen technischen Anforderungen, in dem wenige Anbieter zuverlässig liefern. Diese Spezialisierung verschafft Preissetzungsmacht.",
+      "thesis": "Powell profitiert direkt von der Stromseite des KI-Booms, die weniger im Rampenlicht steht als die Chips selbst. Jedes neue Rechenzentrum und jedes LNG-Projekt braucht Schaltanlagen. Das Unternehmen hat einen Auftragsbestand von rund 1,8 Milliarden Dollar aufgebaut und jüngst einen einzelnen Rechenzentrums-Großauftrag von mehr als 400 Millionen Dollar gemeldet, dazu eine geplante Kapazitätserweiterung. Bei einem Umsatz von gut 1,1 Milliarden Dollar auf zwölf Monate ist dieser Bestand eine mehrjährige Auslastungsreserve. Die operative Marge liegt bei knapp 19 Prozent, die Eigenkapitalrendite bei rund 30 Prozent. Das Geschäft läuft über langfristige Projektaufträge statt über schwankende Rohstoffpreise, was es planbarer macht als das Geschäft der Speicherhersteller.",
+      "counterarguments": [
+        "Mit einem nachlaufenden KGV von rund 44 ist die Bewertung sportlich, die Aktie hat sich in zwölf Monaten vervielfacht (Spanne 69 bis 328 Dollar).",
+        "Das Projektgeschäft ist zyklisch und klumpig, einzelne Großaufträge lassen Quartale stark schwanken, ein Nachlassen des Rechenzentrums- oder LNG-Baus würde den Auftragseingang treffen.",
+        "Das Geschäft hängt mittelbar am selben KI-Investitionszyklus, dessen Nachhaltigkeit die heutige Speicherschwäche gerade infrage stellt."
+      ],
+      "catalysts": [
+        "Nächste Quartalszahlen mit Blick auf Auftragseingang und Auftragsbestand",
+        "weitere Rechenzentrums-Großaufträge als Nachfragebeleg"
+      ]
+    },
+    {
+      "name": "Moelis & Company",
+      "ticker": "MC",
+      "logoKey": "moelis",
+      "marketCapEUR": "4,34 Mrd. €",
+      "capSource": "4,98 Mrd. $, Alpha Vantage COMPANY_OVERVIEW 16.7.2026, EUR/USD 1,1469 (Alpha Vantage 16.7.)",
+      "marktEinordnung": "Der Markt für Fusionsberatung ist groß und läuft in Wellen mit der Bereitschaft von Unternehmen zu Zukäufen und Börsengängen. Unabhängige Boutiquen wie Moelis, die die Beratungsboutique und nicht zu verwechseln mit einem Vermögensverwalter ist, haben Marktanteile von Großbanken gewonnen, weil ihre Beratung als konfliktfreier gilt, da sie selbst keine Kredite vergeben. In der Restrukturierungsberatung, die in Krisen gefragt ist, hat Moelis einen starken Ruf, was das Geschäft über den Zyklus stabiler macht.",
+      "thesis": "Die Rekordquartale der Großbanken und Vermögensverwalter zeigen einen breiten Kapitalmarkt-Boom mit lebhaftem Handel, vielen Börsengängen und anziehender Fusionstätigkeit. Genau davon lebt Moelis. Das Geschäftsmodell ist kapitalarm, die Kostenbasis besteht überwiegend aus variabler Vergütung der Berater. Im Aufschwung steigen die Honorare schneller als die Kosten, was den Gewinn hebelt. Das Unternehmen schüttet den Großteil des Gewinns als Dividende aus, die Rendite liegt bei rund 4 Prozent. Wer an eine anhaltende Belebung von Fusionen und Börsengängen glaubt, findet in Moelis einen direkten und kapitalarmen Hebel darauf.",
+      "counterarguments": [
+        "Das Geschäft ist stark zyklisch, bricht die Fusions- und Börsengangaktivität ein, fallen die Honorare schnell, wie schon im jüngsten Quartal mit einem Gewinnrückgang gegenüber Vorjahr.",
+        "Das wichtigste Kapital sind die Berater selbst, wechseln Schlüsselpersonen zu Wettbewerbern, können Mandate mitgehen, die hohe variable Vergütung begrenzt zudem die Marge.",
+        "Die Analystenmeinungen sind gemischt, die Aktie notiert nahe dem oberen Rand ihrer Bewertungsspanne."
+      ],
+      "catalysts": [
+        "Nächste Quartalszahlen und Entwicklung der Mandatspipeline",
+        "große angekündigte Fusionen oder Restrukturierungen als Beleg für den Aufschwung"
+      ]
+    },
+    {
+      "name": "SPX Technologies",
+      "ticker": "SPXC",
+      "logoKey": "spx",
+      "marketCapEUR": "9,45 Mrd. €",
+      "capSource": "10,84 Mrd. $, Alpha Vantage COMPANY_OVERVIEW 16.7.2026, EUR/USD 1,1469 (Alpha Vantage 16.7.); nahe der 10-Mrd.-Euro-Grenze, im Gegenargument ausgewiesen",
+      "marktEinordnung": "Rechenzentren erzeugen enorme Abwärme, die abgeführt werden muss, sonst versagt die Rechenleistung. Kühlung ist damit ein unverzichtbarer Teil der KI-Infrastruktur. SPX bedient mit Kühltürmen und Klimatechniksystemen genau diesen Bedarf, dazu Strom- und Netztechnik. Der Markt für Kühlung und Klimatisierung großer Anlagen wächst mit dem Rechenzentrumsbau und dem Ausbau der Stromnetze. SPX ist in mehreren dieser Nischen ein etablierter Anbieter mit starken Marken, was wiederkehrende Ersatz- und Servicegeschäfte sichert.",
+      "thesis": "SPX ist ein breiter aufgestellter Weg, an der Strom- und Kühlseite des KI-Booms teilzuhaben, ohne auf die schwankenden Chippreise angewiesen zu sein. Zur Klarstellung: Es handelt sich um die heutige SPX-Gesellschaft, die vor Jahren von SPX FLOW getrennt wurde. Das Unternehmen wächst zweistellig, zuletzt legte der Umsatz um rund 17 Prozent zu, die operative Marge liegt bei knapp 17 Prozent. Die Diversifikation über Kühlung, Messtechnik und Energie glättet das Geschäft und macht es weniger abhängig von einem einzelnen Endmarkt. Das Kühlungsgeschäft profitiert vom Rechenzentrumsbau, das Messtechnik- und Energiegeschäft von der Netzmodernisierung. Damit bietet SPX einen defensiveren Zugang zum selben Strukturthema wie Powell.",
+      "counterarguments": [
+        "Der Börsenwert liegt mit rund 9,45 Milliarden Euro nahe an der Aufnahmegrenze, ein stärkerer Dollar oder Kursanstieg könnte den Wert über die Schwelle heben.",
+        "Die Diversifikation schwächt den reinen KI- und Rechenzentrumshebel, nur ein Teil des Umsatzes hängt direkt an Rechenzentren.",
+        "Mit einem nachlaufenden KGV von rund 41 ist auch SPX ambitioniert bewertet und anfällig, falls sich das Investitionstempo verlangsamt."
+      ],
+      "catalysts": [
+        "Nächste Quartalszahlen mit Blick auf Wachstum und Auftragseingang im Kühlungssegment",
+        "große Rechenzentrums- oder Netzprojekte als Nachfragebeleg"
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "what": "TSMC Q2-Ist-Zahlen und Investitionsausblick",
+      "when": "heute 08:00 Berlin (Konferenz 14:00 Taiwan)",
+      "bullishIf": "starke Guidance und bestätigte hohe Capex stützen die KI-Kette",
+      "bearishIf": "vorsichtiger Ausblick trifft Ausrüster, Strom- und Kühltechnik, Rechenzentrums-REITs"
+    },
+    {
+      "what": "US-Einzelhandelsumsätze Juni",
+      "when": "heute 14:30 Berlin",
+      "bullishIf": "robuster Konsum ohne Zinssorge",
+      "bearishIf": "schwache Zahl signalisiert mürben Verbraucher"
+    },
+    {
+      "what": "Speicher-Überangebot (DRAM/NAND)",
+      "when": "laufend",
+      "bullishIf": "Preisstabilisierung, disziplinierte Kapazitätsplanung",
+      "bearishIf": "weitere Preis- und Gewinnwarnungen bei Micron, SK Hynix, Samsung, Kioxia"
+    },
+    {
+      "what": "Netflix Q2",
+      "when": "heute nach US-Börsenschluss (Vorschau)",
+      "bullishIf": "Werbe- und Abo-Wachstum über Konsens",
+      "bearishIf": "Guidance-Enttäuschung"
+    },
+    {
+      "what": "Öl und Hormus",
+      "when": "laufend",
+      "bullishIf": "Deeskalation, Brent unter 75",
+      "bearishIf": "Blockade, Brent über 90, Zweitrundeneffekt-Risiko für die Fed"
+    },
+    {
+      "what": "Fed-Sitzung 28./29. Juli",
+      "when": "28./29.7.",
+      "bullishIf": "keine Straffung trotz Ölpreis",
+      "bearishIf": "Straffungssignal wegen Zweitrundeneffekten"
+    }
+  ],
+  "learningNotes": [
+    "Massenspeicher folgt dem Angebotszyklus, KI-Rechenlogik der Nachfrage. Derselbe Boom trifft beide gegensätzlich.",
+    "Die Position in der Wertschöpfungskette entscheidet, wer die Marge eines Investitionsbooms behält.",
+    "Eine kühle Inflationszahl aus dem Rückspiegel schützt nicht vor einer neuen Ölwelle im Diskontsatz.",
+    "Kapitalmarktgebühren von Banken, Vermögensverwaltern und Beratern sind ein Hebel auf die Marktaktivität und schwanken stärker als die Realwirtschaft.",
+    "Eine große Kursbewegung ohne fundamentale Nachricht ist oft Positionierung, etwa ein Short Squeeze oder Gewinnmitnahme."
+  ],
+  "lernecke": [
+    {
+      "disziplin": "VWL",
+      "modell": "Schweinezyklus und Kapitalzyklus-Theorie",
+      "erklaerung": "Der Schweinezyklus beschreibt, wie sich in Märkten für austauschbare Güter Angebot und Preis in Wellen bewegen. Hohe Preise locken viele Anbieter zu Investitionen in neue Kapazität. Weil der Aufbau Zeit braucht, kommt sie oft erst auf den Markt, wenn die Nachfrage bereits gedeckt ist, dann entsteht Überangebot, die Preise fallen, Investitionen werden gestoppt, und aus der späteren Knappheit wächst der nächste Aufschwung. Die Kapitalzyklus-Theorie überträgt dies auf ganze Branchen: hohe Gewinne und viel Investitionskapital legen die Saat für die nächste Überkapazität.",
+      "anwendung": "Der Absturz der Speicheraktien ist ein Lehrbuchbeispiel: Nach Jahren hoher Preise und Fabrikinvestitionen droht das Überangebot bei DRAM und NAND, und der Markt preist die Gewinnwende ein, bevor sie in den Zahlen steht."
+    },
+    {
+      "disziplin": "BWL",
+      "modell": "Position in der Wertschöpfungskette und die Lächelkurve",
+      "erklaerung": "Die Lächelkurve beschreibt, wie sich der Gewinn entlang einer Wertschöpfungskette verteilt. An den beiden Enden, bei Entwicklung und geistigem Eigentum sowie bei Marke und Kundenzugang, liegen die hohen Margen. In der Mitte, bei der reinen Fertigung austauschbarer Teile, ist die Marge dünn, weil viele Anbieter dasselbe können. Entscheidend für den Gewinn ist deshalb die genaue Position in der Kette: Wer ein knappes Engpassgut liefert, hat Preissetzungsmacht, wer ein austauschbares Massengut liefert, ist dem Preiswettbewerb ausgeliefert.",
+      "anwendung": "TSMC sitzt als einziger Anbieter der modernsten Fertigung an einem Engpass und behält die Marge, während die Speicherhersteller mit ihrem austauschbaren Produkt in der margenschwachen Mitte den Preisdruck zuerst spüren."
+    },
+    {
+      "disziplin": "VWL",
+      "modell": "Taylor-Regel und Zweitrundeneffekte",
+      "erklaerung": "Die Taylor-Regel ist eine Faustformel dafür, wie eine Notenbank ihren Leitzins setzen sollte: höher, wenn die Inflation über dem Ziel liegt oder die Wirtschaft überausgelastet ist, niedriger im umgekehrten Fall. Bei Energiepreisschocks unterscheiden Notenbanken Erst- und Zweitrundeneffekte. Der Erstrundeneffekt ist der direkte Preisanstieg bei Benzin, der von selbst ausläuft, sobald der Preis nicht weiter steigt. Der Zweitrundeneffekt entsteht, wenn diese Kosten in Löhne und andere Preise durchsickern und sich eine dauerhafte Inflationserwartung festsetzt. Erstere werden eher toleriert, gegen Letztere gehen Notenbanken entschlossen vor.",
+      "anwendung": "Die kühlen Erzeugerpreise entlasten die Fed, doch der wieder steigende Ölpreis birgt das Risiko eines Zweitrundeneffekts. Vor der Sitzung am 28. und 29. Juli achtet die Notenbank darauf, ob die Inflationserwartungen verankert bleiben."
+    },
+    {
+      "disziplin": "BWL",
+      "modell": "Betriebshebel und das kapitalarme Geschäftsmodell",
+      "erklaerung": "Der Betriebshebel beschreibt, wie stark sich der Gewinn verändert, wenn sich der Umsatz verändert. Unternehmen mit hohen Fixkosten, etwa einer teuren Fabrik, haben einen starken Hebel, ihr Gewinn springt in guten Zeiten und bricht in schlechten ein, weil die Kosten kaum mit dem Umsatz atmen. Unternehmen mit überwiegend variablen Kosten haben einen schwächeren Hebel und stabilere Margen. Ein Sonderfall ist das kapitalarme Geschäftsmodell, das kaum Kapital bindet, weil die wichtigste Ressource nicht eine Fabrik ist, sondern Menschen und deren Beziehungen.",
+      "anwendung": "Micron zeigt den starken Betriebshebel einer Fabrik, deren Gewinn mit dem Speicherpreis springt und einbricht. Moelis zeigt das Gegenmodell, ein kapitalarmes Beratungsgeschäft, das im Aufschwung den Gewinn über die Honorare hebelt."
+    },
+    {
+      "disziplin": "Politikwissenschaft",
+      "modell": "Chokepoints und geoökonomische Verwundbarkeit",
+      "erklaerung": "Ein Chokepoint ist ein geografischer Engpass, durch den ein großer Teil eines wichtigen Handelsstroms läuft, etwa eine schmale Meerenge. Wer einen solchen Engpass kontrolliert oder bedroht, gewinnt geoökonomische Macht, weil schon die Drohung einer Sperrung Preise und Lieferketten weltweit bewegt. Die Forschung spricht von verwobener Verwundbarkeit, wenn Staaten ihre Kontrolle über zentrale Knoten des Welthandels als Druckmittel einsetzen. Der Wert dieser Macht liegt oft schon in der Drohung, weil Märkte Risiken vorwegnehmen, lange bevor etwas passiert.",
+      "anwendung": "Die Straße von Hormus, durch die rund ein Fünftel des verschifften Öls läuft, ist ein solcher Chokepoint. Schon die Blockade-Drohung hebt die Risikoprämie im Ölpreis, ohne dass sich die geförderte Menge sofort ändert."
+    }
+  ],
+  "financeLink": {
+    "titel": "Finance Link: Der Speicherpreis droht zu fallen (Beispiel Micron) – durch GuV, Bilanz, Cashflow und Bewertung gedacht",
+    "absaetze": [
+      "Gewinn- und Verlustrechnung: Ein niedrigerer Verkaufspreis je Chip senkt den Umsatz, und weil die Fabrikkosten fix bleiben, fällt die Bruttomarge überproportional. Der Betriebshebel verstärkt den Gewinnrückgang.",
+      "Bilanz: Unverkaufte Chips erhöhen die Vorräte und binden Kapital. Sinkt der Marktpreis unter den Buchwert, folgt eine Lagerabwertung, die das Eigenkapital mindert.",
+      "Cashflow: Steigende Vorräte binden Betriebskapital und drücken den operativen Cashflow. Meist werden dann Fabrikinvestitionen gekürzt, was den freien Cashflow kurzfristig stützt, das künftige Wachstum aber begrenzt.",
+      "Bewertung: Der Markt bewertet Zyklustitel oft gegenläufig zum Gewinn. Ein sehr niedriges KGV auf Rekordgewinnen kann ein Zeichen für einen bevorstehenden Abschwung sein, ein hohes oder negatives Verhältnis am Zyklustief das Gegenteil."
+    ],
+    "anfaengerfehler": "Eine Speicheraktie am Gewinnhoch als günstig zu lesen, weil das KGV niedrig aussieht. Bei Zyklustiteln ist genau das oft der teuerste Einstiegszeitpunkt."
+  },
+  "glossar": [
+    {
+      "begriff": "DRAM und NAND",
+      "erklaerung": "DRAM ist der schnelle Arbeitsspeicher in Rechnern und Servern, NAND der dauerhafte Datenspeicher in Solid-State-Laufwerken. Beide sind austauschbare Massenware."
+    },
+    {
+      "begriff": "HBM (High Bandwidth Memory)",
+      "erklaerung": "Gestapelter Hochleistungsspeicher, der neben KI-Rechenchips sitzt und sehr große Datenmengen schnell bereitstellt."
+    },
+    {
+      "begriff": "Foundry",
+      "erklaerung": "Eine Auftragsfertigung, die Chips nach den Entwürfen anderer Unternehmen produziert. TSMC ist die größte Foundry der Welt."
+    },
+    {
+      "begriff": "Bruttomarge",
+      "erklaerung": "Der Anteil des Umsatzes nach Abzug der direkten Herstellkosten, ein Mass für die Preissetzungsmacht."
+    },
+    {
+      "begriff": "Betriebshebel",
+      "erklaerung": "Beschreibt, wie stark der Gewinn auf Umsatzänderungen reagiert. Hohe Fixkosten bedeuten einen starken Hebel."
+    },
+    {
+      "begriff": "Verwaltetes Vermögen (AUM)",
+      "erklaerung": "Die Summe des Kundengeldes, das ein Vermögensverwalter betreut, die Gebühr fällt als Prozentsatz davon an."
+    },
+    {
+      "begriff": "Auftragsbestand (Backlog)",
+      "erklaerung": "Der Wert bereits erteilter, noch nicht abgearbeiteter Aufträge, ein Frühindikator für künftigen Umsatz."
+    },
+    {
+      "begriff": "Risikoprämie",
+      "erklaerung": "Ein Preisaufschlag als Ausgleich für ein Risiko, etwa im Ölpreis für die Gefahr eines Lieferausfalls."
+    },
+    {
+      "begriff": "Zweitrundeneffekt",
+      "erklaerung": "Wenn ein Preisschock über Löhne und andere Preise in eine dauerhafte Inflationserwartung durchsickert."
+    },
+    {
+      "begriff": "Taylor-Regel",
+      "erklaerung": "Eine Faustformel für die Zinssetzung der Notenbank, abhängig von Inflation und Auslastung der Wirtschaft."
+    },
+    {
+      "begriff": "Chokepoint",
+      "erklaerung": "Ein geografischer Engpass im Welthandel, etwa eine Meerenge, dessen Bedrohung Preise und Lieferketten weltweit bewegt."
+    },
+    {
+      "begriff": "Short Squeeze",
+      "erklaerung": "Ein rascher Kursanstieg, weil Anleger, die auf fallende Kurse gewettet haben, ihre Positionen zurückkaufen müssen."
+    }
+  ],
+  "verificationLog": {
+    "confirmed": [
+      "US-Schlusskurse 15.7. (Motley Fool)",
+      "Speicher-Ausverkauf US 15.7. und Asien 16.7. (TradingKey, 24/7 Wall St., Benzinga)",
+      "BlackRock-Rekordzahlen (American Bazaar, Qz, Investing.com)",
+      "China-BIP Q2 4,3 % (CNN, FXStreet)",
+      "TSMC-Q2-Prognose und Konferenztermin (TSMC-Investorenseite)",
+      "Lucid +29 % (Motley Fool)",
+      "EUR/USD 1,1469 und Aktien-Caps (Alpha Vantage 16.7.)",
+      "FOMC-Termin 28./29.7. (Fed-Kalender)"
+    ],
+    "uncertain": [
+      "exakter Brent-Tagespreis 15./16.7. (belegt 81,6 USD am 13.7., Richtung mehrquellig)",
+      "Hormus-Maut (widersprüchlich)",
+      "chinesische Finanzdaten-Stabilisierung (CGTN, Sekundärquelle)",
+      "PayPal-Stripe-Gebot (unbestätigtes Gerücht)",
+      "koreanische ETF-Regulierung (Marktbericht)"
+    ],
+    "gaps": [
+      "TSMC-Ist-Zahlen zum Redaktionsschluss noch nicht veröffentlicht (heute 08:00 Berlin)",
+      "US-Einzelhandelsumsätze Juni erst heute 14:30 Berlin",
+      "DAX, VIX, Gold, Bitcoin nicht taggenau belegt und aus dem Panel weggelassen",
+      "TSMC-Auftragseingang und Investitionsplanung offen"
+    ],
+    "gates": "Market-Cap-Gate bestanden (Powell 7,44, Moelis 4,34, SPX 9,45 Mrd. EUR bei EUR/USD 1,1469; Modine 12,19 und Advanced Energy 12,21 Mrd. USD aussortiert); Identitäts-Gate bestanden (Powell Industries nicht Fed-Chef Powell, SPX getrennt von SPX FLOW, Moelis Beratungsboutique); Datums-Gate bestanden (kein Zinsentscheid diese Woche, FOMC 28./29.7., TSMC- und Retail-Termine als anstehend gekennzeichnet)."
+  }
+}
