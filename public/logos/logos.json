@@ -542,5 +542,52 @@
     "file": null,
     "name": "SPX Technologies",
     "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "softbank": {
+    "file": "softbank.svg",
+    "name": "SoftBank Group",
+    "source": "https://commons.wikimedia.org/wiki/File:Softbank_mobile_logo.svg",
+    "license": "Public domain",
+    "artist": "Lusheeta",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "netflix": {
+    "file": "netflix.svg",
+    "name": "Netflix",
+    "source": "https://commons.wikimedia.org/wiki/File:Netflix_logo.svg",
+    "license": "Public domain",
+    "artist": "TM/®Netflix Inc.",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "disney": {
+    "file": null,
+    "name": "Walt Disney",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "spotify": {
+    "file": "spotify.svg",
+    "name": "Spotify",
+    "source": "https://commons.wikimedia.org/wiki/File:Spotify_logo_with_text.svg",
+    "license": "Public domain",
+    "artist": "Spotify",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "sentinelone": {
+    "file": "sentinelone.svg",
+    "name": "SentinelOne",
+    "source": "https://commons.wikimedia.org/wiki/File:SentinelOne_logo.svg",
+    "license": "Public domain",
+    "artist": "™/®SentinelOne",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "transmedics": {
+    "file": null,
+    "name": "TransMedics Group",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "kinsale": {
+    "file": null,
+    "name": "Kinsale Capital Group",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
   }
 }

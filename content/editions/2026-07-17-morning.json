@@ -1,0 +1,1399 @@
+{
+  "edition": {
+    "number": 10,
+    "date": "2026-07-17",
+    "slot": "morning",
+    "schemaVersion": 2,
+    "dataAsOf": "US-Handelsschluss Do 16.7. (Yahoo Finance), asiatische Sitzung Fr 17.7. (TradingKey), Marktdaten aus Alpha Vantage (EUR/USD 1,1442, TSM- und TMDX-Kursreihen 17.7.). ASML-Zahlen vom 15.7., TSMC- und Netflix-Zahlen vom 16.7. Seoul wegen Verfassungstag geschlossen.",
+    "generatedAt": "2026-07-17T04:30:00Z",
+    "note": "Einzige Tagesausgabe, die separate Abendausgabe entfaellt vollstaendig."
+  },
+  "market": {
+    "tiles": [
+      {
+        "label": "S&P 500",
+        "value": "7.559,99",
+        "delta": "-0,16 %",
+        "direction": "down",
+        "approx": false,
+        "note": "Schluss 16.7."
+      },
+      {
+        "label": "Nasdaq Composite",
+        "value": "26.054,38",
+        "delta": "-0,82 %",
+        "direction": "down",
+        "approx": false,
+        "note": "Schluss 16.7."
+      },
+      {
+        "label": "Dow Jones",
+        "value": "52.806,31",
+        "delta": "+0,28 %",
+        "direction": "up",
+        "approx": false,
+        "note": "Schluss 16.7."
+      },
+      {
+        "label": "Nikkei 225",
+        "value": "64.527,49",
+        "delta": "-3,45 %",
+        "direction": "down",
+        "approx": false,
+        "note": "17.7., Monatstief"
+      },
+      {
+        "label": "Kioxia (Tokio)",
+        "value": "-15,33 %",
+        "delta": "Speicher",
+        "direction": "down",
+        "approx": false,
+        "note": "17.7."
+      },
+      {
+        "label": "SoftBank (Tokio)",
+        "value": "-7,11 %",
+        "delta": "KI-Werte",
+        "direction": "down",
+        "approx": false,
+        "note": "17.7., 3. Tag in Folge"
+      },
+      {
+        "label": "TSMC (ADR)",
+        "value": "409,74 $",
+        "delta": "-2,32 %",
+        "direction": "down",
+        "approx": false,
+        "note": "Schluss 16.7. (AV)"
+      },
+      {
+        "label": "US-Rendite 10 Jahre",
+        "value": "4,56 %",
+        "delta": "~unverändert",
+        "direction": "flat",
+        "approx": true,
+        "note": "Stand 16.7."
+      },
+      {
+        "label": "Öl (Brent)",
+        "value": "84,64 $",
+        "delta": "-1,48 %",
+        "direction": "down",
+        "approx": false,
+        "note": "16.7. (Fortune)"
+      },
+      {
+        "label": "EUR / USD",
+        "value": "1,1442",
+        "delta": "17.7.",
+        "direction": "flat",
+        "approx": false,
+        "note": "Alpha Vantage"
+      },
+      {
+        "label": "DAX",
+        "value": "25.027",
+        "delta": "-0,48 %",
+        "direction": "down",
+        "approx": true,
+        "note": "Schluss 15.7. (16.7. nicht taggenau belegt)"
+      },
+      {
+        "label": "US-Leitzins (Fed)",
+        "value": "3,50-3,75 %",
+        "delta": "unverändert",
+        "direction": "flat",
+        "approx": false,
+        "note": "nächste Sitzung 28./29.7."
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "titelseite-tsmc-bricht-jeden-rekord-und-die-chip",
+      "ressort": "titelseite",
+      "kicker": "Leitartikel · Halbleiter und der Investitionszyklus",
+      "headline": "TSMC bricht jeden Rekord, und die Chip-Aktien fallen trotzdem",
+      "dek": "Der weltgrößte Auftragsfertiger meldet Rekordgewinn und die höchste Investitionsplanung seiner Geschichte. Die Börse quittiert es mit dem zweiten Ausverkaufstag in Folge. Der Widerspruch ist die Lehre des Tages.",
+      "body": [
+        "Am 16. Juli legte Taiwan Semiconductor (TSMC) Zahlen vor, die kaum stärker hätten ausfallen können. Der Nettogewinn stieg im zweiten Quartal um 77,4 Prozent auf 706,6 Milliarden Taiwan-Dollar, umgerechnet rund 22 Milliarden US-Dollar. Der Umsatz kletterte um 36 Prozent auf umgerechnet gut 40 Milliarden Dollar. Zugleich hob das Unternehmen seine Investitionsplanung für 2026 auf 60 bis 64 Milliarden Dollar an und kündigte weitere 100 Milliarden Dollar für seine Werke in Arizona an. Einen Tag zuvor hatte der Ausrüster ASML seinen Jahresausblick angehoben und mitgeteilt, bereits nahezu alle Aufträge für 2027 zu besitzen.",
+        "Die Angebotsseite des KI-Booms sendet damit ein klares Signal. Die Investitionen in Rechenkapazität werden größer, und die Ausrüster sehen eine mehrjährige Auslastung. Trotzdem fiel die TSMC-ADR am selben Tag rund 2 Prozent, der Halbleiterindex in Philadelphia über 4 Prozent, und in der Nacht auf Freitag folgte Asien: Der Nikkei 225 verlor 3,45 Prozent auf ein Monatstief, der japanische Speicherhersteller Kioxia brach um 15,3 Prozent ein.",
+        "Der scheinbare Widerspruch löst sich auf, wenn man zwei Dinge trennt. Erstens bewegt eine Aktie sich an der Abweichung von der Erwartung, nicht an der absoluten Zahl. Ein Rekord, den alle erwartet haben, ist längst im Kurs enthalten. Zweitens laufen in der Chip-Welt gerade zwei Zyklen gegeneinander. Die Rechenlogik von TSMC bleibt ein knappes Engpassgut mit Preissetzungsmacht. Der Massenspeicher hingegen kippt von der Knappheit ins drohende Überangebot, weil dieselbe Investitionswelle die Kapazität von morgen schafft."
+      ],
+      "lehre": "Rekordzahlen sind für den Kurs nur der Ausgangspunkt. Entscheidend ist, was der Markt bereits erwartet hatte und ob der Ausblick diese Erwartung übertrifft.",
+      "factcheck": {
+        "claim": "TSMC Q2: Nettogewinn +77,4 %, Capex 2026 auf 60-64 Mrd. $ angehoben, +100 Mrd. $ Arizona",
+        "verdict": "bestätigt",
+        "evidence": "CNBC, Qz, Investing.com, TSMC-Investorenseite (16.7.)"
+      },
+      "sources": [
+        {
+          "title": "TSMC Reports Second Quarter EPS of NT$27.25",
+          "url": "https://pr.tsmc.com/english/news/3326",
+          "tier": 1
+        },
+        {
+          "title": "TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%",
+          "url": "https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-der-chip-ausverkauf-springt-nach-asien-kiox",
+      "ressort": "news",
+      "kicker": "Aktienmärkte · Asien",
+      "headline": "Der Chip-Ausverkauf springt nach Asien, Kioxia bricht 15 Prozent ein",
+      "dek": "Am Freitagmorgen ziehen die japanischen Technologiewerte den Nikkei auf ein Monatstief. Die Börse in Seoul bleibt wegen eines Feiertags geschlossen.",
+      "body": [
+        "In der asiatischen Sitzung am 17. Juli fiel der Nikkei 225 um 3,45 Prozent auf 64.527 Punkte, den tiefsten Stand seit über einem Monat. Der Speicherhersteller Kioxia verlor 15,3 Prozent, der Technologie-Investor SoftBank rund 7 Prozent am dritten Verlusttag in Folge. Die südkoreanische Börse blieb dem Vernehmen nach wegen des Feiertags Verfassungstag geschlossen, sodass für Samsung und SK Hynix keine frischen Kurse vorlagen.",
+        "Auslöser war die fehlende Erholung der US-Halbleiter über Nacht. In den USA hatte der Philadelphia-Halbleiterindex am 16. Juli über 4 Prozent verloren, Micron mehr als 5 Prozent, Nvidia rund 2 Prozent. Zusätzlich belasteten ein festerer Yen, der die Gewinne japanischer Exporteure schmälert, und die geopolitische Unsicherheit am Golf."
+      ],
+      "mechanik": "Anleger reduzieren nach einer starken Rally ihre Positionen und nehmen Gewinne mit. Weil viele auf dieselben KI-Werte gesetzt haben, verstärkt der gleichzeitige Ausstieg die Bewegung. Das ist eine Frage der Positionierung und der Bewertung, nicht ein Zeichen für einen fundamentalen Nachfrageeinbruch.",
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Der Ausverkauf über zwei Sitzungen",
+          "subtitle": "Kursveränderung, Asien 17.7. und USA 16.7.2026, in Prozent",
+          "unit": " %",
+          "source": "TradingKey, Yahoo Finance (16./17.7.2026)",
+          "allPositive": false,
+          "data": [
+            [
+              "Kioxia (17.7.)",
+              -15.33
+            ],
+            [
+              "SoftBank (17.7.)",
+              -7.11
+            ],
+            [
+              "Micron (16.7.)",
+              -5.22
+            ],
+            [
+              "SOX-Index (16.7.)",
+              -4
+            ],
+            [
+              "Nikkei 225 (17.7.)",
+              -3.45
+            ],
+            [
+              "TSMC ADR (16.7.)",
+              -2.32
+            ],
+            [
+              "Nvidia (16.7.)",
+              -2
+            ]
+          ]
+        }
+      ],
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "kioxia",
+          "warum": "Japanischer NAND-Speicherspezialist, im Zentrum der Überangebotssorge (17.7.).",
+          "firma": "Kioxia",
+          "bewegung": "-15,33 %"
+        },
+        {
+          "logoKey": "softbank",
+          "warum": "Technologie-Investor mit hohem KI-Engagement, dritter Verlusttag (17.7.).",
+          "firma": "SoftBank Group",
+          "bewegung": "-7,11 %"
+        },
+        {
+          "logoKey": "micron",
+          "warum": "US-Speicherhersteller, weiter unter Druck durch die Preissorge (16.7.).",
+          "firma": "Micron",
+          "bewegung": "-5,22 %"
+        },
+        {
+          "logoKey": "nvidia",
+          "warum": "KI-Chip-Marktführer, im breiten Halbleiter-Ausverkauf mitgezogen (16.7.).",
+          "firma": "Nvidia",
+          "bewegung": "-2,0 %"
+        }
+      ],
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Halbleiter, KI-Hardware und Software bilden das Epizentrum des Ausverkaufs, weil hier die hohen Bewertungsmultiples nach der Kursverdopplung zusammengestaucht werden. Anleger nehmen Gewinne mit und preisen ein langsameres Tempo der KI-Monetarisierung sowie Margendruck durch Capex ein."
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Alphabet verliert rund 3,85 Prozent wegen Sorgen um KI-Investitionslasten, DOJ-Kartellverfahren und Suchwettbewerb. Da KI-Plattformwerte hier stark gewichtet sind, überträgt sich die Neubewertung unmittelbar auf den Sektor."
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Teure Wachstumswerte wie große Onlinehändler mit KI-Fantasie werden im Sog der Multiple-Kompression mitgezogen. Günstiger bewertete Value-Namen des Sektors bleiben relativ stabiler, während der sinkende Risikoappetit zyklische Titel belastet."
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Als defensiver Sektor mit stabilen Cashflows profitiert er von der Umschichtung aus teuren KI-Werten. Reduzieren Anleger Risiko, fließt Kapital in verlässliche Dividendenzahler mit geringer Konjunktursensitivität."
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Defensive Ertragsprofile und moderate Bewertungen machen den Sektor zu einem typischen Ziel für Rotation, wenn KI-Optimismus abgebaut wird. Die Nachfrage nach Medikamenten bleibt konjunkturunabhängig und stützt relative Stärke."
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Banken und Versicherer sind gering in KI-Themen bewertet und ziehen als Value-Segment teils Umschichtungen an. Ein breiter Rückgang des Risikoappetits und fallende Anleiherenditen können jedoch Zinsmargen und Sentiment belasten."
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Ölpreis und Energienachfrage hängen an Konjunktur und Angebot, kaum an KI-Bewertungen, weshalb der Sektor von der Sentimentkorrektur weitgehend abgekoppelt ist. Ein leichter Value-Zufluss ist möglich."
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Chemie, Metalle und Grundstoffe reagieren primär auf Industriekonjunktur und Rohstoffpreise, die von der KI-Repreisung unberührt bleiben. Nur über Halbleitermaterialien und den allgemeinen Risikoappetit wirkt ein schwacher Nebeneffekt."
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Teile mit KI- und Rechenzentrumsbezug wie Stromtechnik und Kühlung werden von der Neubewertung mitgezogen. Klassische Industriewerte mit moderaten Bewertungen bleiben relativ stabil und können von einer Rotation in Value profitieren."
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Als defensiver, zinssensitiver Sektor zieht er Umschichtungen aus riskanten KI-Werten an. Zugleich korrigieren einzelne Versorger, deren Kurse mit der KI-Strombedarfsfantasie gestiegen waren."
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Rechenzentrums-REITs mit KI-Bezug geben nach, weil die Skepsis gegenüber KI-Investitionen auf sie durchschlägt. Der breite Sektor reagiert vor allem auf Zinsen, wobei fallende Renditen tendenziell stützen."
+        }
+      ],
+      "factcheck": {
+        "claim": "Nikkei -3,45 %, Kioxia -15,33 %, Seoul geschlossen (17.7.)",
+        "verdict": "bestätigt",
+        "evidence": "TradingKey (17.7.); SoftBank-Prozentwert einquellig, CNBC-Überschrift nennt über 9 % intraday"
+      },
+      "sources": [
+        {
+          "title": "Kioxia dives 16% as AI stocks face deleveraging",
+          "url": "https://asia.nikkei.com/business/markets/kioxia-dives-16-as-ai-stocks-face-deleveraging",
+          "tier": 2
+        },
+        {
+          "title": "SoftBank sinks over 9% as Asia chip stocks track Wall Street AI sell-off",
+          "url": "https://www.cnbc.com/2026/07/17/softbank-chip-stocks-asia-wall-street-ai-rout.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-wall-street-schliesst-gemischt-der-dow-trotzt",
+      "ressort": "news",
+      "kicker": "Aktienmärkte · USA",
+      "headline": "Wall Street schließt gemischt, der Dow trotzt dem Chip-Druck",
+      "dek": "Zum zweiten Mal in Folge belasten die Halbleiter die Technologiebörse. Der Dow steigt trotzdem, weil andere Branchen gegenhalten.",
+      "body": [
+        "Am 16. Juli verlor der Nasdaq Composite 0,82 Prozent auf 26.054 Punkte, der S&P 500 gab 0,16 Prozent auf 7.560 nach. Der Dow Jones stieg dagegen um 0,28 Prozent auf 52.806, getragen von Werten außerhalb des Technologiesektors. Die TSMC-ADR fiel 1,97 Prozent, Micron 5,22 Prozent, GE Aerospace 4 Prozent.",
+        "Das Auseinanderlaufen der Indizes zeigt, wohin das Geld floss. Während die hoch bewerteten Chip- und KI-Werte abverkauft wurden, hielten sich zyklische und defensivere Titel besser. Diese Rotation ist typisch für Phasen, in denen Anleger ein überlaufenes Thema abbauen."
+      ],
+      "mechanik": "Ein Index ist ein gewichteter Durchschnitt. Der technologielastige Nasdaq fällt, wenn die Chipwerte verlieren, während der breiter gestreute Dow durch Industrie-, Finanz- und Gesundheitswerte gestützt wird. Der Blick auf die einzelnen Indizes verrät die Rotation unter der Oberfläche.",
+      "factcheck": {
+        "claim": "US-Schlusskurse 16.7.: S&P -0,16 %, Nasdaq -0,82 %, Dow +0,28 %",
+        "verdict": "bestätigt",
+        "evidence": "Yahoo Finance (16.7.)"
+      },
+      "sources": [
+        {
+          "title": "S&P 500 and Nasdaq futures drop as chipmaker sell-off intensifies; Netflix slides 11%: Live updates",
+          "url": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html",
+          "tier": 2
+        },
+        {
+          "title": "Stock market today: Dow rises, S&P 500 and Nasdaq fall as chip stocks slide amid AI jitters",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-16-dow-sp-500-nasdaq-chip-stocks-slide-103116735.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-netflix-faellt-nachboerslich-8-prozent-obwohl",
+      "ressort": "news",
+      "kicker": "Unternehmen · Streaming",
+      "headline": "Netflix fällt nachbörslich 8 Prozent, obwohl die Zahlen im Rahmen liegen",
+      "dek": "Umsatz und Gewinn treffen die Erwartungen fast punktgenau. Doch die Prognose für das laufende Quartal enttäuscht, und die Aktie rutscht ab.",
+      "body": [
+        "Netflix meldete am 16. Juli nach US-Börsenschluss einen Q2-Umsatz von 12,56 Milliarden Dollar, knapp unter dem Konsens von 12,59 Milliarden. Der Gewinn je Aktie lag mit 0,80 Dollar leicht über der Erwartung. Trotzdem fiel die Aktie nachbörslich rund 8 Prozent, weil die Umsatzprognose für Q3 mit 12,86 Milliarden Dollar unter dem erwarteten Wert von 13,01 Milliarden lag und auch der Jahresausblick den Konsens knapp verfehlte. Zusätzlich kündigte das Unternehmen an, die Detailtiefe seiner Zuschauerberichte zu reduzieren.",
+        "Regional wuchs das Geschäft weiter, am stärksten in Lateinamerika mit plus 21 Prozent und im asiatisch-pazifischen Raum mit plus 16 Prozent. Der Kern in den USA und Kanada legte 10 Prozent zu. Das Wachstum verliert an Tempo, während die Bewertung eine hohe Dynamik voraussetzt."
+      ],
+      "mechanik": "Der Kurs einer Wachstumsaktie steckt voller Erwartungen an die Zukunft. Liefert das Unternehmen die Vergangenheit wie erwartet, aber einen schwächeren Ausblick, korrigiert der Markt seine Annahmen über das kommende Wachstum nach unten. Deshalb kann eine Aktie trotz solider Ist-Zahlen an der Prognose fallen.",
+      "gewinnerVerlierer": [
+        {
+          "logoKey": "netflix",
+          "warum": "Q3-Prognose unter Konsens, Wachstum verliert Tempo (nachbörslich 16.7.).",
+          "firma": "Netflix",
+          "bewegung": "-8,0 %"
+        },
+        {
+          "logoKey": "disney",
+          "warum": "Streaming-Wettbewerber, Sorge um Branchenwachstum als Referenzwert.",
+          "firma": "Walt Disney",
+          "bewegung": "Read-through"
+        },
+        {
+          "logoKey": "spotify",
+          "warum": "Abo-Modell mit ähnlicher Wachstums- und Preisfantasie.",
+          "firma": "Spotify",
+          "bewegung": "Read-through"
+        }
+      ],
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "IT-Umsätze werden vor allem von Unternehmens-Capex, Cloud und Halbleiterzyklen getrieben. Ein leicht abschwächender Konsum wirkt hier nur mittelbar und verzögert über die allgemeine Wirtschaftslage."
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "direkt",
+          "richtung": "negativ",
+          "mechanismus": "Netflix liegt in diesem Sektor und zieht als Referenzwert andere Streaming- und Medienwerte wie Disney, Warner Bros. Discovery und Spotify mit nach unten. Die vorsichtige Prognose nährt Sorgen über nachlassendes Abo-Wachstum und schärferen Wettbewerb."
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "direkt",
+          "richtung": "gemischt",
+          "mechanismus": "Die Einzelhandelsdaten zeigen noch wachsende, aber an Schwung verlierende Ausgaben für zyklische Güter wie Sportartikel und Onlinehandel. Billigere Spritpreise stützen das verfügbare Einkommen, das schwächere Momentum bremst Reise- und Ermessensausgaben."
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Defensive Grundbedarfsgüter profitieren relativ, wenn der zyklische Konsum an Schwung verliert, weil Nahrung und Haushaltswaren stabile Nachfrage behalten. Niedrigere Spritpreise erhöhen zudem das für Grundbedarf verfügbare Einkommen."
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Die Nachfrage nach Medikamenten und Medizintechnik hängt an demografischen und regulatorischen Faktoren, kaum am kurzfristigen Konsumschwung. Ein schwächerer Einzelhandel berührt die Umsatzbasis nur am Rand."
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Kreditkartenanbieter und Zahlungsdienstleister wie Visa und Mastercard spüren Konsumtrends über Transaktionsvolumen und Ausfallrisiken. Solange Ausgaben wachsen, bleiben Volumina intakt, das nachlassende Momentum erhöht die Aufmerksamkeit für Kreditqualität."
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "indirekt",
+          "richtung": "negativ",
+          "mechanismus": "Der Rückgang der Tankstellenumsätze um 5,3 Prozent spiegelt billigere Spritpreise wider und deutet auf schwächere Erlöse im Tankstellengeschäft hin. Niedrigere Kraftstoffpreise mindern die Umsatzbasis von Mineralöl- und Tankstellenbetreibern."
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Chemie, Metalle und Baustoffe hängen an Industrieproduktion, Bau und globalen Rohstoffzyklen, nicht am US-Einzelhandel oder an Streaming-Abos. Der Kanal über die Konsumendnachfrage ist zu schwach und verzögert."
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Industriewerte reagieren auf Investitionsgüternachfrage, Auftragseingänge und Logistikvolumen, die von Konsum- und Streaming-Signalen kaum berührt werden. Nur Paket- und Logistikdienstleister spüren das robuste Onlinehandelsvolumen leicht positiv."
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Strom- und Gasnachfrage sowie regulierte Tarife bestimmen die Umsätze und sind von einem leicht schwächeren Einzelhandel oder von Netflix-Zahlen unabhängig. Als defensiver Sektor bleibt er unberührt."
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Handelsimmobilien und Einkaufszentren hängen an der Konsumstärke der Mieter, weshalb ein nachlassendes Ausgabenmomentum die Mietbasis mittelfristig belasten kann. Solange der Konsum insgesamt wächst, bleiben die Mieterträge zunächst stabil."
+        }
+      ],
+      "factcheck": {
+        "claim": "Netflix Q2 Umsatz 12,56 Mrd. $, EPS 0,80 $, Q3-Guidance 12,86 Mrd. $, Aktie -8 %",
+        "verdict": "bestätigt",
+        "evidence": "Benzinga, Qz, CNBC (16.7.); absolutes Kursniveau einquellig"
+      },
+      "sources": [
+        {
+          "title": "Netflix stock falls nearly 10% as earnings forecast disappoints, company says it will give fewer engagement updates",
+          "url": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html",
+          "tier": 2
+        },
+        {
+          "title": "Earnings call transcript: Netflix posts slight Q2 2026 beat, shares sink after hours",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-netflix-posts-slight-q2-2026-beat-shares-sink-after-hours-93CH-4797109",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "news-alphabet-verliert-fast-4-prozent-unter-dem",
+      "ressort": "news",
+      "kicker": "Unternehmen · Internet",
+      "headline": "Alphabet verliert fast 4 Prozent unter dem Druck von Justiz und KI-Kosten",
+      "dek": "Das Kartellverfahren des US-Justizministeriums, hohe KI-Investitionen und wachsender Wettbewerb in der Suche belasten den Google-Konzern gleichzeitig.",
+      "body": [
+        "Die Aktie von Alphabet fiel am 16. Juli rund 3,85 Prozent. Drei Faktoren wirkten zusammen. Das US-Justizministerium (DOJ) verfolgt im Kartellverfahren strukturelle Auflagen bis hin zu einer möglichen Abspaltung des Browsers Chrome oder des Betriebssystems Android. Zugleich belasten die hohen KI-Investitionen von über 13 Milliarden Dollar je Quartal die Margenerwartung. Drittens wächst der Wettbewerb in der Websuche durch neue KI-gestützte Dienste.",
+        "Für einen Konzern, der den Großteil seines Gewinns aus der Suchwerbung zieht, treffen diese Themen an einer empfindlichen Stelle. Der Markt bewertet Alphabet auch danach, wie sicher dieses Gewinnzentrum in den kommenden Jahren bleibt."
+      ],
+      "mechanik": "Regulatorische Eingriffe und steigende Investitionen wirken über den Diskontsatz und die Margen. Drohen eine Zerschlagung und höhere Kosten, verlangen Anleger für künftige Gewinne einen höheren Risikoaufschlag und bewerten den Konzern niedriger, auch wenn der laufende Gewinn stabil ist.",
+      "factcheck": {
+        "claim": "Alphabet -3,85 % (16.7.), DOJ-Auflagen, Capex >13 Mrd. $/Quartal",
+        "verdict": "unsicher",
+        "evidence": "TradingKey Market Movers (16.7.); Treiber sekundär belegt, kein Primär-Filing eingesehen"
+      },
+      "sources": [
+        {
+          "title": "Alphabet Inc Class A Stock (GOOGL) Moved Down by 3.85% on Jul 16: Key Drivers Unveiled",
+          "url": "https://www.tradingkey.com/news/market-movers/262035667-market-movers-googl-20260716",
+          "tier": 2
+        },
+        {
+          "title": "Dow drops 100 points; S&P 500 closes lower as Alphabet and chip shares sell off: Live updates",
+          "url": "https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "politik-der-oelpreis-bleibt-erhoeht-waehrend-die-spannungen",
+      "ressort": "politik",
+      "kicker": "Geopolitik · Öl und Handelswege",
+      "headline": "Der Ölpreis bleibt erhöht, während die Spannungen um Hormus anhalten",
+      "dek": "Brent notiert deutlich über dem Julitief, gibt am Tag aber leicht nach. Die Risikoprämie für die Straße von Hormus bleibt im Preis.",
+      "body": [
+        "Brent-Öl kostete am 16. Juli rund 84,64 Dollar je Barrel und fiel damit am Tag um 1,48 Prozent. Gegenüber dem Julitief um 68 bis 74 Dollar liegt der Preis deutlich höher, gegenüber dem Vorjahr rund 22 Prozent. Hintergrund sind die anhaltenden Spannungen um die Straße von Hormus, durch die rund ein Fünftel des verschifften Öls läuft, sowie neue Meldungen über Angriffe und Drohungen in der Region.",
+        "Für Manuel ist die Richtung wichtiger als die zweite Nachkommastelle. Ein erhöhter Ölpreis wirkt über die Kosten in fast jede Branche und stellt die Notenbanken vor die Frage, ob daraus ein dauerhafter Inflationsdruck wird."
+      ],
+      "mechanik": "Der Ölpreis enthält in solchen Phasen eine Risikoprämie als Aufschlag für die Gefahr eines Lieferausfalls. Schon die Drohung einer Blockade hebt sie, weil sich Käufer absichern. Fällt die Drohung weg, sinkt die Prämie, ohne dass sich an der geförderten Menge sofort etwas ändert.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Warum eine Meerenge Weltmärkte bewegt",
+        "absaetze": [
+          "Ein Chokepoint ist ein geografischer Engpass, durch den ein großer Teil eines wichtigen Handelsstroms läuft. Die Straße von Hormus ist der wichtigste Engpass für Öl. Wer sie kontrolliert oder bedroht, gewinnt geoökonomische Macht, weil schon die Androhung einer Sperrung Preise und Lieferketten weltweit bewegt.",
+          "Der Wert dieser Macht liegt oft in der Drohung selbst. Märkte nehmen ein Risiko vorweg, lange bevor tatsächlich ein Tanker ausfällt. Deshalb kann der Ölpreis steigen, obwohl physisch noch dieselbe Menge fließt."
+        ]
+      },
+      "charts": [
+        {
+          "type": "line",
+          "title": "Brent-Öl: vom Kriegshoch über die Waffenruhe zur Hormus-Prämie",
+          "subtitle": "Schlusskurse je Barrel in USD, 15.5. bis 16.7.2026",
+          "unit": " USD",
+          "source": "Alpha Vantage (Brent-Tagesreihe bis 13.7.), Fortune (16.7.)",
+          "series": [
+            {
+              "t": "2026-05-15",
+              "v": 113.96
+            },
+            {
+              "t": "2026-05-22",
+              "v": 106.9
+            },
+            {
+              "t": "2026-05-29",
+              "v": 92.88
+            },
+            {
+              "t": "2026-06-03",
+              "v": 101.69
+            },
+            {
+              "t": "2026-06-10",
+              "v": 95.73
+            },
+            {
+              "t": "2026-06-16",
+              "v": 80.5
+            },
+            {
+              "t": "2026-06-19",
+              "v": 80.46
+            },
+            {
+              "t": "2026-06-26",
+              "v": 70.16
+            },
+            {
+              "t": "2026-07-03",
+              "v": 68.68
+            },
+            {
+              "t": "2026-07-08",
+              "v": 76.5
+            },
+            {
+              "t": "2026-07-10",
+              "v": 74.34
+            },
+            {
+              "t": "2026-07-13",
+              "v": 81.62
+            },
+            {
+              "t": "2026-07-16",
+              "v": 84.64
+            }
+          ]
+        }
+      ],
+      "factcheck": {
+        "claim": "Brent 84,64 $ (-1,48 %) am 16.7.",
+        "verdict": "bestätigt",
+        "evidence": "Fortune (16.7.); Hormus-Lage aus CNBC-Berichten, teils widersprüchlich"
+      },
+      "sources": [
+        {
+          "title": "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
+          "url": "https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html",
+          "tier": 2
+        },
+        {
+          "title": "Oil prices fall but remain near one-month highs amid Gulf tensions",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-fall-remain-near-110032488.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "politik-das-us-justizministerium-haelt-den-druck",
+      "ressort": "politik",
+      "kicker": "Regulierung · Big Tech",
+      "headline": "Das US-Justizministerium hält den Druck auf die Marktmacht von Google hoch",
+      "dek": "Im Kartellverfahren gegen Alphabet stehen strukturelle Auflagen im Raum. Für die großen Plattformen wird die Regulierung zu einem eigenen Bewertungsrisiko.",
+      "body": [
+        "Das US-Justizministerium verfolgt gegen Alphabet strukturelle Remedien, also Eingriffe in die Struktur des Konzerns. Genannt werden eine mögliche Trennung von Chrome oder Android. Ziel ist es, die Dominanz in Suche und Werbung zu begrenzen. Ähnliche Verfahren und Untersuchungen laufen gegen andere große Plattformen in den USA und in Europa.",
+        "Für Anleger wird die Regulierung damit zu einem strukturellen Faktor. Ein Kartellverfahren kann das Geschäftsmodell verändern, ganze Erlösquellen infrage stellen oder teure Auflagen erzwingen. Das erklärt, warum solche Nachrichten die Kurse der betroffenen Konzerne unabhängig vom laufenden Gewinn bewegen."
+      ],
+      "mechanik": "Regulierung wirkt über mehrere Kanäle auf den Unternehmenswert. Sie kann Umsätze abschneiden, Kosten erhöhen und die Unsicherheit steigern. Höhere Unsicherheit bedeutet einen höheren Risikoaufschlag, mit dem künftige Gewinne abgezinst werden, was die Bewertung heute senkt.",
+      "factcheck": {
+        "claim": "DOJ verfolgt strukturelle Auflagen gegen Alphabet",
+        "verdict": "unsicher",
+        "evidence": "TradingKey (16.7.); Verfahrensstand nicht aus Primärquelle geprüft"
+      },
+      "sources": [
+        {
+          "title": "Federal Court Endorses Behavioral Remedies, Rejects Structural Relief, in Google Search Antitrust Litigation",
+          "url": "https://www.congress.gov/crs-product/LSB11362",
+          "tier": 1
+        },
+        {
+          "title": "Search Remedies in Google Antitrust Case Can Work Even if Company Stays on Top",
+          "url": "https://www.techpolicy.press/search-remedies-in-google-antitrust-case-can-work-even-if-company-stays-on-top/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "politik-vor-der-fed-sitzung-ende-juli-ringen-kuehle-inflation",
+      "ressort": "politik",
+      "kicker": "Geldpolitik · USA",
+      "headline": "Vor der Fed-Sitzung Ende Juli ringen kühle Inflation und teures Öl",
+      "dek": "Weichere Erzeugerpreise geben der Notenbank Spielraum. Der wieder erhöhte Ölpreis könnte diesen Effekt in den kommenden Monaten dämpfen.",
+      "body": [
+        "Die zuletzt veröffentlichten US-Erzeugerpreise fielen kühler aus als erwartet, was am Anleihemarkt für Erleichterung sorgte. Die Rendite zehnjähriger US-Staatsanleihen lag stabil bei rund 4,56 Prozent, die zweijährige bei rund 4,15 Prozent. Die nächste Sitzung der US-Notenbank fällt laut offiziellem Kalender auf den 28. und 29. Juli 2026, der Leitzins liegt bei 3,50 bis 3,75 Prozent.",
+        "US-Präsident Donald Trump erneuerte seine Forderung nach niedrigeren Zinsen und erhöhte den Druck auf Fed-Chef Jerome Powell. Formal ändert das nichts an der Unabhängigkeit der Notenbank, doch es kann die Erwartungen der Anleger beeinflussen."
+      ],
+      "mechanik": "Die Notenbank steuert die kurzfristigen Zinsen, um Inflation und Beschäftigung auszubalancieren. Fürchten Anleger, dass politischer Druck zu voreiligen Zinssenkungen führt, verlangen sie für langlaufende Anleihen einen höheren Zins als Inflationsausgleich. Dann können die langfristigen Zinsen sogar steigen.",
+      "vertiefung": {
+        "titel": "Tiefer verstehen: Die Taylor-Regel und Zweitrundeneffekte",
+        "absaetze": [
+          "Die Taylor-Regel ist eine Faustformel für die Zinssetzung: höher, wenn die Inflation über dem Ziel liegt oder die Wirtschaft heiß läuft, niedriger im umgekehrten Fall. Sie hilft zu verstehen, warum die Fed nicht allein auf eine einzelne gute Zahl reagiert.",
+          "Bei Energiepreisen unterscheiden Notenbanken Erst- und Zweitrundeneffekte. Der Erstrundeneffekt ist der direkte Anstieg des Benzinpreises, der von selbst ausläuft. Der Zweitrundeneffekt entsteht, wenn diese Kosten in Löhne und andere Preise durchsickern und sich eine dauerhafte Inflationserwartung festsetzt. Gegen diesen gehen Notenbanken entschlossen vor."
+        ]
+      },
+      "factcheck": {
+        "claim": "FOMC-Termin 28./29.7., 10J ~4,56 %, 2J ~4,15 %",
+        "verdict": "bestätigt",
+        "evidence": "Fed-Kalender (Datums-Gate); Renditen Yahoo Finance (16.7.)"
+      },
+      "sources": [
+        {
+          "title": "Meeting calendars and information (FOMC)",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "tier": 1
+        },
+        {
+          "title": "Treasury yields fall as traders react to encouraging inflation data",
+          "url": "https://www.cnbc.com/2026/07/15/treasury-yields-investors-producer-price-inflation-data.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-tsmc-rekordgewinn-rekordinvestition",
+      "ressort": "unternehmen",
+      "kicker": "Unternehmensanalyse · TSMC",
+      "headline": "TSMC: Rekordgewinn, Rekordinvestition und ein bewusst gezahlter Preis auf die Marge",
+      "dek": "Der Auftragsfertiger verdient prächtig und investiert zugleich so viel wie nie. Die neue 2-Nanometer-Technik drückt kurzfristig die Marge, und genau daran entzündet sich die Kursreaktion.",
+      "body": [
+        "TSMC verdiente im zweiten Quartal 706,6 Milliarden Taiwan-Dollar netto, ein Plus von 77,4 Prozent. Der Umsatz stieg um 36 Prozent. Rund 66 Prozent der Erlöse stammen aus dem Hochleistungsrechnen, also aus KI- und Serverchips. Die fortgeschrittenen Fertigungsstufen mit 7 Nanometern und darunter machen 77 Prozent des Wafer-Umsatzes aus.",
+        "Für die Zukunft hob das Management die Investitionsplanung 2026 auf 60 bis 64 Milliarden Dollar an, von zuvor 52 bis 56 Milliarden. Zusätzlich kommen 100 Milliarden Dollar für Arizona, wo die Gesamtzusage nun 265 Milliarden Dollar beträgt. Für das dritte Quartal stellt TSMC einen Umsatz von 44,6 bis 45,8 Milliarden Dollar und eine operative Marge von 56 bis 58 Prozent in Aussicht.",
+        "Die Kehrseite benannte das Management selbst. Der Hochlauf der neuen 2-Nanometer-Fertigung verwässert die Marge anfangs um 2 bis 3 Prozentpunkte, später um 3 bis 4. Analysten argumentieren, der höhere Umsatz gleiche das mehr als aus. Die Aktie fiel dennoch, weil ein Teil der Anleger nach der starken Rally auf eine positive Überraschung gehofft hatte, die diesmal ausblieb."
+      ],
+      "lehre": "Hohe Investitionen sind für sich kein gutes oder schlechtes Zeichen. Es kommt darauf an, ob sie künftige Erlöse schaffen, die den kurzfristigen Druck auf Marge und freien Cashflow überwiegen.",
+      "charts": [
+        {
+          "type": "line",
+          "title": "TSMC-ADR: der Rückzug trotz Rekordzahlen",
+          "subtitle": "Schlusskurse in USD, 15.5. bis 16.7.2026",
+          "unit": " $",
+          "source": "Alpha Vantage, TIME_SERIES_DAILY (TSM)",
+          "series": [
+            {
+              "t": "2026-05-15",
+              "v": 404.35
+            },
+            {
+              "t": "2026-05-22",
+              "v": 404.52
+            },
+            {
+              "t": "2026-05-29",
+              "v": 418.45
+            },
+            {
+              "t": "2026-06-05",
+              "v": 415.17
+            },
+            {
+              "t": "2026-06-12",
+              "v": 423.93
+            },
+            {
+              "t": "2026-06-18",
+              "v": 462.12
+            },
+            {
+              "t": "2026-06-26",
+              "v": 432.35
+            },
+            {
+              "t": "2026-07-02",
+              "v": 434.16
+            },
+            {
+              "t": "2026-07-10",
+              "v": 434.11
+            },
+            {
+              "t": "2026-07-14",
+              "v": 420.39
+            },
+            {
+              "t": "2026-07-15",
+              "v": 419.48
+            },
+            {
+              "t": "2026-07-16",
+              "v": 409.74
+            }
+          ]
+        },
+        {
+          "type": "bar",
+          "title": "TSMC hebt den Investitionsplan an",
+          "subtitle": "Capex-Planung 2026, Obergrenze in Mrd. USD",
+          "unit": " Mrd. $",
+          "source": "Investing.com, CNBC (16.7.2026)",
+          "allPositive": true,
+          "data": [
+            [
+              "Vorher (bis)",
+              56
+            ],
+            [
+              "Neu (bis)",
+              64
+            ]
+          ]
+        }
+      ],
+      "company": {
+        "name": "TSMC (Taiwan Semiconductor)",
+        "ticker": "TSM",
+        "exchange": "NYSE-ADR / Taiwan",
+        "logoKey": "tsmc",
+        "whatTheyDo": "Fertigt im Auftrag die fortschrittlichsten Computerchips der Welt, unter anderem für Nvidia, Apple und AMD.",
+        "whyItMatters": "Als Engpass der Chipfertigung ist die Auftrags- und Investitionslage ein Frühindikator für die gesamte Halbleiterindustrie.",
+        "keyMetrics": [
+          [
+            "Nettogewinn Q2",
+            "+77,4 % (706,6 Mrd. NT$)"
+          ],
+          [
+            "Umsatz Q2",
+            "+36 % (~40,2 Mrd. $)"
+          ],
+          [
+            "Capex 2026 (neu)",
+            "60-64 Mrd. $"
+          ],
+          [
+            "Arizona-Zusage",
+            "265 Mrd. $ gesamt"
+          ],
+          [
+            "Q3-Umsatzprognose",
+            "44,6-45,8 Mrd. $"
+          ],
+          [
+            "ADR-Schluss 16.7.",
+            "409,74 $ (-2,3 %)"
+          ]
+        ]
+      },
+      "sektorCheck": [
+        {
+          "sektor": "Informationstechnologie",
+          "betroffenheit": "direkt",
+          "richtung": "positiv",
+          "mechanismus": "TSMC und ASML stehen im Zentrum dieser Branche, und höhere Chip-Investitionen erhöhen direkt die Nachfrage nach Fertigungsanlagen, Chipdesign und Verpackungstechnik. Profiteure sind Foundry-Zulieferer, Lithografie-Ausrüster, Speicherhersteller und Anbieter fortgeschrittener Verpackung."
+        },
+        {
+          "sektor": "Kommunikation",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Große Plattformkonzerne bestellen die KI-Chips, deren Fertigung TSMC ausbaut, und profitieren mittelbar von wachsender Rechenkapazität für Werbung, Suche und generative Dienste. Zugleich steigen ihre eigenen Rechenzentrums-Investitionen, was den Effekt dämpft."
+        },
+        {
+          "sektor": "Zyklischer Konsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Konsumausgaben für Autos, Mode oder Freizeit hängen an Einkommen, Zinsen und Konsumlaune, kaum am Halbleiter-Investitionszyklus. Ein schwacher Nebenkanal besteht bei Herstellern chipintensiver Geräte über die Bauteilkosten."
+        },
+        {
+          "sektor": "Basiskonsum",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Nahrung, Getränke und Haushaltswaren werden unabhängig vom KI-Ausbau nachgefragt und zeigen kaum Verbindung zu Chip-Investitionen. Der Sektor bleibt praktisch unberührt."
+        },
+        {
+          "sektor": "Gesundheit",
+          "betroffenheit": "kaum",
+          "richtung": "neutral",
+          "mechanismus": "Pharma und Medizintechnik folgen eigenen Treibern wie Zulassungen, Studien und Demografie. Nur ein schmaler Randbereich mit KI-gestützter Bildgebung berührt das Thema, ohne den Sektor spürbar zu bewegen."
+        },
+        {
+          "sektor": "Finanzen",
+          "betroffenheit": "indirekt",
+          "richtung": "gemischt",
+          "mechanismus": "Banken finanzieren einen Teil der milliardenschweren Fabrik- und Rechenzentrums-Investitionen und verdienen an Krediten und Beratung. Ein wachsendes Kreditvolumen im KI-Bau erhöht aber auch das Klumpenrisiko, falls die Welle später enttäuscht."
+        },
+        {
+          "sektor": "Energie",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "KI-Rechenzentren und neue Fabriken verbrauchen sehr viel Strom, was die Nachfrage nach Erdgas als Kraftwerksbrennstoff anhebt. Gasproduzenten und Anbieter von Kraftwerksbrennstoffen profitieren vom steigenden Strombedarf."
+        },
+        {
+          "sektor": "Grundstoffe",
+          "betroffenheit": "direkt",
+          "richtung": "positiv",
+          "mechanismus": "Der Fabrikbau in Arizona und die 2-Nanometer-Fertigung verbrauchen große Mengen an Kupfer, Industriegasen wie Stickstoff und Neon, Spezialchemie sowie Baustoffe. Zulieferer von Halbleitermaterialien und Industriegasen sehen direkt höhere Bestellvolumina."
+        },
+        {
+          "sektor": "Industrie",
+          "betroffenheit": "direkt",
+          "richtung": "positiv",
+          "mechanismus": "Der Ausbau erfordert Bau, Reinraumtechnik, Automatisierung, elektrische Ausrüstung und Kühlung, und genau diese Aufträge wachsen mit den erhöhten Capex-Plänen. Profiteure sind Industrieausrüster, Klima- und Kühltechnik sowie Elektrotechnik für Stromverteilung."
+        },
+        {
+          "sektor": "Versorger",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Neue Fabriken und Rechenzentren brauchen gesicherte Stromlieferung und Netzanschlüsse, was Absatz und Investitionsbasis regionaler Versorger erhöht. Versorger im Umfeld der Arizona-Standorte profitieren von langfristig steigender Stromnachfrage."
+        },
+        {
+          "sektor": "Immobilien",
+          "betroffenheit": "indirekt",
+          "richtung": "positiv",
+          "mechanismus": "Die Investitionswelle stützt die Nachfrage nach Rechenzentrums-Flächen und Industrieimmobilien nahe der neuen Standorte. Rechenzentrums-REITs und Betreiber von Industrieflächen sehen höhere Auslastung und Mietnachfrage."
+        }
+      ],
+      "factcheck": {
+        "claim": "Alle TSMC-Kennzahlen",
+        "verdict": "bestätigt",
+        "evidence": "CNBC, Investing.com, Qz, TSMC-Investorenseite (16.7.)"
+      },
+      "sources": [
+        {
+          "title": "TSMC Reports Second Quarter EPS of NT$27.25",
+          "url": "https://pr.tsmc.com/english/news/3326",
+          "tier": 1
+        },
+        {
+          "title": "TSMC announces additional $100bn investment in Arizona as chipmaker posts $40.2bn revenue for Q2 2026",
+          "url": "https://www.datacenterdynamics.com/en/news/tsmc-announces-additional-100bn-investment-in-arizona-as-chipmaker-posts-402bn-revenue-for-q2-2026/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-asml-hebt-den-ausblick-und-meldet-di",
+      "ressort": "unternehmen",
+      "kicker": "Unternehmensanalyse · ASML",
+      "headline": "ASML hebt den Ausblick und meldet die Aufträge für 2027 schon jetzt",
+      "dek": "Der Ausrüster hinter jeder modernen Chipfabrik sieht anhaltend starke Nachfrage. Sein Auftragsbuch widerspricht der Angst vor einem KI-Abschwung.",
+      "body": [
+        "ASML meldete am 15. Juli einen Q2-Umsatz von 9,3 Milliarden Euro und einen Nettogewinn von 2,9 Milliarden Euro, das entspricht 31 Prozent des Umsatzes. Die Bruttomarge lag bei 54 Prozent. Das Unternehmen lieferte 91 Systeme aus, darunter 16 der besonders teuren EUV-Maschinen für die feinsten Strukturen.",
+        "Den Jahresausblick hob ASML an, auf einen Umsatz von 43 bis 45 Milliarden Euro. Erwartet wird ein Wachstum des Umsatzes mit Speicherkunden von rund 75 Prozent. Bemerkenswert ist eine Aussage des Managements: Man habe bereits nahezu alle Aufträge erhalten, die für das Jahr 2027 nötig sind.",
+        "Hier zeigt sich die zentrale Spannung des Tages. Die Ausrüster sehen einen mehrjährigen Investitionsboom, auch bei Speicher. Die Aktien der Speicherhersteller fallen zugleich, weil der Markt genau diese Kapazitätsausweitung als künftiges Überangebot bei den Chips fürchtet."
+      ],
+      "lehre": "Ein Ausrüster am Anfang der Wertschöpfungskette liefert oft ein ehrlicheres Bild der geplanten Investitionen als die Schlagzeilen über einzelne Endprodukte.",
+      "company": {
+        "name": "ASML",
+        "ticker": "ASML",
+        "exchange": "Euronext / Nasdaq",
+        "logoKey": "asml",
+        "whatTheyDo": "Baut die Lithografie-Maschinen, mit denen Chiphersteller feinste Strukturen auf Silizium belichten. Die EUV-Technik beherrscht ASML als einziger Anbieter weltweit.",
+        "whyItMatters": "Weil jede fortschrittliche Fabrik ASML-Maschinen braucht, ist das Auftragsbuch ein direkter Blick auf die geplanten Investitionen der gesamten Branche.",
+        "keyMetrics": [
+          [
+            "Umsatz Q2",
+            "9,3 Mrd. €"
+          ],
+          [
+            "Nettogewinn Q2",
+            "2,9 Mrd. € (31 %)"
+          ],
+          [
+            "Bruttomarge",
+            "54,0 %"
+          ],
+          [
+            "Systeme (davon EUV)",
+            "91 (16)"
+          ],
+          [
+            "Jahresausblick 2026",
+            "43-45 Mrd. € Umsatz"
+          ],
+          [
+            "Aufträge 2027",
+            "nahezu vollständig vorliegend"
+          ]
+        ]
+      },
+      "factcheck": {
+        "claim": "ASML Q2: 9,3 Mrd. € Umsatz, 2,9 Mrd. € Gewinn, Ausblick angehoben",
+        "verdict": "bestätigt",
+        "evidence": "ASML-Pressemitteilung, Investing.com (15.7.)"
+      },
+      "sources": [
+        {
+          "title": "ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026",
+          "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results",
+          "tier": 1
+        },
+        {
+          "title": "Earnings call transcript: ASML beats Q2 2026 forecasts and lifts full-year outlook",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4793698",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-massenspeicher-warum-der-betriebsheb",
+      "ressort": "unternehmen",
+      "kicker": "Unternehmensanalyse · Kioxia und Micron",
+      "headline": "Massenspeicher: Warum der Betriebshebel in beide Richtungen schlägt",
+      "dek": "Kioxia und Micron stehen im Zentrum der Sorge, dass der Preiszyklus bei DRAM und NAND von der Knappheit ins Überangebot kippt.",
+      "body": [
+        "Kioxia verlor am 17. Juli 15,3 Prozent, Micron am Vortag 5,2 Prozent. Der Mechanismus dahinter ist der Betriebshebel. Eine Chipfabrik trägt sehr hohe Fixkosten. Fällt der Verkaufspreis je Chip, bricht ein großer Teil davon direkt auf den Gewinn durch. Steigt der Preis, springt der Gewinn nach oben.",
+        "Ein Überangebot zeigt sich zuerst im Lager. Steigende Vorräte binden Kapital, sinkt der Marktpreis unter den Buchwert, folgt eine Abwertung, die den Gewinn zusätzlich belastet. Genau diese Kette preist der Markt gerade ein, noch bevor sie in den Quartalszahlen sichtbar wird."
+      ],
+      "mechanik": "Der Betriebshebel beschreibt, wie stark der Gewinn auf Umsatzänderungen reagiert. Hohe Fixkosten bedeuten einen starken Hebel und damit sehr schwankende Gewinne, was Speicherwerte zu klassischen Zyklustiteln macht.",
+      "company": {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "exchange": "Nasdaq",
+        "logoKey": "micron",
+        "whatTheyDo": "Stellt Speicherchips her, vor allem DRAM als Arbeitsspeicher und NAND als Datenspeicher.",
+        "whyItMatters": "Speicherpreise sind stark zyklisch, weshalb der Gewinn extrem schwankt und die Aktie früh auf Preiswenden reagiert.",
+        "keyMetrics": [
+          [
+            "Kursreaktion 16.7.",
+            "-5,22 %"
+          ],
+          [
+            "Kioxia 17.7.",
+            "-15,33 %"
+          ],
+          [
+            "Produkt",
+            "austauschbare Massenware"
+          ],
+          [
+            "Treiber",
+            "Angebot und Preis"
+          ]
+        ]
+      },
+      "factcheck": {
+        "claim": "Kioxia -15,33 % (17.7.), Micron -5,22 % (16.7.)",
+        "verdict": "bestätigt",
+        "evidence": "TradingKey, Yahoo Finance"
+      },
+      "sources": [
+        {
+          "title": "Memory Giant Kioxia Tumbles 16% Today: Market Value Halved in a Month, Japan Stock Ranking Drops to Fifth",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262036414-stock-ai-kioxia-price-japan-skhy-sndk-wdc-mu-tsmc-tradingkey",
+          "tier": 2
+        },
+        {
+          "title": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
+          "url": "https://finance.yahoo.com/markets/article/micron-samsung-sk-hynix-just-dragged-memory-stocks-into-a-bear-market-154549356.html",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-der-us-konsum-waechst-weiter-aber-der-schwung",
+      "ressort": "makro",
+      "kicker": "Konjunktur · US-Konsum",
+      "headline": "Der US-Konsum wächst weiter, aber der Schwung lässt nach",
+      "dek": "Die Einzelhandelsumsätze für Juni steigen nur leicht. Billigere Spritpreise entlasten die Haushalte, das Ausgabenmomentum kühlt sich ab.",
+      "body": [
+        "Die US-Einzelhandelsumsätze legten im Juni um 0,2 Prozent gegenüber dem Vormonat zu, gemessen am Vorjahr um 6,7 Prozent, auf ein Gesamtvolumen von 768,6 Milliarden Dollar. Die Tankstellenumsätze fielen um 5,3 Prozent wegen billigerer Spritpreise, während Onlinehandel und Sportartikel solide zulegten.",
+        "Das Bild ist ein noch wachsender, aber langsamerer Konsum. Für den größten Teil der US-Wirtschaftsleistung ist das ein wichtiger Gradmesser. Am 15. Juli warnte zudem Investor Warren Buffett vor Spekulation statt langfristigem Investieren und verwies auf die stark gestiegene Wertpapierkredit-Verschuldung als historisches Warnsignal."
+      ],
+      "mechanik": "Die Einzelhandelsumsätze messen die Ausgaben der Verbraucher. Eine schwache Zahl erhöht die Erwartung von Zinssenkungen, eine starke kann die Sorge vor höheren Zinsen nähren. Der Markt liest die Zahl stets im Verhältnis zu seinen Zinserwartungen.",
+      "factcheck": {
+        "claim": "US-Einzelhandel Juni +0,2 % m/m, +6,7 % j/j, Tankstellen -5,3 %",
+        "verdict": "bestätigt",
+        "evidence": "Qz, US Census (16.7.)"
+      },
+      "sources": [
+        {
+          "title": "Advance Monthly Sales for Retail and Food Services, June 2026",
+          "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+          "tier": 1
+        },
+        {
+          "title": "U.S. retail sales rose 0.2% in June 2026, up 6.7% year over year",
+          "url": "https://qz.com/us-retail-sales-june-2026-071626",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-der-anleihemarkt-atmet-auf-doch-das",
+      "ressort": "makro",
+      "kicker": "Konjunktur · Inflation und Zinsen",
+      "headline": "Der Anleihemarkt atmet auf, doch das Öl steht als Gegenspieler bereit",
+      "dek": "Kühlere Erzeugerpreise senken die Zinserwartung. Der wieder anziehende Ölpreis droht den Effekt in den kommenden Monaten teilweise umzukehren.",
+      "body": [
+        "Die zuletzt veröffentlichten US-Erzeugerpreise fielen kühler aus als erwartet und dämpften die Erwartung einer Zinserhöhung. Am Anleihemarkt blieb die zehnjährige Rendite mit rund 4,56 Prozent stabil, die zweijährige stieg leicht auf rund 4,15 Prozent. Ein Teil der guten Inflationszahlen stammt aus der Phase gesunkener Energiepreise während der Waffenruhe im Juni.",
+        "Der seit Anfang Juli wieder höhere Ölpreis dürfte diesen Effekt teilweise umkehren. Für die Fed zählt weniger die Zahl im Rückspiegel als die Frage, wohin die Inflation als Nächstes läuft."
+      ],
+      "mechanik": "Märkte preisen Erwartungen über die Zukunft ein. Eine gute Inflationszahl kann überholt sein, wenn ein neuer Kostentreiber wie der Ölpreis am Horizont steht. Deshalb bewegt oft der Ausblick die Kurse stärker als die veröffentlichte Zahl selbst.",
+      "factcheck": {
+        "claim": "Kühlere Erzeugerpreise, 10J stabil ~4,56 %",
+        "verdict": "bestätigt",
+        "evidence": "Yahoo Finance (16.7.); Zweitrundeneffekt ist Interpretation"
+      },
+      "sources": [
+        {
+          "title": "Treasury yields fall as traders react to encouraging inflation data",
+          "url": "https://www.cnbc.com/2026/07/15/treasury-yields-investors-producer-price-inflation-data.html",
+          "tier": 2
+        },
+        {
+          "title": "Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10)",
+          "url": "https://fred.stlouisfed.org/series/DGS10/",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "id": "unternehmen-der-festere-yen-verschaerft-den-druck",
+      "ressort": "makro",
+      "kicker": "Devisen · Yen",
+      "headline": "Der festere Yen verschärft den Druck auf Japans Exportwerte",
+      "dek": "Ein stärkerer Yen schmälert die in Landeswährung umgerechneten Auslandsgewinne japanischer Konzerne und verstärkt den Rückgang am Aktienmarkt.",
+      "body": [
+        "In der schwachen Tokioter Sitzung am 17. Juli wirkte neben dem Chip-Ausverkauf auch ein festerer Yen belastend. Ein Teil der Marktberichte nennt die Yen-Stärke ausdrücklich als Grund, warum die Gewinne der Exporteure unter Druck geraten.",
+        "Der Zusammenhang gehört zum Handwerkszeug jedes internationalen Anlegers. Viele japanische Großkonzerne verdienen einen erheblichen Teil ihres Geldes im Ausland. Wertet der Yen auf, sind dieselben Dollar- oder Euro-Erlöse in Yen weniger wert."
+      ],
+      "mechanik": "Der Wechselkurs wirkt wie ein Umrechnungsfaktor auf Auslandsgewinne. Ein starker Yen senkt den in Yen ausgewiesenen Gewinn exportstarker Konzerne, was ihre Aktien belastet, während er Importeuren und Reisenden zugutekommt.",
+      "factcheck": {
+        "claim": "Yen-Stärke als zusätzlicher Belastungsfaktor am 17.7.",
+        "verdict": "unsicher",
+        "evidence": "TradingKey-Marktbericht (17.7.); ohne exakten Kursstand"
+      },
+      "sources": [
+        {
+          "title": "South Korean Stocks Closed to Avoid Storm, Japanese Stocks Plunge at Open, Nikkei 225 Tumbles 3%, Kioxia Slumps Over 15%",
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262035909-nekki-kioxia-ai-softbank-japan-mu-nvda-tradingkey",
+          "tier": 2
+        },
+        {
+          "title": "Japanese Yen strengthens on intervention warning, cooling US inflation",
+          "url": "https://www.fxstreet.com/news/japanese-yen-strengthens-on-intervention-warning-cooling-us-inflation-202607160222",
+          "tier": 2
+        }
+      ]
+    }
+  ],
+  "branchenMonitor": [
+    {
+      "sektor": "Informationstechnologie",
+      "wasIstDas": "Chips, Software, Hardware, KI-Infrastruktur.",
+      "lage": "Zweiter Ausverkaufstag bei Halbleitern, TSMC und ASML liefern starke Zahlen, die Kurse fallen trotzdem.",
+      "richtung": "down",
+      "tagesWert": "SOX -4 % (16.7.), TSMC-ADR -2,3 %",
+      "istZustand": "Der Sektor trägt eine hohe KI-Prämie und ist damit anfällig für jede Enttäuschung im Erwartungsniveau. Innerhalb des Sektors klaffen zwei Zyklen auseinander. Auftragsfertiger und KI-Logik stehen spät in einem starken Nachfragezyklus, während der Massenspeicher gerade von der Knappheit ins drohende Überangebot kippt. Die Rekordzahlen von TSMC und der angehobene Ausblick von ASML bestätigen den Investitionsboom auf der Angebotsseite. Nach der Kapitalzyklus-Logik sät genau diese Investitionswelle die Überkapazität von morgen, zuerst sichtbar bei den austauschbaren Massenprodukten. Der laufende zweitägige Ausverkauf ist überwiegend eine Repreisung der Positionierung und Bewertung, kein Zeichen für einen Nachfrageeinbruch."
+    },
+    {
+      "sektor": "Kommunikation",
+      "wasIstDas": "Internet-Plattformen, Medien, Telekom.",
+      "lage": "Alphabet fällt fast 4 Prozent, Netflix stürzt nachbörslich rund 8 Prozent an einer schwachen Prognose.",
+      "richtung": "down",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Die großen Plattformen sind ambitioniert bewertet und tragen dies mit stabilem Werbewachstum und der Fantasie KI-gestützter Monetarisierung. Das zentrale Spannungsfeld liegt zwischen hohen Rechenzentrums-Investitionen und der Frage, wie schnell diese in Erlöse umschlagen. Bei Alphabet kommt das Kartellrisiko durch das US-Justizministerium als eigener Bewertungsfaktor hinzu. Der Streaming-Teil zeigt mit dem Netflix-Ausblick, dass das Abo-Wachstum an Tempo verliert und der Wettbewerb härter wird. Steigende Abschreibungen auf neue KI-Hardware drücken künftig die Margen, sofern die Produkte nicht zügig Geld verdienen. Der Telekom-Teil bleibt defensiv, zinssensitiv und wachstumsarm."
+    },
+    {
+      "sektor": "Zyklischer Konsum",
+      "wasIstDas": "Autos, Handel, Reisen, Luxus.",
+      "lage": "Einzelhandel wächst langsamer, billigeres Benzin stützt die Kaufkraft, teure Wachstumswerte werden abverkauft.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist konjunkturabhängig und in der Bewertung gespalten. Der US-Konsum wächst noch, verliert aber an Schwung und reagiert empfindlich auf Zinsen und Benzinpreise. Autohersteller und Luxuskonzerne mit hohem China-Anteil stehen strukturell unter Druck, weil die dortige Nachfrage nach der Immobilienkrise schwach bleibt. Ein Thema der nächsten Quartale ist die Spreizung zwischen einkommensstarken Haushalten, die weiter ausgeben, und einkommensschwächeren, die sparen. Nach Porters Wettbewerbslogik verschärft der Onlinehandel den Preisdruck im stationären Handel. Reise und Erlebnis bleiben vergleichsweise gefragt, während teure Wachstumswerte im aktuellen Bewertungs-Reset stärker nachgeben."
+    },
+    {
+      "sektor": "Basiskonsum",
+      "wasIstDas": "Nahrung, Getränke, Haushaltswaren.",
+      "lage": "Ruhiger, defensiver Anker, profitiert relativ von der Umschichtung aus teuren KI-Werten.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Die Bewertung liegt nahe dem langjährigen Durchschnitt, das Mengenwachstum ist schwach. Nach Jahren der Preiserhöhungen müssen die Hersteller wieder über Menge wachsen, weil die Verbraucher preissensibler geworden sind und teils zu Handelsmarken wechseln. Ein strukturelles Thema sind die Abnehmpräparate, die den Konsum bestimmter kalorienreicher Produkte langfristig dämpfen könnten. Der Sektor bietet stabile Ausschüttungen und geringe Schwankung und gewinnt in unsicheren Marktphasen relativ an Attraktivität, weil seine Nachfrage kaum vom Konjunkturzyklus abhängt. In der aktuellen Rotation aus KI-Werten zählt er zu den relativen Gewinnern."
+    },
+    {
+      "sektor": "Gesundheit",
+      "wasIstDas": "Pharma, Medizintechnik, Versicherer.",
+      "lage": "Weitgehend abgekoppelt vom Chip-Thema, defensiver Anker in der Sentimentkorrektur.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist unter dem Marktschnitt bewertet und gilt als konjunkturrobust, weil die Nachfrage nach Behandlung kaum vom Zyklus abhängt. Drei Themen prägen die nächsten Quartale. Erstens laufen bei mehreren Pharmakonzernen wichtige Patente aus, was Umsatz kostet. Zweitens bleibt die US-Preisregulierung ein politisches Risiko. Drittens verändern Abnehmpräparate ganze Produktkategorien und schaffen neue Wachstumsfelder. Medizintechnik und Diagnostik gewinnen durch KI-gestützte Auswertung einen zusätzlichen, kleinen Nachfragekanal. In der aktuellen Umschichtung aus teuren KI-Werten zieht der Sektor als defensives Ziel relativ Kapital an."
+    },
+    {
+      "sektor": "Finanzen",
+      "wasIstDas": "Banken, Versicherer, Kapitalmarktdienste.",
+      "lage": "Als Value-Segment teils gefragt in der Rotation, der Kapitalmarkt-Boom füllt weiter Gebühren.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Großbanken und Kapitalmarktdienstleister sind gemessen an ihren Gewinnen günstig bewertet und stehen spät in einem starken Zyklus. Der Boom bei Fusionen, Börsengängen und Handel füllt die Gebühren, diese Erträge sind jedoch volatil und nicht beliebig fortschreibbar. Zwei Risiken prägen die nächsten Quartale, mögliche Ausfälle bei Gewerbeimmobilienkrediten und die sinkende Zinsmarge im Kreditgeschäft. Spezialversicherer verdienen derzeit an einem harten Preiszyklus mit hohen Prämien, der sich jedoch abzukühlen beginnt. Vermögensverwalter mit gebührenbasiertem Modell profitieren direkt von steigenden Märkten und stetigen Zuflüssen, was ihre Erträge stabiler macht."
+    },
+    {
+      "sektor": "Energie",
+      "wasIstDas": "Öl, Gas, Ölfeld-Dienste.",
+      "lage": "Brent hält sich über 84 Dollar, die Hormus-Prämie stützt Förderer und Tanker.",
+      "richtung": "up",
+      "tagesWert": "Brent 84,64 $ (16.7., Fortune)",
+      "istZustand": "Der Sektor ist zyklisch, günstig bewertet und trägt derzeit eine Geopolitik-Prämie. Nach Jahren der Kapitaldisziplin schütten viele Förderer hohe Anteile ihres Cashflows aus, statt aggressiv zu investieren, was das Angebot knapper hält und die Preise stützt. Das zentrale Spannungsfeld liegt zwischen der kurzfristigen Empfindlichkeit für geopolitische Ereignisse und der langfristigen Unsicherheit über die Ölnachfrage in einer Welt zunehmender Elektrifizierung. Ein neues Nachfragethema ist der hohe Strombedarf der KI-Rechenzentren, der Erdgas als Brücke wieder gefragter macht. Der jüngst wieder erhöhte Brent-Preis erinnert daran, wie schnell eine Geopolitik-Prämie zurückkehrt."
+    },
+    {
+      "sektor": "Grundstoffe",
+      "wasIstDas": "Chemie, Metalle, Bergbau, Baustoffe.",
+      "lage": "Gemischt, der Fabrik- und Rechenzentrumsbau stützt Industriegase und Spezialchemie, China bleibt schwach.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor hängt stark an China und leidet unter der dortigen Bauschwäche, viele Metallpreise liegen nahe dem Zyklustief. Die Chemie kämpft zusätzlich mit hohen Energiekosten und Überkapazitäten. Ein strukturelles Gegenthema ist die Elektrifizierung, die die Nachfrage nach Kupfer und Spezialmetallen langfristig hebt, kurzfristig überwiegt jedoch die zyklische Schwäche. Anbieter von Halbleitermaterialien wie Industriegasen und Spezialchemie sind an den Chipzyklus gekoppelt und profitieren vom Fabrikausbau in Arizona. Nach dem Kapitalzyklus könnte die heutige Investitionszurückhaltung in Teilen des Sektors die Basis für den nächsten Aufschwung legen."
+    },
+    {
+      "sektor": "Industrie",
+      "wasIstDas": "Maschinenbau, Transport, Rüstung, Bau, Elektrotechnik.",
+      "lage": "Gemischt, Rechenzentrumstechnik profitiert vom Capex-Ausbau, GE Aerospace fällt 4 Prozent.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Nach der Rüstungs- und Reshoring-Rally ist der Sektor eher teuer bewertet und steht spät im Zyklus, die Auftragsbücher sind jedoch gut gefüllt. Das stärkste Strukturthema ist der Bau von Rechenzentren und Chipfabriken, der die Nachfrage nach Stromverteilung, Kühlung, Netztechnik und Automatisierung antreibt. Die angehobenen Capex-Pläne von TSMC verstärken diesen Rückenwind. Dazu kommen die Aufrüstung in Europa und die Verlagerung von Lieferketten. Ein Gegengewicht bilden hohe Frachtkosten und die schwache Nachfrage aus China. Innerhalb des Sektors trennt sich die Spreu vom Weizen entlang der Frage, wer an Elektrifizierung und KI-Ausbau verdient."
+    },
+    {
+      "sektor": "Versorger",
+      "wasIstDas": "Strom- und Gasversorger, Netzbetreiber.",
+      "lage": "Defensiv gefragt in der Rotation, der KI-Strombedarf bleibt das große Strukturthema.",
+      "richtung": "up",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Versorger verhalten sich anleiheähnlich und sind zuletzt teurer geworden, weil Anleger stabile Ausschüttungen suchen. Das größte Strukturthema ist die steigende Stromnachfrage aus KI-Rechenzentren und neuen Fabriken, die nach Jahren stagnierender Verbräuche wieder Wachstum bringt. Das rechtfertigt hohe Investitionen in Netze und Erzeugung, die als regulierte Kapitalbasis die künftigen Gewinne stützen. Die Kehrseite ist die hohe Verschuldung, die den Sektor zinssensitiv macht. Stabile bis leicht fallende Zinsen wirken deshalb doppelt positiv, über niedrigere Finanzierungskosten und über die relative Attraktivität der Dividende. In der aktuellen Rotation aus KI-Werten zählt er zu den defensiven Zielen."
+    },
+    {
+      "sektor": "Immobilien",
+      "wasIstDas": "REITs, Gewerbe, Wohnen, Rechenzentren.",
+      "lage": "Zwiespältig, stabile Zinsen stützen REITs, die Überkapazitätssorge belastet Rechenzentren.",
+      "richtung": "neutral",
+      "tagesWert": "keine Sektordaten belegt",
+      "istZustand": "Der Sektor ist stark zinssensitiv und wurde unter den hohen Zinsen der Vorjahre gedrückt, viele Bewertungen sind niedrig. Innerhalb des Sektors laufen die Segmente auseinander. Rechenzentrums- und Logistikimmobilien wachsen mit der Digitalisierung, während klassische Büroimmobilien unter Leerstand und Homeoffice leiden. Der wichtigste kurzfristige Treiber bleibt das Zinsniveau, weil es Finanzierungskosten und die Bewertung der Mieteinnahmen bestimmt. Ein spezifisches Thema ist, ob der KI-Ausbau die Nachfrage nach Rechenzentrumsflächen dauerhaft trägt oder ob eine Überkapazität droht, sobald zu viele Betreiber gleichzeitig bauen. Die aktuelle Chip-Debatte hält genau diese Frage offen."
+    }
+  ],
+  "stockPicks": [
+    {
+      "name": "SentinelOne",
+      "ticker": "S",
+      "logoKey": "sentinelone",
+      "marketCapEUR": "5,87 Mrd. €",
+      "capSource": "6,71 Mrd. $, Alpha Vantage COMPANY_OVERVIEW 17.7.2026, EUR/USD 1,1442 (Alpha Vantage 17.7.)",
+      "marktEinordnung": "Der Markt für Cybersicherheit wächst strukturell, weil jede Digitalisierung die Angriffsfläche vergrößert und Angreifer zunehmend selbst KI einsetzen. SentinelOne bietet eine KI-gestützte Plattform, die Angriffe auf Geräten und in der Cloud automatisch erkennt und abwehrt, ohne dass ein Mensch jede Warnung prüfen muss. In diesem Feld gehört das Unternehmen zu den technologisch führenden Herausforderern des Marktführers und gewinnt Marktanteile bei mittelgroßen und großen Kunden.",
+      "thesis": "SentinelOne verkauft ein Produkt, das Unternehmen kaum noch weglassen können, weil ein einziger erfolgreicher Angriff teurer ist als die Software. Der Umsatz wuchs zuletzt um rund 21 Prozent auf gut 1 Milliarde Dollar über zwölf Monate, die Bruttomarge liegt bei etwa 73 Prozent, was die hohe Skalierbarkeit von Software zeigt. Das Geschäftsmodell beruht auf wiederkehrenden Abonnements, sodass einmal gewonnene Kunden über Jahre zahlen und tendenziell mehr Module hinzukaufen. Der eigentliche Hebel liegt im Weg zur Profitabilität. Solange der Umsatz zweistellig wächst und die Kosten langsamer steigen, verwandelt sich der heutige Verlust mittelfristig in einen Gewinn. Wer an eine anhaltende Verlagerung von Sicherheitsbudgets zu KI-nativen Plattformen glaubt, findet hier einen kapitalarmen Hebel darauf.",
+      "counterarguments": [
+        "Das Unternehmen ist noch nicht profitabel, der operative Verlust liegt bei rund 29 Prozent des Umsatzes, und der Weg in die schwarzen Zahlen hängt an anhaltend hohem Wachstum.",
+        "Der Wettbewerb ist hart, mit einem größeren spezialisierten Marktführer und Microsoft als breit aufgestelltem Anbieter, was auf Preise und Wachstum drücken kann.",
+        "Mit einem Kurs-Umsatz-Verhältnis von rund 6 und einem vorwärtsgerichteten Kurs-Gewinn-Verhältnis um 58 ist die Aktie anfällig, falls sich das Wachstum verlangsamt."
+      ],
+      "catalysts": [
+        "Nächste Quartalszahlen mit Blick auf Wachstum und den Übergang in die Profitabilität",
+        "größere Neukunden oder Partnerschaften als Beleg für Marktanteilsgewinne"
+      ]
+    },
+    {
+      "name": "TransMedics Group",
+      "ticker": "TMDX",
+      "logoKey": "transmedics",
+      "marketCapEUR": "2,28 Mrd. €",
+      "capSource": "2,61 Mrd. $, Alpha Vantage COMPANY_OVERVIEW 17.7.2026, EUR/USD 1,1442 (Alpha Vantage 17.7.)",
+      "marktEinordnung": "Jedes Jahr gehen viele Spenderorgane verloren, weil sie auf dem klassischen Transportweg im Eis zu schnell verderben. TransMedics hält Herz, Lunge und Leber mit einem eigenen Gerät während des Transports warm und durchblutet, was die nutzbare Zeit verlängert und die Zahl verwendbarer Organe erhöht. Zusätzlich betreibt das Unternehmen ein eigenes Netz aus Flugzeugen und Logistik. Diese Kombination aus Gerät, Verbrauchsmaterial und Transportdienst macht TransMedics in einer bislang unterversorgten Nische zum führenden Anbieter.",
+      "thesis": "TransMedics verbindet ein Medizingerät mit einem wiederkehrenden Geschäft. Für jede Transplantation fallen ein Einwegmodul und eine Transportleistung an, ähnlich dem Prinzip von Rasierer und Klinge. Der Umsatz wuchs zuletzt um rund 21 Prozent auf gut 630 Millionen Dollar, das Unternehmen ist profitabel mit einer zweistelligen Nettomarge und einer Eigenkapitalrendite von rund 45 Prozent. Der Markt hat die Aktie von über 150 Dollar auf zuletzt rund 76 Dollar zurückgestuft, nachdem der Gewinn im jüngsten Quartal gegenüber Vorjahr deutlich fiel. Genau darin liegt die Chance für einen langfristig orientierten Anleger. Wenn das Netz aus Logistik und Geräten weiter skaliert und die Kosten des Aufbaus in Erlöse umschlagen, verbindet TransMedics ein strukturelles Wachstumsthema mit einem schwer kopierbaren Geschäftsmodell.",
+      "counterarguments": [
+        "Der Gewinn brach im jüngsten Quartal gegenüber Vorjahr um rund 72 Prozent ein, was zeigt, wie stark der Aufbau von Flugflotte und Personal die Marge belasten kann.",
+        "Das Geschäft hängt an einer einzigen Therapie und an der US-Erstattungspraxis, eine Änderung der Vergütung träfe das Modell hart.",
+        "Die Aktie ist mit einem vorwärtsgerichteten Kurs-Gewinn-Verhältnis von rund 38 und einem Beta von fast 1,9 volatil und teuer gegenüber dem aktuellen Gewinn."
+      ],
+      "catalysts": [
+        "Nächste Quartalszahlen mit Blick auf Margen und die Auslastung des Logistiknetzes",
+        "internationale Expansion als Beleg für einen größeren erreichbaren Markt"
+      ]
+    },
+    {
+      "name": "Kinsale Capital Group",
+      "ticker": "KNSL",
+      "logoKey": "kinsale",
+      "marketCapEUR": "6,63 Mrd. €",
+      "capSource": "7,58 Mrd. $, Alpha Vantage COMPANY_OVERVIEW 17.7.2026, EUR/USD 1,1442 (Alpha Vantage 17.7.)",
+      "marktEinordnung": "Kinsale ist im Markt für Spezial- und Überschussversicherung tätig, dem sogenannten E&S-Markt. Dort landen Risiken, die Standardversicherer nicht zeichnen wollen, etwa ungewöhnliche Gewerbe- oder Haftungsrisiken. Dieser Markt wächst schneller als der klassische Versicherungsmarkt, weil Risiken komplexer werden und Standardanbieter sich zurückziehen. Kinsale ist auf kleine, margenstarke Fälle spezialisiert, arbeitet vollständig digital und gilt als einer der disziplinierten und profitabelsten Anbieter des Segments.",
+      "thesis": "Kinsale ist ein Qualitätsunternehmen, das die Börse gerade skeptischer bewertet. Die Eigenkapitalrendite liegt bei rund 30 Prozent, die Nettomarge bei etwa 27 Prozent, was in der Versicherungsbranche außergewöhnlich ist. Möglich wird das durch einen strengen Fokus auf profitable Nischen und eine schlanke, technologiegestützte Kostenbasis. Nach Jahren hoher Prämien kühlt sich der Preiszyklus jedoch ab, das Umsatzwachstum verlangsamte sich auf rund 10 Prozent, und die Aktie fiel von über 500 auf rund 310 Dollar. Das Kurs-Gewinn-Verhältnis von etwa 14 liegt weit unter dem historischen Niveau des Unternehmens. Wer darauf setzt, dass Kinsale seine Disziplin und seinen Kostenvorteil auch in einem weicheren Markt behält und Marktanteile gewinnt, erhält einen Qualitätswert zu einer selten günstigen Bewertung.",
+      "counterarguments": [
+        "Das Wachstum hat sich von früher über 30 Prozent auf rund 10 Prozent verlangsamt, weil der Preiszyklus im Spezialgeschäft weicher wird.",
+        "Ein weicher Markt mit fallenden Prämien kann die außergewöhnlich hohe Marge unter Druck setzen, zumal Schadenreserven für Haftungsfälle sich später als zu niedrig erweisen können.",
+        "Die Analystenmeinungen sind vorsichtig, mit überwiegend neutralen und einzelnen negativen Einstufungen, was auf Zweifel am künftigen Tempo hindeutet."
+      ],
+      "catalysts": [
+        "Nächste Quartalszahlen mit Blick auf Prämienwachstum und Schaden-Kosten-Quote",
+        "Anzeichen für gewonnene Marktanteile, während sich Wettbewerber aus dem Spezialgeschäft zurückziehen"
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "what": "Speicher-Überangebot (DRAM und NAND)",
+      "when": "laufend",
+      "bullishIf": "Preisstabilisierung und disziplinierte Kapazitätsplanung",
+      "bearishIf": "weitere Kurs- und Gewinnwarnungen bei Micron, SK Hynix, Samsung, Kioxia"
+    },
+    {
+      "what": "Nachhaltigkeit des KI-Investitionsbooms",
+      "when": "laufend",
+      "bullishIf": "weitere Auftragsbestätigungen wie bei ASML und TSMC-Capex",
+      "bearishIf": "Anzeichen, dass Rechenzentrums-Investitionen langsamer in Erlöse umschlagen"
+    },
+    {
+      "what": "Netflix und der Streaming-Wettbewerb",
+      "when": "nach Q2-Zahlen",
+      "bullishIf": "Werbe- und Preisfantasie tragen das Wachstum",
+      "bearishIf": "weiter nachlassendes Abo-Wachstum, härterer Wettbewerb"
+    },
+    {
+      "what": "Alphabet und das DOJ-Kartellverfahren",
+      "when": "laufend",
+      "bullishIf": "milde Verhaltensauflagen ohne Zerschlagung",
+      "bearishIf": "strukturelle Auflagen bis zur Abspaltung von Chrome oder Android"
+    },
+    {
+      "what": "Öl und Hormus",
+      "when": "laufend",
+      "bullishIf": "Deeskalation, Brent unter 75",
+      "bearishIf": "Blockade, Brent über 90, Zweitrundeneffekt-Risiko für die Fed"
+    },
+    {
+      "what": "US-Konsum",
+      "when": "monatlich",
+      "bullishIf": "robuste Einzelhandelszahlen ohne Zinssorge",
+      "bearishIf": "weiter nachlassendes Ausgabenmomentum"
+    },
+    {
+      "what": "Fed-Sitzung 28./29. Juli",
+      "when": "28./29.7.",
+      "bullishIf": "keine Straffung trotz Ölpreis",
+      "bearishIf": "Straffungssignal wegen Zweitrundeneffekten"
+    }
+  ],
+  "learningNotes": [
+    "Rekordzahlen bewegen eine Aktie nur relativ zur Erwartung. Ein bereits eingepreister Rekord kann Verkaufsdruck auslösen.",
+    "Die Ausrüster wie ASML bestätigen den Investitionsboom, während die Massenspeicher-Preise ihn schon als künftiges Überangebot fürchten.",
+    "Die Guidance schlägt oft die Ist-Zahlen. Netflix fiel trotz solider Zahlen an einem schwächeren Ausblick.",
+    "Hoch bewertete Wachstumsaktien reagieren wie lange Anleihen auf jede Repreisung von Risiko und Zins.",
+    "Ein zweitägiger Ausverkauf ohne fundamentale Verschlechterung ist oft Positionierung und Gewinnmitnahme."
+  ],
+  "lernecke": [
+    {
+      "disziplin": "VWL",
+      "modell": "Der Peitscheneffekt in Lieferketten",
+      "erklaerung": "Der Peitscheneffekt beschreibt, wie kleine Schwankungen der Endnachfrage sich entlang einer Lieferkette immer stärker aufschaukeln. Wenn Händler bei leicht steigender Nachfrage vorsichtshalber etwas mehr bestellen, geben die Hersteller diese erhöhte Bestellung verstärkt an ihre Zulieferer weiter, die wiederum ihre Kapazität ausbauen. Am Anfang der Kette entstehen so viel größere Ausschläge als am Ende. Kehrt sich die Nachfrage, staut sich überall zu viel Ware, und die Preise fallen kräftig. Der Effekt erklärt, warum gerade Vorleistungsgüter wie Speicherchips extreme Zyklen durchlaufen, obwohl die Endnachfrage nach Geräten vergleichsweise stabil bleibt.",
+      "anwendung": "Der Absturz von Kioxia und Micron zeigt den Effekt in Reinform. Nach Jahren hoher Bestellungen und Fabrikinvestitionen droht das Überangebot bei DRAM und NAND, und der Markt preist die Preiswende ein, lange bevor sie in den Zahlen steht."
+    },
+    {
+      "disziplin": "BWL",
+      "modell": "Erwartungen, Konsens und die Rolle der Guidance",
+      "erklaerung": "Der Kurs einer Aktie enthält bereits eine Erwartung an die Zukunft, den sogenannten Konsens der Analysten und Anleger. Eine Nachricht bewegt den Kurs nur, soweit sie von diesem Konsens abweicht. Deshalb kann ein Rekordgewinn zu fallenden Kursen führen, wenn er genau so erwartet wurde, und eine schwache Zahl zu steigenden Kursen, wenn Schlimmeres befürchtet war. Besonders wichtig ist die Guidance, also der Ausblick des Managements. Sie verändert die Erwartung an künftige Quartale und wirkt oft stärker als die bereits bekannten historischen Zahlen. Ein börsennotiertes Unternehmen wird an dem gemessen, was es als Nächstes liefern soll.",
+      "anwendung": "Netflix lieferte solide Q2-Zahlen und fiel dennoch rund 8 Prozent, weil die Umsatzprognose für Q3 unter dem Konsens lag. TSMC meldete einen Rekord und gab trotzdem nach, weil dieser Rekord längst erwartet war und die erhoffte positive Überraschung ausblieb."
+    },
+    {
+      "disziplin": "VWL",
+      "modell": "Long-Duration-Aktien und der Diskontierungsmechanismus",
+      "erklaerung": "Der Wert einer Aktie ist die Summe ihrer künftigen Gewinne, abgezinst auf heute. Je weiter ein Gewinn in der Zukunft liegt, desto stärker wirkt der Abzinsungssatz. Wachstumsaktien, deren Gewinne überwiegend in ferner Zukunft erwartet werden, verhalten sich deshalb wie sehr lange Anleihen. Steigt der Zins oder der Risikoaufschlag, verlieren sie überproportional an Wert, weil ihre weit entfernten Gewinne stärker abgewertet werden. Diese hohe Zinsempfindlichkeit nennt man eine lange Duration. Sie erklärt, warum hoch bewertete Technologie- und KI-Werte auf jede Repreisung von Zins und Risiko besonders heftig reagieren.",
+      "anwendung": "Der zweitägige Ausverkauf bei Chip- und KI-Werten ist auch eine Duration-Geschichte. Als Anleger Risiko abbauten und den KI-Optimismus neu bewerteten, traf der höhere Risikoaufschlag die am weitesten in die Zukunft bewerteten Aktien am stärksten."
+    },
+    {
+      "disziplin": "BWL",
+      "modell": "Der Underwriting-Zyklus in der Versicherung",
+      "erklaerung": "Der Versicherungsmarkt bewegt sich in Wellen zwischen harten und weichen Phasen. In einem harten Markt sind Prämien hoch und Deckung knapp, weil Schäden oder Verluste die Anbieter vorsichtig gemacht haben. Das lockt Kapital an, neue Anbieter drängen herein, der Wettbewerb steigt, und die Prämien sinken wieder in einen weichen Markt. In dieser Phase entscheidet die Disziplin, ob ein Versicherer nur Prämien einsammelt oder auch profitabel zeichnet. Ein zentrales Maß ist die Schaden-Kosten-Quote, die angibt, welcher Anteil der Prämien für Schäden und Verwaltung draufgeht. Liegt sie unter hundert Prozent, verdient der Versicherer schon vor den Kapitalerträgen.",
+      "anwendung": "Kinsale Capital verdient hervorragend im derzeit noch harten Spezialmarkt, doch der Preiszyklus beginnt sich abzukühlen. Für die Aktie ist entscheidend, ob das Unternehmen seine Disziplin und seinen Kostenvorteil auch in einen weicheren Markt hinein hält."
+    },
+    {
+      "disziplin": "Politikwissenschaft",
+      "modell": "Kartellrecht und die Kontrolle von Marktmacht",
+      "erklaerung": "Kartellrecht soll verhindern, dass ein einzelnes Unternehmen einen Markt so dominiert, dass Wettbewerb und Innovation ersticken. Behörden können Verhaltensauflagen verhängen, etwa bestimmte Praktiken verbieten, oder in schweren Fällen strukturelle Auflagen, also die Aufspaltung eines Konzerns. Bei digitalen Plattformen ist das besonders heikel, weil Netzwerkeffekte natürliche Monopole begünstigen und der Wert oft in der Verknüpfung mehrerer Dienste liegt. Ein Verfahren kann Jahre dauern, doch schon die Aussicht auf einschneidende Auflagen verändert die Erwartung an künftige Gewinne und damit die Bewertung heute.",
+      "anwendung": "Der Kursrückgang von Alphabet um fast 4 Prozent zeigt, wie Regulierung zum Bewertungsfaktor wird. Die Aussicht auf eine mögliche Abtrennung von Chrome oder Android durch das US-Justizministerium erhöht die Unsicherheit über das künftige Gewinnzentrum des Konzerns."
+    }
+  ],
+  "financeLink": {
+    "titel": "Finance Link: TSMCs Rekordinvestition – durch GuV, Bilanz, Cashflow und Bewertung gedacht",
+    "absaetze": [
+      "Gewinn- und Verlustrechnung: TSMC hebt seine Investitionsplanung 2026 auf 60 bis 64 Milliarden Dollar an und kündigt weitere 100 Milliarden Dollar für Arizona an. Höhere Investitionen erscheinen nicht sofort als Aufwand. Sie fließen über die Abschreibungen in den kommenden Jahren in die Gewinn- und Verlustrechnung ein und drücken künftige Margen. Der Hochlauf der 2-Nanometer-Technik verwässert die Bruttomarge anfangs um 2 bis 3 Prozentpunkte.",
+      "Bilanz: Die Investitionen erhöhen die Sachanlagen auf der Aktivseite der Bilanz. Finanziert das Unternehmen einen Teil über Schulden, steigt zugleich die Passivseite, was die Zinslast und das Bilanzrisiko erhöht.",
+      "Cashflow: Im Cashflow schlägt die Investition sofort und in voller Höhe als Abfluss im Investitionsbereich durch. Das senkt den freien Cashflow im laufenden Jahr, auch wenn der operative Cashflow stark bleibt. Der erhoffte Rückfluss kommt erst, wenn die neuen Fabriken produzieren.",
+      "Bewertung: Der Markt wägt ab, ob die zusätzlichen Investitionen genug künftiges Wachstum schaffen, um den kurzfristigen Druck auf Marge und freien Cashflow zu rechtfertigen. Eine höhere Kapitalintensität kann die Bewertung belasten, wenn die Rendite auf das eingesetzte Kapital nicht überzeugt."
+    ],
+    "anfaengerfehler": "Höhere Investitionen reflexartig als gutes Zeichen zu lesen, weil das Unternehmen ja in Wachstum investiert. Ohne Blick auf freien Cashflow, Margenverwässerung und die Rendite auf das eingesetzte Kapital verschleiert das die tatsächliche Wertschaffung."
+  },
+  "glossar": [
+    {
+      "begriff": "Capex (Investitionsausgaben)",
+      "erklaerung": "Ausgaben für langlebige Vermögenswerte wie Fabriken und Maschinen, die über Jahre abgeschrieben werden."
+    },
+    {
+      "begriff": "Guidance (Ausblick)",
+      "erklaerung": "Die Prognose des Managements für künftige Umsätze und Gewinne, oft wichtiger für den Kurs als die bekannten historischen Zahlen."
+    },
+    {
+      "begriff": "Konsens",
+      "erklaerung": "Die zusammengefasste Erwartung der Analysten und Anleger, an der eine Nachricht gemessen wird."
+    },
+    {
+      "begriff": "Betriebshebel",
+      "erklaerung": "Beschreibt, wie stark der Gewinn auf Umsatzänderungen reagiert. Hohe Fixkosten bedeuten einen starken Hebel und schwankende Gewinne."
+    },
+    {
+      "begriff": "Bruttomarge",
+      "erklaerung": "Der Anteil des Umsatzes nach Abzug der direkten Herstellkosten, ein Maß für die Preissetzungsmacht."
+    },
+    {
+      "begriff": "EUV",
+      "erklaerung": "Extrem-Ultraviolett-Lithografie, das Verfahren für die feinsten Chipstrukturen, das ASML als einziger Anbieter beherrscht."
+    },
+    {
+      "begriff": "HBM (High Bandwidth Memory)",
+      "erklaerung": "Gestapelter Hochleistungsspeicher, der neben KI-Rechenchips sitzt und große Datenmengen schnell bereitstellt."
+    },
+    {
+      "begriff": "Foundry",
+      "erklaerung": "Eine Auftragsfertigung, die Chips nach den Entwürfen anderer Unternehmen produziert. TSMC ist die größte Foundry der Welt."
+    },
+    {
+      "begriff": "DRAM und NAND",
+      "erklaerung": "DRAM ist der schnelle Arbeitsspeicher, NAND der dauerhafte Datenspeicher. Beide sind austauschbare Massenware mit zyklischen Preisen."
+    },
+    {
+      "begriff": "Auftragsbestand (Backlog)",
+      "erklaerung": "Der Wert bereits erteilter, noch nicht abgearbeiteter Aufträge, ein Frühindikator für künftigen Umsatz."
+    },
+    {
+      "begriff": "Bewertungsmultiple",
+      "erklaerung": "Ein Verhältnis wie das Kurs-Gewinn-Verhältnis, das den Preis einer Aktie ins Verhältnis zu einer Kennzahl setzt."
+    },
+    {
+      "begriff": "Long-Duration-Aktie",
+      "erklaerung": "Eine Aktie, deren Gewinne überwiegend in ferner Zukunft erwartet werden und die deshalb besonders zinsempfindlich ist."
+    },
+    {
+      "begriff": "Peitscheneffekt",
+      "erklaerung": "Die Aufschaukelung kleiner Nachfrageschwankungen entlang einer Lieferkette, die Vorleistungsgütern extreme Zyklen beschert."
+    },
+    {
+      "begriff": "E&S-Versicherung",
+      "erklaerung": "Der Markt für Spezial- und Überschussrisiken, die Standardversicherer nicht zeichnen wollen."
+    },
+    {
+      "begriff": "Schaden-Kosten-Quote",
+      "erklaerung": "Der Anteil der Prämien, der für Schäden und Verwaltung draufgeht. Unter hundert Prozent verdient ein Versicherer schon vor Kapitalerträgen."
+    },
+    {
+      "begriff": "Risikoprämie",
+      "erklaerung": "Ein Preisaufschlag als Ausgleich für ein Risiko, etwa im Ölpreis für die Gefahr eines Lieferausfalls."
+    },
+    {
+      "begriff": "Chokepoint",
+      "erklaerung": "Ein geografischer Engpass im Welthandel, etwa eine Meerenge, dessen Bedrohung Preise und Lieferketten weltweit bewegt."
+    },
+    {
+      "begriff": "Strukturelle Remedien",
+      "erklaerung": "Eingriffe in die Struktur eines Konzerns im Kartellrecht, etwa die Abspaltung eines Geschäftsbereichs."
+    }
+  ],
+  "verificationLog": {
+    "confirmed": [
+      "TSMC Q2 (CNBC, Investing.com, Qz, TSMC-Investorenseite)",
+      "ASML Q2 und angehobener Ausblick (ASML-Pressemitteilung, Investing.com)",
+      "US-Schlusskurse 16.7. (Yahoo Finance)",
+      "Asien-Sitzung 17.7.: Nikkei -3,45 %, Kioxia -15,33 %, Seoul geschlossen (TradingKey)",
+      "Netflix Q2 und Kursreaktion (Benzinga, Qz, CNBC)",
+      "US-Einzelhandel Juni +0,2 %/+6,7 % (Qz, US Census)",
+      "Brent 84,64 $ (Fortune)",
+      "EUR/USD 1,1442 und Aktien-Caps (Alpha Vantage 17.7.)",
+      "FOMC-Termin 28./29.7. (Fed-Kalender)"
+    ],
+    "uncertain": [
+      "exakter SoftBank-Prozentwert (TradingKey -7,11 %, CNBC-Überschrift über 9 % intraday)",
+      "Alphabet-Treiber und DOJ-Verfahrensstand (sekundär, TradingKey)",
+      "absolutes Netflix-Kursniveau (einquellig)",
+      "Yen-Stärke als Faktor ohne exakten Kursstand"
+    ],
+    "gaps": [
+      "DAX 16.7. nicht taggenau belegt (Kachel mit Stand 15.7.)",
+      "keine frischen China-Makrodaten in diesem Zyklus",
+      "2J- und 10J-Rendite aus einer Quelle (16.7.)",
+      "TSMC-Bruttomarge Q2 und EPS je ADR nicht taggenau eingesehen"
+    ],
+    "gates": "Market-Cap-Gate bestanden (SentinelOne 5,87, TransMedics 2,28, Kinsale 6,63 Mrd. € bei EUR/USD 1,1442; Bloom Energy mit 68 Mrd. $ aussortiert, Munters mangels Alpha-Vantage-Daten nicht verwendet). Identitäts-Gate bestanden (SentinelOne Kürzel S klargestellt, TransMedics eigenständig, Kinsale als Spezialversicherer eingeführt; logoKeys sentinelone, transmedics, kinsale). Datums-Gate bestanden (kein Zinsentscheid diese Woche, FOMC 28./29.7.; ASML 15.7., TSMC und Netflix 16.7., Asien-Sitzung 17.7., Seoul wegen Verfassungstag geschlossen)."
+  }
+}
