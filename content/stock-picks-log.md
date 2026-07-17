@@ -35,3 +35,6 @@ Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
 - 2026-07-16-morning | Powell Industries, Inc. (POWL) | — _(7,44 Mrd. €; Schaltanlagen-Spezialist für Rechenzentren, LNG und Energieinfrastruktur, profitiert direkt von der Stromseite des KI-Booms mit ~1,8 Mrd. USD Auftragsbestand)_
 - 2026-07-16-morning | Moelis & Company (MC) | — _(4,34 Mrd. €; kapitalarme M&A-Beratungsboutique als direkter Hebel auf den Kapitalmarkt-Boom bei Fusionen und Börsengängen)_
 - 2026-07-16-morning | SPX Technologies, Inc. (SPXC) | — _(9,45 Mrd. €; diversifizierter, defensiverer Zugang zur Strom- und Kühlseite des KI-Booms über Kühlung, Messtechnik und Energie)_
+- 2026-07-17-morning | SentinelOne, Inc. (S) | — _(5,87 Mrd. €; KI-Cybersicherheit mit hoher Wechselkosten-Bindung, ein erfolgreicher Angriff ist teurer als die Software)_
+- 2026-07-17-morning | TransMedics Group, Inc. (TMDX) | — _(2,28 Mrd. €; Organtransplant-Medizintechnik mit wiederkehrendem Einwegmodul- und Transportgeschäft je Transplantation)_
+- 2026-07-17-morning | Kinsale Capital Group, Inc. (KNSL) | — _(6,63 Mrd. €; E&S-Spezialversicherer, rund 30 % Eigenkapitalrendite, vom Markt zuletzt skeptischer bewertet)_
