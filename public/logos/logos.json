@@ -609,5 +609,70 @@
     "file": null,
     "name": "Klaviyo",
     "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "sandisk": {
+    "file": "sandisk.svg",
+    "name": "SanDisk",
+    "source": "https://commons.wikimedia.org/wiki/File:SanDisk_Logo_2007.svg",
+    "license": "Public domain",
+    "artist": "SanDisk",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "amsosram": {
+    "file": "amsosram.svg",
+    "name": "ams-Osram",
+    "source": "https://commons.wikimedia.org/wiki/File:Ams_AG_Logo.svg",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "exxon": {
+    "file": null,
+    "name": "Exxon Mobil",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "b2gold": {
+    "file": "b2gold.png",
+    "name": "B2Gold",
+    "source": "https://commons.wikimedia.org/wiki/File:B2gold_Logo.png",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "munichre": {
+    "file": "munichre.svg",
+    "name": "Munich Re",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchener_R%C3%BCck_logo.svg",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author (Munich Re)",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "sartorius": {
+    "file": null,
+    "name": "Sartorius Vz.",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "novartis": {
+    "file": "novartis.svg",
+    "name": "Novartis AG",
+    "source": "https://commons.wikimedia.org/wiki/File:Novartis-Logo-2023.svg",
+    "license": "Public domain",
+    "artist": "Novartis",
+    "note": "Logo von Wikimedia Commons; Markenrechte beim jeweiligen Unternehmen. Nutzung hier nur zur redaktionellen Kennzeichnung."
+  },
+  "juliusbaer": {
+    "file": null,
+    "name": "Julius Bär Gruppe",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "ormat": {
+    "file": null,
+    "name": "Ormat Technologies",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
+  },
+  "meritmedical": {
+    "file": null,
+    "name": "Merit Medical Systems",
+    "note": "Kein Logo auf Wikimedia Commons gefunden; Website zeigt typografischen Marken-Chip."
   }
 }
