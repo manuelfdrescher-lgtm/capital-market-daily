@@ -38,3 +38,6 @@ Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
 - 2026-07-17-morning | SentinelOne, Inc. (S) | — _(5,87 Mrd. €; KI-Cybersicherheit mit hoher Wechselkosten-Bindung, ein erfolgreicher Angriff ist teurer als die Software)_
 - 2026-07-17-morning | TransMedics Group, Inc. (TMDX) | — _(2,28 Mrd. €; Organtransplant-Medizintechnik mit wiederkehrendem Einwegmodul- und Transportgeschäft je Transplantation)_
 - 2026-07-17-morning | Kinsale Capital Group, Inc. (KNSL) | — _(6,63 Mrd. €; E&S-Spezialversicherer, rund 30 % Eigenkapitalrendite, vom Markt zuletzt skeptischer bewertet)_
+- 2026-07-21-morning | Establishment Labs Holdings Inc. (ESTA) | — _(2,39 Mrd. €; Medtech-Herausforderer mit differenziertem Produkt in einem wenig innovativen Markt, binärer FDA-Katalysator)_
+- 2026-07-21-morning | Palomar Holdings, Inc. (PLMR) | — _(3,14 Mrd. €; Spezialversicherer mit hohem, profitablem Wachstum und disziplinierter Zeichnung)_
+- 2026-07-21-morning | Klaviyo, Inc. (KVYO) | — _(4,63 Mrd. €; SaaS-Kategorieführer mit Land-and-Expand-Modell und hoher Kundenbindung, zuletzt de-ratet)_
