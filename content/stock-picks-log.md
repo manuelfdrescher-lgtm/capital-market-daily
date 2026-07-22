@@ -41,3 +41,6 @@ Format: `JJJJ-MM-TT-slot | Name (Ticker) | Confidence`
 - 2026-07-21-morning | Establishment Labs Holdings Inc. (ESTA) | — _(2,39 Mrd. €; Medtech-Herausforderer mit differenziertem Produkt in einem wenig innovativen Markt, binärer FDA-Katalysator)_
 - 2026-07-21-morning | Palomar Holdings, Inc. (PLMR) | — _(3,14 Mrd. €; Spezialversicherer mit hohem, profitablem Wachstum und disziplinierter Zeichnung)_
 - 2026-07-21-morning | Klaviyo, Inc. (KVYO) | — _(4,63 Mrd. €; SaaS-Kategorieführer mit Land-and-Expand-Modell und hoher Kundenbindung, zuletzt de-ratet)_
+- 2026-07-22-morning | B2Gold Corp. (BTG) | — _(4,26 Mrd. €; contrarian: Rekordgoldpreis gegen eine seit Februar um 38 % gefallene Aktie, Mali-Jurisdiktion und Goose-Ramp als Risiken)_
+- 2026-07-22-morning | Ormat Technologies, Inc. (ORA) | — _(5,58 Mrd. €; Geothermie als defensive, grundlastfähige Stromseite des KI-Rechenzentrumsbooms)_
+- 2026-07-22-morning | Merit Medical Systems, Inc. (MMSI) | — _(3,93 Mrd. €; verlässlich wachsender, margenverbessernder Medtech-Kompounder zu gefallenem Preis)_
